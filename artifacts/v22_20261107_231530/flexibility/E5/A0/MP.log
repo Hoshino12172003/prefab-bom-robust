@@ -1,0 +1,49 @@
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  30
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+DualReductions  0
+LogToConsole  0
+Seed  20261107
+Threads  1
+
+Optimize a model with 1609 rows, 2232 columns and 6341 nonzeros (Min)
+Model fingerprint: 0x3e321b32
+Model has 161 linear objective coefficients
+Variable types: 2231 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 4e+00]
+  Objective range  [1e-02, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+
+Presolve removed 1595 rows and 2157 columns
+Presolve time: 0.00s
+Presolved: 14 rows, 75 columns, 93 nonzeros
+Variable types: 74 continuous, 1 integer (1 binary)
+Found heuristic solution: objective 5.8900000
+
+Root relaxation: objective 5.723333e+00, 9 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.72333    0    1    5.89000    5.72333  2.83%     -    0s
+
+Explored 1 nodes (9 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 5.89 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 5.890000000000e+00, best bound 5.890000000000e+00, gap 0.0000%
+
+User-callback calls 292, time in user-callback 0.00 sec

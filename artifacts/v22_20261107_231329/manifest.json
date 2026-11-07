@@ -1,0 +1,1464 @@
+{
+  "baseline_commit": "e46bb52c71a67ac9d33e8e1970c040fa41ff2895",
+  "run": "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v22_20261107_231329",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "seed": 20261107,
+  "tolerance": 1e-07,
+  "formal_experiments_enabled": false,
+  "input_spec_sha256": "386535331084119850b9af71690c0462632307f771c79c8e75e09e1dee6e64b8",
+  "original_69": {
+    "command": [
+      "C:\\Program Files\\Python312\\python.exe",
+      "-m",
+      "pytest",
+      "-vv",
+      "tests/test_v1.py",
+      "tests/test_acceptance.py",
+      "tests/test_v21.py"
+    ],
+    "exit": 0,
+    "summary": "============================= 69 passed in 1.33s =============================="
+  },
+  "base_tests": {
+    "command": [
+      "C:\\Program Files\\Python312\\python.exe",
+      "-m",
+      "pytest",
+      "-vv",
+      "tests/test_v22.py",
+      "-k",
+      "not reproved"
+    ],
+    "exit": 0,
+    "summary": "====================== 19 passed, 4 deselected in 2.53s ======================="
+  },
+  "zero_preassembly_regression": [
+    {
+      "three": false,
+      "records": [
+        {
+          "method": "direct",
+          "original": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 3.1199999999999997,
+            "lb": 3.12,
+            "ub": 3.1199999999999997,
+            "gap": 0.0,
+            "seconds": 0.8291691999183968,
+            "solver_seconds": 0.013000726699829102,
+            "python_peak_bytes": 788901,
+            "gurobi_environment_peak_gb": 0.002650639,
+            "max_residual": 0.0,
+            "worst_gap": 0.0,
+            "iterations": 1,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 1.0
+              }
+            }
+          },
+          "v22_p0": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 3.1199999999999997,
+            "lb": 3.12,
+            "ub": 3.1199999999999997,
+            "gap": 0.0,
+            "seconds": 0.8836798999691382,
+            "solver_seconds": 0.014999866485595703,
+            "python_peak_bytes": 790552,
+            "gurobi_environment_peak_gb": 0.002718083,
+            "max_residual": 4.440892098500626e-16,
+            "worst_gap": 0.0,
+            "iterations": 1,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 1.0
+              },
+              "p": {
+                "('HV',)": 0.0
+              }
+            }
+          }
+        },
+        {
+          "method": "ccg",
+          "original": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 3.1199999999999997,
+            "lb": 3.12,
+            "ub": 3.1199999999999997,
+            "gap": 0.0,
+            "seconds": 1.2094449000433087,
+            "solver_seconds": 0.02500009536743164,
+            "python_peak_bytes": 598330,
+            "gurobi_environment_peak_gb": 0.002718083,
+            "max_residual": 0.0,
+            "worst_gap": 0.0,
+            "iterations": 2,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 1.0
+              }
+            }
+          },
+          "v22_p0": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 3.1199999999999997,
+            "lb": 3.12,
+            "ub": 3.1199999999999997,
+            "gap": 0.0,
+            "seconds": 1.0702630000887439,
+            "solver_seconds": 0.021999835968017578,
+            "python_peak_bytes": 497641,
+            "gurobi_environment_peak_gb": 0.002718083,
+            "max_residual": 4.440892098500626e-16,
+            "worst_gap": 0.0,
+            "iterations": 2,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 1.0
+              },
+              "p": {
+                "('HV',)": 0.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "three": true,
+      "records": [
+        {
+          "method": "direct",
+          "original": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 8.92,
+            "lb": 8.92,
+            "ub": 8.92,
+            "gap": 0.0,
+            "seconds": 1.4300262000178918,
+            "solver_seconds": 0.018999814987182617,
+            "python_peak_bytes": 1126661,
+            "gurobi_environment_peak_gb": 0.003402382,
+            "max_residual": 0.0,
+            "worst_gap": 0.0,
+            "iterations": 1,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 3.0
+              }
+            }
+          },
+          "v22_p0": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 8.920000000000002,
+            "lb": 8.92,
+            "ub": 8.920000000000002,
+            "gap": 0.0,
+            "seconds": 1.5188705999171361,
+            "solver_seconds": 0.012000322341918945,
+            "python_peak_bytes": 1146826,
+            "gurobi_environment_peak_gb": 0.003409216,
+            "max_residual": 1.7763568394002505e-15,
+            "worst_gap": 0.0,
+            "iterations": 1,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 3.0
+              },
+              "p": {
+                "('HV',)": 0.0,
+                "('MV',)": 0.0,
+                "('LV',)": 0.0
+              }
+            }
+          }
+        },
+        {
+          "method": "ccg",
+          "original": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 8.92,
+            "lb": 8.92,
+            "ub": 8.92,
+            "gap": 0.0,
+            "seconds": 1.7452748999930918,
+            "solver_seconds": 0.021999835968017578,
+            "python_peak_bytes": 840983,
+            "gurobi_environment_peak_gb": 0.003409216,
+            "max_residual": 0.0,
+            "worst_gap": 0.0,
+            "iterations": 2,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 3.0
+              }
+            }
+          },
+          "v22_p0": {
+            "status": "OPTIMAL",
+            "certified": true,
+            "objective": 8.920000000000002,
+            "lb": 8.92,
+            "ub": 8.920000000000002,
+            "gap": 0.0,
+            "seconds": 1.7759182000299916,
+            "solver_seconds": 0.020999908447265625,
+            "python_peak_bytes": 734825,
+            "gurobi_environment_peak_gb": 0.003409216,
+            "max_residual": 1.7763568394002505e-15,
+            "worst_gap": 0.0,
+            "iterations": 2,
+            "plan": {
+              "x": {
+                "('A', 'o')": 0.0,
+                "('A', 'a')": 0.0,
+                "('B', 'o')": 0.0,
+                "('B', 'a')": 0.0
+              },
+              "y": {
+                "('k',)": 1.0
+              },
+              "r": {
+                "('k',)": 3.0
+              },
+              "p": {
+                "('HV',)": 0.0,
+                "('MV',)": 0.0,
+                "('LV',)": 0.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "name": "no_value",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 0.9553487999364734,
+        "solver_seconds": 0.01100015640258789,
+        "python_peak_bytes": 711720,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 1.2778057999676093,
+        "solver_seconds": 0.023000001907348633,
+        "python_peak_bytes": 466715,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "name": "bottleneck",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.2699999999999996,
+        "lb": 3.2699999999999996,
+        "ub": 3.2699999999999996,
+        "gap": 0.0,
+        "seconds": 0.8877413000445813,
+        "solver_seconds": 0.010000467300415039,
+        "python_peak_bytes": 708825,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.2699999999999996,
+        "lb": 3.2699999999999996,
+        "ub": 3.2699999999999996,
+        "gap": 0.0,
+        "seconds": 1.1182797000510618,
+        "solver_seconds": 0.018999576568603516,
+        "python_peak_bytes": 486525,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      }
+    },
+    {
+      "name": "flexibility",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 5.890000000000001,
+        "lb": 5.89,
+        "ub": 5.890000000000001,
+        "gap": 0.0,
+        "seconds": 1.448673199978657,
+        "solver_seconds": 0.011000394821166992,
+        "python_peak_bytes": 1139954,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 8.881784197001252e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 2.0
+          },
+          "p": {
+            "('HV',)": 1.0,
+            "('MV',)": 0.0,
+            "('LV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 5.890000000000001,
+        "lb": 5.890000000000001,
+        "ub": 5.890000000000001,
+        "gap": 0.0,
+        "seconds": 1.8470665999921039,
+        "solver_seconds": 0.023000717163085938,
+        "python_peak_bytes": 815629,
+        "gurobi_environment_peak_gb": 0.003409216,
+        "max_residual": 8.881784197001252e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 2.0
+          },
+          "p": {
+            "('HV',)": 1.0,
+            "('MV',)": 0.0,
+            "('LV',)": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "base_status": "PASS_V22_BASE_EXACT",
+  "cut_tests": {
+    "command": [
+      "C:\\Program Files\\Python312\\python.exe",
+      "-m",
+      "pytest",
+      "-vv",
+      "tests/test_v22.py",
+      "-k",
+      "reproved"
+    ],
+    "exit": 0,
+    "summary": "====================== 4 passed, 19 deselected in 1.45s ======================="
+  },
+  "cut_runs": [
+    {
+      "name": "no_value",
+      "status": "OPTIMAL",
+      "certified": true,
+      "objective": 3.1199999999999997,
+      "lb": 3.12,
+      "ub": 3.1199999999999997,
+      "gap": 0.0,
+      "seconds": 0.5250091999769211,
+      "solver_seconds": 0.009999990463256836,
+      "python_peak_bytes": 268513,
+      "gurobi_environment_peak_gb": 0.00341049,
+      "max_residual": 4.440892098500626e-16,
+      "worst_gap": 0.0,
+      "iterations": 1,
+      "plan": {
+        "x": {
+          "('A', 'o')": 0.0,
+          "('A', 'a')": 0.0,
+          "('B', 'o')": 0.0,
+          "('B', 'a')": 0.0
+        },
+        "y": {
+          "('k',)": 1.0
+        },
+        "r": {
+          "('k',)": 1.0
+        },
+        "p": {
+          "('HV',)": 0.0
+        }
+      }
+    },
+    {
+      "name": "bottleneck",
+      "status": "OPTIMAL",
+      "certified": true,
+      "objective": 3.2699999999999996,
+      "lb": 3.2699999999999996,
+      "ub": 3.2699999999999996,
+      "gap": 0.0,
+      "seconds": 0.6352498000487685,
+      "solver_seconds": 0.010999679565429688,
+      "python_peak_bytes": 288351,
+      "gurobi_environment_peak_gb": 0.00341049,
+      "max_residual": 4.440892098500626e-16,
+      "worst_gap": 0.0,
+      "iterations": 1,
+      "plan": {
+        "x": {
+          "('A', 'o')": 0.0,
+          "('A', 'a')": 0.0,
+          "('B', 'o')": 0.0,
+          "('B', 'a')": 0.0
+        },
+        "y": {
+          "('k',)": 1.0
+        },
+        "r": {
+          "('k',)": 1.0
+        },
+        "p": {
+          "('HV',)": 1.0
+        }
+      }
+    },
+    {
+      "name": "flexibility",
+      "status": "OPTIMAL",
+      "certified": true,
+      "objective": 5.890000000000001,
+      "lb": 5.89,
+      "ub": 5.890000000000001,
+      "gap": 0.0,
+      "seconds": 1.8672778999898583,
+      "solver_seconds": 0.025999784469604492,
+      "python_peak_bytes": 872154,
+      "gurobi_environment_peak_gb": 0.00341049,
+      "max_residual": 8.881784197001252e-16,
+      "worst_gap": 0.0,
+      "iterations": 2,
+      "plan": {
+        "x": {
+          "('A', 'o')": 0.0,
+          "('A', 'a')": 0.0,
+          "('B', 'o')": 0.0,
+          "('B', 'a')": 0.0
+        },
+        "y": {
+          "('k',)": 1.0
+        },
+        "r": {
+          "('k',)": 2.0
+        },
+        "p": {
+          "('HV',)": 1.0,
+          "('MV',)": 0.0,
+          "('LV',)": 0.0
+        }
+      }
+    }
+  ],
+  "cut_status": "PASS_V22_CUT_VALID",
+  "strategy_ablation": [
+    {
+      "case": "no_value",
+      "strategy": "E1",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.44,
+        "lb": 4.4399999999999995,
+        "ub": 4.44,
+        "gap": 0.0,
+        "seconds": 0.8811864000745118,
+        "solver_seconds": 0.009000301361083984,
+        "python_peak_bytes": 710173,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.44,
+        "lb": 4.4399999999999995,
+        "ub": 4.44,
+        "gap": 0.0,
+        "seconds": 1.1161536999279633,
+        "solver_seconds": 0.017999649047851562,
+        "python_peak_bytes": 470226,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "case": "no_value",
+      "strategy": "E2",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.1199999999999997,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 0.8518105000257492,
+        "solver_seconds": 0.006999969482421875,
+        "python_peak_bytes": 709265,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.1199999999999997,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 1.2251063999719918,
+        "solver_seconds": 0.019000530242919922,
+        "python_peak_bytes": 501191,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "case": "no_value",
+      "strategy": "E3",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 0.8674327000044286,
+        "solver_seconds": 0.01199960708618164,
+        "python_peak_bytes": 710430,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 1.0930027000140399,
+        "solver_seconds": 0.017000198364257812,
+        "python_peak_bytes": 466534,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "case": "no_value",
+      "strategy": "E4",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.44,
+        "lb": 4.439999999999999,
+        "ub": 4.44,
+        "gap": 0.0,
+        "seconds": 0.8514661000808701,
+        "solver_seconds": 0.010999917984008789,
+        "python_peak_bytes": 709163,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.44,
+        "lb": 4.439999999999999,
+        "ub": 4.44,
+        "gap": 0.0,
+        "seconds": 1.2578466000268236,
+        "solver_seconds": 0.021000385284423828,
+        "python_peak_bytes": 466866,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "case": "no_value",
+      "strategy": "E5",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 1.067557099973783,
+        "solver_seconds": 0.00800013542175293,
+        "python_peak_bytes": 709078,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.1199999999999997,
+        "lb": 3.12,
+        "ub": 3.1199999999999997,
+        "gap": 0.0,
+        "seconds": 1.2874277998926118,
+        "solver_seconds": 0.024000883102416992,
+        "python_peak_bytes": 466593,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 0.0
+          }
+        }
+      }
+    },
+    {
+      "case": "bottleneck",
+      "strategy": "E1",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.38931190001312643,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 565222,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.04861579998396337,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 93257,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "bottleneck",
+      "strategy": "E2",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.30127199995331466,
+        "solver_seconds": 0.0010001659393310547,
+        "python_peak_bytes": 565222,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.05135209998115897,
+        "solver_seconds": 0.0,
+        "python_peak_bytes": 93257,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "bottleneck",
+      "strategy": "E3",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.38542940001934767,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 565222,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.052951499936170876,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 93198,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "bottleneck",
+      "strategy": "E4",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.59,
+        "lb": 4.59,
+        "ub": 4.59,
+        "gap": 0.0,
+        "seconds": 0.900467999977991,
+        "solver_seconds": 0.01199960708618164,
+        "python_peak_bytes": 705321,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 4.59,
+        "lb": 4.59,
+        "ub": 4.59,
+        "gap": 0.0,
+        "seconds": 1.0992011000635102,
+        "solver_seconds": 0.01600050926208496,
+        "python_peak_bytes": 559493,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0.0,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 1.0
+          },
+          "y": {
+            "('k',)": -0.0
+          },
+          "r": {
+            "('k',)": 0.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      }
+    },
+    {
+      "case": "bottleneck",
+      "strategy": "E5",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.2699999999999996,
+        "lb": 3.2699999999999996,
+        "ub": 3.2699999999999996,
+        "gap": 0.0,
+        "seconds": 0.9628661000169814,
+        "solver_seconds": 0.014000177383422852,
+        "python_peak_bytes": 760074,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 3.2699999999999996,
+        "lb": 3.2699999999999996,
+        "ub": 3.2699999999999996,
+        "gap": 0.0,
+        "seconds": 1.234799199970439,
+        "solver_seconds": 0.024000167846679688,
+        "python_peak_bytes": 481943,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 1.0
+          },
+          "p": {
+            "('HV',)": 1.0
+          }
+        }
+      }
+    },
+    {
+      "case": "flexibility",
+      "strategy": "E1",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.7485400000587106,
+        "solver_seconds": 0.0010001659393310547,
+        "python_peak_bytes": 1017043,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.08600939996540546,
+        "solver_seconds": 0.0,
+        "python_peak_bytes": 144879,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "flexibility",
+      "strategy": "E2",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.5532237000297755,
+        "solver_seconds": 0.0010001659393310547,
+        "python_peak_bytes": 923198,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.08697409997694194,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 144879,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "flexibility",
+      "strategy": "E3",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.6886948000174016,
+        "solver_seconds": 0.0,
+        "python_peak_bytes": 923198,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.0851660999469459,
+        "solver_seconds": 0.0009999275207519531,
+        "python_peak_bytes": 144879,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "flexibility",
+      "strategy": "E4",
+      "A0": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 0.6367388999788091,
+        "solver_seconds": 0.002000093460083008,
+        "python_peak_bytes": 922670,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 0,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      },
+      "A1": {
+        "status": "INFEASIBLE",
+        "certified": false,
+        "objective": null,
+        "lb": null,
+        "ub": null,
+        "gap": null,
+        "seconds": 1.1331087000435218,
+        "solver_seconds": 0.01399993896484375,
+        "python_peak_bytes": 488982,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 4.440892098500626e-16,
+        "worst_gap": null,
+        "iterations": 1,
+        "plan": null
+      }
+    },
+    {
+      "case": "flexibility",
+      "strategy": "E5",
+      "A0": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 5.890000000000001,
+        "lb": 5.89,
+        "ub": 5.890000000000001,
+        "gap": 0.0,
+        "seconds": 1.3979465001029894,
+        "solver_seconds": 0.01599907875061035,
+        "python_peak_bytes": 1179472,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 8.881784197001252e-16,
+        "worst_gap": 0.0,
+        "iterations": 1,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 2.0
+          },
+          "p": {
+            "('HV',)": 1.0,
+            "('MV',)": 0.0,
+            "('LV',)": 0.0
+          }
+        }
+      },
+      "A1": {
+        "status": "OPTIMAL",
+        "certified": true,
+        "objective": 5.890000000000001,
+        "lb": 5.890000000000001,
+        "ub": 5.890000000000001,
+        "gap": 0.0,
+        "seconds": 1.9323804000159726,
+        "solver_seconds": 0.021999120712280273,
+        "python_peak_bytes": 943502,
+        "gurobi_environment_peak_gb": 0.00341049,
+        "max_residual": 8.881784197001252e-16,
+        "worst_gap": 0.0,
+        "iterations": 2,
+        "plan": {
+          "x": {
+            "('A', 'o')": 0.0,
+            "('A', 'a')": 0.0,
+            "('B', 'o')": 0.0,
+            "('B', 'a')": 0.0
+          },
+          "y": {
+            "('k',)": 1.0
+          },
+          "r": {
+            "('k',)": 2.0
+          },
+          "p": {
+            "('HV',)": 1.0,
+            "('MV',)": 0.0,
+            "('LV',)": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "full_tests": {
+    "command": [
+      "C:\\Program Files\\Python312\\python.exe",
+      "-m",
+      "pytest",
+      "-vv"
+    ],
+    "exit": 0,
+    "summary": "============================= 92 passed in 5.09s =============================="
+  },
+  "baseline_files_preserved": 1400,
+  "source_sha256": {
+    "src\\prefab_v22\\audit.py": "006600320d6f1aacefd2521e9394b95203016852105909a077f6647430170906",
+    "src\\prefab_v22\\cuts.py": "c855a2b04c876109c79d37f609ca444971c76d3d1c81eabce39c01307e51e556",
+    "src\\prefab_v22\\data.py": "2ff0d2e6c2ca77dfc13b3624c43ce9bb8dae0e4a246c82c80347803d34e510d4",
+    "src\\prefab_v22\\examples.py": "d41bfc95b5234447955a64baba46b124e63802344fec1b6774aee8e472723201",
+    "src\\prefab_v22\\model.py": "4751b21c64aca86e6b92edd9275dc6a9c8dac4d8627b66ad5128e72ba1b1742a",
+    "src\\prefab_v22\\solvers.py": "bdda1e6b6adcce974ccafaf6e38620503f1e096fd2016c6f6bbeb11542482e19",
+    "src\\prefab_v22\\__init__.py": "c84b9e65b12cddadbefe6a32b30984fae7b495a68fd9b4a8a01b4ea78807afd6",
+    "tests\\test_v22.py": "0883ccd22c18afc48c85a39e6678de89bd45ca6214ad3910a6508363132d7861",
+    "examples\\run_v22.py": "d61aa7d7d58b70bbb73bf076e35ca5a72815fadef779c69eb841927c04eb7d39"
+  },
+  "model_status": "PASS_V22_MODEL_IMPLEMENTED"
+}

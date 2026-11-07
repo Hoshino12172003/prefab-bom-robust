@@ -1,0 +1,15 @@
+{
+  "observed_date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "cpu_name": "Intel(R) Core(TM) Ultra 5 225H",
+  "cpu_cores": 14,
+  "logical_processors": 14,
+  "physical_memory_bytes": 33820106752,
+  "query": "Get-CimInstance Win32_Processor; Get-CimInstance Win32_ComputerSystem",
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "license": "Academic",
+  "license_expires": "2027-04-10",
+  "actual_license_probe_status": "OPTIMAL",
+  "actual_license_probe_objective": 0.0
+}

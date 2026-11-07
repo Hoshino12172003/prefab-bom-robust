@@ -1,0 +1,14 @@
+{
+  "status": "INFEASIBLE",
+  "certified": false,
+  "wall_seconds": 0.6367081999778748,
+  "solver_seconds": 0.002000093460083008,
+  "peak_gb": 0.00341049,
+  "cut_count": 0,
+  "lb": null,
+  "ub": null,
+  "gap": null,
+  "flows": [],
+  "python_peak_bytes": 922670,
+  "measured_seconds": 0.6367388999788091
+}

@@ -1,0 +1,13 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 23 items / 19 deselected / 4 selected
+
+tests/test_v22.py::test_reproved_cuts_with_preconsumption_and_deadlines PASSED [ 25%]
+tests/test_v22.py::test_reproved_cuts_do_not_change_extensive_optimum[no_value] PASSED [ 50%]
+tests/test_v22.py::test_reproved_cuts_do_not_change_extensive_optimum[time_bottleneck] PASSED [ 75%]
+tests/test_v22.py::test_reproved_cuts_do_not_change_extensive_optimum[flexibility] PASSED [100%]
+
+====================== 4 passed, 19 deselected in 1.54s =======================
