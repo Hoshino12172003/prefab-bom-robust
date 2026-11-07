@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from math import isfinite
 
 
@@ -68,6 +68,8 @@ class ModelData:
         if any(k not in self.K or s not in self.S for k, s in self.N | self.B_arc):
             errors.append("N/B_arc contains an unknown pool/supplier")
         for (k, s, j), value in self.b.items():
+            if not isfinite(value) or value < 0:
+                errors.append(f"b[{k},{s},{j}] must be finite and nonnegative")
             if value > 0 and ((s, j) not in self.E or (k, s) not in self.N):
                 errors.append(f"positive b[{k},{s},{j}] lacks E and/or N qualification")
         required = [
@@ -86,15 +88,12 @@ class ModelData:
             errors.append("capacities, demands, quantities, and costs must be nonnegative")
         if any(not 0 <= v <= 1 for mapping in (self.epsilon, self.delta, self.alpha) for v in mapping.values()):
             errors.append("epsilon, delta, and alpha must lie in [0,1]")
-        for key in ((j, m) for j in self.J for m in self.M):
-            if key not in self.A or self.A[key] < 0:
-                errors.append(f"A missing or negative at {key}")
-        for key in self.E:
-            if key not in self.a or key not in self.cQ or self.a[key] < 0 or self.cQ[key] < 0:
-                errors.append(f"a/cQ missing or negative at {key}")
-        for key in self.B_arc:
-            if key not in self.cA or self.cA[key] < 0:
-                errors.append(f"cA missing or negative at {key}")
+        for label, mapping, keys in (
+            ("A", self.A, {(j, m) for j in self.J for m in self.M}),
+            ("a", self.a, self.E), ("cQ", self.cQ, self.E), ("cA", self.cA, self.B_arc),
+        ):
+            if mapping.keys() != keys or any(not isfinite(v) or v < 0 for v in mapping.values()):
+                errors.append(f"{label} must have matching indices and finite nonnegative values")
         if any(v < 0 or not isfinite(v) for v in (self.P, self.B_pre, self.E_op, self.Gamma2, self.Gamma3)):
             errors.append("scalar capacities and budgets must be finite and nonnegative")
         if self.Gamma2 > len(self.S) or self.Gamma3 > len(self.V):

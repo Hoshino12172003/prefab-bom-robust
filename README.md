@@ -13,6 +13,7 @@ python -m pip install -e ".[test]"
 python -m compileall -q src tests examples
 python -m pytest -q
 python examples\run_examples.py
+python -m examples.run_acceptance
 ```
 
 不安装包时，测试仍会通过 `pyproject.toml` 中的 `pythonpath=src` 找到源码；示例脚本也会显式加入本项目的 `src`，不会依赖当前目录之外的代码。
@@ -21,7 +22,7 @@ python examples\run_examples.py
 
 `solve_direct` 同时展开 T2、T3 连续预算集合的全部极点；`solve_ccg` 的分离子问题也遍历同一完整极点集。因此只有在极点总数不超过安全阈值且每个 Gurobi 模型取得 `OPTIMAL` 时，才报告小规模精确认证。超过阈值会停止并报告“当前没有可用的精确最坏情景认证方法”，不会退化为启发式认证。
 
-两个可人工核验算例位于 `src/prefab_bom_robust/examples.py`，运行入口为 `examples/run_examples.py`。数学定义、审计、测试矩阵和解析核验分别见 `docs/`。
+两个可人工核验算例位于 `src/prefab_bom_robust/examples.py`，运行入口为 `examples/run_examples.py`。验收入口额外运行独立 Gurobi 投影模型和三产品族案例，输出每个极点的残差及交付量、上下界和 C&CG 迭代。最近一次实际执行的证据见 [V1 正确性验收报告](docs/v1_acceptance_report.md)。
 
 ## 目录
 
