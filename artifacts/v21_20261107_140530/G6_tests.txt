@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 29 items / 28 deselected / 1 selected
+
+tests/test_v21.py::test_G6_cover_cut_independent_feasible_grid_and_late_counterexample PASSED [100%]
+
+====================== 1 passed, 28 deselected in 0.45s =======================

@@ -1,5 +1,7 @@
 # prefab-bom-robust
 
+V2.1 动态模型位于 `src/prefab_v21/`。执行 `python -m examples.run_v21` 可实际运行 Gurobi 基础认证、门槛检查和微型 A0/A1/A2/A3 配对。运行产物进入独立时间戳目录。最近的结果是基础 `PASS_V2_BASE_EXACT`、割有效性 `PASS_V2_CUT_VALID`，算法效果 `PARTIAL_V2`。详见 [V2.1验收报告](docs/v21_exact_baseline_report.md)。
+
 第二篇期刊论文的 V1 多层级供给风险 BOM 交付模型。项目只用于微型/小规模数学正确性、精确求解和回归验证，不包含正式大规模实验或性能声明。
 
 ## 环境

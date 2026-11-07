@@ -1,0 +1,9 @@
+{
+  "status": "GUROBI_ERROR",
+  "certified": false,
+  "message": "Unable to write file",
+  "wall_seconds": 0.00045140006113797426,
+  "history": [],
+  "total_seconds": 0.002023200038820505,
+  "python_peak_bytes": 14209
+}
