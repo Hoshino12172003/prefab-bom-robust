@@ -11,6 +11,7 @@ dependencies = ["gurobipy>=11"]
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
+v25-source = ["pyxlsb==1.0.10"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src", "."]

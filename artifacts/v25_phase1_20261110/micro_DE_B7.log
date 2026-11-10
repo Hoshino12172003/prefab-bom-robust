@@ -1,0 +1,42 @@
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  30
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 257 rows, 356 columns and 827 nonzeros (Max)
+Model fingerprint: 0xe97f7d40
+Model has 1 linear objective coefficients
+Variable types: 1 continuous, 355 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-01, 1e+01]
+
+Presolve removed 204 rows and 269 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 87 columns, 203 nonzeros
+Variable types: 0 continuous, 87 integer (51 binary)
+Found heuristic solution: objective -0.0000000
+Found heuristic solution: objective 0.2500000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 2: 0.25 -0 
+No other solutions better than 0.25
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.500000000000e-01, best bound 2.500000000000e-01, gap 0.0000%
+
+User-callback calls 668, time in user-callback 0.00 sec
