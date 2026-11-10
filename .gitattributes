@@ -1,0 +1,2 @@
+# The manifest SHA-256 is a certification gate, including its line endings.
+artifacts/v25_formal_*/manifest.json -text

@@ -1,6 +1,7 @@
 from dataclasses import replace
 from fractions import Fraction
 from itertools import product
+from pathlib import Path
 
 import pytest
 
@@ -31,6 +32,23 @@ def test_official_source_solve_is_blocked_before_optimizer():
     from prefab_v25.source import SOURCE_SHA256
     with pytest.raises(ValueError,match="frozen paper_scale_v2 manifest"):
         nominal(replace(micro(),source_sha256=SOURCE_SHA256),0,TOY_COSTS)
+
+
+def test_frozen_manifest_matrix_and_rejects_tampering():
+    from prefab_v25.formal import manifest_bytes, frozen_runs
+    path = Path(__file__).resolve().parents[1]/"artifacts/v25_formal_20261110/manifest.json"
+    payload = manifest_bytes(path)
+    runs = frozen_runs(payload)
+    assert [(run.id,run.budget) for run in runs] == [
+        ("nominal_B0",0),("nominal_B20",175120),("nominal_B50",437800),
+        ("nominal_B100",875600),("DE_B0",0),("DE_B50",437800)]
+    assert all(run.costs==(7177.049180327869,8756,8756) for run in runs)
+    nom,l1,l2,l3 = runs[-1].scenarios
+    assert (nom.name,l1.name,l2.name,l3.name)==("NOM","L1_CERT","L2_CERT","L3_CERT")
+    assert l1.arrival=={66:0.5}
+    assert l2.production==l3.transport=={64:0.5,65:0.5,66:0.5}
+    with pytest.raises(ValueError,match="SHA-256"):
+        frozen_runs(payload.replace(b'"arrival_multiplier": 0.5',b'"arrival_multiplier": 0.6'))
 
 
 def test_only_battery_capacity_units_change():

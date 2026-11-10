@@ -1,6 +1,5 @@
 """Integer recourse with source operations and a shared pre-risk buffer."""
 from collections import defaultdict
-from fractions import Fraction
 from math import isfinite
 from pathlib import Path
 
@@ -111,9 +110,16 @@ def _audit(network, scenario, state, inventory, supply, dispatch, service):
             "max_order_residual": order_residual, "weighted_on_time": on_time}
 
 
-def _solve(network, scenarios, budget, costs, de, fixed_buffers=None, time_limit=30, log=None):
+def _solve(network, scenarios, budget, costs, de, fixed_buffers=None, time_limit=30, log=None,
+           threads=1, formal=None):
     if network.source_sha256 is not None:
-        raise ValueError("paper-scale solve blocked pending frozen paper_scale_v2 manifest integration")
+        from .formal import frozen_runs
+        if formal is None:
+            raise ValueError("paper-scale solve requires the frozen paper_scale_v2 manifest")
+        payload, run_id = formal
+        if not any((run.id, run.de, run.budget, run.costs, run.scenarios) ==
+                   (run_id, de, budget, costs, scenarios) for run in frozen_runs(payload)) or fixed_buffers is not None:
+            raise ValueError("requested run is outside the frozen matrix")
     if len(costs) != 3 or any(not isfinite(c) or c <= 0 for c in costs):
         raise ValueError("three positive finite buffer costs required")
     if not isfinite(budget) or budget < 0 or network.demand_weight <= 0:
@@ -132,7 +138,7 @@ def _solve(network, scenarios, budget, costs, de, fixed_buffers=None, time_limit
         model.Params.LogToConsole = 0
         if log is not None:
             model.Params.OutputFlag = 1
-        model.Params.Threads = 1
+        model.Params.Threads = threads
         model.Params.Seed = 20261110
         model.Params.MIPGap = model.Params.MIPGapAbs = 0
         model.Params.FeasibilityTol = model.Params.IntFeasTol = 1e-9
@@ -164,7 +170,9 @@ def _solve(network, scenarios, budget, costs, de, fixed_buffers=None, time_limit
                 model.optimize(log_callback)
         result = {"status": {2:"OPTIMAL",3:"INFEASIBLE",9:"TIME_LIMIT"}.get(model.Status,str(model.Status)),
                   "seconds": model.Runtime, "certified": False, "variables": model.NumVars,
-                  "integer_variables": model.NumIntVars, "constraints": model.NumConstrs}
+                  "integer_variables": model.NumIntVars, "constraints": model.NumConstrs,
+                  "nodes": model.NodeCount, "solutions": model.SolCount, "threads": threads,
+                  "time_limit_seconds": time_limit}
         if not model.SolCount:
             return result
         result.update(objective=model.ObjVal, bound=model.ObjBound, gap=model.MIPGap)

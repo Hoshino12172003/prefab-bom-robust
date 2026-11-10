@@ -1,0 +1,1335 @@
+{
+  "status": "FORMAL_MATRIX_CERTIFIED",
+  "post_run_verification": {
+    "pytest_passed": 106,
+    "pytest_failed": 0,
+    "pytest_exit_code": 0,
+    "formal_runner_exit_code": 0,
+    "compressed_solution_hashes_verified": 6,
+    "complete_recourse_blocks_replayed": 12,
+    "optimizer_calls_during_replay": 0,
+    "gates": {
+      "PASS_SOURCE_HASH": "verified exact XLSB bytes before parsing",
+      "PASS_RAW_TABLE_AUDIT": "12 source tables with unchanged physical quantities",
+      "PASS_EXACT_AGGREGATION_COUNTS": "28000 VINs, 1286 groups, 3003 BEV VINs, 28 BEV groups",
+      "PASS_CAPACITY_UNIT_EQUIVALENCE": "frozen 5/21 unit conversion checked against source capacities",
+      "PASS_HISTORICAL_INITIAL_FLOW_TIMING": "source dispatch plus original lead times; all recourse blocks replayed",
+      "PASS_BATTERY_BOM_10_6_4": "source recipe gate and micro conservation test",
+      "PASS_ONE_PERIOD_PACK_PRODUCTION_LEADTIME": "source lead gate and micro timing test",
+      "PASS_ONE_PERIOD_T1_TO_OEM_LEADTIME": "source lead gate and micro timing test",
+      "PASS_T60_STATE_COMMON_ACROSS_SCENARIOS": "replayed each saved state from source I0 plus the single reported buffer vector",
+      "PASS_ZERO_BUDGET_ZERO_BUFFER": "all three buffers zero in both formal B0 runs",
+      "PASS_NOMINAL_SINGLETON_DE_EQUALS_DETERMINISTIC": "algebraic M1 and numerical micro regression; formal matrix kept at six solves",
+      "PASS_FULL_SCENARIO_DE_FORMAL_SCALE_B0": "OPTIMAL with closed bound and full replay",
+      "PASS_FULL_SCENARIO_DE_FORMAL_SCALE_B50": "OPTIMAL with closed bound and full replay"
+    }
+  },
+  "manifest_sha256": "dc252572092ccd7003b33fb84c6d075658862c5f58c988530fca7f96db1b6044",
+  "source": {
+    "source_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "sheet_rows": {
+      "products": 28049,
+      "nodes": 12,
+      "nodes_inflow": 44,
+      "arcs": 11,
+      "capacity_at_arc": 154,
+      "max_flow_product_per_arc": 365,
+      "max_flow_group_per_arc": 20,
+      "operations": 15,
+      "BOM": 87059,
+      "demands": 28000,
+      "initial_inventories": 82,
+      "initial_flows": 117
+    },
+    "vin_count": 28000,
+    "groups": 1286,
+    "bev_vin_count": 3003,
+    "bev_groups": 28,
+    "demand_raw_total": 28000.0,
+    "demand_model_total": 28000,
+    "initial_stock_raw_total": 23912.0,
+    "initial_stock_model_total": 23912,
+    "historical_dispatch_total": 104219,
+    "historical_dispatch_raw_total": 104219.0,
+    "historical_arrivals_in_window_total": 67739,
+    "cell_arrivals_in_window": {
+      "componment_battery1@66": 9470,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 5682,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 3788,
+      "componment_battery3@73": 1688
+    },
+    "historical_rows": [
+      [
+        "battery-supplier_inv",
+        "zp7",
+        "BEV",
+        60,
+        200
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D02",
+        60,
+        44
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D2I",
+        60,
+        37
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D33",
+        60,
+        150
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D36",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D60",
+        60,
+        20
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D64",
+        60,
+        93
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D80",
+        60,
+        64
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D83",
+        60,
+        159
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DB0",
+        60,
+        6
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DB8",
+        60,
+        15
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE2",
+        60,
+        6
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE4",
+        60,
+        32
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE5",
+        60,
+        61
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DF4",
+        60,
+        4
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DF6",
+        60,
+        5
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DG6",
+        60,
+        279
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DG8",
+        60,
+        167
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK7",
+        60,
+        49
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK8",
+        60,
+        202
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK9",
+        60,
+        7
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DM4",
+        60,
+        14
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN1",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN4",
+        60,
+        287
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN6",
+        60,
+        15
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DP2",
+        60,
+        46
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DQ4",
+        60,
+        33
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DQ9",
+        60,
+        99
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DR8",
+        60,
+        22
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DS9",
+        60,
+        70
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0C",
+        59,
+        85
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0C",
+        60,
+        100
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0K",
+        59,
+        573
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0K",
+        60,
+        661
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0L",
+        59,
+        39
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0L",
+        60,
+        35
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0R",
+        59,
+        18
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0R",
+        60,
+        28
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1A",
+        59,
+        245
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1A",
+        60,
+        264
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1C",
+        59,
+        452
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1C",
+        60,
+        457
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1D",
+        59,
+        295
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1D",
+        60,
+        296
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1Z",
+        59,
+        293
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1Z",
+        60,
+        159
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        46,
+        9470
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        53,
+        4220
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        60,
+        4240
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        46,
+        5682
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        53,
+        2532
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        60,
+        2544
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        46,
+        3788
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        53,
+        1688
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        60,
+        1696
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        39,
+        4732
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        46,
+        5269
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        53,
+        5563
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        60,
+        5515
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        39,
+        6187
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        46,
+        5582
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        53,
+        5199
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        60,
+        5253
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        39,
+        1900
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        46,
+        1923
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        53,
+        1924
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        60,
+        1917
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        39,
+        1181
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        46,
+        1226
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        53,
+        1314
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        60,
+        1315
+      ],
+      [
+        "battery-supplier_prod",
+        "battery-supplier_inv",
+        "BEV",
+        60,
+        159
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D02",
+        60,
+        30
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D2I",
+        60,
+        49
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D33",
+        60,
+        112
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D36",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D60",
+        60,
+        12
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D64",
+        60,
+        135
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D80",
+        60,
+        80
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D83",
+        60,
+        384
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DB0",
+        60,
+        10
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DB8",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE2",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE4",
+        60,
+        41
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE5",
+        60,
+        50
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DF4",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DF6",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DG6",
+        60,
+        233
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DG8",
+        60,
+        117
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK7",
+        60,
+        79
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK8",
+        60,
+        183
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK9",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DM4",
+        60,
+        9
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN1",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN4",
+        60,
+        223
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN6",
+        60,
+        10
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DP2",
+        60,
+        29
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DQ4",
+        60,
+        24
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DQ9",
+        60,
+        88
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DR8",
+        60,
+        18
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DS9",
+        60,
+        50
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0C",
+        59,
+        82
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0C",
+        60,
+        94
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0K",
+        59,
+        688
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0K",
+        60,
+        540
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0L",
+        59,
+        51
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0L",
+        60,
+        29
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0R",
+        59,
+        26
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0R",
+        60,
+        15
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1A",
+        59,
+        259
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1A",
+        60,
+        234
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1C",
+        59,
+        515
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1C",
+        60,
+        430
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1D",
+        59,
+        315
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1D",
+        60,
+        274
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1Z",
+        59,
+        64
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1Z",
+        60,
+        384
+      ]
+    ],
+    "battery_capacity_examples": [
+      [
+        294,
+        70
+      ],
+      [
+        2058,
+        490
+      ]
+    ]
+  },
+  "environment": {
+    "python": "3.12.7",
+    "gurobi": [
+      13,
+      0,
+      1
+    ],
+    "platform": "Windows-11-10.0.26200-SP0",
+    "seed": 20261110
+  },
+  "risk_profiles": [
+    {
+      "name": "NOM",
+      "arrival": {},
+      "production": {},
+      "transport": {}
+    },
+    {
+      "name": "L1_CERT",
+      "arrival": {
+        "66": 0.5
+      },
+      "production": {
+        "66": 1.0
+      },
+      "transport": {
+        "66": 1.0
+      }
+    },
+    {
+      "name": "L2_CERT",
+      "arrival": {
+        "64": 1.0,
+        "65": 1.0,
+        "66": 1.0
+      },
+      "production": {
+        "64": 0.5,
+        "65": 0.5,
+        "66": 0.5
+      },
+      "transport": {
+        "64": 1.0,
+        "65": 1.0,
+        "66": 1.0
+      }
+    },
+    {
+      "name": "L3_CERT",
+      "arrival": {
+        "64": 1.0,
+        "65": 1.0,
+        "66": 1.0
+      },
+      "production": {
+        "64": 1.0,
+        "65": 1.0,
+        "66": 1.0
+      },
+      "transport": {
+        "64": 0.5,
+        "65": 0.5,
+        "66": 0.5
+      }
+    }
+  ],
+  "battery_component_arrivals": {
+    "NOM": {
+      "componment_battery1@66": 9470,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 5682,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 3788,
+      "componment_battery3@73": 1688
+    },
+    "L1_CERT": {
+      "componment_battery1@66": 4735,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 2841,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 1894,
+      "componment_battery3@73": 1688
+    },
+    "L2_CERT": {
+      "componment_battery1@66": 9470,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 5682,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 3788,
+      "componment_battery3@73": 1688
+    },
+    "L3_CERT": {
+      "componment_battery1@66": 9470,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 5682,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 3788,
+      "componment_battery3@73": 1688
+    }
+  },
+  "matrix": [
+    {
+      "id": "nominal_B0",
+      "budget_usd": 0.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM"
+      ]
+    },
+    {
+      "id": "nominal_B20",
+      "budget_usd": 175120.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM"
+      ]
+    },
+    {
+      "id": "nominal_B50",
+      "budget_usd": 437800.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM"
+      ]
+    },
+    {
+      "id": "nominal_B100",
+      "budget_usd": 875600.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM"
+      ]
+    },
+    {
+      "id": "DE_B0",
+      "budget_usd": 0.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM",
+        "L1_CERT",
+        "L2_CERT",
+        "L3_CERT"
+      ]
+    },
+    {
+      "id": "DE_B50",
+      "budget_usd": 437800.0,
+      "costs": [
+        7177.049180327869,
+        8756.0,
+        8756.0
+      ],
+      "scenarios": [
+        "NOM",
+        "L1_CERT",
+        "L2_CERT",
+        "L3_CERT"
+      ]
+    }
+  ],
+  "results": {
+    "nominal_B0": {
+      "status": "OPTIMAL",
+      "seconds": 1.4809999465942383,
+      "certified": true,
+      "variables": 57795,
+      "integer_variables": 57795,
+      "constraints": 21720,
+      "nodes": 1.0,
+      "solutions": 4,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.9445714285714291,
+      "bound": 0.9445714285714291,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 0
+      },
+      "budget_residual": 0,
+      "quality_residual": 4.440892098500626e-16,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 26448.0,
+          "service_ratio": 0.9445714285714286,
+          "rho_residual": 4.440892098500626e-16
+        }
+      },
+      "solution_artifact": "nominal_B0_solution.json.gz",
+      "solution_sha256": "1bc1b665052d045517d6cf77a3579001c69061570bf3c4134faa621c5e167710"
+    },
+    "nominal_B20": {
+      "status": "OPTIMAL",
+      "seconds": 1.0429999828338623,
+      "certified": true,
+      "variables": 57795,
+      "integer_variables": 57795,
+      "constraints": 21720,
+      "nodes": 1.0,
+      "solutions": 1,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.944571428571429,
+      "bound": 0.9445714285714292,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 0
+      },
+      "budget_residual": 0,
+      "quality_residual": 3.3306690738754696e-16,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 26448.0,
+          "service_ratio": 0.9445714285714286,
+          "rho_residual": 3.3306690738754696e-16
+        }
+      },
+      "solution_artifact": "nominal_B20_solution.json.gz",
+      "solution_sha256": "e76113baf820dcbf77c781d49550c74ae12ddd0dbf100c73017fc9f378326560"
+    },
+    "nominal_B50": {
+      "status": "OPTIMAL",
+      "seconds": 1.0320000648498535,
+      "certified": true,
+      "variables": 57795,
+      "integer_variables": 57795,
+      "constraints": 21720,
+      "nodes": 1.0,
+      "solutions": 1,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.9445714285714291,
+      "bound": 0.9445714285714291,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 0
+      },
+      "budget_residual": 0,
+      "quality_residual": 4.440892098500626e-16,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 26448.0,
+          "service_ratio": 0.9445714285714286,
+          "rho_residual": 4.440892098500626e-16
+        }
+      },
+      "solution_artifact": "nominal_B50_solution.json.gz",
+      "solution_sha256": "d39149c253f2534ead588325fa44a3b8470891480fbd53419e469305ab7f52db"
+    },
+    "nominal_B100": {
+      "status": "OPTIMAL",
+      "seconds": 1.0319998264312744,
+      "certified": true,
+      "variables": 57795,
+      "integer_variables": 57795,
+      "constraints": 21720,
+      "nodes": 1.0,
+      "solutions": 1,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.9481428571428576,
+      "bound": 0.9481428571428576,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 100
+      },
+      "budget_residual": 0,
+      "quality_residual": 4.440892098500626e-16,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 26548.0,
+          "service_ratio": 0.9481428571428572,
+          "rho_residual": 4.440892098500626e-16
+        }
+      },
+      "solution_artifact": "nominal_B100_solution.json.gz",
+      "solution_sha256": "91cbfeaa95ac9b5ebc473532a3227cbf9b9e35e0583f2951acdbdaa811c82331"
+    },
+    "DE_B0": {
+      "status": "OPTIMAL",
+      "seconds": 19.95900011062622,
+      "certified": true,
+      "variables": 231172,
+      "integer_variables": 231171,
+      "constraints": 86881,
+      "nodes": 1.0,
+      "solutions": 1,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.9276428571428571,
+      "bound": 0.9276428571428571,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 0
+      },
+      "budget_residual": 0,
+      "quality_residual": 0.0,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L1_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L2_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L3_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        }
+      },
+      "solution_artifact": "DE_B0_solution.json.gz",
+      "solution_sha256": "a9eeda91aa9810f78051b797c93df6207ffe18924fda02d5df1800019401fa65"
+    },
+    "DE_B50": {
+      "status": "OPTIMAL",
+      "seconds": 17.078999996185303,
+      "certified": true,
+      "variables": 231172,
+      "integer_variables": 231171,
+      "constraints": 86881,
+      "nodes": 1.0,
+      "solutions": 2,
+      "threads": 4,
+      "time_limit_seconds": 180.0,
+      "objective": 0.9276428571428571,
+      "bound": 0.9276428571428571,
+      "gap": 0.0,
+      "buffers": {
+        "x_cell_kit": 0,
+        "x_t1_pack": 0,
+        "x_oem_pack": 0
+      },
+      "budget_residual": 0,
+      "quality_residual": 0.0,
+      "common_t60": true,
+      "scenarios": {
+        "NOM": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L1_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L2_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        },
+        "L3_CERT": {
+          "max_balance_residual": 0,
+          "max_capacity_residual": 0,
+          "max_order_residual": 0,
+          "weighted_on_time": 25974.0,
+          "service_ratio": 0.9276428571428571,
+          "rho_residual": 0
+        }
+      },
+      "solution_artifact": "DE_B50_solution.json.gz",
+      "solution_sha256": "5be09ea1e4144661942e8f025a07da2d2c6c582d30f071d14d22dde4a1c696fa"
+    }
+  }
+}

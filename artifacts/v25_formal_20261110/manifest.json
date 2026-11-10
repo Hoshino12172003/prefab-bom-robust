@@ -1,0 +1,201 @@
+{
+  "manifest_version": "v2.5-phase1-certification-v1",
+  "status": "FROZEN_FOR_PHASE1_FORMAL_SCALE_CERTIFICATION",
+  "scope_note": "Certification-only freeze. Not the final paper experiment design or final economic calibration.",
+  "source": {
+    "dataset_name": "Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products",
+    "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "source_paper": "Quetschlich, Moetz & Otto (2021), EJOR 290(1), 144-158",
+    "doi": "10.1016/j.ejor.2020.08.005"
+  },
+  "time": {
+    "observed_initial_state_period": 60,
+    "operational_horizon": [
+      61,
+      74
+    ],
+    "risk_reveal_period": 61,
+    "information_structure": "full finite risk path revealed at t=61; t=60 inventories and historical initial_flows are fixed exogenous state"
+  },
+  "capacity_normalization": {
+    "kappa": "5/21",
+    "kappa_decimal": 0.23809523809523808,
+    "apply_only_to_model_periods": [
+      61,
+      74
+    ],
+    "do_not_apply_to_historical_initial_flows": true,
+    "battery_component_upstream_positive_capacity_paper_units": 490,
+    "battery_pack_production_capacity_paper_units": 70,
+    "battery_pack_to_oem_capacity_paper_units": 70,
+    "oem_assembly_capacity_units": 2000,
+    "equivalence_checks": [
+      {
+        "raw": 2058,
+        "kappa": "5/21",
+        "paper": 490
+      },
+      {
+        "raw": 294,
+        "kappa": "5/21",
+        "paper": 70
+      }
+    ]
+  },
+  "aggregation": {
+    "rule": "exact direct-BOM signature + due period + identical service weight + all other order-specific coefficients used by model",
+    "expected_raw_vins": 28000,
+    "expected_exact_groups": 1286,
+    "expected_bev_vins": 3003,
+    "expected_bev_groups": 28
+  },
+  "battery_bom": {
+    "pack_item": "BEV",
+    "cell_kit": {
+      "cell1": 10,
+      "cell2": 6,
+      "cell3": 4
+    },
+    "lead_times": {
+      "upstream_component_to_t1_prod": 20,
+      "t1_pack_production": 1,
+      "t1_pack_to_oem": 1
+    }
+  },
+  "first_stage_buffers": {
+    "variables": [
+      "x_cell_kit",
+      "x_t1_pack",
+      "x_oem_pack"
+    ],
+    "integer": true,
+    "costs_usd": {
+      "x_cell_kit": 7177.049180327869,
+      "x_t1_pack": 8756.0,
+      "x_oem_pack": 8756.0
+    },
+    "oem_positioning_premium_usd": 0.0,
+    "oem_positioning_premium_status": "CERTIFICATION_ONLY_ZERO_PLACEHOLDER_NOT_FINAL_ECONOMIC_CALIBRATION",
+    "budget_grid": [
+      {
+        "id": "B0",
+        "usd": 0.0,
+        "pack_value_equivalent": 0
+      },
+      {
+        "id": "B20",
+        "usd": 175120.0,
+        "pack_value_equivalent": 20
+      },
+      {
+        "id": "B50",
+        "usd": 437800.0,
+        "pack_value_equivalent": 50
+      },
+      {
+        "id": "B100",
+        "usd": 875600.0,
+        "pack_value_equivalent": 100
+      }
+    ],
+    "budget_grid_status": "PHASE1_CERTIFICATION_ONLY"
+  },
+  "risk_scenarios": [
+    {
+      "scenario_id": "NOM",
+      "layer": "nominal",
+      "start_t": null,
+      "end_t": null,
+      "arrival_multiplier": 1.0,
+      "pack_prod_capacity_multiplier": 1.0,
+      "pack_transport_capacity_multiplier": 1.0,
+      "purpose": "deterministic-equivalence anchor"
+    },
+    {
+      "scenario_id": "L1_CERT",
+      "layer": "L1",
+      "start_t": 66,
+      "end_t": 66,
+      "arrival_multiplier": 0.5,
+      "pack_prod_capacity_multiplier": 1.0,
+      "pack_transport_capacity_multiplier": 1.0,
+      "purpose": "certification-only usable-arrival loss pulse at the first major in-horizon battery-component arrival; not claimed empirical severity"
+    },
+    {
+      "scenario_id": "L2_CERT",
+      "layer": "L2",
+      "start_t": 64,
+      "end_t": 66,
+      "arrival_multiplier": 1.0,
+      "pack_prod_capacity_multiplier": 0.5,
+      "pack_transport_capacity_multiplier": 1.0,
+      "purpose": "certification-only T1 pack-production capacity pulse; not claimed empirical severity"
+    },
+    {
+      "scenario_id": "L3_CERT",
+      "layer": "L3",
+      "start_t": 64,
+      "end_t": 66,
+      "arrival_multiplier": 1.0,
+      "pack_prod_capacity_multiplier": 1.0,
+      "pack_transport_capacity_multiplier": 0.5,
+      "purpose": "certification-only T1-to-OEM transport-capacity pulse; not claimed empirical severity"
+    }
+  ],
+  "historical_shortage_reference": {
+    "use_as_model_scenario": false,
+    "cause": "quality deficiencies",
+    "group": "battery_component",
+    "amount": 860,
+    "period": 59,
+    "first_affected_node": "battery-supplier_prod",
+    "note": "source-paper historical case predates the t=60 observed state; used as case context, not as a future t>=61 certification path"
+  },
+  "formal_scale_run_matrix": {
+    "deterministic_nominal_budget_ids": [
+      "B0",
+      "B20",
+      "B50",
+      "B100"
+    ],
+    "full_scenario_DE_budget_ids": [
+      "B0",
+      "B50"
+    ],
+    "full_scenario_set": [
+      "NOM",
+      "L1_CERT",
+      "L2_CERT",
+      "L3_CERT"
+    ],
+    "objective": "maximize common worst-case weighted on-time delivery ratio rho",
+    "integer_recourse": true,
+    "solver_requirement": "Gurobi exact MILP solve subject to project certification tolerances; no C&CG/Benders in Phase1"
+  },
+  "required_gates": [
+    "PASS_SOURCE_HASH",
+    "PASS_RAW_TABLE_AUDIT",
+    "PASS_EXACT_AGGREGATION_COUNTS",
+    "PASS_CAPACITY_UNIT_EQUIVALENCE",
+    "PASS_HISTORICAL_INITIAL_FLOW_TIMING",
+    "PASS_BATTERY_BOM_10_6_4",
+    "PASS_ONE_PERIOD_PACK_PRODUCTION_LEADTIME",
+    "PASS_ONE_PERIOD_T1_TO_OEM_LEADTIME",
+    "PASS_T60_STATE_COMMON_ACROSS_SCENARIOS",
+    "PASS_ZERO_BUDGET_ZERO_BUFFER",
+    "PASS_NOMINAL_SINGLETON_DE_EQUALS_DETERMINISTIC",
+    "PASS_FULL_SCENARIO_DE_FORMAL_SCALE_B0",
+    "PASS_FULL_SCENARIO_DE_FORMAL_SCALE_B50"
+  ],
+  "hard_stop": {
+    "after_phase1": true,
+    "forbidden_next_steps_until_independent_review": [
+      "C&CG",
+      "Benders",
+      "reachability cuts",
+      "scenario dominance",
+      "layer-wise scenario enrichment",
+      "algorithmic speed claims"
+    ]
+  }
+}
