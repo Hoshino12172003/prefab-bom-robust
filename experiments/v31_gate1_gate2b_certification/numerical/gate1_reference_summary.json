@@ -1,0 +1,18 @@
+{
+  "status_code": 2,
+  "status": "OPTIMAL",
+  "sol_count": 2,
+  "variables": 12144,
+  "constraints": 3099,
+  "exact_groups": 1286,
+  "internal_inventory_states": 91,
+  "total_demand": 28000,
+  "objective_delivered": 26448.0,
+  "service_ratio": 0.9445714285714286,
+  "mip_gap": 0.0,
+  "quality": {
+    "ConstrVio": 0.0,
+    "BoundVio": 0.0,
+    "IntVio": 0.0
+  }
+}
