@@ -1,5 +1,7 @@
 # V2.5 Phase 1 数值认证记录
 
+> **DEPRECATED_ALGEBRAIC_NORMALIZATION（Phase 1.10）**。下文 5/21 是历史求解的容量行同比例写法。现行正式求解直接使用原 XLSB 容量。表 7 的值仅为 `SOURCE_PAPER_CROSSCHECK`。 [现行规格](v25_model_spec_v2_source_semantics_corrected.md)
+
 2026-11-10。状态为 `SOURCE_AUDITED_AND_MICRO_VALIDATED`。冻结的 `paper_scale_v2/manifest.json` 尚未定位，正式规模状态为 `BLOCKED_MISSING_FROZEN_MANIFEST`，优化调用为 0。
 
 本地原始归档中 XLSB 成员的字节哈希为 `1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e`。读取全部 12 张表。公开来源为 Moetz、Quetschlich、Otto 的 [Mendeley Data V1](https://data.mendeley.com/datasets/pr3sdy5vp3/1)，DOI 10.17632/pr3sdy5vp3.1。源工序语义核对参考[原论文](https://doi.org/10.1016/j.ejor.2020.08.005)。

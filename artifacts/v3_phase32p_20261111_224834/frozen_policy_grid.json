@@ -1,0 +1,4539 @@
+{
+  "label": "STRESS_TEST_ONLY",
+  "cost_label": "COST_SENSITIVITY_ONLY",
+  "model": "V3 historical t=60 source; complete t=61..74 integer recourse; frozen PLAIN_EXACT_CCG",
+  "budget_base": "17388/19",
+  "starting_costs": [
+    "1",
+    "27/19",
+    "297/190"
+  ],
+  "scenarios": {
+    "DE_ENGINE_61": {
+      "events": [
+        [
+          "ENGINE",
+          61,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "DE_GEAR_61": {
+      "events": [
+        [
+          "GEAR",
+          61,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "DE_ENGINE_68": {
+      "events": [
+        [
+          "ENGINE",
+          68,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          68,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "DE_GEAR_68": {
+      "events": [
+        [
+          "GEAR",
+          68,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          68,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "NR": {
+      "events": [],
+      "recovery": 0
+    },
+    "B_PROD_4": {
+      "events": [
+        [
+          "B_PROD",
+          61,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "B_SHIP_4": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "BE": {
+      "events": [
+        [
+          "B_RECEIPT",
+          66,
+          1,
+          "1/2"
+        ],
+        [
+          "ENGINE",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "BS": {
+      "events": [
+        [
+          "B_RECEIPT",
+          66,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "BGS": {
+      "events": [
+        [
+          "B_RECEIPT",
+          66,
+          1,
+          "1/2"
+        ],
+        [
+          "GEAR",
+          61,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "B_PROD_E_S": {
+      "events": [
+        [
+          "B_PROD",
+          61,
+          4,
+          "1/2"
+        ],
+        [
+          "ENGINE",
+          61,
+          1,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "BGS_OVERLAP": {
+      "events": [
+        [
+          "B_RECEIPT",
+          66,
+          1,
+          "1/2"
+        ],
+        [
+          "GEAR",
+          64,
+          4,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          61,
+          1,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R1_S50_D7_GRADUAL": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 2
+    },
+    "R2_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R2_S50_D7_GRADUAL": {
+      "events": [
+        [
+          "B_PROD",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 2
+    },
+    "R3_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R3_S50_D7_GRADUAL": {
+      "events": [
+        [
+          "B_SHIP",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 2
+    },
+    "R4_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R4_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "GEAR",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R5_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "SEAT",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S25_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "1/4"
+        ],
+        [
+          "GEAR",
+          64,
+          4,
+          "1/4"
+        ],
+        [
+          "SEAT",
+          64,
+          4,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S25_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "1/4"
+        ],
+        [
+          "GEAR",
+          64,
+          7,
+          "1/4"
+        ],
+        [
+          "SEAT",
+          64,
+          7,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S25_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "1/4"
+        ],
+        [
+          "GEAR",
+          64,
+          11,
+          "1/4"
+        ],
+        [
+          "SEAT",
+          64,
+          11,
+          "1/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S50_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "1/2"
+        ],
+        [
+          "GEAR",
+          64,
+          4,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          64,
+          4,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S50_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "1/2"
+        ],
+        [
+          "GEAR",
+          64,
+          7,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          64,
+          7,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S50_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "1/2"
+        ],
+        [
+          "GEAR",
+          64,
+          11,
+          "1/2"
+        ],
+        [
+          "SEAT",
+          64,
+          11,
+          "1/2"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S75_D4_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          4,
+          "3/4"
+        ],
+        [
+          "GEAR",
+          64,
+          4,
+          "3/4"
+        ],
+        [
+          "SEAT",
+          64,
+          4,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S75_D7_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          7,
+          "3/4"
+        ],
+        [
+          "GEAR",
+          64,
+          7,
+          "3/4"
+        ],
+        [
+          "SEAT",
+          64,
+          7,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    },
+    "R6_S75_D11_ABRUPT": {
+      "events": [
+        [
+          "B_RECEIPT",
+          64,
+          11,
+          "3/4"
+        ],
+        [
+          "GEAR",
+          64,
+          11,
+          "3/4"
+        ],
+        [
+          "SEAT",
+          64,
+          11,
+          "3/4"
+        ]
+      ],
+      "recovery": 0
+    }
+  },
+  "cases": {
+    "BASE_B25": {
+      "case": "BASE_B25",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B50": {
+      "case": "BASE_B50",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B75": {
+      "case": "BASE_B75",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B100": {
+      "case": "BASE_B100",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET",
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B125": {
+      "case": "BASE_B125",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B150": {
+      "case": "BASE_B150",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "BASE_B200": {
+      "case": "BASE_B200",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "BASE_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S25_D4_ABRUPT_B100": {
+      "case": "R1_S25_D4_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R1_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S25_D7_ABRUPT_B100": {
+      "case": "R1_S25_D7_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S25_D11_ABRUPT_B100": {
+      "case": "R1_S25_D11_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R1_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D4_ABRUPT_B100": {
+      "case": "R1_S50_D4_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B25": {
+      "case": "R1_S50_D7_ABRUPT_B25",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B50": {
+      "case": "R1_S50_D7_ABRUPT_B50",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B75": {
+      "case": "R1_S50_D7_ABRUPT_B75",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B100": {
+      "case": "R1_S50_D7_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B125": {
+      "case": "R1_S50_D7_ABRUPT_B125",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B150": {
+      "case": "R1_S50_D7_ABRUPT_B150",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_ABRUPT_B200": {
+      "case": "R1_S50_D7_ABRUPT_B200",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D11_ABRUPT_B100": {
+      "case": "R1_S50_D11_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R1_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S75_D4_ABRUPT_B100": {
+      "case": "R1_S75_D4_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R1_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S75_D7_ABRUPT_B100": {
+      "case": "R1_S75_D7_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R1_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S75_D11_ABRUPT_B100": {
+      "case": "R1_S75_D11_ABRUPT_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R1_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R1_S50_D7_GRADUAL_B100": {
+      "case": "R1_S50_D7_GRADUAL_B100",
+      "risk": "R1",
+      "scenarios": [
+        "NR",
+        "R1_S50_D7_GRADUAL"
+      ],
+      "initial": [
+        "R1_S50_D7_GRADUAL"
+      ],
+      "tags": [
+        "RECOVERY"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 2,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S25_D4_ABRUPT_B100": {
+      "case": "R2_S25_D4_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R2_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S25_D7_ABRUPT_B100": {
+      "case": "R2_S25_D7_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S25_D11_ABRUPT_B100": {
+      "case": "R2_S25_D11_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R2_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D4_ABRUPT_B100": {
+      "case": "R2_S50_D4_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B25": {
+      "case": "R2_S50_D7_ABRUPT_B25",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B50": {
+      "case": "R2_S50_D7_ABRUPT_B50",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B75": {
+      "case": "R2_S50_D7_ABRUPT_B75",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B100": {
+      "case": "R2_S50_D7_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B125": {
+      "case": "R2_S50_D7_ABRUPT_B125",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B150": {
+      "case": "R2_S50_D7_ABRUPT_B150",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_ABRUPT_B200": {
+      "case": "R2_S50_D7_ABRUPT_B200",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D11_ABRUPT_B100": {
+      "case": "R2_S50_D11_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R2_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S75_D4_ABRUPT_B100": {
+      "case": "R2_S75_D4_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R2_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S75_D7_ABRUPT_B100": {
+      "case": "R2_S75_D7_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R2_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S75_D11_ABRUPT_B100": {
+      "case": "R2_S75_D11_ABRUPT_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R2_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R2_S50_D7_GRADUAL_B100": {
+      "case": "R2_S50_D7_GRADUAL_B100",
+      "risk": "R2",
+      "scenarios": [
+        "NR",
+        "R2_S50_D7_GRADUAL"
+      ],
+      "initial": [
+        "R2_S50_D7_GRADUAL"
+      ],
+      "tags": [
+        "RECOVERY"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 2,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S25_D4_ABRUPT_B100": {
+      "case": "R3_S25_D4_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R3_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S25_D7_ABRUPT_B100": {
+      "case": "R3_S25_D7_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S25_D11_ABRUPT_B100": {
+      "case": "R3_S25_D11_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R3_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D4_ABRUPT_B100": {
+      "case": "R3_S50_D4_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B25": {
+      "case": "R3_S50_D7_ABRUPT_B25",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B50": {
+      "case": "R3_S50_D7_ABRUPT_B50",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B75": {
+      "case": "R3_S50_D7_ABRUPT_B75",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B100": {
+      "case": "R3_S50_D7_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B125": {
+      "case": "R3_S50_D7_ABRUPT_B125",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B150": {
+      "case": "R3_S50_D7_ABRUPT_B150",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_ABRUPT_B200": {
+      "case": "R3_S50_D7_ABRUPT_B200",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D11_ABRUPT_B100": {
+      "case": "R3_S50_D11_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R3_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S75_D4_ABRUPT_B100": {
+      "case": "R3_S75_D4_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R3_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S75_D7_ABRUPT_B100": {
+      "case": "R3_S75_D7_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R3_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S75_D11_ABRUPT_B100": {
+      "case": "R3_S75_D11_ABRUPT_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R3_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R3_S50_D7_GRADUAL_B100": {
+      "case": "R3_S50_D7_GRADUAL_B100",
+      "risk": "R3",
+      "scenarios": [
+        "NR",
+        "R3_S50_D7_GRADUAL"
+      ],
+      "initial": [
+        "R3_S50_D7_GRADUAL"
+      ],
+      "tags": [
+        "RECOVERY"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 2,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S25_D4_ABRUPT_B100": {
+      "case": "R4_S25_D4_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R4_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S25_D7_ABRUPT_B100": {
+      "case": "R4_S25_D7_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S25_D11_ABRUPT_B100": {
+      "case": "R4_S25_D11_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R4_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D4_ABRUPT_B100": {
+      "case": "R4_S50_D4_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B25": {
+      "case": "R4_S50_D7_ABRUPT_B25",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B50": {
+      "case": "R4_S50_D7_ABRUPT_B50",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B75": {
+      "case": "R4_S50_D7_ABRUPT_B75",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B100": {
+      "case": "R4_S50_D7_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B125": {
+      "case": "R4_S50_D7_ABRUPT_B125",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B150": {
+      "case": "R4_S50_D7_ABRUPT_B150",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D7_ABRUPT_B200": {
+      "case": "R4_S50_D7_ABRUPT_B200",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S50_D11_ABRUPT_B100": {
+      "case": "R4_S50_D11_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R4_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S75_D4_ABRUPT_B100": {
+      "case": "R4_S75_D4_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R4_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S75_D7_ABRUPT_B100": {
+      "case": "R4_S75_D7_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R4_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R4_S75_D11_ABRUPT_B100": {
+      "case": "R4_S75_D11_ABRUPT_B100",
+      "risk": "R4",
+      "scenarios": [
+        "NR",
+        "R4_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R4_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S25_D4_ABRUPT_B100": {
+      "case": "R5_S25_D4_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R5_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S25_D7_ABRUPT_B100": {
+      "case": "R5_S25_D7_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S25_D11_ABRUPT_B100": {
+      "case": "R5_S25_D11_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R5_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D4_ABRUPT_B100": {
+      "case": "R5_S50_D4_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B25": {
+      "case": "R5_S50_D7_ABRUPT_B25",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B50": {
+      "case": "R5_S50_D7_ABRUPT_B50",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B75": {
+      "case": "R5_S50_D7_ABRUPT_B75",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B100": {
+      "case": "R5_S50_D7_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B125": {
+      "case": "R5_S50_D7_ABRUPT_B125",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B150": {
+      "case": "R5_S50_D7_ABRUPT_B150",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D7_ABRUPT_B200": {
+      "case": "R5_S50_D7_ABRUPT_B200",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S50_D11_ABRUPT_B100": {
+      "case": "R5_S50_D11_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R5_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S75_D4_ABRUPT_B100": {
+      "case": "R5_S75_D4_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R5_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S75_D7_ABRUPT_B100": {
+      "case": "R5_S75_D7_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R5_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R5_S75_D11_ABRUPT_B100": {
+      "case": "R5_S75_D11_ABRUPT_B100",
+      "risk": "R5",
+      "scenarios": [
+        "NR",
+        "R5_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R5_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S25_D4_ABRUPT_B100": {
+      "case": "R6_S25_D4_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S25_D4_ABRUPT"
+      ],
+      "initial": [
+        "R6_S25_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S25_D7_ABRUPT_B100": {
+      "case": "R6_S25_D7_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S25_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S25_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S25_D11_ABRUPT_B100": {
+      "case": "R6_S25_D11_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S25_D11_ABRUPT"
+      ],
+      "initial": [
+        "R6_S25_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 25,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D4_ABRUPT_B100": {
+      "case": "R6_S50_D4_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D4_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B25": {
+      "case": "R6_S50_D7_ABRUPT_B25",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 25,
+      "budget": "4347/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B50": {
+      "case": "R6_S50_D7_ABRUPT_B50",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 50,
+      "budget": "8694/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B75": {
+      "case": "R6_S50_D7_ABRUPT_B75",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 75,
+      "budget": "13041/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B100": {
+      "case": "R6_S50_D7_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET",
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B125": {
+      "case": "R6_S50_D7_ABRUPT_B125",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 125,
+      "budget": "21735/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B150": {
+      "case": "R6_S50_D7_ABRUPT_B150",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 150,
+      "budget": "26082/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D7_ABRUPT_B200": {
+      "case": "R6_S50_D7_ABRUPT_B200",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D7_ABRUPT"
+      ],
+      "tags": [
+        "LOCATION_BUDGET"
+      ],
+      "budget_multiplier": 200,
+      "budget": "34776/19",
+      "severity": 50,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S50_D11_ABRUPT_B100": {
+      "case": "R6_S50_D11_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S50_D11_ABRUPT"
+      ],
+      "initial": [
+        "R6_S50_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 50,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S75_D4_ABRUPT_B100": {
+      "case": "R6_S75_D4_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S75_D4_ABRUPT"
+      ],
+      "initial": [
+        "R6_S75_D4_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 4,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S75_D7_ABRUPT_B100": {
+      "case": "R6_S75_D7_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S75_D7_ABRUPT"
+      ],
+      "initial": [
+        "R6_S75_D7_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 7,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "R6_S75_D11_ABRUPT_B100": {
+      "case": "R6_S75_D11_ABRUPT_B100",
+      "risk": "R6",
+      "scenarios": [
+        "NR",
+        "R6_S75_D11_ABRUPT"
+      ],
+      "initial": [
+        "R6_S75_D11_ABRUPT"
+      ],
+      "tags": [
+        "SEVERITY_DURATION"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": 75,
+      "duration": 11,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "COST_T80_O80": {
+      "case": "COST_T80_O80",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 80,
+      "alpha_O_multiplier": 80,
+      "costs": [
+        "1",
+        "108/95",
+        "2376/2375"
+      ]
+    },
+    "COST_T80_O90": {
+      "case": "COST_T80_O90",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 80,
+      "alpha_O_multiplier": 90,
+      "costs": [
+        "1",
+        "108/95",
+        "2673/2375"
+      ]
+    },
+    "COST_T80_O100": {
+      "case": "COST_T80_O100",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 80,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "108/95",
+        "594/475"
+      ]
+    },
+    "COST_T80_O110": {
+      "case": "COST_T80_O110",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 80,
+      "alpha_O_multiplier": 110,
+      "costs": [
+        "1",
+        "108/95",
+        "3267/2375"
+      ]
+    },
+    "COST_T80_O120": {
+      "case": "COST_T80_O120",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 80,
+      "alpha_O_multiplier": 120,
+      "costs": [
+        "1",
+        "108/95",
+        "3564/2375"
+      ]
+    },
+    "COST_T90_O80": {
+      "case": "COST_T90_O80",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 90,
+      "alpha_O_multiplier": 80,
+      "costs": [
+        "1",
+        "243/190",
+        "2673/2375"
+      ]
+    },
+    "COST_T90_O90": {
+      "case": "COST_T90_O90",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 90,
+      "alpha_O_multiplier": 90,
+      "costs": [
+        "1",
+        "243/190",
+        "24057/19000"
+      ]
+    },
+    "COST_T90_O100": {
+      "case": "COST_T90_O100",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 90,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "243/190",
+        "2673/1900"
+      ]
+    },
+    "COST_T90_O110": {
+      "case": "COST_T90_O110",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 90,
+      "alpha_O_multiplier": 110,
+      "costs": [
+        "1",
+        "243/190",
+        "29403/19000"
+      ]
+    },
+    "COST_T90_O120": {
+      "case": "COST_T90_O120",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 90,
+      "alpha_O_multiplier": 120,
+      "costs": [
+        "1",
+        "243/190",
+        "8019/4750"
+      ]
+    },
+    "COST_T100_O80": {
+      "case": "COST_T100_O80",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 80,
+      "costs": [
+        "1",
+        "27/19",
+        "594/475"
+      ]
+    },
+    "COST_T100_O90": {
+      "case": "COST_T100_O90",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 90,
+      "costs": [
+        "1",
+        "27/19",
+        "2673/1900"
+      ]
+    },
+    "COST_T100_O110": {
+      "case": "COST_T100_O110",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 110,
+      "costs": [
+        "1",
+        "27/19",
+        "3267/1900"
+      ]
+    },
+    "COST_T100_O120": {
+      "case": "COST_T100_O120",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 120,
+      "costs": [
+        "1",
+        "27/19",
+        "891/475"
+      ]
+    },
+    "COST_T110_O80": {
+      "case": "COST_T110_O80",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 110,
+      "alpha_O_multiplier": 80,
+      "costs": [
+        "1",
+        "297/190",
+        "3267/2375"
+      ]
+    },
+    "COST_T110_O90": {
+      "case": "COST_T110_O90",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 110,
+      "alpha_O_multiplier": 90,
+      "costs": [
+        "1",
+        "297/190",
+        "29403/19000"
+      ]
+    },
+    "COST_T110_O100": {
+      "case": "COST_T110_O100",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 110,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "297/190",
+        "3267/1900"
+      ]
+    },
+    "COST_T110_O110": {
+      "case": "COST_T110_O110",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 110,
+      "alpha_O_multiplier": 110,
+      "costs": [
+        "1",
+        "297/190",
+        "35937/19000"
+      ]
+    },
+    "COST_T110_O120": {
+      "case": "COST_T110_O120",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 110,
+      "alpha_O_multiplier": 120,
+      "costs": [
+        "1",
+        "297/190",
+        "9801/4750"
+      ]
+    },
+    "COST_T120_O80": {
+      "case": "COST_T120_O80",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 120,
+      "alpha_O_multiplier": 80,
+      "costs": [
+        "1",
+        "162/95",
+        "3564/2375"
+      ]
+    },
+    "COST_T120_O90": {
+      "case": "COST_T120_O90",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 120,
+      "alpha_O_multiplier": 90,
+      "costs": [
+        "1",
+        "162/95",
+        "8019/4750"
+      ]
+    },
+    "COST_T120_O100": {
+      "case": "COST_T120_O100",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 120,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "162/95",
+        "891/475"
+      ]
+    },
+    "COST_T120_O110": {
+      "case": "COST_T120_O110",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 120,
+      "alpha_O_multiplier": 110,
+      "costs": [
+        "1",
+        "162/95",
+        "9801/4750"
+      ]
+    },
+    "COST_T120_O120": {
+      "case": "COST_T120_O120",
+      "risk": "BASE4",
+      "scenarios": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61",
+        "DE_ENGINE_68",
+        "DE_GEAR_68"
+      ],
+      "initial": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "tags": [
+        "COST"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": null,
+      "alpha_T_multiplier": 120,
+      "alpha_O_multiplier": 120,
+      "costs": [
+        "1",
+        "162/95",
+        "5346/2375"
+      ]
+    },
+    "GAMMA_2": {
+      "case": "GAMMA_2",
+      "risk": "GAMMA_MENU",
+      "scenarios": [
+        "NR",
+        "BE",
+        "BS",
+        "DE_ENGINE_61"
+      ],
+      "initial": [
+        "BS"
+      ],
+      "tags": [
+        "GAMMA"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": 2,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "GAMMA_4": {
+      "case": "GAMMA_4",
+      "risk": "GAMMA_MENU",
+      "scenarios": [
+        "NR",
+        "BE",
+        "BS",
+        "DE_ENGINE_61",
+        "B_PROD_4",
+        "B_SHIP_4",
+        "BGS"
+      ],
+      "initial": [
+        "BS"
+      ],
+      "tags": [
+        "GAMMA"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": 4,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    },
+    "GAMMA_6": {
+      "case": "GAMMA_6",
+      "risk": "GAMMA_MENU",
+      "scenarios": [
+        "NR",
+        "BE",
+        "BS",
+        "DE_ENGINE_61",
+        "B_PROD_4",
+        "B_SHIP_4",
+        "BGS",
+        "B_PROD_E_S",
+        "BGS_OVERLAP"
+      ],
+      "initial": [
+        "BS"
+      ],
+      "tags": [
+        "GAMMA"
+      ],
+      "budget_multiplier": 100,
+      "budget": "17388/19",
+      "severity": null,
+      "duration": null,
+      "recovery": 0,
+      "gamma": 6,
+      "alpha_T_multiplier": 100,
+      "alpha_O_multiplier": 100,
+      "costs": [
+        "1",
+        "27/19",
+        "297/190"
+      ]
+    }
+  },
+  "ablation_anchors": [
+    "BASE_B100",
+    "R1_S50_D7_ABRUPT_B100",
+    "R2_S50_D7_ABRUPT_B100",
+    "R3_S50_D7_ABRUPT_B100",
+    "R4_S50_D7_ABRUPT_B100",
+    "R5_S50_D7_ABRUPT_B100",
+    "R6_S50_D7_ABRUPT_B100"
+  ],
+  "initialization": "BASE4 uses frozen informed start; R1-R6 start at declared shock; Gamma starts BS",
+  "threshold_rule": {
+    "trigger": "Adjacent main COST cells switch a downstream coordinate between impossible and required in optimal set",
+    "scan": "For each ratio axis choose first qualifying edge ordered by fixed-other ratio then ascending axis",
+    "design": "Evaluate all three quarter subdivisions of that edge, and +/- half component-budget unit at both endpoints",
+    "proportions": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "budget_offsets": [
+      "-1/2",
+      "1/2"
+    ],
+    "classification": "Local discrete brackets only. Compare to +/-1/2 budget; no monotonicity or universal breakpoint assumed."
+  },
+  "assembly_rule": "Complete grid outputs remain visible, including failures and all optimal range witnesses",
+  "previous": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    }
+  },
+  "instruction_sha256": "4cff0ca6225deb1d8633040e6ce0a31f491867a920b0c14da9cae54cb81c0fe0"
+}

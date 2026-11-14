@@ -1,0 +1,15 @@
+{
+  "threads": 1,
+  "seed": 0,
+  "presolve": "AUTO",
+  "optimality_tol": 1e-09,
+  "feasibility_tol": 1e-09,
+  "integer_feasibility_tol": 1e-09,
+  "mip_gap": 0,
+  "mip_gap_abs": 0,
+  "time_limit_s": 60,
+  "soft_mem_limit_gb": 2,
+  "benchmark_starts": "no MIP starts",
+  "measurement": "one fresh process per DE; Windows peak working set and Gurobi MaxMemUsed",
+  "limitations": "fixed bounded diagnostic family; no algorithm performance comparison"
+}

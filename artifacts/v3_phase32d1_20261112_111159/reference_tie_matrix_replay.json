@@ -1,0 +1,26 @@
+{
+  "P1": {
+    "rows": 4942,
+    "distinct_witnesses": 824,
+    "seconds": 4.435582299949601,
+    "residual": 0
+  },
+  "P2": {
+    "rows": 101,
+    "distinct_witnesses": 71,
+    "seconds": 0.970325900008902,
+    "residual": 0
+  },
+  "P3": {
+    "rows": 4942,
+    "distinct_witnesses": 650,
+    "seconds": 2.8355765999294817,
+    "residual": 0
+  },
+  "P4": {
+    "rows": 101,
+    "distinct_witnesses": 71,
+    "seconds": 0.964384000049904,
+    "residual": 0
+  }
+}

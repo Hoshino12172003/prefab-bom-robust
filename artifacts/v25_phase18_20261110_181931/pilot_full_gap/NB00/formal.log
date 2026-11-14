@@ -1,0 +1,56 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 18:26:25 2026
+
+Set parameter LogFile to value "artifacts\v25_phase18_20261110_181931\NB00\formal.log"
+Set parameter Threads to value 4
+Set parameter Seed to value 20261110
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter OptimalityTol to value 1e-09
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 4 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  4
+
+Optimize a model with 23288 rows, 59363 columns and 172830 nonzeros (Max)
+Model fingerprint: 0xfe35e5df
+Model has 9694 linear objective coefficients
+Variable types: 0 continuous, 59363 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [4e-05, 4e-05]
+  Bounds range     [1e+05, 1e+05]
+  RHS range        [1e+00, 1e+04]
+
+Presolve removed 17195 rows and 43492 columns
+Presolve time: 0.13s
+Presolved: 6093 rows, 15871 columns, 46228 nonzeros
+Variable types: 0 continuous, 15871 integer (293 binary)
+
+Root relaxation: objective 2.943571e-01, 7075 iterations, 0.07 seconds (0.11 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.2943571    0.29436  0.00%     -    0s
+
+Explored 1 nodes (7075 simplex iterations) in 0.26 seconds (0.32 work units)
+Thread count was 4 (of 14 available processors)
+
+Solution count 1: 0.294357 
+No other solutions better than 0.294357
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.943571428571e-01, best bound 2.943571428571e-01, gap 0.0000%

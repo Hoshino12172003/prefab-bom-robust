@@ -1,0 +1,4 @@
+P1 independently certified full value 11775 coverage 2657350 fresh solves 6
+P2 independently certified full value 11775 coverage 2657350 fresh solves 6
+P3 independently certified full value 11775 coverage 2657350 fresh solves 6
+P4 independently certified full value 11775 coverage 2657350 fresh solves 6

@@ -1,0 +1,53 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 22:19:00 2026
+
+Set parameter LogFile to value "artifacts\v25_phase21b_20261110_221400\logs\K1_COST_PROBE_L2_min_cost.log"
+STRUCTURAL_DIAGNOSTIC_ONLY K1_COST_PROBE_L2_min_cost budget=5805/19 fixed_x=None allowed_mask=7
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Threads  1
+
+Optimize a model with 2921 rows, 4932 columns and 12985 nonzeros (Min)
+Model fingerprint: 0x438d53fd
+Model has 3 linear objective coefficients
+Variable types: 0 continuous, 4932 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+06]
+  Objective range  [2e+06, 3e+06]
+  Bounds range     [3e+02, 1e+05]
+  RHS range        [1e+00, 7e+08]
+
+Warning: Completing partial solution with 4928 unfixed non-continuous variables out of 4932
+User MIP start produced solution with objective 7.26032e+08 (0.01s)
+Loaded user MIP start with objective 7.26032e+08
+
+Presolve removed 2553 rows and 4126 columns
+Presolve time: 0.01s
+Presolved: 368 rows, 806 columns, 2480 nonzeros
+Variable types: 0 continuous, 806 integer (0 binary)
+
+Root relaxation: cutoff, 195 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      7.2603e+08 7.2603e+08  0.00%     -    0s
+
+Explored 1 nodes (195 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 7.26032e+08 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.260323700000e+08, best bound 7.260323700000e+08, gap 0.0000%
+Discarded solution information

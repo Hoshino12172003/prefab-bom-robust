@@ -1,0 +1,29 @@
+﻿symbol,source_equation,source_section,source_data_field,V3_status,V3_equation,reason,implementation_file,test_id
+T,(1)-(16),3.4;4.6,capacity_at_arc.period_t;demands.period_t,KEEP_EXACT,V3 source mapping T,61–74,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+P,(1)-(16),3.4;4.6,products.product_p,KEEP_EXACT,V3 source mapping P,"All 28,049 raw items retained",src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+G;g_p,(4)-(6),3.4,products.group_g,KEEP_EXACT,V3 source mapping G;g_p,Seven source groups,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+N,"(3),(4)",3.4,nodes,KEEP_EXACT,V3 source mapping N,All source nodes,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+A,"(2),(4)",3.4,arcs,KEEP_EXACT,V3 source mapping A,All source arcs,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+B,(4),3.4,BOM.mother;BOM.child,KEEP_REIMPLEMENTED,V3 source mapping B,Distinct-item nested BOM; 49 self rows recorded,src/prefab_v3/base.py,test_bom_override_source_and_simultaneous_generic
+O,"(4),(5)",3.4,operations,KEEP_EXACT,V3 source mapping O,All 15 rows,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+F,"(2),(4)",3.4,arcs.group_g;products.group_g,KEEP_EXACT,V3 source mapping F,Qualified material flow tuples,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+l_ij,(4),3.4,arcs.process_lead_time_l_ij,KEEP_EXACT,V3 source mapping l_ij,Raw lead time,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+d_npt;promised date,(10)-(12),4.6,demands,KEEP_EXACT,V3 source mapping d_npt;promised date,Raw VIN demand and due date,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+"inv_np,ini",(3),4.6,initial_inventories.initial_inventory_I_np0,KEEP_REIMPLEMENTED,"V3 source mapping inv_np,ini",Source opening and missing-key policy,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+c_ijt,"(2),(14)",3.4;4.6,capacity_at_arc.capacity_c_ijt,KEEP_EXACT,V3 source mapping c_ijt,Raw XLSB,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+s_p,(6),3.4,products.transportation_size_s,KEEP_EXACT,V3 source mapping s_p,All zero in source case,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+in_nxy,(4),3.4,operations.input_quantity_in_nxy,KEEP_EXACT,V3 source mapping in_nxy,Generic beta=0,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+out_nxy,"(4),(5)",3.4,operations.output_quantity_out_nxy,KEEP_EXACT,V3 source mapping out_nxy,Operation denominator,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+q_mc,(4),3.4,BOM.individual_input_quantity_q_mc,KEEP_EXACT,V3 source mapping q_mc,Individual beta=1; no double charge,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+alpha_ny,"(4),(5)",3.4,operations.alpha_nxy,KEEP_EXACT,V3 source mapping alpha_ny,Zero disables; positive normalized equality,src/prefab_v3/base.py,test_bom_override_source_and_simultaneous_generic
+beta_nxy,(4),3.4,operations.beta_nxy,KEEP_EXACT,V3 source mapping beta_nxy,Generic versus individual choice,src/prefab_v3/base.py,test_bom_override_source_and_simultaneous_generic
+history f,(4),4.6,initial_flows,KEEP_EXACT,V3 source mapping history f,Raw quantities and dated receipts,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+safety stock;max stock,(4),Phase 1.10,initial_inventories.safety_stock;max_inventory,KEEP_EXACT,V3 source mapping safety stock;max stock,Apply on available keys,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+planned flows,(17),4.6;Phase 1.10,max_flow_product_per_arc;max_flow_group_per_arc,KEEP_REIMPLEMENTED,V3 source mapping planned flows,Source ceilings distinct from physical and equality,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+scheduled equality,(17),4.6,documented separate schedule,KEEP_EXACT,V3 source mapping scheduled equality,No public equality instantiated,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+gamma;delta;epsilon;zeta;eta,(9),4.6;4.9,paper Eq. 9 and scenario text/figure,KEEP_EXACT,V3 source mapping gamma;delta;epsilon;zeta;eta,Retain five weights and audit discrepant eta,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+zeta_t,(12),4.6,demands.period_t,KEEP_EXACT,V3 source mapping zeta_t,Absolute date distance,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+eta_t,(13),4.6,period_t,KEEP_EXACT,V3 source mapping eta_t,T-t+1,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+eligible inflow,(4),public case,nodes_inflow,KEEP_REIMPLEMENTED,V3 source mapping eligible inflow,Source eligibility,src/prefab_v3/base.py,test_full_source_network_vins_and_distinct_planning_caps
+risk profile;Gamma,new,V3 extension,caller-supplied scenario/budget,ADD_ROBUST_EXTENSION,V3-18,Interface only with no frozen calibration,src/prefab_v3/interface.py,test_prospective_buffers_and_complete_recourse_interface
+buffer costs;budget,new,V3 extension,caller-supplied,ADD_BUFFER_EXTENSION,V3-16,No final economic values,src/prefab_v3/interface.py,test_prospective_buffers_and_complete_recourse_interface

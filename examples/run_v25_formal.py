@@ -1,8 +1,10 @@
 """Execute the exact six-run frozen Phase 1 matrix."""
 import argparse
+from fractions import Fraction
 import gzip
 from hashlib import sha256
 import json
+from math import isfinite
 from pathlib import Path
 import platform
 import sys
@@ -14,7 +16,35 @@ import gurobipy as gp
 from examples.run_v25_phase1 import serial
 from prefab_v25.formal import manifest_bytes, frozen_runs, solve_frozen
 from prefab_v25.source import load_tables, compile_network
-from prefab_v25.data import receipts, PROD, CELL
+from prefab_v25.data import BUFFER_NAMES, receipts, PROD, CELL
+
+
+# Phase 1.6 exact certificate vectors for the six frozen manifest cells.
+BEST_KNOWN_FORMAL_DELIVERIES = {
+    "nominal_B0": 26448, "nominal_B20": 26472, "nominal_B50": 26508,
+    "nominal_B100": 26569, "DE_B0": 25974, "DE_B50": 26034,
+}
+
+
+def check_witness_bound(run_id, result, demand_weight):
+    """A reported maximum must dominate every known feasible witness."""
+    if run_id in BEST_KNOWN_FORMAL_DELIVERIES:
+        floor = BEST_KNOWN_FORMAL_DELIVERIES[run_id] / demand_weight
+        objective, bound = result.get("objective"), result.get("bound")
+        meets_floor = all(v is not None and isfinite(v) and v >= floor - 1e-9
+                          for v in (objective, bound))
+        result["known_feasible_witness"] = {"objective": floor, "passed": meets_floor}
+        result["solver_reported_certified"] = result["certified"]
+        result["certified"] = result["certified"] and meets_floor
+
+
+def check_exact_budget(run, result):
+    if "buffers" in result:
+        quantities = (result["buffers"][name] for name in BUFFER_NAMES)
+        cost = sum(Fraction(c)*x for c, x in zip(run.costs, quantities))
+        residual = max(0, cost-Fraction(run.budget))
+        result["exact_budget_residual_usd"] = float(residual)
+        result["certified"] = result["certified"] and residual == 0
 
 
 def save(path, record):
@@ -62,6 +92,8 @@ def main():
         try:
             result = solve_frozen(network,payload,run.id,time_limit=args.time_limit,
                                   threads=args.threads,log=args.out/f"{run.id}.log")
+            check_witness_bound(run.id, result, network.demand_weight)
+            check_exact_budget(run, result)
             solutions = result.pop("scenarios",{})
             result["common_t60"] = bool(solutions) and all(
                 s["initial"] == next(iter(solutions.values()))["initial"] for s in solutions.values())

@@ -1,0 +1,10 @@
+﻿scenario,kind,t,item,multiplier,nominal,reduced,loss
+L1_CERT,L1_arrival,66,componment_battery1,0.5,9470,4735,4735
+L1_CERT,L1_arrival,66,componment_battery2,0.5,5682,2841,2841
+L1_CERT,L1_arrival,66,componment_battery3,0.5,3788,1894,1894
+L2_CERT,L2_pack_production,64,BEV,0.5,294,147.0,147.0
+L2_CERT,L2_pack_production,65,BEV,0.5,294,147.0,147.0
+L2_CERT,L2_pack_production,66,BEV,0.5,294,147.0,147.0
+L3_CERT,L3_pack_transport,64,BEV,0.5,294,147.0,147.0
+L3_CERT,L3_pack_transport,65,BEV,0.5,294,147.0,147.0
+L3_CERT,L3_pack_transport,66,BEV,0.5,294,147.0,147.0

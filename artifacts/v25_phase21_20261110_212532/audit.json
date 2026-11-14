@@ -1,0 +1,100 @@
+{
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+  "source_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "user_request_sha256": "8d819cd837b87df319250ef237135e796086159d8dab6c66716132c1a3499855",
+  "phase20_manifest_sha256": "3fde397a0070bd7f41dd961c94f8bd1af2ad2076b424df2a8ad01b0db1c32aae",
+  "phase20_files_verified": 26,
+  "gurobi_version": [
+    13,
+    0,
+    1
+  ],
+  "ratio": "27/19",
+  "ratio_support": [
+    "13/10",
+    "157/100"
+  ],
+  "diagnostic_scales": {
+    "1": 215,
+    "3": 644,
+    "5": 1073
+  },
+  "common_premium_probe": "3881/3382722",
+  "oem_premium_estimate": null,
+  "diagnostic_runs": 352,
+  "algorithm_runs": 0,
+  "formal_managerial_runs": 0,
+  "breakpoint_events": 1259,
+  "tables": {
+    "buffer_variable_freedom": 12,
+    "single_buffer_capability": 12,
+    "equal_cost_dominance": 12,
+    "risk_location_policy_response": 24,
+    "optimal_policy_set_ranges": 72,
+    "near_optimal_policy_ranges": 216,
+    "threshold_direct_checks": 3
+  },
+  "status": "PASS_WITH_MULTIPLE_OPTIMAL_POLICIES",
+  "structural_finding": "STRUCTURAL_DOMINANCE_DETECTED",
+  "clean_baseline": "SOURCE_SUPPORTED_CLEAN_BASELINE_NOT_IDENTIFIED",
+  "final_managerial_position_cost": null,
+  "final_risk_grid": null,
+  "final_budget_grid": null,
+  "protected_files": {
+    "phase110_protected_archives": {
+      "checked": 351,
+      "mismatches": 0
+    },
+    "phase110_output": {
+      "checked": 62,
+      "mismatches": 0
+    },
+    "existing_model_source": {
+      "checked": 5,
+      "mismatches": 0
+    }
+  },
+  "solver": {
+    "status": "OPTIMAL",
+    "optimal_runs": 352,
+    "threads": 1,
+    "license": "Academic license observed in successful run",
+    "exact_policy_projection_checks": 352,
+    "certified_csv_rows": 336,
+    "max_direct_constraint_bound_integrality_residual": 0.0,
+    "max_exact_integer_ledger_residual": 0,
+    "gap": 0,
+    "direct_seconds_excluding_p1": 6.974000453948975
+  },
+  "python": "3.12.7",
+  "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "input_code_sha256": {
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\examples\\run_v25_formal.py": "7cc29072ea2cbf101793fd5e7536c771f23b27217d401ea829a089430297d985",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\data.py": "f1a9601c7ff2ecad262524c6003d3238c36b880cc04d51cb15f5ff31732e0cc4",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\model.py": "5ec55de3c7650a6123897c1c5a5dd9c3524166921f4c25af287b91ccbf6fc116",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\source.py": "c85d305dd3fb04e7ef3c5d8b650557036b7af519368764d1332a9bb8cbc9b21b",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\formal.py": "93f08b270be83f8bcb7f4f16df30470a65540e7b6484efe4f90aebe1c1970d96"
+  },
+  "full_portfolio_expiry_events": 243895,
+  "full_portfolio_expirations": 788569,
+  "commands": [
+    {
+      "command": "python -B artifacts/v25_phase21_20261110_212532/run_diagnostics.py",
+      "exit": 0
+    },
+    {
+      "command": "python -B artifacts/v25_phase21_20261110_212532/portfolio_expirations.py",
+      "exit": 0
+    },
+    {
+      "command": "python -m pytest -p no:cacheprovider -vv tests/test_v25_phase20_prospective_spec.py tests/test_v25_phase21_calibration.py",
+      "exit": 0,
+      "result": "19 passed in 0.69s",
+      "prior_attempt_exit": 1,
+      "prior_attempt_cause": "Synthetic test oracle missed the first C-only arrival; replaced by explicit one-period in-transit ledgers"
+    }
+  ],
+  "scope": "Phase 2.1 structural diagnostics only",
+  "output_manifest": "sha256_manifest.csv"
+}

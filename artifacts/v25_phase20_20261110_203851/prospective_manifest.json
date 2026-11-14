@@ -1,0 +1,162 @@
+{
+  "status": "PASS_PROSPECTIVE_INSTANCE_SPEC_FROZEN",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "instance": "source-calibrated prospective planning instance",
+  "source_dataset": "https://data.mendeley.com/datasets/pr3sdy5vp3/1",
+  "source_paper_doi": "10.1016/j.ejor.2020.08.005",
+  "reveal": 0,
+  "period_map": {
+    "61": 1,
+    "62": 2,
+    "63": 3,
+    "64": 4,
+    "65": 5,
+    "66": 6,
+    "67": 7,
+    "68": 8,
+    "69": 9,
+    "70": 10,
+    "71": 11,
+    "72": 12,
+    "73": 13,
+    "74": 14
+  },
+  "vin_count": 3003,
+  "metric": "BEV on-time fulfillment rate",
+  "configurations": {
+    "BEV/D83/G1Z/Q2J": 567,
+    "BEV/D83/G1Z/Q4H": 2436
+  },
+  "due_counts": {
+    "1": 52,
+    "2": 293,
+    "3": 159,
+    "4": 709,
+    "5": 76,
+    "6": 64,
+    "7": 384,
+    "8": 59,
+    "9": 275,
+    "10": 182,
+    "11": 68,
+    "12": 274,
+    "13": 357,
+    "14": 51
+  },
+  "metric_denominator": 3003,
+  "secondary_full_network_service": null,
+  "source_battery_sku": "BEV",
+  "source_battery_bom": {
+    "componment_battery1": 10,
+    "componment_battery2": 6,
+    "componment_battery3": 4
+  },
+  "battery_chain": [
+    {
+      "origin": "battery-supplier_trans",
+      "destination": "battery-supplier_prod",
+      "lead": 20,
+      "capacity": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2058,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 2058
+      }
+    },
+    {
+      "origin": "battery-supplier_prod",
+      "destination": "battery-supplier_inv",
+      "lead": 1,
+      "capacity": {
+        "1": 294,
+        "2": 294,
+        "3": 294,
+        "4": 294,
+        "5": 294,
+        "6": 294,
+        "7": 294,
+        "8": 294,
+        "9": 294,
+        "10": 294,
+        "11": 294,
+        "12": 294,
+        "13": 294,
+        "14": 294
+      }
+    },
+    {
+      "origin": "battery-supplier_inv",
+      "destination": "zp7",
+      "lead": 1,
+      "capacity": {
+        "1": 294,
+        "2": 294,
+        "3": 294,
+        "4": 294,
+        "5": 294,
+        "6": 294,
+        "7": 294,
+        "8": 294,
+        "9": 294,
+        "10": 294,
+        "11": 294,
+        "12": 294,
+        "13": 294,
+        "14": 294
+      }
+    }
+  ],
+  "first_eligible_battery_timing": {
+    "dispatch": 7,
+    "t1_component": 27,
+    "oem_pack": 29
+  },
+  "source_battery_planned_flow_rows": 0,
+  "retained_non_battery": true,
+  "protocol": "RSP-C",
+  "protocol_class": "MODEL_ADAPTATION",
+  "regular_battery_ledger_credit": 0,
+  "historical_battery_stock_or_flows_adopted": false,
+  "buffers": {
+    "x_C": {
+      "domain": "Z_nonnegative",
+      "required_positive": false
+    },
+    "x_T": {
+      "domain": "Z_nonnegative",
+      "required_positive": false
+    },
+    "x_O": {
+      "domain": "Z_nonnegative",
+      "required_positive": false
+    }
+  },
+  "forced_mix": false,
+  "risk_schema": {
+    "L1": "cumulative_rational_kit_release",
+    "L2": "rational_prod_capacity_factor",
+    "L3": "rational_transport_capacity_factor",
+    "numeric_parameters": null
+  },
+  "cost_parameters": {
+    "c_C": null,
+    "c_T": null,
+    "c_O": null,
+    "delta_O": null,
+    "budget": null
+  },
+  "managerial_gate": "HOLD_FINAL_POSITION_COST_CALIBRATION",
+  "clean_baseline": "SOURCE_SUPPORTED_CLEAN_BASELINE_NOT_IDENTIFIED",
+  "formal_optimizer_calls": 0,
+  "algorithm_optimizer_calls": 0
+}

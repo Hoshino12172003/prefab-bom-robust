@@ -1,0 +1,13 @@
+﻿cost_id,c_C,r_PC,delta_O,c_T,c_O,ratio_role,ratio_provenance,premium_role,premium_provenance,historical_granularity_threshold_used
+R0_P0,1,27/19,0,27/19,27/19,BASE,Phase 2.1 BatPaC official evidence,ZERO_REFERENCE,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R0_P1,1,27/19,1/20,27/19,567/380,BASE,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R0_P2,1,27/19,1/10,27/19,297/190,BASE,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R0_P3,1,27/19,1/5,27/19,162/95,BASE,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R1_P0,1,13/10,0,13/10,13/10,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,ZERO_REFERENCE,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R1_P1,1,13/10,1/20,13/10,273/200,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R1_P2,1,13/10,1/10,13/10,143/100,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R1_P3,1,13/10,1/5,13/10,39/25,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R2_P0,1,157/100,0,157/100,157/100,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,ZERO_REFERENCE,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R2_P1,1,157/100,1/20,157/100,3297/2000,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R2_P2,1,157/100,1/10,157/100,1727/1000,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False
+R2_P3,1,157/100,1/5,157/100,471/250,EXTERNAL_MODEL_RANGE_ENDPOINT,Phase 2.1 BatPaC official evidence,SENSITIVITY_ONLY,Predeclared fractions of normalized T1 pack cost; no route estimate,False

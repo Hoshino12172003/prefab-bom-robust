@@ -1,0 +1,225 @@
+{
+  "G1_N355": {
+    "gamma": 1,
+    "rhs_count": 355,
+    "raw_count": 415,
+    "threshold": null,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 147,
+      "G": 69,
+      "S": 69,
+      "E": 69
+    }
+  },
+  "G2_N32": {
+    "gamma": 2,
+    "rhs_count": 32,
+    "raw_count": 208,
+    "threshold": 81,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 12,
+      "G": 1,
+      "BG": 5,
+      "S": 1,
+      "BS": 5,
+      "GS": 1,
+      "E": 1,
+      "BE": 3,
+      "GE": 1,
+      "SE": 1
+    }
+  },
+  "G2_N64": {
+    "gamma": 2,
+    "rhs_count": 64,
+    "raw_count": 360,
+    "threshold": 321,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 30,
+      "G": 1,
+      "BG": 9,
+      "S": 1,
+      "BS": 9,
+      "GS": 1,
+      "E": 1,
+      "BE": 9,
+      "GE": 1,
+      "SE": 1
+    }
+  },
+  "G2_N128": {
+    "gamma": 2,
+    "rhs_count": 128,
+    "raw_count": 574,
+    "threshold": 2064,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 36,
+      "G": 3,
+      "BG": 27,
+      "S": 3,
+      "BS": 27,
+      "GS": 9,
+      "E": 2,
+      "BE": 12,
+      "GE": 4,
+      "SE": 4
+    }
+  },
+  "G2_N256": {
+    "gamma": 2,
+    "rhs_count": 256,
+    "raw_count": 1272,
+    "threshold": 8578,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 90,
+      "G": 3,
+      "BG": 43,
+      "S": 3,
+      "BS": 43,
+      "GS": 9,
+      "E": 3,
+      "BE": 43,
+      "GE": 9,
+      "SE": 9
+    }
+  },
+  "G2_N512": {
+    "gamma": 2,
+    "rhs_count": 512,
+    "raw_count": 2121,
+    "threshold": 65552,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 168,
+      "G": 7,
+      "BG": 147,
+      "S": 5,
+      "BS": 66,
+      "GS": 22,
+      "E": 3,
+      "BE": 63,
+      "GE": 21,
+      "SE": 9
+    }
+  },
+  "G3_N64": {
+    "gamma": 3,
+    "rhs_count": 64,
+    "raw_count": 476,
+    "threshold": 134,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 19,
+      "G": 1,
+      "BG": 7,
+      "S": 1,
+      "BS": 12,
+      "GS": 1,
+      "BGS": 5,
+      "E": 1,
+      "BE": 7,
+      "GE": 1,
+      "SE": 1,
+      "BSE": 5,
+      "GSE": 1,
+      "BGE": 1
+    }
+  },
+  "G3_N128": {
+    "gamma": 3,
+    "rhs_count": 128,
+    "raw_count": 788,
+    "threshold": 521,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 41,
+      "G": 3,
+      "BG": 19,
+      "S": 1,
+      "BS": 24,
+      "GS": 1,
+      "BGS": 9,
+      "E": 1,
+      "BE": 15,
+      "GE": 1,
+      "SE": 1,
+      "BSE": 9,
+      "GSE": 1,
+      "BGE": 1
+    }
+  },
+  "G3_N256": {
+    "gamma": 3,
+    "rhs_count": 256,
+    "raw_count": 1308,
+    "threshold": 4117,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 47,
+      "G": 3,
+      "BG": 39,
+      "S": 3,
+      "BS": 52,
+      "GS": 9,
+      "BGS": 17,
+      "E": 3,
+      "BE": 37,
+      "GE": 9,
+      "SE": 9,
+      "BSE": 17,
+      "GSE": 5,
+      "BGE": 5
+    }
+  },
+  "G3_N512": {
+    "gamma": 3,
+    "rhs_count": 512,
+    "raw_count": 2515,
+    "threshold": 12481,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 126,
+      "G": 3,
+      "BG": 81,
+      "S": 3,
+      "BS": 110,
+      "GS": 9,
+      "BGS": 31,
+      "E": 3,
+      "BE": 81,
+      "GE": 9,
+      "SE": 9,
+      "BSE": 31,
+      "GSE": 5,
+      "BGE": 10
+    }
+  },
+  "G3_N1024": {
+    "gamma": 3,
+    "rhs_count": 1024,
+    "raw_count": 4244,
+    "threshold": 66072,
+    "effective_family_counts": {
+      "NR": 1,
+      "B": 234,
+      "G": 7,
+      "BG": 279,
+      "S": 5,
+      "BS": 180,
+      "GS": 27,
+      "BGS": 69,
+      "E": 3,
+      "BE": 115,
+      "GE": 21,
+      "SE": 11,
+      "BSE": 37,
+      "GSE": 9,
+      "BGE": 26
+    }
+  }
+}

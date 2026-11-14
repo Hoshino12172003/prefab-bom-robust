@@ -1,0 +1,67 @@
+
+Gurobi 13.0.1 (win64) logging started Wed Nov 11 22:55:09 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32p_20261111_224834\logs\BASE_B50\projection_T_max.log"
+Discarded solution information
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 92081 rows, 303244 columns and 872371 nonzeros (Max)
+Model fingerprint: 0x98598884
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 303244 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 9e+04]
+
+Presolve removed 6422 rows and 80553 columns
+Presolve time: 1.24s
+Presolved: 85659 rows, 222691 columns, 704761 nonzeros
+Variable types: 0 continuous, 222691 integer (11974 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   34818    1.3459738e+00   1.753655e+04   0.000000e+00      5s
+   41742    1.3750000e+00   0.000000e+00   0.000000e+00      7s
+
+Root relaxation: objective 1.375000e+00, 41742 iterations, 5.64 seconds (6.31 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    1.37500    0   25          -    1.37500      -     -    7s
+H    0     0                       1.0000000    1.37500  37.5%     -    8s
+     0     0    1.37500    0   25    1.00000    1.37500  37.5%     -    8s
+
+Explored 1 nodes (54345 simplex iterations) in 8.15 seconds (9.22 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 1 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.000000000000e+00, best bound 1.000000000000e+00, gap 0.0000%
+Set parameter LogToConsole to value 0
+Set parameter Threads to value 1
+Set parameter Seed to value 20261110
+Set parameter OptimalityTol to value 1e-09
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter TimeLimit to value 180

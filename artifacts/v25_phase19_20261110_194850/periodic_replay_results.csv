@@ -1,0 +1,6 @@
+﻿check,periods,service,state_closed,status
+independent 14-day restart,14,NA,NA,NOT_RUN_CAPACITY_GATE
+"four-cycle replay, cycle 1",14,NA,NA,NOT_RUN_CAPACITY_GATE
+"four-cycle replay, cycle 2",28,NA,NA,NOT_RUN_CAPACITY_GATE
+"four-cycle replay, cycle 3",42,NA,NA,NOT_RUN_CAPACITY_GATE
+"four-cycle replay, cycle 4",56,NA,NA,NOT_RUN_CAPACITY_GATE

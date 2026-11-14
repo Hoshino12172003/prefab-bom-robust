@@ -1,0 +1,34 @@
+{
+  "exact": true,
+  "lower": 11775,
+  "upper": 11775,
+  "source_upper": "INDEPENDENT_DIRECT_WORST_BLOCK_AND_FROZEN_SEAT_PREFIX",
+  "worst_block_rhs": 16106127360,
+  "upper_model": {
+    "solver_status": "OPTIMAL",
+    "solver_gap": 0,
+    "objective_bound": 11775,
+    "integer_vars": 75814,
+    "constraints": 23021,
+    "nonzeros": 218095,
+    "solver_seconds": 0.6060001850128174,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "peak_bytes": 185417728,
+    "log": "gamma1_de/independent_one_block.log"
+  },
+  "source_lower": "ALL_355_BLOCK_MATRIX_REPLAY",
+  "mps_sha256": "807f1eb9533cd4e6339038f8fd4b800c2d4345dfb023ba28b245d4230ba90363",
+  "start_sha256": "02b087f912e679b13580ade6443cb4d22b07bfa79b88f902c2d3892a27771186",
+  "cli_incumbent_replay": {
+    "policy": [
+      915,
+      0,
+      0
+    ],
+    "objective": 11775,
+    "matrix_residual": 0,
+    "verified_blocks": 355,
+    "sha256": "54e5c5f823a3488ee6356fb0a10ddcba499636365e94bfe26e2b0c92f3a86b64"
+  }
+}

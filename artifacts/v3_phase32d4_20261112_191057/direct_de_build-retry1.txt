@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 275, in <module>
+    build(coords,template,codes)
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 158, in build
+    check = pilot(env,coords,template,[0,16106127360])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 143, in pilot
+    with gp.read(str(path), env=env) as parsed, gp.Model(env=env) as reference:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/gurobipy/gurobi.pxi", line 256, in gurobipy._core.read
+  File "src/gurobipy/gurobi.pxi", line 105, in gurobipy._core.gurobi.read
+gurobipy._exception.GurobiError: Unable to open file 'D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\gamma1_de\pilot.mps.gz' for input

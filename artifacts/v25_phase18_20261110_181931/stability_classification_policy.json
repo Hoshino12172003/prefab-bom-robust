@@ -1,0 +1,7 @@
+{
+  "service_range_percentage_points": 1,
+  "battery_state_cv": 0.1,
+  "decision": "flag if service range is at least 1 pp or nonzero-mean kit/T1/OEM/reachable CV is at least 0.10",
+  "standard_deviation": "population across the complete set of offsets",
+  "zero_mean_cv": "NA"
+}

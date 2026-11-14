@@ -1,0 +1,4 @@
+﻿layer,target,mechanism,schema,applies_to,unaffected,numeric_profile,evidence_class
+L1,dedicated component kit lot at T1 production,quality/usability clearance,"gamma_avail[t]=rational in [0,1], nondecreasing; K[t]=floor(gamma_avail[t]*x_C)",x_C usable component release only,x_T;x_O;production and transport capacities,UNSET,EXPLICIT_SCENARIO_ASSUMPTION
+L2,T1 Pack production arc,shared production capacity RHS,"gamma_prod[t]=rational in [0,1]; RHS=gamma_prod[t]*source_prod_cap[t]",new pack production from released components,precompleted x_T and x_O;lead times,UNSET,SOURCE_ARC_EXPERIMENTAL_RISK
+L3,T1 to OEM Pack transport arc,shared transport capacity RHS,"gamma_trans[t]=rational in [0,1]; RHS=gamma_trans[t]*source_trans_cap[t]",T1 completed Pack shipments including x_T and new packs,x_O;lead times,UNSET,SOURCE_ARC_EXPERIMENTAL_RISK

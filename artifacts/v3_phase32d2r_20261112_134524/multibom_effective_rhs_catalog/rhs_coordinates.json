@@ -1,0 +1,8619 @@
+{
+  "resources": [
+    "B_RECEIPT",
+    "B_PROD",
+    "B_SHIP",
+    "GEAR",
+    "SEAT",
+    "ENGINE"
+  ],
+  "bits": 7,
+  "groups": {
+    "B_RECEIPT": {
+      "kind": "fixed_receipt",
+      "keys": [
+        [
+          "battery-supplier_prod",
+          "componment_battery1",
+          66
+        ],
+        [
+          "battery-supplier_prod",
+          "componment_battery1",
+          73
+        ],
+        [
+          "battery-supplier_prod",
+          "componment_battery2",
+          66
+        ],
+        [
+          "battery-supplier_prod",
+          "componment_battery2",
+          73
+        ],
+        [
+          "battery-supplier_prod",
+          "componment_battery3",
+          66
+        ],
+        [
+          "battery-supplier_prod",
+          "componment_battery3",
+          73
+        ]
+      ],
+      "values": [
+        [
+          9470,
+          4220,
+          5682,
+          2532,
+          3788,
+          1688
+        ],
+        [
+          7102,
+          4220,
+          4261,
+          2532,
+          2841,
+          1688
+        ],
+        [
+          4735,
+          4220,
+          2841,
+          2532,
+          1894,
+          1688
+        ],
+        [
+          2367,
+          4220,
+          1420,
+          2532,
+          947,
+          1688
+        ],
+        [
+          9470,
+          3165,
+          5682,
+          1899,
+          3788,
+          1266
+        ],
+        [
+          9470,
+          2110,
+          5682,
+          1266,
+          3788,
+          844
+        ],
+        [
+          9470,
+          1055,
+          5682,
+          633,
+          3788,
+          422
+        ],
+        [
+          7102,
+          3165,
+          4261,
+          1899,
+          2841,
+          1266
+        ],
+        [
+          4735,
+          2110,
+          2841,
+          1266,
+          1894,
+          844
+        ],
+        [
+          2367,
+          1055,
+          1420,
+          633,
+          947,
+          422
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 0
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 0
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 0
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 0
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 0
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 0
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 0
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 0
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 0
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 0
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 0
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 0
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 0
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 0
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 0
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 9
+        }
+      ]
+    },
+    "B_PROD": {
+      "kind": "capacity",
+      "keys": [
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          61
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          62
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          63
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          64
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          65
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          66
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          67
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          68
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          69
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          70
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          71
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          72
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          73
+        ],
+        [
+          "battery-supplier_prod",
+          "battery-supplier_inv",
+          74
+        ]
+      ],
+      "values": [
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 10
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 11
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 12
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 13
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 14
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 15
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 16
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 17
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 18
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 19
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 20
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 21
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 22
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 23
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 24
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 25
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 26
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 27
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 28
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 29
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 30
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 31
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 32
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 33
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 34
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 35
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 36
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 37
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 38
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 39
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 40
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 41
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 42
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 43
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 44
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 45
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 46
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 47
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 48
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 49
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 50
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 51
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 52
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 53
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 54
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 55
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 56
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 57
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 58
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 59
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 60
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 61
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 62
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 63
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 64
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 65
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 66
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 67
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 68
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 69
+        }
+      ]
+    },
+    "B_SHIP": {
+      "kind": "capacity",
+      "keys": [
+        [
+          "battery-supplier_inv",
+          "zp7",
+          61
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          62
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          63
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          64
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          65
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          66
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          67
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          68
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          69
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          70
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          71
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          72
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          73
+        ],
+        [
+          "battery-supplier_inv",
+          "zp7",
+          74
+        ]
+      ],
+      "values": [
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        [
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294,
+          294
+        ],
+        [
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294,
+          294
+        ],
+        [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294,
+          294
+        ],
+        [
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294,
+          294
+        ],
+        [
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294,
+          294
+        ],
+        [
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294,
+          294
+        ],
+        [
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          294
+        ],
+        [
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          294
+        ],
+        [
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          294
+        ],
+        [
+          294,
+          294,
+          294,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220,
+          220
+        ],
+        [
+          294,
+          294,
+          294,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147,
+          147
+        ],
+        [
+          294,
+          294,
+          294,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 10
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 11
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 12
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 13
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 14
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 15
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 16
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 17
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 18
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 19
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 20
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 21
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 22
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 23
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 24
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 25
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 26
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 27
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 28
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 29
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 30
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 31
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 32
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 33
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 34
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 35
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 36
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 37
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 38
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 39
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 40
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 41
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 42
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 43
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 44
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 45
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 46
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 47
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 48
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 49
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 50
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 51
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 52
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 53
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 54
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 55
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 56
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 57
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 58
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 59
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 60
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 61
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 62
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 63
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 64
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 65
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 66
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 67
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 68
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 69
+        }
+      ]
+    },
+    "GEAR": {
+      "kind": "capacity",
+      "keys": [
+        [
+          "gear-supplier_inv",
+          "zp7",
+          61
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          62
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          63
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          64
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          65
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          66
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          67
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          68
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          69
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          70
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          71
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          72
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          73
+        ],
+        [
+          "gear-supplier_inv",
+          "zp7",
+          74
+        ]
+      ],
+      "values": [
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 10
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 11
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 12
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 13
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 14
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 15
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 16
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 17
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 18
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 19
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 20
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 21
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 22
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 23
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 24
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 25
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 26
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 27
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 28
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 29
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 30
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 31
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 32
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 33
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 34
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 35
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 36
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 37
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 38
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 39
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 40
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 41
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 42
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 43
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 44
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 45
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 46
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 47
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 48
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 49
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 50
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 51
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 52
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 53
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 54
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 55
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 56
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 57
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 58
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 59
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 60
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 61
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 62
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 63
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 64
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 65
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 66
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 67
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 68
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 69
+        }
+      ]
+    },
+    "SEAT": {
+      "kind": "capacity",
+      "keys": [
+        [
+          "seat-supplier_inv",
+          "zp7",
+          61
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          62
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          63
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          64
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          65
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          66
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          67
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          68
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          69
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          70
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          71
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          72
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          73
+        ],
+        [
+          "seat-supplier_inv",
+          "zp7",
+          74
+        ]
+      ],
+      "values": [
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 10
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 11
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 12
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 13
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 14
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 15
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 16
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 17
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 18
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 19
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 20
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 21
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 22
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 23
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 24
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 25
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 26
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 27
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 28
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 29
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 30
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 31
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 32
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 33
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 34
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 35
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 36
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 37
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 38
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 39
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 40
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 41
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 42
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 43
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 44
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 45
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 46
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 47
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 48
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 49
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 50
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 51
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 52
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 53
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 54
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 55
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 56
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 57
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 58
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 59
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 60
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 61
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 62
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 63
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 64
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 65
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 66
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 67
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 68
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 69
+        }
+      ]
+    },
+    "ENGINE": {
+      "kind": "capacity",
+      "keys": [
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          61
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          62
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          63
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          64
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          65
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          66
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          67
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          68
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          69
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          70
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          71
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          72
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          73
+        ],
+        [
+          "engine-supplier_prod",
+          "engine-supplier_inv",
+          74
+        ]
+      ],
+      "values": [
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ],
+        [
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          2100
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575,
+          1575
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        [
+          2100,
+          2100,
+          2100,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525,
+          525
+        ]
+      ],
+      "options": [
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 1
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 2
+        },
+        {
+          "start": 61,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 3
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 4
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 5
+        },
+        {
+          "start": 62,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 6
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 7
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 8
+        },
+        {
+          "start": 63,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 9
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 10
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 11
+        },
+        {
+          "start": 64,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 12
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 13
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 14
+        },
+        {
+          "start": 65,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 15
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 16
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 17
+        },
+        {
+          "start": 66,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 18
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 19
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 20
+        },
+        {
+          "start": 67,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 21
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 22
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 23
+        },
+        {
+          "start": 68,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 24
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 25
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 26
+        },
+        {
+          "start": 69,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 27
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 28
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 29
+        },
+        {
+          "start": 70,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 30
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/4",
+          "local_id": 31
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "1/2",
+          "local_id": 32
+        },
+        {
+          "start": 71,
+          "duration": 4,
+          "severity": "3/4",
+          "local_id": 33
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 34
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 35
+        },
+        {
+          "start": 61,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 36
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 37
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 38
+        },
+        {
+          "start": 62,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 39
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 40
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 41
+        },
+        {
+          "start": 63,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 42
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 43
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 44
+        },
+        {
+          "start": 64,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 45
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 46
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 47
+        },
+        {
+          "start": 65,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 48
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 49
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 50
+        },
+        {
+          "start": 66,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 51
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 52
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 53
+        },
+        {
+          "start": 67,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 54
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/4",
+          "local_id": 55
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "1/2",
+          "local_id": 56
+        },
+        {
+          "start": 68,
+          "duration": 7,
+          "severity": "3/4",
+          "local_id": 57
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 58
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 59
+        },
+        {
+          "start": 61,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 60
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 61
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 62
+        },
+        {
+          "start": 62,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 63
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 64
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 65
+        },
+        {
+          "start": 63,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 66
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/4",
+          "local_id": 67
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "1/2",
+          "local_id": 68
+        },
+        {
+          "start": 64,
+          "duration": 11,
+          "severity": "3/4",
+          "local_id": 69
+        }
+      ]
+    }
+  },
+  "gammas": [
+    1,
+    2,
+    3
+  ],
+  "daily_concurrency": 2,
+  "recovery": "ABRUPT_RECOVERY",
+  "label": "STRESS_TEST_ONLY"
+}

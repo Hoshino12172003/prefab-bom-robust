@@ -1,0 +1,26 @@
+[
+  {
+    "scope": "BEV3003",
+    "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+    "vehicles": 3003,
+    "status": 2,
+    "fixed_due_withdrawals_feasible": true,
+    "exact_material_residual": 0,
+    "max_solver_residual": 0.0,
+    "variables": 3556,
+    "constraints": 2261,
+    "seconds": 0.009000062942504883
+  },
+  {
+    "scope": "FULL28000",
+    "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+    "vehicles": 28000,
+    "status": 2,
+    "fixed_due_withdrawals_feasible": true,
+    "exact_material_residual": 0,
+    "max_solver_residual": 0.0,
+    "variables": 3556,
+    "constraints": 2261,
+    "seconds": 0.01699995994567871
+  }
+]

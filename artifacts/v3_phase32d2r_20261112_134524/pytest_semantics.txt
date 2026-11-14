@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 13 items
+
+tests/test_v3_phase32d2r_event_budget.py::test_a_battery_seven_days_at_gamma_one PASSED [  7%]
+tests/test_v3_phase32d2r_event_budget.py::test_b_seat_eleven_days_at_gamma_one PASSED [ 15%]
+tests/test_v3_phase32d2r_event_budget.py::test_c_overlapping_battery_gear_at_gamma_two PASSED [ 23%]
+tests/test_v3_phase32d2r_event_budget.py::test_d_three_seven_day_events_with_and_without_triple_overlap PASSED [ 30%]
+tests/test_v3_phase32d2r_event_budget.py::test_e_joint_families_rejected_at_gamma_one[pair0] PASSED [ 38%]
+tests/test_v3_phase32d2r_event_budget.py::test_e_joint_families_rejected_at_gamma_one[pair1] PASSED [ 46%]
+tests/test_v3_phase32d2r_event_budget.py::test_e_joint_families_rejected_at_gamma_one[pair2] PASSED [ 53%]
+tests/test_v3_phase32d2r_event_budget.py::test_exposure_is_diagnostic_and_resources_are_unique PASSED [ 61%]
+tests/test_v3_phase32d2r_event_budget.py::test_only_frozen_core_choices[bad0] PASSED [ 69%]
+tests/test_v3_phase32d2r_event_budget.py::test_only_frozen_core_choices[bad1] PASSED [ 76%]
+tests/test_v3_phase32d2r_event_budget.py::test_only_frozen_core_choices[bad2] PASSED [ 84%]
+tests/test_v3_phase32d2r_event_budget.py::test_only_frozen_core_choices[bad3] PASSED [ 92%]
+tests/test_v3_phase32d2r_event_budget.py::test_only_frozen_core_choices[bad4] PASSED [100%]
+
+============================= 13 passed in 0.21s ==============================

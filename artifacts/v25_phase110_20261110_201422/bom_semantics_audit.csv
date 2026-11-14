@@ -1,0 +1,51 @@
+﻿sheet,row,mother,child,quantity,classification,historical_route_uses,enters_bom_explosion,enters_transform_consumption,detail
+BOM,87009,DN4,DN4,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87010,DG6,DG6,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87011,DK8,DK8,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87012,DG8,DG8,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87013,D33,D33,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87014,DQ9,DQ9,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87015,D64,D64,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87016,DS9,DS9,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87017,DE5,DE5,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87018,D83,D83,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87019,D80,D80,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87020,D02,D02,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87021,DP2,DP2,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87022,DK7,DK7,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87023,DQ4,DQ4,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87024,D2I,D2I,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87025,DR8,DR8,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87026,DE4,DE4,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87027,D60,D60,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87028,DB8,DB8,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87029,DK9,DK9,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87030,DM4,DM4,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87031,DN6,DN6,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87032,DB0,DB0,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87033,DF6,DF6,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87034,DN1,DN1,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87035,DF4,DF4,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87036,DE2,DE2,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87037,D36,D36,1.0,IDENTITY_ROW_EXCLUDED,engine-supplier_inv->zp7 | engine-supplier_prod->engine-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87038,G0K,G0K,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87039,G1C,G1C,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87040,G1D,G1D,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87041,G1A,G1A,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87042,G0C,G0C,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87043,G1Z,G1Z,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87044,G0L,G0L,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87045,G0R,G0R,1.0,IDENTITY_ROW_EXCLUDED,gear-supplier_inv->zp7 | gear-supplier_prod->gear-supplier_inv,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87046,BEV,BEV,1.0,IDENTITY_ROW_EXCLUDED,battery-supplier_inv->zp7,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87047,Q2J,Q2J,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_inv->zp7,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87048,Q4H,Q4H,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_inv->zp7,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87049,Q4P,Q4P,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_inv->zp7,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87050,Q1A,Q1A,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_inv->zp7,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87054,componment_seat1,componment_seat1,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_trans->seat-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87055,componment_seat2,componment_seat2,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_trans->seat-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87056,componment_seat3,componment_seat3,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_trans->seat-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87057,componment_seat4,componment_seat4,1.0,IDENTITY_ROW_EXCLUDED,seat-supplier_trans->seat-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87058,componment_battery1,componment_battery1,1.0,IDENTITY_ROW_EXCLUDED,battery-supplier_trans->battery-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87059,componment_battery2,componment_battery2,1.0,IDENTITY_ROW_EXCLUDED,battery-supplier_trans->battery-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM,87060,componment_battery3,componment_battery3,1.0,IDENTITY_ROW_EXCLUDED,battery-supplier_trans->battery-supplier_prod,False,False,same-item stock transfer sourced from 1:1 operations
+BOM/operations,87051–87053 / 14,BEV,10/6/4 by SKU,20,INDIVIDUAL_BOM_OVERRIDE,pack production,True,True,beta=1; generic input 20 is not added

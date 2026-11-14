@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 271, in <module>
+    build(coords,template,codes)
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 154, in build
+    check = pilot(env,coords,template,[0,16106127360])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 138, in pilot
+    write_mps(path, template, codes)
+  File "D:\chatgpt\供给侧BOM\prefab-bom-robust\artifacts\v3_phase32d4_20261112_191057\direct_de.py", line 96, in write_mps
+    assert pairs
+           ^^^^^
+AssertionError

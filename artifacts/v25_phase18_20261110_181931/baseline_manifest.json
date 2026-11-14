@@ -1,0 +1,46 @@
+{
+  "title": "Source-Calibrated Nominal Baseline",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "workbook_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "settling_periods_paper": 55,
+  "warmup_periods": 56,
+  "cycle": 14,
+  "offsets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "main_baseline": "NB00",
+  "no_disruption_multipliers": {
+    "arrival": 1,
+    "production": 1,
+    "transport": 1
+  },
+  "budget": 0,
+  "capacity_calendar": "repeat original 61–74 in natural order for all offsets; raw physical units",
+  "formal_order_calendar": "original natural order for every offset",
+  "seed": "original t60 stock and fixed in-transit; initialization only",
+  "order_policy": "same Phase 1.6 total group delivery cap, late allowed with zero on-time credit inside warmup; separate new formal orders",
+  "terminal_policy": "all inventory and positive unfinished pipeline kept; warmup demand closed at formal boundary",
+  "objective": "same weighted on-time service ratio as Phase 1.6; no secondary objective",
+  "solver": {
+    "threads": 4,
+    "seed": 20261110,
+    "OptimalityTol": 1e-09,
+    "FeasibilityTol": 1e-09,
+    "IntFeasTol": 1e-09,
+    "MIPGap": 0,
+    "MIPGapAbs": 0
+  }
+}

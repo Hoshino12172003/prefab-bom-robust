@@ -1,0 +1,3 @@
+pointwise_small P1 G2_N32 W 12300 MILP 32 matrix replays 0
+pointwise_small P1 G3_N64 50 / 64 solves 50
+pointwise_small P1 G3_N64 W 12300 MILP 64 matrix replays 0

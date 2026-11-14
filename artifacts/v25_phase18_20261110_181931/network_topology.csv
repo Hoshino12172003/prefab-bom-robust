@@ -1,0 +1,12 @@
+﻿origin,destination,lead_days,group,capacity_from,capacity_to
+zp7,zp8,0,car,61,74
+gear-supplier_inv,zp7,2,gear,61,74
+engine-supplier_inv,zp7,1,engine,61,74
+gear-supplier_prod,gear-supplier_inv,2,gear,61,74
+engine-supplier_prod,engine-supplier_inv,1,engine,61,74
+battery-supplier_inv,zp7,1,battery,61,74
+seat-supplier_inv,zp7,0,seat,61,74
+battery-supplier_prod,battery-supplier_inv,1,battery,61,74
+seat-supplier_prod,seat-supplier_inv,0,seat,61,74
+seat-supplier_trans,seat-supplier_prod,23,seat_componment,61,74
+battery-supplier_trans,battery-supplier_prod,20,battery_componment,61,74

@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 14 items
+
+tests/test_v25_phase19_periodic_preflight.py::test_shared_raw_capacity_calendar_and_integer_deficit PASSED [  7%]
+tests/test_v25_phase19_periodic_preflight.py::test_stock_and_history_cannot_alter_cyclic_throughput_bound PASSED [ 14%]
+tests/test_v25_phase19_periodic_preflight.py::test_long_lead_has_two_distinct_cross_cycle_arrivals PASSED [ 21%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[0] PASSED [ 28%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[1] PASSED [ 35%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[14] PASSED [ 42%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[20] PASSED [ 50%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[23] PASSED [ 57%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[28] PASSED [ 64%]
+tests/test_v25_phase19_periodic_preflight.py::test_modulo_and_residual_pipeline_match_four_unrolled_cycles[42] PASSED [ 71%]
+tests/test_v25_phase19_periodic_preflight.py::test_joint_rotations_are_relabelings_with_same_capacity_bound PASSED [ 78%]
+tests/test_v25_phase19_periodic_preflight.py::test_repeated_cycles_create_unique_order_identity PASSED [ 85%]
+tests/test_v25_phase19_periodic_preflight.py::test_hold_disables_solver_replay_and_state_exports PASSED [ 92%]
+tests/test_v25_phase19_periodic_preflight.py::test_frozen_phase16_phase17_phase18_archive_hashes PASSED [100%]
+
+============================= 14 passed in 2.69s ==============================

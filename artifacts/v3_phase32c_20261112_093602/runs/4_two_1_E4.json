@@ -1,0 +1,327 @@
+{
+  "name": "4",
+  "style": "two",
+  "repeat": 1,
+  "method": "E4",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26465,
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "lower": 26465,
+      "upper": 26465,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "master_seconds": 5.0281982000451535,
+      "oracle_seconds": 3.7704545999877155,
+      "log": "logs/4_two_1_E4/MP_01.log"
+    }
+  ],
+  "oracles": [
+    {
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "iteration": 1,
+      "worst": 26465,
+      "ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "rows": [
+        {
+          "scenario": "DE_ENGINE_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": null,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_ENGINE_61",
+            "log": "logs/4_two_1_E4/E4_01__DE_ENGINE_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.7020001411437988,
+            "build_seconds": 0.5211578998714685,
+            "peak_bytes": 354078720,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.2791800000704825
+          }
+        },
+        {
+          "scenario": "DE_GEAR_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_GEAR_61",
+            "log": "logs/4_two_1_E4/E4_01__DE_GEAR_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.621999979019165,
+            "build_seconds": 0.5053983998950571,
+            "peak_bytes": 354078720,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.1915765998419374
+          }
+        },
+        {
+          "scenario": "DE_ENGINE_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6770000457763672,
+            "build_seconds": 0.5312532999087125,
+            "peak_bytes": 354078720,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.285258200019598
+          }
+        },
+        {
+          "scenario": "DE_GEAR_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6770000457763672,
+            "build_seconds": 0.5312532999087125,
+            "peak_bytes": 354078720,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.285258200019598
+          }
+        }
+      ],
+      "bound_seconds": 0.0002590001095086336,
+      "individual": 2,
+      "common": 1,
+      "wall_seconds": 3.770451599964872
+    }
+  ],
+  "verified": {
+    "DE_ENGINE_61": 26465,
+    "DE_GEAR_61": 26465,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "initial": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "verification_seconds": 5.1716358999256045,
+  "records": [
+    {
+      "tag": "MP_01",
+      "log": "logs/4_two_1_E4/MP_01.log",
+      "status": 2,
+      "integers": 151624,
+      "constraints": 46041,
+      "nodes": 1,
+      "solver_seconds": 2.8340001106262207,
+      "build_seconds": 1.0267458001617342,
+      "peak_bytes": 354078720,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 5.018016000045463
+    },
+    {
+      "tag": "E4_01__DE_ENGINE_61",
+      "log": "logs/4_two_1_E4/E4_01__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7020001411437988,
+      "build_seconds": 0.5211578998714685,
+      "peak_bytes": 354078720,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2791800000704825
+    },
+    {
+      "tag": "E4_01__DE_GEAR_61",
+      "log": "logs/4_two_1_E4/E4_01__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.621999979019165,
+      "build_seconds": 0.5053983998950571,
+      "peak_bytes": 354078720,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.1915765998419374
+    },
+    {
+      "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+      "log": "logs/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6770000457763672,
+      "build_seconds": 0.5312532999087125,
+      "peak_bytes": 354078720,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "witness": "witnesses/4_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+      "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+      "wall_seconds": 1.285258200019598
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/4_two_1_E4/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6770000457763672,
+      "build_seconds": 0.5211124999914318,
+      "peak_bytes": 354078720,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2588367001153529
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/4_two_1_E4/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6440000534057617,
+      "build_seconds": 0.5275405999273062,
+      "peak_bytes": 354078720,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2373889998998493
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/4_two_1_E4/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7269999980926514,
+      "build_seconds": 0.5351380000356585,
+      "peak_bytes": 354078720,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.3289920999668539
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/4_two_1_E4/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7190001010894775,
+      "build_seconds": 0.5421488001011312,
+      "peak_bytes": 354078720,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.3258886002004147
+    }
+  ],
+  "wall_seconds": 13.973456999985501,
+  "peak_bytes": 354078720,
+  "affinity": [
+    0
+  ]
+}

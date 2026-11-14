@@ -1,0 +1,104 @@
+{
+  "label": "STRESS_TEST_ONLY",
+  "frozen_catalog": 40,
+  "unique_rhs": 38,
+  "aliases": {
+    "ES": "DE_ENGINE_61",
+    "GS": "DE_GEAR_61"
+  },
+  "benchmark_order": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68",
+    "DE_ENGINE_64",
+    "DE_GEAR_64",
+    "DE_ENGINE_66",
+    "DE_GEAR_66",
+    "DE_ENGINE_62",
+    "DE_GEAR_62",
+    "DE_ENGINE_67",
+    "DE_GEAR_67",
+    "DE_ENGINE_63",
+    "DE_GEAR_63",
+    "DE_ENGINE_65",
+    "DE_GEAR_65",
+    "NR",
+    "B_RECEIPT_1",
+    "E_11",
+    "S_7",
+    "B_PROD_E_S",
+    "BGS_OVERLAP",
+    "S_4",
+    "G_4",
+    "B_PROD_4",
+    "B_SHIP_4",
+    "E_1",
+    "G_1",
+    "S_1",
+    "E_4",
+    "BE",
+    "BG",
+    "BS",
+    "EG",
+    "BES",
+    "BGS",
+    "BS_OVERLAP",
+    "BG_OVERLAP"
+  ],
+  "receipt_storage_headroom": {
+    "battery-supplier_prod|componment_battery1": 72113,
+    "battery-supplier_prod|componment_battery2": 81621,
+    "battery-supplier_prod|componment_battery3": 86375
+  },
+  "proven_pairs": {
+    "16": 0,
+    "24": 26,
+    "32": 48
+  },
+  "total_proven_pairs": 85,
+  "old_battery_combinatorial": {
+    "label": "STRESS_TEST_ONLY",
+    "legal_trajectories": 287443,
+    "unique_rhs": 38527,
+    "duplicates": 248916,
+    "largest_class": 67,
+    "nominal_equivalence_class": 67,
+    "individually_ineffective_episodes": {
+      "L1": 66
+    },
+    "ineffective_episode_examples": [
+      [
+        "L1",
+        61,
+        1,
+        "1/4"
+      ],
+      [
+        "L1",
+        61,
+        1,
+        "1/2"
+      ],
+      [
+        "L1",
+        61,
+        1,
+        "3/4"
+      ],
+      [
+        "L1",
+        62,
+        1,
+        "1/4"
+      ],
+      [
+        "L1",
+        62,
+        1,
+        "1/2"
+      ]
+    ],
+    "mip_solves": 0
+  }
+}

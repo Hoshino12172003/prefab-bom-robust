@@ -1,0 +1,8 @@
+{
+  "scope": "warmup only; formal B0 has no objective/time stop",
+  "initial": "zero-gap Gurobi execution; preserve logs of superseded attempts",
+  "completion": "BestObjStop at independent material integer upper; require exact replay equality",
+  "justification": "several initial runs had incumbents equal to proven integer bound while branching continued",
+  "unchanged": "same objective, data, constraints, variable domains and nominal model",
+  "primary_selection": "NB00 remains the natural-order candidate"
+}

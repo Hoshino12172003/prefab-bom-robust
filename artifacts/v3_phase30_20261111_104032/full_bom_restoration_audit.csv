@@ -1,0 +1,13 @@
+﻿row_class,mother_group,child_group,rows,treatment
+distinct_child,battery,battery_componment,3,individual input linked at operation and carried through nested balances
+distinct_child,car,battery,3003,individual input linked at operation and carried through nested balances
+distinct_child,car,engine,28000,individual input linked at operation and carried through nested balances
+distinct_child,car,gear,28000,individual input linked at operation and carried through nested balances
+distinct_child,car,seat,28000,individual input linked at operation and carried through nested balances
+distinct_child,seat,seat_componment,4,individual input linked at operation and carried through nested balances
+identity_reference,battery,battery,1,excluded from manufacture; transport identity via operations
+identity_reference,battery_componment,battery_componment,3,excluded from manufacture; transport identity via operations
+identity_reference,engine,engine,29,excluded from manufacture; transport identity via operations
+identity_reference,gear,gear,8,excluded from manufacture; transport identity via operations
+identity_reference,seat,seat,4,excluded from manufacture; transport identity via operations
+identity_reference,seat_componment,seat_componment,4,excluded from manufacture; transport identity via operations

@@ -1,0 +1,39 @@
+
+Gurobi 13.0.1 (win64) logging started Wed Nov 11 20:36:33 2026
+
+Set parameter LogFile to value "artifacts\v3_phase31r_20261111_202237\logs\LP_BGS_OVERLAP__K644_C.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  45
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 23019 rows, 75810 columns and 208392 nonzeros (Max)
+Model fingerprint: 0x919fd867
+Model has 9694 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+05, 1e+05]
+  RHS range        [1e+00, 1e+04]
+
+Presolve removed 2549 rows and 20913 columns
+Presolve time: 0.11s
+Presolved: 20470 rows, 54897 columns, 187698 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8000000e+04   7.873948e+04   0.000000e+00      0s
+   18185    2.5991500e+04   0.000000e+00   0.000000e+00      1s
+
+Solved in 18185 iterations and 0.88 seconds (1.17 work units)
+Optimal objective  2.599150000e+04

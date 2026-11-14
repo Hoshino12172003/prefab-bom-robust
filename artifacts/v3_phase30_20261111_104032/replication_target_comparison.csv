@@ -1,0 +1,7 @@
+﻿target_class,metric,paper_value,observed,disposition
+DIRECT_PAPER_TARGET,A BEV unfulfilled,1552,1552,MATCH in total; compare timing and coefficients separately
+DIRECT_PAPER_TARGET,B late-period concentration of unused assembly,t74,1552 at t74,MATCH on concentration
+XLSB_REPLICATION_TARGET,B actual customer outflow off due date,,0,Integer outflow reconstructed; distinguish from early assembly and unfilled VINs
+NOT_COMPARABLE_DUE_TO_SOURCE_VERSION,Table 7 upstream raw capacity t67,490,2058,Use Phase 1.10 raw XLSB semantics
+NOT_COMPARABLE_DUE_TO_SOURCE_VERSION,Eq.17 D60 t65 commitment,equal 40,upper 22,Published XLSB ceiling conflicts with display equality
+NOT_COMPARABLE_DUE_TO_SOURCE_VERSION,Scenario B affected orders deferred to t74,qualitative display,unfilled VINs remain shortfall; OEM slot slack at t74,No public VIN-level solution; display mixes deferred demand and production utilization

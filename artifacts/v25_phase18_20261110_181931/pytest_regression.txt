@@ -1,0 +1,47 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 38 items
+
+tests/test_v25_phase18_nominal_baseline.py::test_source_topology_is_preserved PASSED [  2%]
+tests/test_v25_phase18_nominal_baseline.py::test_source_battery_bom_is_unchanged PASSED [  5%]
+tests/test_v25_phase18_nominal_baseline.py::test_raw_lead_times_are_unchanged PASSED [  7%]
+tests/test_v25_phase18_nominal_baseline.py::test_raw_capacities_cycled_without_scaling_stock_or_orders PASSED [ 10%]
+tests/test_v25_phase18_nominal_baseline.py::test_warmup_length_is_frozen PASSED [ 13%]
+tests/test_v25_phase18_nominal_baseline.py::test_four_complete_original_demand_cycles_per_offset PASSED [ 15%]
+tests/test_v25_phase18_nominal_baseline.py::test_new_unique_vin_and_group_ids_preserve_orders PASSED [ 18%]
+tests/test_v25_phase18_nominal_baseline.py::test_no_disruption_multipliers_all_one PASSED [ 21%]
+tests/test_v25_phase18_nominal_baseline.py::test_nb00_inventory_is_from_warmup_vector PASSED [ 23%]
+tests/test_v25_phase18_nominal_baseline.py::test_transit_reindex_handles_beyond_horizon_and_no_duplicates PASSED [ 26%]
+tests/test_v25_phase18_nominal_baseline.py::test_primary_selection_fixed_natural_order PASSED [ 28%]
+tests/test_v25_phase18_nominal_baseline.py::test_all_fourteen_candidate_results_present_and_certified PASSED [ 31%]
+tests/test_v25_phase18_nominal_baseline.py::test_phase16_six_exact_certificate_bytes_unchanged PASSED [ 34%]
+tests/test_v25_phase18_nominal_baseline.py::test_historical_shortage_number_cannot_enter_model PASSED [ 36%]
+tests/test_v25_phase18_nominal_baseline.py::test_every_workbook_row_and_protocol_parameter_has_provenance PASSED [ 39%]
+tests/test_v25_formal_witness_regression.py::test_full_formal_witness_vectors_are_preserved PASSED [ 42%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[nominal_B20-26468] PASSED [ 44%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[nominal_B50-26498] PASSED [ 47%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[DE_B50-26024] PASSED [ 50%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B0] PASSED [ 52%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B20] PASSED [ 55%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B50] PASSED [ 57%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B100] PASSED [ 60%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[DE_B0] PASSED [ 63%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[DE_B50] PASSED [ 65%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[nominal_B50-61] PASSED [ 68%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[nominal_B100-122] PASSED [ 71%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[DE_B50-61] PASSED [ 73%]
+tests/test_v25_phase17_provenance.py::test_source_workbook_identity_read_only PASSED [ 76%]
+tests/test_v25_phase17_provenance.py::test_held_manifest_authorizes_no_patch PASSED [ 78%]
+tests/test_v25_phase17_provenance.py::test_only_explicit_patch_keys_allowed PASSED [ 81%]
+tests/test_v25_phase17_provenance.py::test_10_6_4_conservation_and_pack_destination PASSED [ 84%]
+tests/test_v25_phase17_provenance.py::test_duplicate_lot_sku_across_keys_rejected PASSED [ 86%]
+tests/test_v25_phase17_provenance.py::test_flow_change_requires_direct_evidence PASSED [ 89%]
+tests/test_v25_phase17_provenance.py::test_clean_b0_monotonicity_gate PASSED [ 92%]
+tests/test_v25_phase17_provenance.py::test_frozen_exact_budget_gate_still_active PASSED [ 94%]
+tests/test_v25_phase17_provenance.py::test_all_six_phase16_certificates_immutable PASSED [ 97%]
+tests/test_v25_phase17_provenance.py::test_missing_or_blank_provenance_fails_closed PASSED [100%]
+
+============================= 38 passed in 4.22s ==============================

@@ -1,0 +1,294 @@
+{
+  "status": "PASS_EVENT_BUDGET_MULTIBOM_UNCERTAINTY",
+  "scope": "HISTORICAL_STRESS_TEST_ONLY",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "instruction_sha256": "e529ddd7615cd15834f68323393ce8dc7925606df9348539d4ba009e5324892e",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "frozen_inputs": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    },
+    "v3_phase32p_20261111_224834": {
+      "entries": 1522,
+      "manifest_sha256": "364bcbdc06e5d68caa112c39deea858afbd0c08ceec9a65fa701f0a6569aaa42"
+    },
+    "v3_phase32c_20261112_093602": {
+      "entries": 3107,
+      "manifest_sha256": "eb141bee6d75bc4fbc115382b141fd16bc22fbeae7e24d5fe8ffc88f13c67644"
+    },
+    "v3_phase32d1_20261112_111159": {
+      "entries": 177,
+      "manifest_sha256": "ca004acd7591db7b89adeeda7ba2766cf18eb13341222e42fb9b3ace6a7492f5"
+    },
+    "v3_phase32d2_20261112_132513": {
+      "entries": 11,
+      "manifest_sha256": "57a7443ce078aa46a7e474de09e326e22fcc2122742d58eb5a9dd641700b0125"
+    }
+  },
+  "frozen_entries_verified": 6692,
+  "gamma_evt": [
+    1,
+    2,
+    3
+  ],
+  "gamma_evidence_role": "ROBUSTNESS_SENSITIVITY",
+  "daily_concurrency": 2,
+  "active_resource_days_role": "TOTAL_DISRUPTION_EXPOSURE_DIAGNOSTIC",
+  "duration_grid": [
+    4,
+    7,
+    11
+  ],
+  "severity_grid": [
+    "1/4",
+    "1/2",
+    "3/4"
+  ],
+  "recovery": "ABRUPT_RECOVERY",
+  "event_budget_tests": "A–E passed before catalog generation",
+  "python": "3.12.7",
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "pyxlsb": "1.0.10",
+  "environment_repair": "Initial catalog import lacked pyxlsb. Pinned optional dependency installed to temp target.",
+  "counts": {
+    "seconds": 9.35685779992491,
+    "legal_interval_supports_per_resource_subset": [
+      23,
+      529,
+      4788
+    ],
+    "total_by_gamma": [
+      {
+        "gamma_evt": 1,
+        "K": 2,
+        "family": "Total",
+        "raw_candidates": 415,
+        "legal_trajectories": 415,
+        "illegal_concurrency": 0,
+        "exact_event_duplicates": 0,
+        "distinct_rhs": 355,
+        "exact_rhs_duplicates": 60,
+        "compression_ratio": 1.1690140845070423
+      },
+      {
+        "gamma_evt": 2,
+        "K": 2,
+        "family": "Total",
+        "raw_candidates": 71830,
+        "legal_trajectories": 71830,
+        "illegal_concurrency": 0,
+        "exact_event_duplicates": 0,
+        "distinct_rhs": 51070,
+        "exact_rhs_duplicates": 20760,
+        "compression_ratio": 1.4065008811435284
+      },
+      {
+        "gamma_evt": 3,
+        "K": 2,
+        "family": "Total",
+        "raw_candidates": 6642010,
+        "legal_trajectories": 2657350,
+        "illegal_concurrency": 3984660,
+        "exact_event_duplicates": 0,
+        "distinct_rhs": 1564150,
+        "exact_rhs_duplicates": 1093200,
+        "compression_ratio": 1.6989099510916472
+      }
+    ],
+    "catalog_classes": 1564150
+  },
+  "integer_validation": {
+    "policies": {
+      "C": [
+        915,
+        0,
+        0
+      ],
+      "CT": [
+        1338,
+        24,
+        0
+      ],
+      "CTO": [
+        713,
+        135,
+        6
+      ]
+    },
+    "policy_outcomes": {
+      "C": {
+        "NR": 27363,
+        "B": 26889,
+        "G": 26500,
+        "S": 24200,
+        "BG": 26500,
+        "BS": 24200,
+        "GS": 24200,
+        "BGS": 24200,
+        "E": 27363,
+        "B7": 27363,
+        "G7": 23350,
+        "S7": 21350,
+        "S11": 23325,
+        "BGS7": 18600,
+        "S_LATE": 26300,
+        "BS_LATE": 26300,
+        "BS11": 23325
+      },
+      "CT": {
+        "NR": 27810,
+        "B": 27336,
+        "G": 26500,
+        "S": 24200,
+        "BG": 26500,
+        "BS": 24200,
+        "GS": 24200,
+        "BGS": 24200,
+        "E": 27810,
+        "B7": 27393,
+        "G7": 23350,
+        "S7": 21350,
+        "S11": 23325,
+        "BGS7": 18600,
+        "S_LATE": 26300,
+        "BS_LATE": 26300,
+        "BS11": 23325
+      },
+      "CTO": {
+        "NR": 27302,
+        "B": 26828,
+        "G": 26500,
+        "S": 24200,
+        "BG": 26500,
+        "BS": 24200,
+        "GS": 24200,
+        "BGS": 24200,
+        "E": 27302,
+        "B7": 27302,
+        "G7": 23350,
+        "S7": 21350,
+        "S11": 23325,
+        "BGS7": 18600,
+        "S_LATE": 26300,
+        "BS_LATE": 26300,
+        "BS11": 23325
+      }
+    },
+    "btb": [
+      {
+        "policy": "C",
+        "x_C": 915,
+        "x_T": 0,
+        "x_O": 0,
+        "candidates": 17,
+        "eligible_seat_pairs": 0,
+        "pruned": 0,
+        "bound_exact": 0,
+        "individual_MILP": 17,
+        "common_MILP": 0,
+        "worst_subset_Q": 18600,
+        "worst_subset_ties": "BGS7",
+        "bound_seconds": 0.001298899995163083,
+        "wall_seconds": 48.61282750009559
+      },
+      {
+        "policy": "CT",
+        "x_C": 1338,
+        "x_T": 24,
+        "x_O": 0,
+        "candidates": 17,
+        "eligible_seat_pairs": 0,
+        "pruned": 0,
+        "bound_exact": 0,
+        "individual_MILP": 17,
+        "common_MILP": 0,
+        "worst_subset_Q": 18600,
+        "worst_subset_ties": "BGS7",
+        "bound_seconds": 0.0012672001030296087,
+        "wall_seconds": 45.205162399914116
+      },
+      {
+        "policy": "CTO",
+        "x_C": 713,
+        "x_T": 135,
+        "x_O": 6,
+        "candidates": 17,
+        "eligible_seat_pairs": 0,
+        "pruned": 0,
+        "bound_exact": 0,
+        "individual_MILP": 17,
+        "common_MILP": 0,
+        "worst_subset_Q": 18600,
+        "worst_subset_ties": "BGS7",
+        "bound_seconds": 0.0013025000225752592,
+        "wall_seconds": 48.9168573000934
+      }
+    ],
+    "witness": {
+      "policy": "C",
+      "scenario": "BGS7",
+      "isolated_json": "{\"B7\": 27363, \"G7\": 23350, \"S7\": 21350}",
+      "nominal": 27363,
+      "integer_Q": 18600,
+      "branch_min": 21350,
+      "additive": 17337,
+      "battery_only_recursion": 27363,
+      "scalar_due_prefix_dp": 21350
+    },
+    "nominal_nonbattery_certificate": {
+      "full_vin_nonbattery_JIT": true,
+      "raw_witness": "artifacts\\v25_phase20_20261110_203851\\FULL28000_witness.json.gz",
+      "zero_lead_seat_redispatch": true,
+      "min_OEM_nonseat_headroom_after_subset_bound": 90375,
+      "shared_assembly_max_due": 2000
+    },
+    "full_integer_calls": 51,
+    "prefix_integer_calls": 42,
+    "max_solver_residual": 0.0,
+    "gurobi": [
+      13,
+      0,
+      1
+    ],
+    "seconds": 201.21601100009866
+  },
+  "rhs_catalog_sha256": "f3f8eb9cf5417cd59c8e12ba31a9be6276883f9f59c8431823064d2a70c08cc1",
+  "rhs_dictionary_sha256": "20202f6928b69da7c1fbfcef731840facc51403868d553cb57b8c8e2308b3a66",
+  "test_command": "python -B -m pytest -p no:cacheprovider -vv tests/test_v3_phase30_base.py tests/test_v3_phase31_robust.py tests/test_v3_phase31r_multi_bom.py tests/test_v3_phase32a_plain_ccg.py tests/test_v3_phase32b_audit.py tests/test_v3_phase32c_e4.py tests/test_v3_phase32d1_full_rhs.py tests/test_v3_phase32d2_gamma_gate.py tests/test_v3_phase32d2r_catalog.py tests/test_v3_phase32d2r_event_budget.py tests/test_v3_phase32p_policy_audit.py",
+  "pytest_passed": 86,
+  "pytest_failed": 0,
+  "gate": {
+    "eligible_for_followup_research": true,
+    "full_oracle_exhaustively_solved": false,
+    "frozen_btb_pairs_structurally_possible_in_core": false,
+    "serial_extrapolation_days_by_policy": {
+      "C": 51.76862345743091,
+      "CT": 48.139743169815944,
+      "CTO": 52.09238994140869
+    },
+    "extrapolation_not_a_measured_full_runtime": true,
+    "implicit_separation_implemented": false,
+    "full_scale_ccg_run": false
+  }
+}

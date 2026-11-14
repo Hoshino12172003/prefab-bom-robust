@@ -1,0 +1,1 @@
+Verified worst-event matrix, capacity and JIT BOM evidence for Gamma 1/2/3

@@ -1,0 +1,346 @@
+{
+  "NR": {
+    "scenario": "NR",
+    "rhs_id": 0,
+    "event_count": 0,
+    "exposure": 0,
+    "family": "NR",
+    "rhs_changed_rows": 0,
+    "events": []
+  },
+  "B": {
+    "scenario": "B",
+    "rhs_id": 2,
+    "event_count": 1,
+    "exposure": 4,
+    "family": "B",
+    "rhs_changed_rows": 3,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "G": {
+    "scenario": "G",
+    "rhs_id": 23068672,
+    "event_count": 1,
+    "exposure": 4,
+    "family": "G",
+    "rhs_changed_rows": 4,
+    "events": [
+      [
+        "GEAR",
+        64,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "S": {
+    "scenario": "S",
+    "rhs_id": 536870912,
+    "event_count": 1,
+    "exposure": 4,
+    "family": "S",
+    "rhs_changed_rows": 4,
+    "events": [
+      [
+        "SEAT",
+        61,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BG": {
+    "scenario": "BG",
+    "rhs_id": 23068674,
+    "event_count": 2,
+    "exposure": 8,
+    "family": "BG",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "GEAR",
+        64,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BS": {
+    "scenario": "BS",
+    "rhs_id": 536870914,
+    "event_count": 2,
+    "exposure": 8,
+    "family": "BS",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        61,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "GS": {
+    "scenario": "GS",
+    "rhs_id": 559939584,
+    "event_count": 2,
+    "exposure": 8,
+    "family": "GS",
+    "rhs_changed_rows": 8,
+    "events": [
+      [
+        "GEAR",
+        64,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        61,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BGS": {
+    "scenario": "BGS",
+    "rhs_id": 559939586,
+    "event_count": 3,
+    "exposure": 12,
+    "family": "BGS",
+    "rhs_changed_rows": 11,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "GEAR",
+        64,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        61,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "E": {
+    "scenario": "E",
+    "rhs_id": 68719476736,
+    "event_count": 1,
+    "exposure": 4,
+    "family": "E",
+    "rhs_changed_rows": 4,
+    "events": [
+      [
+        "ENGINE",
+        61,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "B7": {
+    "scenario": "B7",
+    "rhs_id": 4480,
+    "event_count": 1,
+    "exposure": 7,
+    "family": "B",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "B_PROD",
+        61,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "G7": {
+    "scenario": "G7",
+    "rhs_id": 73400320,
+    "event_count": 1,
+    "exposure": 7,
+    "family": "G",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "GEAR",
+        61,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "S7": {
+    "scenario": "S7",
+    "rhs_id": 15032385536,
+    "event_count": 1,
+    "exposure": 7,
+    "family": "S",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "SEAT",
+        68,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "S11": {
+    "scenario": "S11",
+    "rhs_id": 17985175552,
+    "event_count": 1,
+    "exposure": 11,
+    "family": "S",
+    "rhs_changed_rows": 11,
+    "events": [
+      [
+        "SEAT",
+        64,
+        11,
+        "1/4",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BGS7": {
+    "scenario": "BGS7",
+    "rhs_id": 15105790336,
+    "event_count": 3,
+    "exposure": 21,
+    "family": "BGS",
+    "rhs_changed_rows": 21,
+    "events": [
+      [
+        "B_PROD",
+        61,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "GEAR",
+        61,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        68,
+        7,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "S_LATE": {
+    "scenario": "S_LATE",
+    "rhs_id": 5905580032,
+    "event_count": 1,
+    "exposure": 4,
+    "family": "S",
+    "rhs_changed_rows": 4,
+    "events": [
+      [
+        "SEAT",
+        68,
+        4,
+        "1/4",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BS_LATE": {
+    "scenario": "BS_LATE",
+    "rhs_id": 5905580034,
+    "event_count": 2,
+    "exposure": 8,
+    "family": "BS",
+    "rhs_changed_rows": 7,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        68,
+        4,
+        "1/4",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  },
+  "BS11": {
+    "scenario": "BS11",
+    "rhs_id": 17985175554,
+    "event_count": 2,
+    "exposure": 15,
+    "family": "BS",
+    "rhs_changed_rows": 14,
+    "events": [
+      [
+        "B_RECEIPT",
+        66,
+        4,
+        "1/2",
+        "ABRUPT_RECOVERY"
+      ],
+      [
+        "SEAT",
+        64,
+        11,
+        "1/4",
+        "ABRUPT_RECOVERY"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "name": "region_CT",
+  "style": "two",
+  "repeat": 1,
+  "method": "E4",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26912,
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "lower": 26912,
+      "upper": 26912,
+      "oracle_worst": 26912,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "master_seconds": 6.20090729999356,
+      "oracle_seconds": 5.235232900129631,
+      "log": "logs/region_CT_two_1_E4/MP_01.log"
+    }
+  ],
+  "oracles": [
+    {
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "iteration": 1,
+      "worst": 26912,
+      "ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "rows": [
+        {
+          "scenario": "DE_ENGINE_61",
+          "lower": 26912,
+          "upper": 27050,
+          "pack_upper": 27810,
+          "seat_upper": 27050,
+          "incumbent": null,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26912,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_ENGINE_61",
+            "log": "logs/region_CT_two_1_E4/E4_01__DE_ENGINE_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.9340000152587891,
+            "build_seconds": 0.7302407000679523,
+            "peak_bytes": 354516992,
+            "q": 26912,
+            "bound": 26912,
+            "residual": 0.0,
+            "wall_seconds": 1.7289712999481708
+          }
+        },
+        {
+          "scenario": "DE_GEAR_61",
+          "lower": 26912,
+          "upper": 27050,
+          "pack_upper": 27810,
+          "seat_upper": 27050,
+          "incumbent": 26912,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26912,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_GEAR_61",
+            "log": "logs/region_CT_two_1_E4/E4_01__DE_GEAR_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.8959999084472656,
+            "build_seconds": 0.6931100999936461,
+            "peak_bytes": 354516992,
+            "q": 26912,
+            "bound": 26912,
+            "residual": 0.0,
+            "wall_seconds": 1.6526749001350254
+          }
+        },
+        {
+          "scenario": "DE_ENGINE_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27810,
+          "seat_upper": 27050,
+          "incumbent": 26912,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 1.0420000553131104,
+            "build_seconds": 0.7099075000733137,
+            "peak_bytes": 354516992,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "4b7d6fbb5e55987e2c17ee24bfc8fe08cc0092fa910c40b6e49d8e5d14f27456",
+            "wall_seconds": 1.8362204001750797
+          }
+        },
+        {
+          "scenario": "DE_GEAR_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27810,
+          "seat_upper": 27050,
+          "incumbent": 26912,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 1.0420000553131104,
+            "build_seconds": 0.7099075000733137,
+            "peak_bytes": 354516992,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "4b7d6fbb5e55987e2c17ee24bfc8fe08cc0092fa910c40b6e49d8e5d14f27456",
+            "wall_seconds": 1.8362204001750797
+          }
+        }
+      ],
+      "bound_seconds": 0.00031489995308220387,
+      "individual": 2,
+      "common": 1,
+      "wall_seconds": 5.235229699872434
+    }
+  ],
+  "verified": {
+    "DE_ENGINE_61": 26912,
+    "DE_GEAR_61": 26912,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "initial": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "policy": [
+    1338,
+    24,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "verification_seconds": 6.632847599918023,
+  "records": [
+    {
+      "tag": "MP_01",
+      "log": "logs/region_CT_two_1_E4/MP_01.log",
+      "status": 2,
+      "integers": 151624,
+      "constraints": 46041,
+      "nodes": 1,
+      "solver_seconds": 3.6570000648498535,
+      "build_seconds": 1.4270712998695672,
+      "peak_bytes": 354516992,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 6.18929239991121
+    },
+    {
+      "tag": "E4_01__DE_ENGINE_61",
+      "log": "logs/region_CT_two_1_E4/E4_01__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9340000152587891,
+      "build_seconds": 0.7302407000679523,
+      "peak_bytes": 354516992,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.7289712999481708
+    },
+    {
+      "tag": "E4_01__DE_GEAR_61",
+      "log": "logs/region_CT_two_1_E4/E4_01__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8959999084472656,
+      "build_seconds": 0.6931100999936461,
+      "peak_bytes": 354516992,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6526749001350254
+    },
+    {
+      "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+      "log": "logs/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 1.0420000553131104,
+      "build_seconds": 0.7099075000733137,
+      "peak_bytes": 354516992,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "witness": "witnesses/region_CT_two_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+      "witness_sha256": "4b7d6fbb5e55987e2c17ee24bfc8fe08cc0092fa910c40b6e49d8e5d14f27456",
+      "wall_seconds": 1.8362204001750797
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/region_CT_two_1_E4/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9380002021789551,
+      "build_seconds": 0.7053245999850333,
+      "peak_bytes": 354516992,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.7076221001334488
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/region_CT_two_1_E4/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9079999923706055,
+      "build_seconds": 0.6892573998775333,
+      "peak_bytes": 354516992,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6636979000177234
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/region_CT_two_1_E4/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8429999351501465,
+      "build_seconds": 0.7243369999341667,
+      "peak_bytes": 354516992,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6363814999349415
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/region_CT_two_1_E4/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8179998397827148,
+      "build_seconds": 0.716980200028047,
+      "peak_bytes": 354516992,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6022781999781728
+    }
+  ],
+  "wall_seconds": 18.07319450005889,
+  "peak_bytes": 354516992,
+  "affinity": [
+    6
+  ]
+}

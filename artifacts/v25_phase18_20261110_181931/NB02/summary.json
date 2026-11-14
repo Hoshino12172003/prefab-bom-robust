@@ -1,0 +1,90 @@
+{
+  "offset": "NB02",
+  "warmup": {
+    "status": 15,
+    "runtime": 107.55900001525879,
+    "work": 94.56744773263308,
+    "variables": 879315,
+    "integer_variables": 879315,
+    "constraints": 302925,
+    "nodes": 1.0,
+    "status_name": "USER_OBJ_LIMIT",
+    "objective": 0.9169285714285713,
+    "bound": 0.9169339285714395,
+    "mip_gap": 5.842486574340761e-06,
+    "on_time": 102696,
+    "bev": 2708,
+    "non_bev": 99988,
+    "late": 0,
+    "service_rate": 0.9169285714285714,
+    "material_balance_residual": 0,
+    "max_gurobi_residual": 0.0,
+    "certified": true,
+    "buffers": {
+      "x_cell_kit": 0,
+      "x_t1_pack": 0,
+      "x_oem_pack": 0
+    },
+    "exact_budget_residual_usd": 0.0,
+    "independent_upper": {
+      "integer_upper": 102696,
+      "cell_units_upper": 45952,
+      "existing_reachable_packs": 411,
+      "non_bev_demand": 99988
+    },
+    "independent_exact_certificate": true
+  },
+  "formal": {
+    "status": 2,
+    "runtime": 0.3450000286102295,
+    "work": 0.4560489092371761,
+    "variables": 59923,
+    "integer_variables": 59923,
+    "constraints": 23848,
+    "nodes": 1.0,
+    "status_name": "OPTIMAL",
+    "objective": 0.33757142857142863,
+    "bound": 0.33757142857142863,
+    "mip_gap": 0.0,
+    "on_time": 9452,
+    "bev": 0,
+    "non_bev": 9452,
+    "late": 0,
+    "service_rate": 0.3375714285714286,
+    "material_balance_residual": 0,
+    "max_gurobi_residual": 0.0,
+    "certified": true,
+    "buffers": {
+      "x_cell_kit": 0,
+      "x_t1_pack": 0,
+      "x_oem_pack": 0
+    },
+    "exact_budget_residual_usd": 0.0,
+    "physical_upper": 24997,
+    "independent_upper": {
+      "method": "exact rational LP multiplier bound with valid variable upper corrections",
+      "lp_solver_value": 9452.5,
+      "numerator": 94525000000000,
+      "denominator": 10000000000,
+      "correction_numerator": 0,
+      "integer_upper": 9452
+    },
+    "independent_exact_certificate": true,
+    "feasible_witness": 9452
+  },
+  "terminal": {
+    "total_inventory": 26110,
+    "battery_component_kit_equivalent": 0,
+    "t1_pack": 0,
+    "oem_pack": 0,
+    "total_in_transit": 14700
+  },
+  "health": {
+    "no_negative_stock": true,
+    "no_duplicate_transit": true,
+    "no_warmup_order_carry": true,
+    "raw_formal_order_pattern": true,
+    "from_solved_state": true
+  },
+  "reachable_bev_supply": 0
+}

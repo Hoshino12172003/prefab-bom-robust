@@ -1,0 +1,11 @@
+{
+  "monolithic_gurobi_optimal": false,
+  "cli_exit": 0,
+  "aborted": null,
+  "start_accepted": true,
+  "solver_seconds_wall": 99.93485670001246,
+  "peak_bytes": 14086803456,
+  "model_dimensions_confirmed": true,
+  "solver_error": null,
+  "solve_log": "gamma1_de/conservative_retry/console.log"
+}

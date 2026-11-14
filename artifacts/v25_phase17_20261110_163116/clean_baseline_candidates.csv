@@ -1,0 +1,4 @@
+﻿candidate_id,status,classification,usable_patch,t60_mapping,optimizer_status,detail
+CB_A,BLOCKED_NO_IDENTIFIED_ALLOCATION,SUPPORTED_INFERENCE,NO,UNIDENTIFIED,NOT_RUN,"No lost SKU quantities. Observed raw weekly totals 8440–18940, no same-basis confirmation."
+CB_B,BLOCKED_NO_KIT_UNIT_EVIDENCE,SUPPORTED_INFERENCE,NO,UNIDENTIFIED,NOT_RUN,"Magnitude plausible only. No label, lost lot or generator bridge binds s to kits."
+CB_C,BLOCKED_NO_SKU_OR_SHIPMENT_UNIT,SUPPORTED_INFERENCE,NO,UNIDENTIFIED,NOT_RUN,"No SKU, shipment document, conversion field or accounting definition for s"

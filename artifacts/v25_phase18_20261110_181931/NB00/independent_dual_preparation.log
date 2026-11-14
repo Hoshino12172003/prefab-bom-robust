@@ -1,0 +1,11 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 18:40:13 2026
+
+Set parameter LogFile to value "artifacts\v25_phase18_20261110_181931\NB00\independent_dual_preparation.log"
+Set parameter Threads to value 4
+Set parameter Seed to value 20261110
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter OptimalityTol to value 1e-09

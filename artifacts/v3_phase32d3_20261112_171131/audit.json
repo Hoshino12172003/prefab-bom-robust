@@ -1,0 +1,704 @@
+{
+  "status": "PASS_IMPLICIT_EVENT_SEPARATION_EXACT_PROTOTYPE",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "instruction_sha256": "f526a7cdc9321d7c6e92d22bde220e403eb182be12f7e0f81a0a5699c65136d4",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "frozen_d2r_manifest": {
+    "entries": 181,
+    "manifest_sha256": "64b09bed4c89a527c1438fb3a07fdb20ab4c7d91ca40adeff8e6a2130fd3f2ee"
+  },
+  "frozen_manifests": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    },
+    "v3_phase32p_20261111_224834": {
+      "entries": 1522,
+      "manifest_sha256": "364bcbdc06e5d68caa112c39deea858afbd0c08ceec9a65fa701f0a6569aaa42"
+    },
+    "v3_phase32c_20261112_093602": {
+      "entries": 3107,
+      "manifest_sha256": "eb141bee6d75bc4fbc115382b141fd16bc22fbeae7e24d5fe8ffc88f13c67644"
+    },
+    "v3_phase32d1_20261112_111159": {
+      "entries": 177,
+      "manifest_sha256": "ca004acd7591db7b89adeeda7ba2766cf18eb13341222e42fb9b3ace6a7492f5"
+    },
+    "v3_phase32d2_20261112_132513": {
+      "entries": 11,
+      "manifest_sha256": "57a7443ce078aa46a7e474de09e326e22fcc2122742d58eb5a9dd641700b0125"
+    }
+  },
+  "scope": "HISTORICAL_STRESS_TEST_ONLY",
+  "gamma": [
+    1,
+    2,
+    3
+  ],
+  "K": 2,
+  "preflight": {
+    "d2r_manifest": {
+      "entries": 181,
+      "manifest_sha256": "64b09bed4c89a527c1438fb3a07fdb20ab4c7d91ca40adeff8e6a2130fd3f2ee"
+    },
+    "atomic_identities": 414,
+    "single_event_rhs": 355,
+    "nominal_rhs": 0,
+    "dominance_pairs_checked": 28152,
+    "dominance_valid": 645,
+    "dominance_strict_rhs": 507,
+    "policies": {
+      "P1": [
+        915,
+        0,
+        0
+      ],
+      "P2": [
+        1338,
+        24,
+        0
+      ],
+      "P3": [
+        713,
+        135,
+        6
+      ],
+      "P4": [
+        1338,
+        0,
+        162
+      ]
+    }
+  },
+  "benchmark_design": {
+    "G1_N355": {
+      "gamma": 1,
+      "rhs_count": 355,
+      "raw_count": 415,
+      "threshold": null,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 147,
+        "G": 69,
+        "S": 69,
+        "E": 69
+      }
+    },
+    "G2_N32": {
+      "gamma": 2,
+      "rhs_count": 32,
+      "raw_count": 208,
+      "threshold": 81,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 12,
+        "G": 1,
+        "BG": 5,
+        "S": 1,
+        "BS": 5,
+        "GS": 1,
+        "E": 1,
+        "BE": 3,
+        "GE": 1,
+        "SE": 1
+      }
+    },
+    "G2_N64": {
+      "gamma": 2,
+      "rhs_count": 64,
+      "raw_count": 360,
+      "threshold": 321,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 30,
+        "G": 1,
+        "BG": 9,
+        "S": 1,
+        "BS": 9,
+        "GS": 1,
+        "E": 1,
+        "BE": 9,
+        "GE": 1,
+        "SE": 1
+      }
+    },
+    "G2_N128": {
+      "gamma": 2,
+      "rhs_count": 128,
+      "raw_count": 574,
+      "threshold": 2064,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 36,
+        "G": 3,
+        "BG": 27,
+        "S": 3,
+        "BS": 27,
+        "GS": 9,
+        "E": 2,
+        "BE": 12,
+        "GE": 4,
+        "SE": 4
+      }
+    },
+    "G2_N256": {
+      "gamma": 2,
+      "rhs_count": 256,
+      "raw_count": 1272,
+      "threshold": 8578,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 90,
+        "G": 3,
+        "BG": 43,
+        "S": 3,
+        "BS": 43,
+        "GS": 9,
+        "E": 3,
+        "BE": 43,
+        "GE": 9,
+        "SE": 9
+      }
+    },
+    "G2_N512": {
+      "gamma": 2,
+      "rhs_count": 512,
+      "raw_count": 2121,
+      "threshold": 65552,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 168,
+        "G": 7,
+        "BG": 147,
+        "S": 5,
+        "BS": 66,
+        "GS": 22,
+        "E": 3,
+        "BE": 63,
+        "GE": 21,
+        "SE": 9
+      }
+    },
+    "G3_N64": {
+      "gamma": 3,
+      "rhs_count": 64,
+      "raw_count": 476,
+      "threshold": 134,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 19,
+        "G": 1,
+        "BG": 7,
+        "S": 1,
+        "BS": 12,
+        "GS": 1,
+        "BGS": 5,
+        "E": 1,
+        "BE": 7,
+        "GE": 1,
+        "SE": 1,
+        "BSE": 5,
+        "GSE": 1,
+        "BGE": 1
+      }
+    },
+    "G3_N128": {
+      "gamma": 3,
+      "rhs_count": 128,
+      "raw_count": 788,
+      "threshold": 521,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 41,
+        "G": 3,
+        "BG": 19,
+        "S": 1,
+        "BS": 24,
+        "GS": 1,
+        "BGS": 9,
+        "E": 1,
+        "BE": 15,
+        "GE": 1,
+        "SE": 1,
+        "BSE": 9,
+        "GSE": 1,
+        "BGE": 1
+      }
+    },
+    "G3_N256": {
+      "gamma": 3,
+      "rhs_count": 256,
+      "raw_count": 1308,
+      "threshold": 4117,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 47,
+        "G": 3,
+        "BG": 39,
+        "S": 3,
+        "BS": 52,
+        "GS": 9,
+        "BGS": 17,
+        "E": 3,
+        "BE": 37,
+        "GE": 9,
+        "SE": 9,
+        "BSE": 17,
+        "GSE": 5,
+        "BGE": 5
+      }
+    },
+    "G3_N512": {
+      "gamma": 3,
+      "rhs_count": 512,
+      "raw_count": 2515,
+      "threshold": 12481,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 126,
+        "G": 3,
+        "BG": 81,
+        "S": 3,
+        "BS": 110,
+        "GS": 9,
+        "BGS": 31,
+        "E": 3,
+        "BE": 81,
+        "GE": 9,
+        "SE": 9,
+        "BSE": 31,
+        "GSE": 5,
+        "BGE": 10
+      }
+    },
+    "G3_N1024": {
+      "gamma": 3,
+      "rhs_count": 1024,
+      "raw_count": 4244,
+      "threshold": 66072,
+      "effective_family_counts": {
+        "NR": 1,
+        "B": 234,
+        "G": 7,
+        "BG": 279,
+        "S": 5,
+        "BS": 180,
+        "GS": 27,
+        "BGS": 69,
+        "E": 3,
+        "BE": 115,
+        "GE": 21,
+        "SE": 11,
+        "BSE": 37,
+        "GSE": 9,
+        "BGE": 26
+      }
+    }
+  },
+  "g2_full_exhaustive_reference": "NOT_RUN_OPTIONAL_51070_CLASSES; VALUE_CERTIFIED_BY_NESTING",
+  "mapping": {
+    "atomic_collision": {
+      "equivalent_single_atoms": [
+        7,
+        10
+      ],
+      "other_atoms": [
+        217,
+        295
+      ],
+      "shared_rhs": 1,
+      "first_legal": true,
+      "second_legal": false
+    },
+    "policies": [
+      {
+        "policy": "P1",
+        "inventory_headroom": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 23770,
+            "inventory_upper_slack": 76229
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 14262,
+            "inventory_upper_slack": 85737
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 9508,
+            "inventory_upper_slack": 90491
+          }
+        ],
+        "row_checks": 7,
+        "all_atomic_profiles_pass_envelope_witness": true,
+        "full_matrix_replays": 6,
+        "envelope_service": 7350
+      },
+      {
+        "policy": "P2",
+        "inventory_headroom": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              1338,
+              24,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 28000,
+            "inventory_upper_slack": 71999
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              1338,
+              24,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 16800,
+            "inventory_upper_slack": 83199
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              1338,
+              24,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 11200,
+            "inventory_upper_slack": 88799
+          }
+        ],
+        "row_checks": 7,
+        "all_atomic_profiles_pass_envelope_witness": true,
+        "full_matrix_replays": 6,
+        "envelope_service": 7350
+      },
+      {
+        "policy": "P3",
+        "inventory_headroom": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              713,
+              135,
+              6
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 21750,
+            "inventory_upper_slack": 78249
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              713,
+              135,
+              6
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 13050,
+            "inventory_upper_slack": 86949
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              713,
+              135,
+              6
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 8700,
+            "inventory_upper_slack": 91299
+          }
+        ],
+        "row_checks": 7,
+        "all_atomic_profiles_pass_envelope_witness": true,
+        "full_matrix_replays": 6,
+        "envelope_service": 7350
+      },
+      {
+        "policy": "P4",
+        "inventory_headroom": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              1338,
+              0,
+              162
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 28000,
+            "inventory_upper_slack": 71999
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              1338,
+              0,
+              162
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 16800,
+            "inventory_upper_slack": 83199
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              1338,
+              0,
+              162
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 11200,
+            "inventory_upper_slack": 88799
+          }
+        ],
+        "row_checks": 7,
+        "all_atomic_profiles_pass_envelope_witness": true,
+        "full_matrix_replays": 6,
+        "envelope_service": 7350
+      }
+    ]
+  },
+  "certificate": {
+    "status": "PASS_IMPLICIT_EVENT_SEPARATION_EXACT_PROTOTYPE",
+    "gamma1_complete_worst_rhs": [
+      {
+        "policy": "P1",
+        "W": 11775,
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ]
+      },
+      {
+        "policy": "P2",
+        "W": 11775,
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ]
+      },
+      {
+        "policy": "P3",
+        "W": 11775,
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ]
+      },
+      {
+        "policy": "P4",
+        "W": 11775,
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ]
+      }
+    ],
+    "matched_benchmarks": {
+      "1": 4,
+      "2": 20,
+      "3": 20
+    },
+    "full_independent_certificate": {
+      "P1": {
+        "policy": "P1",
+        "full_certificate": true,
+        "value": 11775,
+        "rhs_id": 16106127360,
+        "root_branches": 414,
+        "trajectories_covered": 2657350,
+        "replay_matrix_rows": 23019,
+        "maximum_matrix_residual": 0,
+        "independent_milps": 6,
+        "witness_uses": {
+          "00003_envelope": 9,
+          "00004_envelope": 9,
+          "00005_envelope": 9,
+          "00006_envelope": 372,
+          "00002_leaf": 15
+        },
+        "seconds": 11.772918700007722
+      },
+      "P2": {
+        "policy": "P2",
+        "full_certificate": true,
+        "value": 11775,
+        "rhs_id": 16106127360,
+        "root_branches": 414,
+        "trajectories_covered": 2657350,
+        "replay_matrix_rows": 23019,
+        "maximum_matrix_residual": 0,
+        "independent_milps": 6,
+        "witness_uses": {
+          "00003_envelope": 9,
+          "00004_envelope": 9,
+          "00005_envelope": 9,
+          "00006_envelope": 372,
+          "00002_leaf": 15
+        },
+        "seconds": 10.459408900002018
+      },
+      "P3": {
+        "policy": "P3",
+        "full_certificate": true,
+        "value": 11775,
+        "rhs_id": 16106127360,
+        "root_branches": 414,
+        "trajectories_covered": 2657350,
+        "replay_matrix_rows": 23019,
+        "maximum_matrix_residual": 0,
+        "independent_milps": 6,
+        "witness_uses": {
+          "00003_envelope": 9,
+          "00004_envelope": 9,
+          "00005_envelope": 9,
+          "00006_envelope": 372,
+          "00002_leaf": 15
+        },
+        "seconds": 10.897986500058323
+      },
+      "P4": {
+        "policy": "P4",
+        "full_certificate": true,
+        "value": 11775,
+        "rhs_id": 16106127360,
+        "root_branches": 414,
+        "trajectories_covered": 2657350,
+        "replay_matrix_rows": 23019,
+        "maximum_matrix_residual": 0,
+        "independent_milps": 6,
+        "witness_uses": {
+          "00003_envelope": 9,
+          "00004_envelope": 9,
+          "00005_envelope": 9,
+          "00006_envelope": 372,
+          "00002_leaf": 15
+        },
+        "seconds": 10.678729000035673
+      }
+    },
+    "full_worst_value_only": true,
+    "gamma2_full_value_by_nesting": {
+      "P1": 11775,
+      "P2": 11775,
+      "P3": 11775,
+      "P4": 11775
+    },
+    "all_logged_prunes_replayed": 7038,
+    "maximum_solver_residual": 0.0,
+    "maximum_integer_matrix_residual": 0,
+    "approximate_or_incomplete_runs": 0
+  },
+  "pytest_passed": 93,
+  "pytest_failed": 0,
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "solver_calls": {
+    "reference": 3276,
+    "implicit": 457,
+    "mapping_audit": 4,
+    "independent_full_verification": 24
+  },
+  "btb_role": "BTB_NOT_PRIMARY_FULL_SET_MECHANISM",
+  "btb_used_for_order_and_skip_envelope_only": true,
+  "outer_ccg_run": false,
+  "new_outer_algorithm": false
+}

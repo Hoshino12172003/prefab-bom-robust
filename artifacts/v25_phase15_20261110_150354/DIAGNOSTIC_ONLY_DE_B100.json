@@ -1,0 +1,32 @@
+{
+  "label": "DIAGNOSTIC_ONLY",
+  "gurobi_version": [
+    13,
+    0,
+    1
+  ],
+  "status": "OPTIMAL",
+  "seconds": 17.20799994468689,
+  "solution_count": 2,
+  "nodes": 1.0,
+  "budget": 875600.0,
+  "variables": 231172,
+  "integer_variables": 231171,
+  "constraints": 86881,
+  "certified": true,
+  "objective": 0.9312142857142857,
+  "bound": 0.9312142857142857,
+  "gap": 0.0,
+  "buffers": {
+    "x_cell_kit": 0,
+    "x_t1_pack": 0,
+    "x_oem_pack": 100
+  },
+  "budget_used": 875600.0,
+  "budget_slack": 0.0,
+  "solver_constraint_residual": 0.0,
+  "solver_bound_residual": 0.0,
+  "solver_integrality_residual": 0.0,
+  "quality_residual": 0.0,
+  "worst_on_time": 26074.0
+}

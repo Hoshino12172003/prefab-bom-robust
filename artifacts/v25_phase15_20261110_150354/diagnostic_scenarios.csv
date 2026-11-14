@@ -1,0 +1,5 @@
+﻿run,label,scenario,demand,total_on_time,service_rate,scenario_objective,total_delivered,bev_on_time,non_bev_on_time,shared_de_objective,active_reduction,max_balance_residual,max_capacity_residual,max_order_residual,weighted_on_time,at_returned_worst
+DE_B100,DIAGNOSTIC_ONLY,NOM,28000,26075,0.93125,0.93125,26075,1551,24524,0.9312142857142857,none,0,0,0,26075.0,False
+DE_B100,DIAGNOSTIC_ONLY,L1_CERT,28000,26074,0.9312142857142857,0.9312142857142857,26074,1077,24997,0.9312142857142857,L1 t66 component arrivals -50%,0,0,0,26074.0,True
+DE_B100,DIAGNOSTIC_ONLY,L2_CERT,28000,26075,0.93125,0.93125,26075,1547,24528,0.9312142857142857,L2 t64-t66 pack production -50%,0,0,0,26075.0,False
+DE_B100,DIAGNOSTIC_ONLY,L3_CERT,28000,26074,0.9312142857142857,0.9312142857142857,26074,1551,24523,0.9312142857142857,L3 t64-t66 pack transport -50%,0,0,0,26074.0,True

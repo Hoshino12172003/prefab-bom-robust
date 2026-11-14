@@ -1,0 +1,7 @@
+﻿resource,unit,available_or_upper_per_cycle,full_demand_requirement,headroom,vehicle_upper,source,full_demand_screen
+shared upstream cell transport,cell components,4116,60060,-55944,205,"capacity_at_arc, BOM, operations",FAIL
+pack production,packs,4116,3003,1113,4116,capacity_at_arc,AGGREGATE_SCREEN_ONLY
+T1 to OEM pack transport,packs,4116,3003,1113,4116,capacity_at_arc,AGGREGATE_SCREEN_ONLY
+OEM assembly,vehicles,28000,28000,0,28000,capacity_at_arc,AGGREGATE_SCREEN_ONLY
+combined BEV material upper,BEV VIN,205,3003,-2798,205,cyclic material conservation,FAIL
+optimistic total on-time upper,all VIN,25202,28000,-2798,25202,"non-BEV demand + BEV upper, capped by assembly",FAIL

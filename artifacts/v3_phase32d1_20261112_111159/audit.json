@@ -1,0 +1,194 @@
+{
+  "status": "IMPLICIT_SEPARATION_JUSTIFIED",
+  "label": "STRESS_TEST_ONLY",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "frozen_inputs": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    },
+    "v3_phase32p_20261111_224834": {
+      "entries": 1522,
+      "manifest_sha256": "364bcbdc06e5d68caa112c39deea858afbd0c08ceec9a65fa701f0a6569aaa42"
+    },
+    "v3_phase32c_20261112_093602": {
+      "entries": 3107,
+      "manifest_sha256": "eb141bee6d75bc4fbc115382b141fd16bc22fbeae7e24d5fe8ffc88f13c67644"
+    }
+  },
+  "frozen_uncertainty": {
+    "resources": [
+      "L1_CELL_RECEIPTS",
+      "L2_PACK_PRODUCTION",
+      "L3_PACK_TRANSPORT"
+    ],
+    "gamma": 6,
+    "concurrency": 2,
+    "severity": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "duration": [
+      1,
+      3,
+      5
+    ],
+    "recovery_steps": 0
+  },
+  "raw_trajectories": 287443,
+  "effective_RHS": 38527,
+  "full_bound_checks": 154108,
+  "bound_violation_count": 0,
+  "first_batch_calls": 128,
+  "all_full_recourse_calls": 132,
+  "full_worst_integer_matrix_replays": 10086,
+  "maximum_constructive_integer_matrix_residual": 0,
+  "independent_reference": "Exact historical reduction, full effective-RHS enumeration for all four policies",
+  "complete_BTB_explicit_oracle": false,
+  "reference_used_for_BTB_pruning": false,
+  "full_CCG_calls": 0,
+  "x_reoptimizations": 0,
+  "new_separation_rule": false,
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "instruction_sha256": "82bcb58c10f3e150b9e6de2f6d0fe9348ddd4b0884386d920fcda6cfe3b736e1",
+  "catalog_sha256": "98845f7af75797f8f2b68b9aafb4d979ff3397fb9c63addb102999e1273460b0",
+  "mapping_sha256": "e70a47fb1340dea99f843b80cd00cb98ce967e8f969d8113103394bbce63da62",
+  "policies": [
+    {
+      "label": "STRESS_TEST_ONLY",
+      "policy": "P1",
+      "vector": [
+        915,
+        0,
+        0
+      ],
+      "origin": "BASE_B100",
+      "effective_rhs": 38527,
+      "exact": 0,
+      "pruned": 0,
+      "MILP_required": 38527,
+      "exact_rate": 0.0,
+      "prune_rate": 0.0,
+      "MILP_fraction": 1.0,
+      "first_batch_solved": 32,
+      "remaining_BTB_MILPs": 38495,
+      "BTB_prefix_incumbent": 27039,
+      "independent_reference_worst": 26652,
+      "worst_RHS_ties": 4942,
+      "worst_legal_trajectory_ties": 11049,
+      "direct_worst_classes_replayed": 1,
+      "constructive_worst_matrix_checks": 4942,
+      "independent_reference_complete": true,
+      "BTB_full_set_certificate": false,
+      "maximum_observed_solver_residual": 0.0,
+      "extrapolated_serial_full_MILP_hours": 13.903726531817357
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "policy": "P2",
+      "vector": [
+        1338,
+        24,
+        0
+      ],
+      "origin": "BASE_B150",
+      "effective_rhs": 38527,
+      "exact": 0,
+      "pruned": 0,
+      "MILP_required": 38527,
+      "exact_rate": 0.0,
+      "prune_rate": 0.0,
+      "MILP_fraction": 1.0,
+      "first_batch_solved": 32,
+      "remaining_BTB_MILPs": 38495,
+      "BTB_prefix_incumbent": 27063,
+      "independent_reference_worst": 27063,
+      "worst_RHS_ties": 101,
+      "worst_legal_trajectory_ties": 173,
+      "direct_worst_classes_replayed": 1,
+      "constructive_worst_matrix_checks": 101,
+      "independent_reference_complete": true,
+      "BTB_full_set_certificate": false,
+      "maximum_observed_solver_residual": 0.0,
+      "extrapolated_serial_full_MILP_hours": 13.915610439458609
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "policy": "P3",
+      "vector": [
+        713,
+        135,
+        6
+      ],
+      "origin": "R3_S75_D7_ABRUPT_B100",
+      "effective_rhs": 38527,
+      "exact": 0,
+      "pruned": 0,
+      "MILP_required": 38527,
+      "exact_rate": 0.0,
+      "prune_rate": 0.0,
+      "MILP_fraction": 1.0,
+      "first_batch_solved": 32,
+      "remaining_BTB_MILPs": 38495,
+      "BTB_prefix_incumbent": 27180,
+      "independent_reference_worst": 26591,
+      "worst_RHS_ties": 4942,
+      "worst_legal_trajectory_ties": 11049,
+      "direct_worst_classes_replayed": 1,
+      "constructive_worst_matrix_checks": 4942,
+      "independent_reference_complete": true,
+      "BTB_full_set_certificate": false,
+      "maximum_observed_solver_residual": 0.0,
+      "extrapolated_serial_full_MILP_hours": 13.736277287552152
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "policy": "P4",
+      "vector": [
+        1338,
+        0,
+        162
+      ],
+      "origin": "BASE_B200",
+      "effective_rhs": 38527,
+      "exact": 0,
+      "pruned": 0,
+      "MILP_required": 38527,
+      "exact_rate": 0.0,
+      "prune_rate": 0.0,
+      "MILP_fraction": 1.0,
+      "first_batch_solved": 32,
+      "remaining_BTB_MILPs": 38495,
+      "BTB_prefix_incumbent": 27201,
+      "independent_reference_worst": 27201,
+      "worst_RHS_ties": 101,
+      "worst_legal_trajectory_ties": 173,
+      "direct_worst_classes_replayed": 1,
+      "constructive_worst_matrix_checks": 101,
+      "independent_reference_complete": true,
+      "BTB_full_set_certificate": false,
+      "maximum_observed_solver_residual": 0.0,
+      "extrapolated_serial_full_MILP_hours": 14.135072070316635
+    }
+  ],
+  "tests_passed": 97,
+  "uncertainty_calibration": "HOLD_UNCERTAINTY_CALIBRATION",
+  "terminal_stage": "PHASE32D1"
+}

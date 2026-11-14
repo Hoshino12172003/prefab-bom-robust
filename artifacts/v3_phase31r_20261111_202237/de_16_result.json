@@ -1,0 +1,30 @@
+{
+  "label": "STRESS_TEST_ONLY",
+  "scenario_count": 16,
+  "scenarios": "DE_ENGINE_61|DE_GEAR_61|DE_ENGINE_68|DE_GEAR_68|DE_ENGINE_64|DE_GEAR_64|DE_ENGINE_66|DE_GEAR_66|DE_ENGINE_62|DE_GEAR_62|DE_ENGINE_67|DE_GEAR_67|DE_ENGINE_63|DE_GEAR_63|DE_ENGINE_65|DE_GEAR_65",
+  "matrix_distinct_incomparable_rhs": 16,
+  "integers": 1212964,
+  "constraints": 368321,
+  "nonzeros": 3489475,
+  "peak_working_set_bytes": 2267774976,
+  "gurobi_peak_gb": 2.311280215,
+  "wall_s": 56.470135799841955,
+  "optimize_wall_s": 44.88109669997357,
+  "solver_seconds": 44.88000011444092,
+  "nodes": 1,
+  "status": "OPTIMAL",
+  "Q": 26465,
+  "bound": 26465.0,
+  "gap": 0.0,
+  "portfolio": [
+    915,
+    0,
+    0
+  ],
+  "solver_residual": 0.0,
+  "integer_matrix_replay": true,
+  "time_limit_s": 90,
+  "soft_memory_gb": 3,
+  "presolve": "AUTO",
+  "log": "logs/DE_16.log"
+}

@@ -1,0 +1,103 @@
+{
+  "status": "HOLD_ALGORITHM_INNOVATION_PROBLEM_REDUCIBLE",
+  "formal_design": "FROZEN_EXPERIMENTAL_DESIGN",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "frozen_input_manifests": {
+    "artifacts/v25_phase20_20261110_203851/sha256_manifest.csv": {
+      "sha256": "3fde397a0070bd7f41dd961c94f8bd1af2ad2076b424df2a8ad01b0db1c32aae",
+      "entries": 26
+    },
+    "artifacts/v25_phase21_20261110_212532/sha256_manifest.csv": {
+      "sha256": "3c9e561d4ee9150c3000436981fcaed545390e6f339e0fa85afe5a3c933c24b6",
+      "entries": 378
+    },
+    "artifacts/v25_phase21a_20261110_214856/sha256_manifest.csv": {
+      "sha256": "d0602d3e7d6e602068019dea784748628cfb078053a4e889080918e670e318df",
+      "entries": 114
+    },
+    "artifacts/v25_phase21b_20261110_221400/sha256_manifest.csv": {
+      "sha256": "ae43dc651d2464a9741fc1b96f49b2d58377824a40dd5c6e6b10f98af69dbf03",
+      "entries": 315
+    }
+  },
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "request_sha256": "d89ce4ff7891da0089ffd2e35a709096641a71a9d3d8bd4c0b6a1b87c5835e72",
+  "unchanged_code_sha256": {
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\examples\\run_v25_formal.py": "7cc29072ea2cbf101793fd5e7536c771f23b27217d401ea829a089430297d985",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\data.py": "f1a9601c7ff2ecad262524c6003d3238c36b880cc04d51cb15f5ff31732e0cc4",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\model.py": "5ec55de3c7650a6123897c1c5a5dd9c3524166921f4c25af287b91ccbf6fc116",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\source.py": "c85d305dd3fb04e7ef3c5d8b650557036b7af519368764d1332a9bb8cbc9b21b",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\formal.py": "93f08b270be83f8bcb7f4f16df30470a65540e7b6484efe4f90aebe1c1970d96"
+  },
+  "severity": [
+    "1/4",
+    "1/2",
+    "3/4"
+  ],
+  "duration_periods": [
+    4,
+    7,
+    11
+  ],
+  "nominal_horizon": 14,
+  "candidate_profile_count": 55,
+  "unique_service_profiles": 16,
+  "nominal_reference_per_cost_and_budget": 36,
+  "primary_managerial_risk_budget_cells": 81,
+  "t1_core_positive": 109,
+  "t1_core_cases": 972,
+  "t1_sensitivity_positive": 109,
+  "t1_sensitivity_cases": 972,
+  "t1_max_core_service_effect": 171,
+  "t1_conclusion": "T1_POSITION_WEAK_MECHANISM",
+  "t1_role": "INTERMEDIATE_BENCHMARK_POSITION",
+  "recourse_matches": 184,
+  "new_fixed_policy_direct": 40,
+  "archived_fixed_policy_replays": 144,
+  "benchmark_runs": 6,
+  "benchmark_statuses": {
+    "OPTIMAL": 6
+  },
+  "benchmark_largest_variables": 9860,
+  "optimizer_calls": 54,
+  "algorithm_calls": 0,
+  "formal_managerial_direct_sweep_calls": 0,
+  "algorithm_gate": "FAIL_REDUCIBLE_EXACT_SERVICE_AND_FIRST_STAGE_COVER",
+  "command": "python -B artifacts/v25_phase22_20261110_222857/run_phase22.py",
+  "tests": {
+    "command": "python -m pytest -p no:cacheprovider -vv tests/test_v25_phase20_prospective_spec.py tests/test_v25_phase21_calibration.py tests/test_v25_phase21a_joint_policy.py tests/test_v25_phase21b_mechanism.py tests/test_v25_phase22_design_and_reducibility.py",
+    "exit_code": 0,
+    "summary": "35 passed in 2.04s",
+    "log": "pytest.txt"
+  },
+  "analytical_proof_storage_checks": {
+    "nonbattery_oem_closing_max": {
+      "D83": 868,
+      "G1Z": 785,
+      "Q2J": 2049,
+      "Q4H": 263
+    },
+    "additional_unconsumed_nonbattery_bound": 3003,
+    "source_daily_peak_due": 709,
+    "source_oem_daily_assembly_capacity": 2000,
+    "component_bound_max": 16840,
+    "source_stock_cap": 99999
+  },
+  "gurobi_version": "13.0.1",
+  "python_version": "3.12.7",
+  "solver_logs": "logs/",
+  "direct_benchmark_summary": {
+    "guarantee_status": "OPTIMAL",
+    "max_solver_residual": 0.0,
+    "max_optimize_wall_s": 0.09322079992853105,
+    "peak_working_set_bytes": 87457792,
+    "max_gap": 0.0,
+    "scenarios_checked": [
+      1,
+      2
+    ],
+    "predeclared_solver_resource_limit_observed": false
+  },
+  "sha256_manifest": "sha256_manifest.csv"
+}

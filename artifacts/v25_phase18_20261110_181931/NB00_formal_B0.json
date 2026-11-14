@@ -1,0 +1,38 @@
+{
+  "status": 2,
+  "runtime": 0.26200008392333984,
+  "work": 0.3184436025108184,
+  "variables": 59363,
+  "integer_variables": 59363,
+  "constraints": 23288,
+  "nodes": 1.0,
+  "status_name": "OPTIMAL",
+  "objective": 0.2943571428571428,
+  "bound": 0.2943571428571429,
+  "mip_gap": 0.0,
+  "on_time": 8242,
+  "bev": 0,
+  "non_bev": 8242,
+  "late": 0,
+  "service_rate": 0.2943571428571429,
+  "material_balance_residual": 0,
+  "max_gurobi_residual": 0.0,
+  "certified": true,
+  "buffers": {
+    "x_cell_kit": 0,
+    "x_t1_pack": 0,
+    "x_oem_pack": 0
+  },
+  "exact_budget_residual_usd": 0.0,
+  "physical_upper": 24997,
+  "independent_upper": {
+    "method": "exact rational LP multiplier bound with valid variable upper corrections",
+    "lp_solver_value": 8242.0,
+    "numerator": 82420000000000,
+    "denominator": 10000000000,
+    "correction_numerator": 0,
+    "integer_upper": 8242
+  },
+  "independent_exact_certificate": true,
+  "feasible_witness": 8242
+}

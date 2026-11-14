@@ -1,0 +1,418 @@
+[
+  {
+    "run": "P1_G1_N355_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 390,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G2_N128_L2",
+    "replayed_nodes": 48,
+    "certified_prunes": 47,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G2_N256_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G2_N32_L0",
+    "replayed_nodes": 208,
+    "certified_prunes": 0,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G2_N32_L1",
+    "replayed_nodes": 175,
+    "certified_prunes": 160,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G2_N32_L2",
+    "replayed_nodes": 76,
+    "certified_prunes": 73,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G2_N512_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G2_N64_L2",
+    "replayed_nodes": 84,
+    "certified_prunes": 81,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G3_FULL_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 414,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G3_N1024_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G3_N128_L2",
+    "replayed_nodes": 126,
+    "certified_prunes": 123,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G3_N256_L2",
+    "replayed_nodes": 63,
+    "certified_prunes": 62,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G3_N512_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P1_G3_N64_L0",
+    "replayed_nodes": 476,
+    "certified_prunes": 0,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G3_N64_L1",
+    "replayed_nodes": 296,
+    "certified_prunes": 281,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P1_G3_N64_L2",
+    "replayed_nodes": 114,
+    "certified_prunes": 111,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P2_G1_N355_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 390,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G2_N128_L2",
+    "replayed_nodes": 48,
+    "certified_prunes": 47,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G2_N256_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G2_N32_L2",
+    "replayed_nodes": 76,
+    "certified_prunes": 73,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P2_G2_N512_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G2_N64_L2",
+    "replayed_nodes": 84,
+    "certified_prunes": 81,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P2_G3_FULL_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 414,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G3_N1024_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G3_N128_L2",
+    "replayed_nodes": 126,
+    "certified_prunes": 123,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P2_G3_N256_L2",
+    "replayed_nodes": 63,
+    "certified_prunes": 62,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G3_N512_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P2_G3_N64_L2",
+    "replayed_nodes": 114,
+    "certified_prunes": 111,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P3_G1_N355_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 390,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G2_N128_L2",
+    "replayed_nodes": 48,
+    "certified_prunes": 47,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G2_N256_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G2_N32_L2",
+    "replayed_nodes": 76,
+    "certified_prunes": 73,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P3_G2_N512_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G2_N64_L2",
+    "replayed_nodes": 84,
+    "certified_prunes": 81,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P3_G3_FULL_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 414,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G3_N1024_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G3_N128_L2",
+    "replayed_nodes": 126,
+    "certified_prunes": 123,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P3_G3_N256_L2",
+    "replayed_nodes": 63,
+    "certified_prunes": 62,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G3_N512_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P3_G3_N64_L2",
+    "replayed_nodes": 114,
+    "certified_prunes": 111,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P4_G1_N355_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 391,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G2_N128_L2",
+    "replayed_nodes": 48,
+    "certified_prunes": 47,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G2_N256_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G2_N32_L2",
+    "replayed_nodes": 76,
+    "certified_prunes": 73,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P4_G2_N512_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G2_N64_L2",
+    "replayed_nodes": 84,
+    "certified_prunes": 81,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P4_G3_FULL_L2",
+    "replayed_nodes": 415,
+    "certified_prunes": 414,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G3_N1024_L2",
+    "replayed_nodes": 93,
+    "certified_prunes": 92,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G3_N128_L2",
+    "replayed_nodes": 126,
+    "certified_prunes": 123,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  },
+  {
+    "run": "P4_G3_N256_L2",
+    "replayed_nodes": 63,
+    "certified_prunes": 62,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G3_N512_L2",
+    "replayed_nodes": 83,
+    "certified_prunes": 82,
+    "frontier_size": 0,
+    "lower": 11775,
+    "incumbent": 11775
+  },
+  {
+    "run": "P4_G3_N64_L2",
+    "replayed_nodes": 114,
+    "certified_prunes": 111,
+    "frontier_size": 0,
+    "lower": 12300,
+    "incumbent": 12300
+  }
+]

@@ -1,0 +1,8 @@
+﻿metric,n,min,max,mean,median,standard_deviation,coefficient_of_variation
+total_inventory,14,13527,31067,21674.85714285714,22431.0,4906.188262317919,0.22635389151502355
+battery_component_kit_equivalent,14,0,0,0,0.0,0.0,NA
+t1_pack,14,0,0,0,0.0,0.0,NA
+oem_pack,14,0,0,0,0.0,0.0,NA
+total_in_transit,14,14700,14700,14700,14700.0,0.0,0.0
+reachable_bev_supply,14,0,0,0,0.0,0.0,NA
+nominal_service_rate,14,0.2764285714285714,0.53625,0.3954668367346939,0.37882142857142853,0.08728446952113297,0.22071248816165423

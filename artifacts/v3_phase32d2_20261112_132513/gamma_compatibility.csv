@@ -1,0 +1,10 @@
+gamma,duration,required_exposures,passes_exposure_budget
+2,4,4,False
+2,7,7,False
+2,11,11,False
+4,4,4,True
+4,7,7,False
+4,11,11,False
+6,4,4,True
+6,7,7,False
+6,11,11,False

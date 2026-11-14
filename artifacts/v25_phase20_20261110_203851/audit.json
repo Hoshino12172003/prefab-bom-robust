@@ -1,0 +1,942 @@
+{
+  "status": "PASS_PROSPECTIVE_INSTANCE_SPEC_FROZEN",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "specification": "prospective_manifest.json",
+  "source_checks": {
+    "source_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "sheet_rows": {
+      "products": 28049,
+      "nodes": 12,
+      "nodes_inflow": 44,
+      "arcs": 11,
+      "capacity_at_arc": 154,
+      "max_flow_product_per_arc": 365,
+      "max_flow_group_per_arc": 20,
+      "operations": 15,
+      "BOM": 87059,
+      "demands": 28000,
+      "initial_inventories": 82,
+      "initial_flows": 117
+    },
+    "vin_count": 28000,
+    "groups": 1286,
+    "bev_vin_count": 3003,
+    "bev_groups": 28,
+    "demand_raw_total": 28000.0,
+    "demand_model_total": 28000,
+    "initial_stock_raw_total": 23912.0,
+    "initial_stock_model_total": 23912,
+    "historical_dispatch_total": 104219,
+    "historical_dispatch_raw_total": 104219.0,
+    "historical_arrivals_in_window_total": 67739,
+    "cell_arrivals_in_window": {
+      "componment_battery1@66": 9470,
+      "componment_battery1@73": 4220,
+      "componment_battery2@66": 5682,
+      "componment_battery2@73": 2532,
+      "componment_battery3@66": 3788,
+      "componment_battery3@73": 1688
+    },
+    "historical_rows": [
+      [
+        "battery-supplier_inv",
+        "zp7",
+        "BEV",
+        60,
+        200
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D02",
+        60,
+        44
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D2I",
+        60,
+        37
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D33",
+        60,
+        150
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D36",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D60",
+        60,
+        20
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D64",
+        60,
+        93
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D80",
+        60,
+        64
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "D83",
+        60,
+        159
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DB0",
+        60,
+        6
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DB8",
+        60,
+        15
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE2",
+        60,
+        6
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE4",
+        60,
+        32
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DE5",
+        60,
+        61
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DF4",
+        60,
+        4
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DF6",
+        60,
+        5
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DG6",
+        60,
+        279
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DG8",
+        60,
+        167
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK7",
+        60,
+        49
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK8",
+        60,
+        202
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DK9",
+        60,
+        7
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DM4",
+        60,
+        14
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN1",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN4",
+        60,
+        287
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DN6",
+        60,
+        15
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DP2",
+        60,
+        46
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DQ4",
+        60,
+        33
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DQ9",
+        60,
+        99
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DR8",
+        60,
+        22
+      ],
+      [
+        "engine-supplier_inv",
+        "zp7",
+        "DS9",
+        60,
+        70
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0C",
+        59,
+        85
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0C",
+        60,
+        100
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0K",
+        59,
+        573
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0K",
+        60,
+        661
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0L",
+        59,
+        39
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0L",
+        60,
+        35
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0R",
+        59,
+        18
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G0R",
+        60,
+        28
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1A",
+        59,
+        245
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1A",
+        60,
+        264
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1C",
+        59,
+        452
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1C",
+        60,
+        457
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1D",
+        59,
+        295
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1D",
+        60,
+        296
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1Z",
+        59,
+        293
+      ],
+      [
+        "gear-supplier_inv",
+        "zp7",
+        "G1Z",
+        60,
+        159
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        46,
+        9470
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        53,
+        4220
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery1",
+        60,
+        4240
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        46,
+        5682
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        53,
+        2532
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery2",
+        60,
+        2544
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        46,
+        3788
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        53,
+        1688
+      ],
+      [
+        "battery-supplier_trans",
+        "battery-supplier_prod",
+        "componment_battery3",
+        60,
+        1696
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        39,
+        4732
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        46,
+        5269
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        53,
+        5563
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat1",
+        60,
+        5515
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        39,
+        6187
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        46,
+        5582
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        53,
+        5199
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat2",
+        60,
+        5253
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        39,
+        1900
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        46,
+        1923
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        53,
+        1924
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat3",
+        60,
+        1917
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        39,
+        1181
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        46,
+        1226
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        53,
+        1314
+      ],
+      [
+        "seat-supplier_trans",
+        "seat-supplier_prod",
+        "componment_seat4",
+        60,
+        1315
+      ],
+      [
+        "battery-supplier_prod",
+        "battery-supplier_inv",
+        "BEV",
+        60,
+        159
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D02",
+        60,
+        30
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D2I",
+        60,
+        49
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D33",
+        60,
+        112
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D36",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D60",
+        60,
+        12
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D64",
+        60,
+        135
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D80",
+        60,
+        80
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "D83",
+        60,
+        384
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DB0",
+        60,
+        10
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DB8",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE2",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE4",
+        60,
+        41
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DE5",
+        60,
+        50
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DF4",
+        60,
+        3
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DF6",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DG6",
+        60,
+        233
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DG8",
+        60,
+        117
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK7",
+        60,
+        79
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK8",
+        60,
+        183
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DK9",
+        60,
+        11
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DM4",
+        60,
+        9
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN1",
+        60,
+        2
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN4",
+        60,
+        223
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DN6",
+        60,
+        10
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DP2",
+        60,
+        29
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DQ4",
+        60,
+        24
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DQ9",
+        60,
+        88
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DR8",
+        60,
+        18
+      ],
+      [
+        "engine-supplier_prod",
+        "engine-supplier_inv",
+        "DS9",
+        60,
+        50
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0C",
+        59,
+        82
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0C",
+        60,
+        94
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0K",
+        59,
+        688
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0K",
+        60,
+        540
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0L",
+        59,
+        51
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0L",
+        60,
+        29
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0R",
+        59,
+        26
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G0R",
+        60,
+        15
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1A",
+        59,
+        259
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1A",
+        60,
+        234
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1C",
+        59,
+        515
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1C",
+        60,
+        430
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1D",
+        59,
+        315
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1D",
+        60,
+        274
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1Z",
+        59,
+        64
+      ],
+      [
+        "gear-supplier_prod",
+        "gear-supplier_inv",
+        "G1Z",
+        60,
+        384
+      ]
+    ],
+    "capacity_basis": "RAW_XLSB"
+  },
+  "diagnostics": [
+    {
+      "scope": "BEV3003",
+      "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+      "vehicles": 3003,
+      "status": 2,
+      "fixed_due_withdrawals_feasible": true,
+      "exact_material_residual": 0,
+      "max_solver_residual": 0.0,
+      "variables": 3556,
+      "constraints": 2261,
+      "seconds": 0.009000062942504883
+    },
+    {
+      "scope": "FULL28000",
+      "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+      "vehicles": 28000,
+      "status": 2,
+      "fixed_due_withdrawals_feasible": true,
+      "exact_material_residual": 0,
+      "max_solver_residual": 0.0,
+      "variables": 3556,
+      "constraints": 2261,
+      "seconds": 0.01699995994567871
+    }
+  ],
+  "structural_optimizer_calls": 2,
+  "diagnostic_command": "python artifacts/v25_phase20_20261110_203851/non_battery_diagnostic.py",
+  "runtime": {
+    "python": "3.12.7",
+    "gurobi": "13.0.1",
+    "diagnostic_exit_code": 0,
+    "solver_version_evidence": "BEV3003.log; FULL28000.log"
+  },
+  "formal_optimizer_calls": 0,
+  "algorithm_optimizer_calls": 0,
+  "reliability_tests_executed": 0,
+  "retained_states": {
+    "1.6": "PASS_ROOT_CAUSE_FIXED_AND_ALL_FORMAL_RUNS_RECERTIFIED",
+    "1.7": "HOLD_SHORTAGE_UNIT_UNIDENTIFIED",
+    "1.10": "PASS_WITH_EXPLICIT_MODEL_ADAPTATIONS"
+  },
+  "clean_baseline": "SOURCE_SUPPORTED_CLEAN_BASELINE_NOT_IDENTIFIED",
+  "managerial_gate": "HOLD_FINAL_POSITION_COST_CALIBRATION",
+  "input_sha256": {
+    "external_inputs/Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products.zip": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+    "external_inputs/Optimisation model for multi-item multi-echelon supply chain.pdf": "d1d2cd28fd569b36cef04bb026fc3936556215e7a6d2afdb13b54f1969922c93",
+    "private_inputs/attachment\\已粘贴的文本.txt": "57e207fd1c5fffa77f899d3d7631bd25d78dd4b97ecfdd500783396759f3dc10",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\audit.json": "48b6dfd2dc6e2dd2746a43f2554ad81889d8bafc17d2f0f84effe9b595683ecc",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase17_20261110_163116\\audit.json": "140b3bb5c9a0dfa6ca389a0b236593cac28ea5f24efe5b741a95e9fefbd357c5",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase110_20261110_201422\\audit.json": "c996c54a08a6f9faaa936ed48681efe39174997a049782b8a7f3576fb57c604d",
+    "external_inputs/Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products.zip::Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products/2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\examples\\run_v25_formal.py": "7cc29072ea2cbf101793fd5e7536c771f23b27217d401ea829a089430297d985",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\data.py": "f1a9601c7ff2ecad262524c6003d3238c36b880cc04d51cb15f5ff31732e0cc4",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\model.py": "5ec55de3c7650a6123897c1c5a5dd9c3524166921f4c25af287b91ccbf6fc116",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\source.py": "c85d305dd3fb04e7ef3c5d8b650557036b7af519368764d1332a9bb8cbc9b21b",
+    "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\formal.py": "93f08b270be83f8bcb7f4f16df30470a65540e7b6484efe4f90aebe1c1970d96"
+  },
+  "protected_files": {
+    "phase110_archives": {
+      "checked": 351,
+      "mismatches": 0
+    },
+    "phase110_outputs": {
+      "checked": 62,
+      "mismatches": 0
+    },
+    "model_and_runner": {
+      "checked": 5,
+      "mismatches": 0
+    }
+  },
+  "artifact_checksums": "sha256_manifest.csv",
+  "tests": {
+    "command": "python -m pytest -p no:cacheprovider -vv tests/test_v25_phase20_prospective_spec.py",
+    "exit_code": 0,
+    "summary": "9 passed in 0.18s",
+    "log": "pytest_phase20.txt"
+  }
+}

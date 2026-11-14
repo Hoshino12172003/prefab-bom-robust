@@ -1,0 +1,5 @@
+﻿model,source_products,VINs,nodes,arcs,BOM_rows,operation_rows,periods,flow_variables,inventory_variables,automotive_extension_variables,total_integer_variables,total_constraints,basis
+V3 solved full source compressed,28049,28000,12,11,87059,15,14,19278,19894,36022,75810,23019,actual Gurobi counts
+V3 explicit VIN index,28049,28000,12,11,87059,15,14,393274,393890,784014,1571794,450443,counted from exact active index sets; full explicit solve not executed
+QU2021 published complete case,28049,28000,12,11,87059,15,14,,,,,,paper network/input scale; exact solver dimensions not reported
+Phase 2 focal NR,28049,3003,12,11,87059,15,14,,,,4932,2921,Phase 2.2 Gurobi archive

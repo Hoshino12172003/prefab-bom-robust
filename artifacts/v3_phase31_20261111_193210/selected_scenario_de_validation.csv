@@ -1,0 +1,2 @@
+﻿scope,case,scenario_ids,T1_pack_budget_equivalents,normalized_budget,excluded_position,log,Q,bound,x_C,x_T,x_O,normalized_spend,scenario_service,status,runtime_s,gap,max_solver_residual,exact_matrix_residual,variables,integers,constraints,independent_single_scenario_upper
+HISTORICAL_STRESSED_STATE_DIAGNOSTIC,K644_NR_L1_L3_OPEN,NR|L1|L3,644,17388/19,,logs/K644_NR_L1_L3_OPEN.log,26889,26889,915,0,0,915,"{""NR"": 27055, ""L1"": 26889, ""L3"": 26894}",OPTIMAL,7.8480000495910645,0.0,0.0,0,227434,227434,69061,26889

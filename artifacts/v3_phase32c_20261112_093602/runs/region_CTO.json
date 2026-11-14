@@ -1,0 +1,70 @@
+{
+  "rows": [
+    {
+      "policy_id": "region_CTO",
+      "policy": [
+        713,
+        135,
+        6
+      ],
+      "scenario": "NR",
+      "lower": 0,
+      "upper": 27927,
+      "pack_upper": 27927,
+      "seat_upper": 28000,
+      "exact": 27302,
+      "violation": false,
+      "witness": null,
+      "exact_log": "logs/region_CTO/validate__NR.log"
+    },
+    {
+      "policy_id": "region_CTO",
+      "policy": [
+        713,
+        135,
+        6
+      ],
+      "scenario": "R3_S75_D7_ABRUPT",
+      "lower": 0,
+      "upper": 27287,
+      "pack_upper": 27287,
+      "seat_upper": 28000,
+      "exact": 27286,
+      "violation": false,
+      "witness": null,
+      "exact_log": "logs/region_CTO/validate__R3_S75_D7_ABRUPT.log"
+    }
+  ],
+  "records": [
+    {
+      "tag": "validate__NR",
+      "log": "logs/region_CTO/validate__NR.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7310001850128174,
+      "build_seconds": 0.5145282000303268,
+      "peak_bytes": 200216576,
+      "q": 27302,
+      "bound": 27302,
+      "residual": 0.0,
+      "wall_seconds": 2.4318281000014395
+    },
+    {
+      "tag": "validate__R3_S75_D7_ABRUPT",
+      "log": "logs/region_CTO/validate__R3_S75_D7_ABRUPT.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7680001258850098,
+      "build_seconds": 0.5596686999779195,
+      "peak_bytes": 220049408,
+      "q": 27286,
+      "bound": 27286,
+      "residual": 0.0,
+      "wall_seconds": 1.3858381998725235
+    }
+  ]
+}

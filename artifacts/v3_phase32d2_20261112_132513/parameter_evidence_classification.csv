@@ -1,0 +1,18 @@
+parameter,value,evidence_class,design_role,scope_or_basis
+planning_window,61–74 (14 periods),SOURCE_CASE,historical_window,源模型历史开窗和 Phase 3.1 冻结日历
+severity,0.25,STANDARDIZED_STRESS_LEVEL,CORE,moderate partial loss
+severity,0.50,STANDARDIZED_STRESS_LEVEL,CORE,substantial partial loss
+severity,0.75,STANDARDIZED_STRESS_LEVEL,CORE,severe partial loss
+severity,1.00,SENSITIVITY_ONLY,EXTREME_SENSITIVITY,Aisin 证据说明近全面中断可能发生；无频率或精确 100% 损失率估计
+duration,4,EXTERNAL_INCIDENT_ANCHORED,CORE_CANDIDATE_BLOCKED_AT_GAMMA_2,短时中断；数日级 JIT 复产提供量级锚
+duration,7,EXTERNAL_INCIDENT_ANCHORED,CORE_CANDIDATE_BLOCKED_AT_GAMMA_2_4_6,约一周中断；Toyota/Aichi 和 Ford/Meridian 提供量级锚
+duration,11,EXTERNAL_INCIDENT_ANCHORED,CORE_CANDIDATE_BLOCKED_AT_GAMMA_2_4_6,近窗持续中断；Renesas 跨窗案例提供持续性证据而无精确 11 日估计
+recovery,ABRUPT_RECOVERY,EXTERNAL_INCIDENT_ANCHORED,CORE_CANDIDATE,沿用结束后剩余比例 1；快速替代生产提供机制锚
+recovery,GRADUAL_RECOVERY,SENSITIVITY_ONLY,FROZEN_TWO_STEP_TAIL,"沿用剩余比例 1-2s/3,1-s/3,1；Renesas 只支持渐进机制"
+gamma,"2,4,6",SENSITIVITY_ONLY,ROBUSTNESS_SENSITIVITY,中断资源日期总预算；未估计分布
+concurrency,2,SENSITIVITY_ONLY,FROZEN_BATTERY_SETTING,既有每日活跃资源数上限；无新多分支校准
+episode_start,within horizon,UNCALIBRATED,STRUCTURAL_ELIGIBILITY,冻结规则要求连续事件完整落窗；无起始概率
+resource_period_weight,1,SENSITIVITY_ONLY,FROZEN_UNIT_COUNT,冻结模型等权资源期计数；不构成不同物理资源损失可加性的经验估计
+resource_specific_weight,unestimated,UNCALIBRATED,NO_NEW_WEIGHTS,无数据支持分支专属权重
+gamma_distribution,unestimated,UNCALIBRATED,NO_PROBABILITY_MODEL,事故资料无法估计 P(Gamma=g)
+branch_risk_probability_and_correlation,unestimated,UNCALIBRATED,NO_PROBABILITY_MODEL,事故资料无法识别研究案例分支发生率或相关性

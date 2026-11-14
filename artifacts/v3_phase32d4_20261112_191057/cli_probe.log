@@ -1,0 +1,47 @@
+[Solver environment metadata redacted]
+[Solver environment metadata redacted]
+Set parameter LogFile to value "gurobi.log"
+[Solver environment metadata redacted]
+Academic license - for non-commercial use only - expires 2027-04-10
+
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file artifacts/v3_phase32d4_20261112_191057/cli_probe.mps.gz
+Reading time = 0.09 seconds
+TEST: 1 rows, 1 columns, 1 nonzeros
+
+Read MIP start from file artifacts/v3_phase32d4_20261112_191057/cli_probe.mst.gz
+Read input file 'artifacts/v3_phase32d4_20261112_191057/cli_probe.mst.gz'
+
+Using Gurobi shared library E:\gurobi1301\win64\bin\gurobi130.dll
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 14 threads
+
+Optimize a model with 1 rows, 1 columns and 1 nonzeros (Max)
+Model fingerprint: 0x3217291d
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 1 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [5e+00, 5e+00]
+
+Loaded user MIP start with objective 5
+
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Wrote result file 'artifacts/v3_phase32d4_20261112_191057/cli_probe.sol.gz'
+

@@ -1,0 +1,4 @@
+G2 independent full certificate 11775 raw coverage 71830
+G3 independent full certificate 11775 raw coverage 2657350
+outer zero_policy level 2 exact True W 11775 leaf 2 env 4 nodes 415 frontier 0
+zero_policy independent full certificate 11775 raw coverage 2657350

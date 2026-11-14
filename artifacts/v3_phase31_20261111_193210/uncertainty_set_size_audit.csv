@@ -1,0 +1,13 @@
+﻿gamma_resource_days,concurrency,allowed_durations,recovery_steps,z_patterns,explicit_trajectories,unique_factor_trajectories,historical_unique_effective_rhs,maximal_z_patterns_at_max_severity,nonredundancy_basis
+0,2,1|3|5,0,1,1,1,1,1,support inclusion; not exact service-envelope size
+0,2,1|3|5,2,1,1,1,1,1,support inclusion; not exact service-envelope size
+3,2,1|3|5,0,3397,79237,79237,12961,2766,support inclusion; not exact service-envelope size
+3,2,1|3|5,2,3397,79237,79237,24055,2766,support inclusion; not exact service-envelope size
+6,2,1|3|5,0,12655,287443,287443,38527,8220,support inclusion; not exact service-envelope size
+6,2,1|3|5,2,12655,287443,287443,68521,8220,support inclusion; not exact service-envelope size
+9,2,1|3|5,0,35611,894295,894295,74788,10758,support inclusion; not exact service-envelope size
+9,2,1|3|5,2,35611,894295,894295,139612,10758,support inclusion; not exact service-envelope size
+6,1,1|3|5,0,8401,185545,185545,26395,4770,support inclusion; not exact service-envelope size
+6,3,1|3|5,0,12777,290737,290737,38851,8328,support inclusion; not exact service-envelope size
+6,2,1,0,3361,79129,79129,12889,2730,support inclusion; not exact service-envelope size
+6,2,1|2|3|4|5,0,52690,1288954,1288954,113452,23262,support inclusion; not exact service-envelope size

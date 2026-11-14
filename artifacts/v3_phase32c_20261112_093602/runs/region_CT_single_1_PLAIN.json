@@ -1,0 +1,318 @@
+{
+  "name": "region_CT",
+  "style": "single",
+  "repeat": 1,
+  "method": "PLAIN",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26912,
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68"
+      ],
+      "added_scenario": "DE_ENGINE_61",
+      "policy": [
+        1338,
+        0,
+        0
+      ],
+      "mp_objective": 27050,
+      "upper": 27050,
+      "oracle_worst": 26888,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26888,
+      "best_policy": [
+        1338,
+        0,
+        0
+      ],
+      "absolute_gap": 162,
+      "relative_gap": 0.005988909426987061,
+      "master_seconds": 2.402248099911958,
+      "oracle_seconds": 6.995473499875516,
+      "total_seconds": 9.397727699950337,
+      "log": "logs/region_CT_single_1_PLAIN/MP_01.log"
+    },
+    {
+      "iteration": 2,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_ENGINE_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "mp_objective": 26912,
+      "upper": 26912,
+      "oracle_worst": 26912,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26912,
+      "best_policy": [
+        1338,
+        24,
+        0
+      ],
+      "absolute_gap": 0,
+      "relative_gap": 0.0,
+      "master_seconds": 4.7326690999325365,
+      "oracle_seconds": 6.663329200120643,
+      "total_seconds": 20.793776200152934,
+      "log": "logs/region_CT_single_1_PLAIN/MP_02.log"
+    }
+  ],
+  "oracles": [],
+  "verified": {
+    "DE_ENGINE_61": 26912,
+    "DE_GEAR_61": 26912,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "initial": [
+    "DE_ENGINE_68"
+  ],
+  "policy": [
+    1338,
+    24,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_68",
+    "DE_ENGINE_61"
+  ],
+  "verification_seconds": 6.197385200066492,
+  "records": [
+    {
+      "tag": "MP_01",
+      "log": "logs/region_CT_single_1_PLAIN/MP_01.log",
+      "status": 2,
+      "integers": 75814,
+      "constraints": 23021,
+      "nodes": 1,
+      "solver_seconds": 0.9029998779296875,
+      "build_seconds": 0.6660575999412686,
+      "peak_bytes": 195702784,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 2.3963478000368923
+    },
+    {
+      "tag": "oracle_01__DE_ENGINE_61",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_01__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9169998168945312,
+      "build_seconds": 0.6818536000791937,
+      "peak_bytes": 220782592,
+      "q": 26888,
+      "bound": 26888,
+      "residual": 0.0,
+      "wall_seconds": 1.664664400042966
+    },
+    {
+      "tag": "oracle_01__DE_GEAR_61",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_01__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.815000057220459,
+      "build_seconds": 0.6806181999854743,
+      "peak_bytes": 221880320,
+      "q": 26888,
+      "bound": 26888,
+      "residual": 0.0,
+      "wall_seconds": 1.5621700000483543
+    },
+    {
+      "tag": "oracle_01__DE_ENGINE_68",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_01__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 1.2319998741149902,
+      "build_seconds": 0.7095488000195473,
+      "peak_bytes": 233566208,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 2.0102178000379354
+    },
+    {
+      "tag": "oracle_01__DE_GEAR_68",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_01__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9639999866485596,
+      "build_seconds": 0.7013584999367595,
+      "peak_bytes": 233566208,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.7346448998432606
+    },
+    {
+      "tag": "MP_02",
+      "log": "logs/region_CT_single_1_PLAIN/MP_02.log",
+      "status": 2,
+      "integers": 151624,
+      "constraints": 46041,
+      "nodes": 1,
+      "solver_seconds": 3.1519999504089355,
+      "build_seconds": 1.4359410998877138,
+      "peak_bytes": 374214656,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 4.72008219989948
+    },
+    {
+      "tag": "oracle_02__DE_ENGINE_61",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_02__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9270000457763672,
+      "build_seconds": 0.7244369999971241,
+      "peak_bytes": 374214656,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.72212059982121
+    },
+    {
+      "tag": "oracle_02__DE_GEAR_61",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_02__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8970000743865967,
+      "build_seconds": 0.7003848000895232,
+      "peak_bytes": 374214656,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6714379000477493
+    },
+    {
+      "tag": "oracle_02__DE_ENGINE_68",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_02__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8349997997283936,
+      "build_seconds": 0.7105810998473316,
+      "peak_bytes": 374214656,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6185005998704582
+    },
+    {
+      "tag": "oracle_02__DE_GEAR_68",
+      "log": "logs/region_CT_single_1_PLAIN/oracle_02__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8190000057220459,
+      "build_seconds": 0.7326342999003828,
+      "peak_bytes": 374214656,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6255224000196904
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/region_CT_single_1_PLAIN/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8580000400543213,
+      "build_seconds": 0.695484499912709,
+      "peak_bytes": 374214656,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6242798999883235
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/region_CT_single_1_PLAIN/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.750999927520752,
+      "build_seconds": 0.7136827998328954,
+      "peak_bytes": 374214656,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.5315837999805808
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/region_CT_single_1_PLAIN/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7609999179840088,
+      "build_seconds": 0.6630202000960708,
+      "peak_bytes": 374214656,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.4892242001369596
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/region_CT_single_1_PLAIN/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7799999713897705,
+      "build_seconds": 0.6831312000285834,
+      "peak_bytes": 374214656,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.5300767000298947
+    }
+  ],
+  "wall_seconds": 26.99595390004106,
+  "peak_bytes": 374214656,
+  "affinity": [
+    6
+  ]
+}

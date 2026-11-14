@@ -1,0 +1,8 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pyxlsb==1.0.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7e/92/345823838ae367c59b63e03aef9c331f485370f9df6d049256a61a28f06d/pyxlsb-1.0.10-py2.py3-none-any.whl (23 kB)
+Installing collected packages: pyxlsb
+Successfully installed pyxlsb-1.0.10
+
+[notice] A new release of pip is available: 24.2 -> 26.3
+[notice] To update, run: python.exe -m pip install --upgrade pip

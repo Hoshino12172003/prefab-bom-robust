@@ -1,0 +1,72 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 18:28:48 2026
+
+Set parameter LogFile to value "artifacts\v25_phase18_20261110_181931\NB02\warmup.log"
+Set parameter Threads to value 4
+Set parameter Seed to value 20261110
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter OptimalityTol to value 1e-09
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 4 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  4
+
+Optimize a model with 302925 rows, 879315 columns and 2629257 nonzeros (Max)
+Model fingerprint: 0xb7a45997
+Model has 146816 linear objective coefficients
+Variable types: 0 continuous, 879315 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [9e-06, 9e-06]
+  Bounds range     [1e+05, 1e+05]
+  RHS range        [1e+00, 1e+04]
+
+Presolve removed 147034 rows and 427095 columns (presolve time = 5s)...
+Presolve removed 151187 rows and 439273 columns
+Presolve time: 6.85s
+Presolved: 151738 rows, 440042 columns, 1318940 nonzeros
+Variable types: 0 continuous, 440042 integer (10352 binary)
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 1.04s
+
+Barrier statistics:
+ AA' NZ     : 8.894e+05
+ Factor NZ  : 6.543e+06 (roughly 300 MB of memory)
+ Factor Ops : 8.233e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.28529645e+04  5.81712118e+07  6.68e+07 7.14e-05  8.81e+02    11s
+   1   1.48795683e+04  3.87029671e+07  1.25e+07 9.71e-17  1.80e+02    12s
+   2   6.87359728e+03  1.75747100e+07  5.94e+06 1.46e-16  7.49e+01    12s
+   3   2.89043594e+03  7.65091824e+06  2.64e+06 2.15e-16  3.14e+01    13s
+   4   7.44717721e+02  2.00792642e+06  7.46e+05 4.44e-16  9.11e+00    13s
+   5   3.26180213e+02  6.75698197e+05  3.34e+05 2.61e-15  4.01e+00    14s
+   6   1.41212396e+02  2.58341319e+05  1.44e+05 1.11e-15  1.70e+00    14s
+   7   8.48620154e+01  1.37884213e+05  8.64e+04 1.11e-15  9.99e-01    14s
+   8   3.45552797e+01  1.03680323e+05  3.49e+04 1.33e-15  4.57e-01    15s
+   9   1.43902026e+01  6.19408376e+04  1.43e+04 8.88e-16  2.08e-01    15s
+  10   5.37712852e+00  2.01685100e+04  5.09e+03 1.11e-15  7.08e-02    16s
+  11   4.35515322e+00  1.51260823e+04  4.03e+03 9.99e-16  5.41e-02    16s
+  12   2.93377853e+00  8.82685334e+03  2.56e+03 5.55e-16  3.21e-02    16s
+  13   2.07250344e+00  6.75833052e+03  1.67e+03 3.89e-16  2.11e-02    17s
+  14   1.60572588e+00  4.92510540e+03  1.19e+03 3.33e-16  1.42e-02    17s
+  15   9.71623693e-01  3.46403851e+03  5.43e+02 2.55e-16  7.26e-03    18s

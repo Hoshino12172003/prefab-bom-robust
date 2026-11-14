@@ -1,0 +1,60 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 18:33:11 2026
+
+Set parameter LogFile to value "artifacts\v25_phase18_20261110_181931\NB05\formal_LP.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 4 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  4
+
+Optimize a model with 23274 rows, 59349 columns and 172803 nonzeros (Max)
+Model fingerprint: 0xbac8681e
+Model has 9694 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+05, 1e+05]
+  RHS range        [1e+00, 1e+04]
+
+Presolve removed 18809 rows and 47326 columns
+Presolve time: 0.05s
+Presolved: 4465 rows, 12023 columns, 37249 nonzeros
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 2.497e+04
+ Factor NZ  : 1.301e+05 (roughly 8 MB of memory)
+ Factor Ops : 5.519e+06 (less than 1 second per iteration)
+ Threads    : 3
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.39917089e+08  4.57653996e+07  5.57e+07 5.09e-01  5.35e+04     0s
+   1   5.36484161e+07  3.04698158e+07  1.31e+07 3.33e-01  1.33e+04     0s
+   2   1.73836923e+07  1.25687307e+07  4.32e+06 1.99e-02  4.33e+03     0s
+   3   3.79559365e+06  6.72539544e+06  9.79e+05 1.41e-03  1.11e+03     0s
+
+Barrier performed 3 iterations in 0.08 seconds (0.14 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    2780    8.3440000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 2780 iterations and 0.10 seconds (0.14 work units)
+Optimal objective  8.344000000e+03

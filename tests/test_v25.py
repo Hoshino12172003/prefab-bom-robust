@@ -1,5 +1,4 @@
 from dataclasses import replace
-from fractions import Fraction
 from itertools import product
 from pathlib import Path
 
@@ -51,14 +50,13 @@ def test_frozen_manifest_matrix_and_rejects_tampering():
         frozen_runs(payload.replace(b'"arrival_multiplier": 0.5',b'"arrival_multiplier": 0.6'))
 
 
-def test_only_battery_capacity_units_change():
+def test_capacity_and_historical_flows_keep_source_units():
     d = micro()
     component = replace(d.arcs[0],capacity={60:2058,61:2058})
     pack = replace(d.arcs[1],capacity={61:294})
-    assert component.capacity_units(60) == (1,2058)
-    assert component.capacity_units(61) == (Fraction(5,21),490)
-    assert pack.capacity_units(61) == (Fraction(5,21),70)
-    assert d.arcs[-1].capacity_units(61) == (1,2)
+    assert component.capacity == {60:2058,61:2058}
+    assert pack.capacity[61] == 294
+    assert d.arcs[-1].capacity[61] == 2
     assert len(d.historical) == 3 and sum(row[-1] for row in d.historical) == 20
 
 

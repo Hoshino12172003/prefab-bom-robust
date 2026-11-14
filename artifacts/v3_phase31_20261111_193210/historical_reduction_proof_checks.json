@@ -1,0 +1,8 @@
+{
+  "full_vin_nonbattery_JIT": true,
+  "raw_witness": "artifacts\\v25_phase20_20261110_203851\\FULL28000_witness.json.gz",
+  "zero_lead_seat_redispatch": true,
+  "min_OEM_nonseat_headroom_after_subset_bound": 90375,
+  "shared_assembly_max_due": 2000,
+  "all_diagnostics_replayed": 81
+}

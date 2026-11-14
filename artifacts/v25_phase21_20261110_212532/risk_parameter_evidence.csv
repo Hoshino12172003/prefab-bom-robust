@@ -1,0 +1,12 @@
+id,layer,role,evidence_level,remaining_factor,severity_loss,duration,duration_unit,source,locator,transfer_limit
+RAW_WINDOW,all,physical_baseline,DIRECT_SOURCE,,,14,periods,https://data.mendeley.com/datasets/pr3sdy5vp3/1,XLSB demands and capacity_at_arc periods 61-74,Source window indexed as 1-14
+RAW_PROD,L2,physical_baseline,DIRECT_SOURCE,,,,,https://data.mendeley.com/datasets/pr3sdy5vp3/1,XLSB capacity_at_arc 294 daily Pack output,Preserved before multiplying by a diagnostic factor
+RAW_TRANS,L3,physical_baseline,DIRECT_SOURCE,,,,,https://data.mendeley.com/datasets/pr3sdy5vp3/1,XLSB capacity_at_arc 294 daily Pack output,Preserved before multiplying by a diagnostic factor
+SOURCE_QUALITY,L1,mechanism_context,DIRECT_SOURCE,,,,,https://doi.org/10.1016/j.ejor.2020.08.005,Case battery-component quality deficiency Section 4.9,Historical context only; no restoration amount or severity transfer
+GM_RECALL,L1,mechanism_context,EXTERNAL_EMPIRICAL_ANCHOR,,,,,https://static.nhtsa.gov/odi/rcl/2020/RCLRPT-20V701-7125.PDF,Description of cause,Cell-level defects in a different vehicle and facility; no release fraction or duration transfer
+GM_RESUMPTION,L2,mechanism_context,EXTERNAL_EMPIRICAL_ANCHOR,,,,,https://static.nhtsa.gov/odi/rcl/2021/RCMN-21V650-0383.pdf,September 20 2021 GM production update,Cell and module resumption following process changes; no Pack capacity or duration transfer
+UNCTAD_LANE,L3,mechanism_context,EXTERNAL_EMPIRICAL_ANCHOR,,42%,,months,https://unctad.org/system/files/official-document/osginf2024d2_en.pdf,Figure 1 and adjacent text,Suez monthly transit count vs peak with most decline over two months; different mode and route
+NOM,none,diagnostic_control,EXPERIMENTAL_STRESS_TEST,1,0,14,periods,phase21,Identity profile over frozen window,No disruption in diagnostic
+L1,L1,diagnostic_profile,EXPERIMENTAL_STRESS_TEST,1/2,1/2,14,periods,phase21,Days 1-14 cumulative release floor(x_C/2),Half-lot availability persists over window with no recovery assumed in-window
+L2,L2,diagnostic_profile,EXPERIMENTAL_STRESS_TEST,1/4,3/4,14,periods,phase21,Days 1-14 production RHS 294/4,Effective integer cap 73 on each production day; no empirical severity claim
+L3,L3,diagnostic_profile,EXPERIMENTAL_STRESS_TEST,1/4,3/4,14,periods,phase21,Days 1-14 transport RHS 294/4,Effective integer cap 73 on each transport day; no empirical severity claim

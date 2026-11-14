@@ -1,0 +1,70 @@
+{
+  "optimizer_calls": 61,
+  "source_vins": 28000,
+  "source_products": 28049,
+  "verified_phase30_entries": 38,
+  "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "budgets": [
+    215,
+    644,
+    1073
+  ],
+  "costs": [
+    "1",
+    "27/19",
+    "297/190"
+  ],
+  "diagnostic_scenarios": {
+    "NR": [
+      null,
+      null,
+      null
+    ],
+    "L1": [
+      [
+        64,
+        3,
+        "1/2"
+      ],
+      null,
+      null
+    ],
+    "L2": [
+      null,
+      [
+        64,
+        3,
+        "1/2"
+      ],
+      null
+    ],
+    "L3": [
+      null,
+      null,
+      [
+        64,
+        3,
+        "1/2"
+      ]
+    ],
+    "L1_L3": [
+      [
+        66,
+        1,
+        "1/2"
+      ],
+      null,
+      [
+        64,
+        3,
+        "1/2"
+      ]
+    ]
+  },
+  "gurobi_version": [
+    13,
+    0,
+    1
+  ]
+}

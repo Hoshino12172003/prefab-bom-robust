@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "00001_leaf",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.7590000629425049,
+    "log": "independent_full/P3/00001_leaf.log",
+    "witness": "independent_full/P3/00001_leaf.npz",
+    "witness_sha256": "4d7924a4b7bc060ec7ec646f24ac88d2746885dd812a3cce5fdf709521cc8981"
+  },
+  {
+    "tag": "00002_leaf",
+    "Q": 27302,
+    "bound": 27302.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.7319998741149902,
+    "log": "independent_full/P3/00002_leaf.log",
+    "witness": "independent_full/P3/00002_leaf.npz",
+    "witness_sha256": "4b779eedb26a8a8727ac8e67f1f9d58dafa22de70377c387c43def5e0a127129"
+  },
+  {
+    "tag": "00003_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.8440001010894775,
+    "log": "independent_full/P3/00003_envelope.log",
+    "witness": "independent_full/P3/00003_envelope.npz",
+    "witness_sha256": "74332f1a1eebccb74f25c0e700fe0d9d311f3265d6f8f9544784222b28a1bc5b"
+  },
+  {
+    "tag": "00004_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.8110001087188721,
+    "log": "independent_full/P3/00004_envelope.log",
+    "witness": "independent_full/P3/00004_envelope.npz",
+    "witness_sha256": "195aaacf4750fb2bb3c6dd1892fd331c4410619d3174db41e5617ee175d7ddb8"
+  },
+  {
+    "tag": "00005_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 1.13100004196167,
+    "log": "independent_full/P3/00005_envelope.log",
+    "witness": "independent_full/P3/00005_envelope.npz",
+    "witness_sha256": "bc834342bccc7cd28d296574e6b5d4fa7f38ca34438ae1294b577fb1a7d6ff8c"
+  },
+  {
+    "tag": "00006_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.8459999561309814,
+    "log": "independent_full/P3/00006_envelope.log",
+    "witness": "independent_full/P3/00006_envelope.npz",
+    "witness_sha256": "0f4db72c0a81e370b231709bc79d6650be8de4d10feda3bc130e551ec1226652"
+  }
+]

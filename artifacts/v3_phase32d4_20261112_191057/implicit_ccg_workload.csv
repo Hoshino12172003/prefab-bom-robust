@@ -1,0 +1,4 @@
+﻿gamma,raw_trajectories,rhs_classes,iterations,final_blocks,mp_calls,separation_scenario_milps,separation_envelope_milps,final_scenario_milps,final_envelope_milps,final_certification,wall_seconds,peak_bytes
+1,415,355,2,2,2,49,0,25,0,EXHAUSTIVE_355_FIXED_POLICY,68.47358209989034,347602944
+2,71830,51070,2,2,2,4,8,2,4,INDEPENDENT_ROOT_BRANCH_FULL_MATRIX_REPLAY,23.518534899922088,338997248
+3,2657350,1564150,2,2,2,4,8,2,4,INDEPENDENT_ROOT_BRANCH_FULL_MATRIX_REPLAY,23.588220000034198,338071552

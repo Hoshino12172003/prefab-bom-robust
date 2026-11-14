@@ -1,0 +1,47 @@
+{
+  "seconds": 9.35685779992491,
+  "legal_interval_supports_per_resource_subset": [
+    23,
+    529,
+    4788
+  ],
+  "total_by_gamma": [
+    {
+      "gamma_evt": 1,
+      "K": 2,
+      "family": "Total",
+      "raw_candidates": 415,
+      "legal_trajectories": 415,
+      "illegal_concurrency": 0,
+      "exact_event_duplicates": 0,
+      "distinct_rhs": 355,
+      "exact_rhs_duplicates": 60,
+      "compression_ratio": 1.1690140845070423
+    },
+    {
+      "gamma_evt": 2,
+      "K": 2,
+      "family": "Total",
+      "raw_candidates": 71830,
+      "legal_trajectories": 71830,
+      "illegal_concurrency": 0,
+      "exact_event_duplicates": 0,
+      "distinct_rhs": 51070,
+      "exact_rhs_duplicates": 20760,
+      "compression_ratio": 1.4065008811435284
+    },
+    {
+      "gamma_evt": 3,
+      "K": 2,
+      "family": "Total",
+      "raw_candidates": 6642010,
+      "legal_trajectories": 2657350,
+      "illegal_concurrency": 3984660,
+      "exact_event_duplicates": 0,
+      "distinct_rhs": 1564150,
+      "exact_rhs_duplicates": 1093200,
+      "compression_ratio": 1.6989099510916472
+    }
+  ],
+  "catalog_classes": 1564150
+}

@@ -1,0 +1,5 @@
+﻿method,objective,policy,iterations,master_blocks,direct_blocks,separation_milps,final_verification_milps,domain,rhs_count,initial_rhs,budget,seconds,peak_bytes
+Direct,12300,"[105, 0, 0]",0,0,32,0,32,D3_G2_N32,32,0,17388/19,120.58084050007164,3289133056
+Plain,12300,"[915, 0, 0]",2,2,0,64,32,D3_G2_N32,32,0,17388/19,84.71068580006249,488685568
+BTB,12300,"[915, 0, 0]",2,2,0,64,32,D3_G2_N32,32,0,17388/19,84.61496479995549,492417024
+Implicit,12300,"[915, 0, 0]",2,2,0,8,4,D3_G2_N32,32,0,17388/19,22.109529299894348,389775360

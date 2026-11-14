@@ -1,0 +1,112 @@
+{
+  "worst": 11775,
+  "worst_events": [
+    336
+  ],
+  "worst_rhs": [
+    16106127360,
+    16911433728,
+    17716740096,
+    18522046464
+  ],
+  "worst_rhs_complete": true,
+  "exact": true,
+  "lower_bound": 11775,
+  "visited_nodes": 415,
+  "pruned_nodes": 391,
+  "incumbent_updates": 1,
+  "stop": null,
+  "wall_seconds": 19.45673770015128,
+  "case": "oracle_02",
+  "policy": "outer",
+  "x": [
+    0,
+    0,
+    0
+  ],
+  "gamma": 1,
+  "rhs_count": 355,
+  "raw_count": 415,
+  "level": 2,
+  "full_space": true,
+  "resource_limits": {
+    "nodes": 2500,
+    "leaf": 64,
+    "envelope": 8,
+    "seconds": 160
+  },
+  "frontier_size": 0,
+  "dominance_pruned_nodes": 0,
+  "envelope_calls": 0,
+  "exact_recourse_calls": 24,
+  "cache_hits": 1,
+  "envelope_cache_hits": 16,
+  "witness_bounds": 376,
+  "total_full_milp": 24,
+  "envelope_skipped_by_upper": 1,
+  "evaluation_fraction": 0.0676056338028169,
+  "leaf_evaluation_fraction": 0.0676056338028169,
+  "total_wall_seconds": 19.488397399894893,
+  "peak_bytes": 347602944,
+  "monotonicity": [
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery1",
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 13690,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 14620,
+      "inventory_upper_slack": 85379
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery2",
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 8214,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 8772,
+      "inventory_upper_slack": 91227
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery3",
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 5476,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 5848,
+      "inventory_upper_slack": 94151
+    }
+  ],
+  "worst_event_details": [
+    {
+      "event_id": 336,
+      "resource": "SEAT",
+      "branch": "S",
+      "start": 61,
+      "duration": 11,
+      "severity": "3/4",
+      "recovery": "ABRUPT_RECOVERY",
+      "active_mask": 2047,
+      "single_rhs": 16106127360,
+      "ladder_rank": 1024
+    }
+  ]
+}

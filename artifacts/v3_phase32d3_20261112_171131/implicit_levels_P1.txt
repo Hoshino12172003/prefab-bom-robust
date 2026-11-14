@@ -1,0 +1,4 @@
+P1 G2_N32 level 0 exact True W 12300 leaf 32 env 0 nodes 208 frontier 0
+P1 G2_N32 level 1 exact True W 12300 leaf 15 env 0 nodes 175 frontier 0
+P1 G3_N64 level 0 exact True W 12300 leaf 64 env 0 nodes 476 frontier 0
+P1 G3_N64 level 1 exact True W 12300 leaf 15 env 0 nodes 296 frontier 0

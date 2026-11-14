@@ -1,0 +1,10 @@
+﻿symbol,source_equation,source_section,source_data_field,V3_status,V3_equation,reason,implementation_file,test_id
+f_ijpt,"(7),(9)",3.4;4.6,arcs;products,MODIFY_FOR_TWO_STAGE,V3-01 to V3-15,Base integer domain; scenario index in the prospective interface,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+inv_npt,"(8),(9)",3.4;4.6,initial_inventories,MODIFY_FOR_TWO_STAGE,V3-02/03,Base integer domain; scenario index in the prospective interface,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+os_pt,"(10),(15)",4.6,demands,MODIFY_FOR_TWO_STAGE,V3-06,Base integer domain; scenario index in the prospective interface,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+of_pt,"(11),(15)",4.6,demands,MODIFY_FOR_TWO_STAGE,V3-07,Base integer domain; scenario index in the prospective interface,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+uc_t,"(14),(16)",4.6,capacity_at_arc,MODIFY_FOR_TWO_STAGE,V3-10,Base integer domain; scenario index in the prospective interface,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+dr_p,Figure 10,4.9,original and actual VIN dates,KEEP_REIMPLEMENTED,V3-08,Derived assembly and outflow deviations kept separately,src/prefab_v3/base.py,test_full_replication_integer_evidence_and_rescheduling
+external supply,(4),public case,nodes_inflow,KEEP_REIMPLEMENTED,V3-15,Explicit eligible inflow,src/prefab_v3/base.py,test_source_initial_flows_and_nested_bom
+x_C;x_T;x_O,new,V3 extension,investment policy,ADD_BUFFER_EXTENSION,V3-16,Shared integer stock additions,src/prefab_v3/interface.py,test_prospective_buffers_and_complete_recourse_interface
+guaranteed service,new,V3 extension,caller score,ADD_ROBUST_EXTENSION,V3-19,Optional epigraph-side service bound,src/prefab_v3/interface.py,test_prospective_buffers_and_complete_recourse_interface

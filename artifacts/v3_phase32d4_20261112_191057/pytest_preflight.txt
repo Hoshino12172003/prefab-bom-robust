@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 6 items
+
+tests/test_v3_phase32d4_implicit_ccg.py::test_maximization_bounds_match_explicit_robust_optimum PASSED [ 16%]
+tests/test_v3_phase32d4_implicit_ccg.py::test_open_frontier_cannot_close_the_gap[certificate0] PASSED [ 33%]
+tests/test_v3_phase32d4_implicit_ccg.py::test_open_frontier_cannot_close_the_gap[certificate1] PASSED [ 50%]
+tests/test_v3_phase32d4_implicit_ccg.py::test_active_scenario_cannot_be_a_strict_violation PASSED [ 66%]
+tests/test_v3_phase32d4_implicit_ccg.py::test_oracle_value_above_master_is_rejected PASSED [ 83%]
+tests/test_v3_phase32d4_implicit_ccg.py::test_increasing_master_upper_bound_is_rejected PASSED [100%]
+
+============================== 6 passed in 0.20s ==============================

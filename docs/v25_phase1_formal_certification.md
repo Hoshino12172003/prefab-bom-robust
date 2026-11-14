@@ -1,5 +1,7 @@
 # V2.5 Phase 1 正式规模认证
 
+> **DEPRECATED_ALGEBRAIC_NORMALIZATION（Phase 1.10）**。本报告保留历史求解的行缩放及结果。现行容量约束使用原 XLSB 数据，表 7 只作 `SOURCE_PAPER_CROSSCHECK`。 [现行规格](v25_model_spec_v2_source_semantics_corrected.md)
+
 2026-11-10（Asia/Shanghai）。状态为 `FORMAL_MATRIX_CERTIFIED`，冻结清单列出的 13 项门槛全部通过。
 
 唯一配置来源是用户提供的 ZIP 中 `paper_scale_v2/manifest.json`。冻结字节的 SHA-256 为 `dc252572092ccd7003b33fb84c6d075658862c5f58c988530fca7f96db1b6044`，原字节随本次结果归档。求解入口校验该哈希，按清单派生预算、成本和风险乘子。源 XLSB 按清单哈希核对，读取 12 张表，精确聚合计数为 28,000 辆、1,286 组，其中 BEV 为 3,003 辆、28 组。

@@ -1,0 +1,81 @@
+{
+  "all_budget_feasible_policies_are_optimal": true,
+  "robust_value": 11775,
+  "budget_integer_form": {
+    "c": [
+      190,
+      270,
+      297
+    ],
+    "rhs": 173880
+  },
+  "feasible_integer_policies": 57884083,
+  "axis_min": [
+    0,
+    0,
+    0
+  ],
+  "axis_max": [
+    915,
+    644,
+    585
+  ],
+  "bound_rows": [
+    {
+      "node": "battery-supplier_inv",
+      "sku": "BEV",
+      "max_extra": 644,
+      "initial": 0,
+      "nominal_receipts": 159,
+      "inbound_capacity_bound": 3822,
+      "gross_bound": 4625,
+      "inventory_upper": null,
+      "headroom": null
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery1",
+      "max_extra": 9150,
+      "initial": 930,
+      "nominal_receipts": 13690,
+      "inbound_capacity_bound": 0,
+      "gross_bound": 23770,
+      "inventory_upper": 99999,
+      "headroom": 76229
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery2",
+      "max_extra": 5490,
+      "initial": 558,
+      "nominal_receipts": 8214,
+      "inbound_capacity_bound": 0,
+      "gross_bound": 14262,
+      "inventory_upper": 99999,
+      "headroom": 85737
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery3",
+      "max_extra": 3660,
+      "initial": 372,
+      "nominal_receipts": 5476,
+      "inbound_capacity_bound": 0,
+      "gross_bound": 9508,
+      "inventory_upper": 99999,
+      "headroom": 90491
+    },
+    {
+      "node": "zp7",
+      "sku": "BEV",
+      "max_extra": 585,
+      "initial": 52,
+      "nominal_receipts": 200,
+      "inbound_capacity_bound": 3822,
+      "gross_bound": 4659,
+      "inventory_upper": 99999,
+      "headroom": 95340
+    }
+  ],
+  "zero_policy_certified": true
+}

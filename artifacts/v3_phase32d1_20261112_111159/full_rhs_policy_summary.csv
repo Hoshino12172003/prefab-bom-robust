@@ -1,0 +1,5 @@
+﻿label,policy,vector,origin,effective_rhs,exact,pruned,MILP_required,exact_rate,prune_rate,MILP_fraction,first_batch_solved,remaining_BTB_MILPs,BTB_prefix_incumbent,independent_reference_worst,worst_RHS_ties,worst_legal_trajectory_ties,direct_worst_classes_replayed,constructive_worst_matrix_checks,independent_reference_complete,BTB_full_set_certificate,maximum_observed_solver_residual,extrapolated_serial_full_MILP_hours
+STRESS_TEST_ONLY,P1,"[915, 0, 0]",BASE_B100,38527,0,0,38527,0.0,0.0,1.0,32,38495,27039,26652,4942,11049,1,4942,True,False,0.0,13.903726531817357
+STRESS_TEST_ONLY,P2,"[1338, 24, 0]",BASE_B150,38527,0,0,38527,0.0,0.0,1.0,32,38495,27063,27063,101,173,1,101,True,False,0.0,13.915610439458609
+STRESS_TEST_ONLY,P3,"[713, 135, 6]",R3_S75_D7_ABRUPT_B100,38527,0,0,38527,0.0,0.0,1.0,32,38495,27180,26591,4942,11049,1,4942,True,False,0.0,13.736277287552152
+STRESS_TEST_ONLY,P4,"[1338, 0, 162]",BASE_B200,38527,0,0,38527,0.0,0.0,1.0,32,38495,27201,27201,101,173,1,101,True,False,0.0,14.135072070316635

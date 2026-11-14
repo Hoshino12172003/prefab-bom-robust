@@ -1,0 +1,33 @@
+{
+  "title": "Source-Calibrated Periodic Nominal Baseline",
+  "status": "HOLD_SOURCE_NETWORK_LONG_RUN_CAPACITY_MISMATCH",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "period": 14,
+  "start_source_period": 61,
+  "workbook_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "joint_calendar": true,
+  "risk_factors": {
+    "arrival": 1,
+    "production": 1,
+    "transport": 1
+  },
+  "opening_state": "endogenous only if admitted",
+  "objective_order": [
+    "max on-time count",
+    "min total inventory",
+    "min total flow if needed"
+  ],
+  "admitted": false,
+  "optimizer_calls_allowed": 0,
+  "prohibited_input_roles": [
+    "historical opening stocks",
+    "historical pipeline",
+    "Phase 1.8 terminal state"
+  ],
+  "required_if_admitted": {
+    "optimality_tol": 1e-09,
+    "mip_gap": 0,
+    "strict_budget": true,
+    "independent_upper": true
+  }
+}

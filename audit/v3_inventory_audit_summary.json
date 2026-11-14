@@ -1,0 +1,29 @@
+{
+  "items": 28049,
+  "nodes": 12,
+  "item_node_rows": 336588,
+  "network_arcs": 11,
+  "raw_operations": 15,
+  "raw_bom_rows": 87059,
+  "self_identity_bom_rows": 49,
+  "expanded_graph_rows": 115096,
+  "vin_groups": 1286,
+  "unique_vehicle_signatures": 104,
+  "bev": 3003,
+  "baseline": {
+    "INELIGIBLE": 336457,
+    "ELIGIBLE": 82,
+    "UNKNOWN": 44,
+    "CONDITIONAL": 5
+  },
+  "extended": {
+    "INELIGIBLE": 336453,
+    "ELIGIBLE": 82,
+    "UNKNOWN": 44,
+    "CONDITIONAL": 9
+  },
+  "audited_economic_candidates": 91,
+  "positive_additional_preparation_certified": 0,
+  "missing_cost_entries": 91,
+  "raw_inventory_rows": 82
+}

@@ -1,0 +1,100 @@
+{
+  "status": "HOLD_UNCERTAINTY_CALIBRATION",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "phase30_frozen_manifest_entries": 38,
+  "phase20_JIT_witness_sha256": "22ff490c282dadef668981cc513202765ad80bb301e2941af69efdc9b10f35e3",
+  "formal_prospective_state": null,
+  "formal_uncertainty_calibration": null,
+  "missing_inputs": [
+    "independent prospective opening inventory",
+    "dated normal receipts by SKU and resource",
+    "documented schedule commitments and resource-specific exposure calibration"
+  ],
+  "candidate_status": "EXPERIMENTAL_STRESS_TEST",
+  "candidate_size": {
+    "gamma_resource_days": "6",
+    "concurrency": "2",
+    "allowed_durations": "1|3|5",
+    "recovery_steps": "0",
+    "z_patterns": "12655",
+    "explicit_trajectories": "287443",
+    "unique_factor_trajectories": "287443",
+    "historical_unique_effective_rhs": "38527",
+    "maximal_z_patterns_at_max_severity": "8220",
+    "nonredundancy_basis": "support inclusion; not exact service-envelope size"
+  },
+  "upstream_choice": "BALANCED_10_6_4_KIT",
+  "source_cell_mothers": [
+    "BEV"
+  ],
+  "conditional_historical_full_service_reduction": true,
+  "formal_prospective_reducibility": "NOT_IDENTIFIED",
+  "CCG_structural_justification": false,
+  "CCG_calls": 0,
+  "formal_prospective_optimizer_calls": 0,
+  "source_vins": 28000,
+  "source_products": 28049,
+  "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "attachment_sha256": "58762bcdd264df471e464f5ee7b42265dd57c58b7808dc9e95a271d87ac482d2",
+  "direct_historical_solver_runs": 81,
+  "gurobi_version": [
+    13,
+    0,
+    1
+  ],
+  "maximum_solver_residual": 0.0,
+  "exact_integer_matrix_residual": 0,
+  "independent_service_replays": 81,
+  "ablation": {
+    "x_C": {
+      "conditions": 15,
+      "positive": 15,
+      "maximum": 451
+    },
+    "x_T": {
+      "conditions": 15,
+      "positive": 3,
+      "maximum": 12
+    },
+    "x_O": {
+      "conditions": 15,
+      "positive": 1,
+      "maximum": 49
+    }
+  },
+  "selected_DE": {
+    "scope": "HISTORICAL_STRESSED_STATE_DIAGNOSTIC",
+    "case": "K644_NR_L1_L3_OPEN",
+    "scenario_ids": "NR|L1|L3",
+    "T1_pack_budget_equivalents": "644",
+    "normalized_budget": "17388/19",
+    "excluded_position": "",
+    "log": "logs/K644_NR_L1_L3_OPEN.log",
+    "Q": "26889",
+    "bound": "26889",
+    "x_C": "915",
+    "x_T": "0",
+    "x_O": "0",
+    "normalized_spend": "915",
+    "scenario_service": "{\"NR\": 27055, \"L1\": 26889, \"L3\": 26894}",
+    "status": "OPTIMAL",
+    "runtime_s": "7.8480000495910645",
+    "gap": "0.0",
+    "max_solver_residual": "0.0",
+    "exact_matrix_residual": "0",
+    "variables": "227434",
+    "integers": "227434",
+    "constraints": "69061",
+    "independent_single_scenario_upper": "26889"
+  },
+  "test_summary": "53 passed in 17.18s",
+  "test_exit_code": 0,
+  "reproducibility_commands": [
+    "python -B artifacts/v3_phase31_20261111_193210/run_diagnostics.py",
+    "python -B artifacts/v3_phase31_20261111_193210/fixed_policy_diagnostics.py",
+    "python -B artifacts/v3_phase31_20261111_193210/audit_historical_reduction.py",
+    "python -B artifacts/v3_phase31_20261111_193210/finalize_audit.py"
+  ],
+  "sha256_manifest": "sha256_manifest.csv"
+}

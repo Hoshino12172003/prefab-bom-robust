@@ -1,0 +1,212 @@
+{
+  "name": "region_CT",
+  "style": "two",
+  "repeat": 1,
+  "method": "PLAIN",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26912,
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_GEAR_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "mp_objective": 26912,
+      "upper": 26912,
+      "oracle_worst": 26912,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26912,
+      "best_policy": [
+        1338,
+        24,
+        0
+      ],
+      "absolute_gap": 0,
+      "relative_gap": 0.0,
+      "master_seconds": 6.238654699875042,
+      "oracle_seconds": 6.66882330016233,
+      "total_seconds": 12.907483100192621,
+      "log": "logs/region_CT_two_1_PLAIN/MP_01.log"
+    }
+  ],
+  "oracles": [],
+  "verified": {
+    "DE_ENGINE_61": 26912,
+    "DE_GEAR_61": 26912,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "initial": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "policy": [
+    1338,
+    24,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_68",
+    "DE_GEAR_61"
+  ],
+  "verification_seconds": 6.563315499806777,
+  "records": [
+    {
+      "tag": "MP_01",
+      "log": "logs/region_CT_two_1_PLAIN/MP_01.log",
+      "status": 2,
+      "integers": 151624,
+      "constraints": 46041,
+      "nodes": 1,
+      "solver_seconds": 3.671999931335449,
+      "build_seconds": 1.3756560001056641,
+      "peak_bytes": 354050048,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 6.225776100065559
+    },
+    {
+      "tag": "oracle_01__DE_ENGINE_61",
+      "log": "logs/region_CT_two_1_PLAIN/oracle_01__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9799997806549072,
+      "build_seconds": 0.6733506000600755,
+      "peak_bytes": 354050048,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.7220797999761999
+    },
+    {
+      "tag": "oracle_01__DE_GEAR_61",
+      "log": "logs/region_CT_two_1_PLAIN/oracle_01__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9230000972747803,
+      "build_seconds": 0.6855156000237912,
+      "peak_bytes": 354050048,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6779285999946296
+    },
+    {
+      "tag": "oracle_01__DE_ENGINE_68",
+      "log": "logs/region_CT_two_1_PLAIN/oracle_01__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9059998989105225,
+      "build_seconds": 0.6829413999803364,
+      "peak_bytes": 354050048,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6555967999156564
+    },
+    {
+      "tag": "oracle_01__DE_GEAR_68",
+      "log": "logs/region_CT_two_1_PLAIN/oracle_01__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8370001316070557,
+      "build_seconds": 0.6845734999515116,
+      "peak_bytes": 354050048,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.5897836999502033
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/region_CT_two_1_PLAIN/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.9090001583099365,
+      "build_seconds": 0.6844446999020875,
+      "peak_bytes": 354050048,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6674921999219805
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/region_CT_two_1_PLAIN/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8929998874664307,
+      "build_seconds": 0.6970673999749124,
+      "peak_bytes": 354050048,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.657232000026852
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/region_CT_two_1_PLAIN/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.871999979019165,
+      "build_seconds": 0.6986220998223871,
+      "peak_bytes": 354050048,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.642633699811995
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/region_CT_two_1_PLAIN/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7910001277923584,
+      "build_seconds": 0.7113491999916732,
+      "peak_bytes": 354050048,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.5716846000868827
+    }
+  ],
+  "wall_seconds": 19.474287299904972,
+  "peak_bytes": 354050048,
+  "affinity": [
+    6
+  ]
+}

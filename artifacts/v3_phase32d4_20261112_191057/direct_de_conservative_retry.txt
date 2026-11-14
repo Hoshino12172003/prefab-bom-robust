@@ -1,0 +1,1 @@
+Direct DE result: {'monolithic_gurobi_optimal': False, 'cli_exit': 0, 'aborted': None, 'start_accepted': True, 'solver_seconds_wall': 99.93485670001246, 'peak_bytes': 14086803456, 'model_dimensions_confirmed': True, 'solver_error': None, 'solve_log': 'gamma1_de/conservative_retry/console.log'}

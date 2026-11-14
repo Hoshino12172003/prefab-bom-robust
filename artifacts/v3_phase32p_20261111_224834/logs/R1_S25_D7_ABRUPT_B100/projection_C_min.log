@@ -1,0 +1,61 @@
+
+Gurobi 13.0.1 (win64) logging started Wed Nov 11 22:55:35 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32p_20261111_224834\logs\R1_S25_D7_ABRUPT_B100\projection_C_min.log"
+Discarded solution information
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 46041 rows, 151624 columns and 436187 nonzeros (Min)
+Model fingerprint: 0x80d64269
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 151624 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 3212 rows and 40277 columns
+Presolve time: 0.57s
+Presolved: 42829 rows, 111347 columns, 352353 nonzeros
+Variable types: 0 continuous, 111347 integer (5978 binary)
+
+Root relaxation: objective 9.146250e+02, 23007 iterations, 1.92 seconds (2.40 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  914.62500    0   14          -  914.62500      -     -    2s
+H    0     0                     915.0000000  914.62500  0.04%     -    3s
+     0     0  914.62500    0   14  915.00000  914.62500  0.04%     -    3s
+
+Explored 1 nodes (28384 simplex iterations) in 3.08 seconds (3.70 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 915 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 9.150000000000e+02, best bound 9.150000000000e+02, gap 0.0000%
+Set parameter LogToConsole to value 0
+Set parameter Threads to value 1
+Set parameter Seed to value 20261110
+Set parameter OptimalityTol to value 1e-09
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter TimeLimit to value 180

@@ -1,0 +1,8 @@
+Direct DE columns serialized 50 / 355
+Direct DE columns serialized 100 / 355
+Direct DE columns serialized 150 / 355
+Direct DE columns serialized 200 / 355
+Direct DE columns serialized 250 / 355
+Direct DE columns serialized 300 / 355
+Direct DE columns serialized 350 / 355
+Full Direct DE built 8172101 26912554 77422663

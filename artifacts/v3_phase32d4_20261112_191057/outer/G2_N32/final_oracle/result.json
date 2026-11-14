@@ -1,0 +1,117 @@
+{
+  "worst": 12300,
+  "worst_events": [
+    333,
+    243
+  ],
+  "worst_rhs": [
+    15376318464
+  ],
+  "worst_rhs_complete": false,
+  "exact": true,
+  "lower_bound": 12300,
+  "visited_nodes": 76,
+  "pruned_nodes": 73,
+  "incumbent_updates": 2,
+  "stop": null,
+  "wall_seconds": 3.434083400061354,
+  "case": "final_oracle",
+  "policy": "outer",
+  "x": [
+    915,
+    0,
+    0
+  ],
+  "gamma": 2,
+  "rhs_count": 32,
+  "raw_count": 208,
+  "level": 2,
+  "full_space": false,
+  "resource_limits": null,
+  "frontier_size": 0,
+  "dominance_pruned_nodes": 0,
+  "envelope_calls": 1,
+  "exact_recourse_calls": 3,
+  "cache_hits": 1,
+  "envelope_cache_hits": 1,
+  "witness_bounds": 0,
+  "total_full_milp": 4,
+  "envelope_skipped_by_upper": 0,
+  "evaluation_fraction": 0.125,
+  "leaf_evaluation_fraction": 0.09375,
+  "total_wall_seconds": 3.4444565000012517,
+  "peak_bytes": 389775360,
+  "monotonicity": [
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery1",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 13690,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 23770,
+      "inventory_upper_slack": 76229
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery2",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 8214,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 14262,
+      "inventory_upper_slack": 85737
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery3",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 5476,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 9508,
+      "inventory_upper_slack": 90491
+    }
+  ],
+  "worst_event_details": [
+    {
+      "event_id": 333,
+      "resource": "SEAT",
+      "branch": "S",
+      "start": 68,
+      "duration": 7,
+      "severity": "3/4",
+      "recovery": "ABRUPT_RECOVERY",
+      "active_mask": 16256,
+      "single_rhs": 15300820992,
+      "ladder_rank": 16
+    },
+    {
+      "event_id": 243,
+      "resource": "GEAR",
+      "branch": "G",
+      "start": 61,
+      "duration": 7,
+      "severity": "3/4",
+      "recovery": "ABRUPT_RECOVERY",
+      "active_mask": 127,
+      "single_rhs": 75497472,
+      "ladder_rank": 8
+    }
+  ]
+}

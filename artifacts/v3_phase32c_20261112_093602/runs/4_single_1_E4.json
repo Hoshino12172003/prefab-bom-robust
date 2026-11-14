@@ -1,0 +1,547 @@
+{
+  "name": "4",
+  "style": "single",
+  "repeat": 1,
+  "method": "E4",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26465,
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68"
+      ],
+      "added_scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "lower": 26465,
+      "upper": 27050,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "master_seconds": 1.89798319991678,
+      "oracle_seconds": 3.8111066999845207,
+      "log": "logs/4_single_1_E4/MP_01.log"
+    },
+    {
+      "iteration": 2,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_ENGINE_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "lower": 26465,
+      "upper": 26465,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "master_seconds": 3.94463189993985,
+      "oracle_seconds": 3.831888300133869,
+      "log": "logs/4_single_1_E4/MP_02.log"
+    }
+  ],
+  "oracles": [
+    {
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "iteration": 1,
+      "worst": 26465,
+      "ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "rows": [
+        {
+          "scenario": "DE_ENGINE_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": null,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_ENGINE_61",
+            "log": "logs/4_single_1_E4/E4_01__DE_ENGINE_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.7349998950958252,
+            "build_seconds": 0.5247469001915306,
+            "peak_bytes": 220876800,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.3228021999821067
+          }
+        },
+        {
+          "scenario": "DE_GEAR_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_01__DE_GEAR_61",
+            "log": "logs/4_single_1_E4/E4_01__DE_GEAR_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6659998893737793,
+            "build_seconds": 0.48430639994330704,
+            "peak_bytes": 221138944,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.209686900023371
+          }
+        },
+        {
+          "scenario": "DE_ENGINE_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6740000247955322,
+            "build_seconds": 0.5119123999029398,
+            "peak_bytes": 221138944,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.2634337998460978
+          }
+        },
+        {
+          "scenario": "DE_GEAR_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6740000247955322,
+            "build_seconds": 0.5119123999029398,
+            "peak_bytes": 221138944,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.2634337998460978
+          }
+        }
+      ],
+      "bound_seconds": 0.0002663999330252409,
+      "individual": 2,
+      "common": 1,
+      "wall_seconds": 3.811103699961677
+    },
+    {
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "iteration": 2,
+      "worst": 26465,
+      "ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "rows": [
+        {
+          "scenario": "DE_ENGINE_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": null,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_02__DE_ENGINE_61",
+            "log": "logs/4_single_1_E4/E4_02__DE_ENGINE_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6830000877380371,
+            "build_seconds": 0.5339988998603076,
+            "peak_bytes": 374939648,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.2770664999261498
+          }
+        },
+        {
+          "scenario": "DE_GEAR_61",
+          "lower": 26465,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "INDIVIDUAL_MILP",
+          "value": 26465,
+          "proof": "FULL_INTEGER_OPTIMAL",
+          "pair": [],
+          "evidence": {
+            "tag": "E4_02__DE_GEAR_61",
+            "log": "logs/4_single_1_E4/E4_02__DE_GEAR_61.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6730000972747803,
+            "build_seconds": 0.518271500011906,
+            "peak_bytes": 374939648,
+            "q": 26465,
+            "bound": 26465,
+            "residual": 0.0,
+            "wall_seconds": 1.2551349001005292
+          }
+        },
+        {
+          "scenario": "DE_ENGINE_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_02__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6599998474121094,
+            "build_seconds": 0.5449215001426637,
+            "peak_bytes": 374939648,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.2840893999673426
+          }
+        },
+        {
+          "scenario": "DE_GEAR_68",
+          "lower": 27050,
+          "upper": 27050,
+          "pack_upper": 27786,
+          "seat_upper": 27050,
+          "incumbent": 26465,
+          "decision": "PRUNED_STRICT",
+          "value": null,
+          "proof": "COMMON_INTEGER_WITNESS_AND_DATED_BOM_PREFIX",
+          "pair": [
+            "DE_ENGINE_68",
+            "DE_GEAR_68"
+          ],
+          "evidence": {
+            "tag": "E4_02__meet__DE_ENGINE_68__DE_GEAR_68",
+            "log": "logs/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.log",
+            "status": 2,
+            "integers": 75810,
+            "constraints": 23019,
+            "nodes": 1,
+            "solver_seconds": 0.6599998474121094,
+            "build_seconds": 0.5449215001426637,
+            "peak_bytes": 374939648,
+            "q": 27050,
+            "bound": 27050,
+            "residual": 0.0,
+            "witness": "witnesses/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+            "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+            "wall_seconds": 1.2840893999673426
+          }
+        }
+      ],
+      "bound_seconds": 0.0002466000150889158,
+      "individual": 2,
+      "common": 1,
+      "wall_seconds": 3.831884100101888
+    }
+  ],
+  "verified": {
+    "DE_ENGINE_61": 26465,
+    "DE_GEAR_61": 26465,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "initial": [
+    "DE_ENGINE_68"
+  ],
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_68",
+    "DE_ENGINE_61"
+  ],
+  "verification_seconds": 5.0943408000748605,
+  "records": [
+    {
+      "tag": "MP_01",
+      "log": "logs/4_single_1_E4/MP_01.log",
+      "status": 2,
+      "integers": 75814,
+      "constraints": 23021,
+      "nodes": 1,
+      "solver_seconds": 0.7420001029968262,
+      "build_seconds": 0.5073187998495996,
+      "peak_bytes": 195776512,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.8929737999569625
+    },
+    {
+      "tag": "E4_01__DE_ENGINE_61",
+      "log": "logs/4_single_1_E4/E4_01__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7349998950958252,
+      "build_seconds": 0.5247469001915306,
+      "peak_bytes": 220876800,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.3228021999821067
+    },
+    {
+      "tag": "E4_01__DE_GEAR_61",
+      "log": "logs/4_single_1_E4/E4_01__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6659998893737793,
+      "build_seconds": 0.48430639994330704,
+      "peak_bytes": 221138944,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.209686900023371
+    },
+    {
+      "tag": "E4_01__meet__DE_ENGINE_68__DE_GEAR_68",
+      "log": "logs/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6740000247955322,
+      "build_seconds": 0.5119123999029398,
+      "peak_bytes": 221138944,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "witness": "witnesses/4_single_1_E4/E4_01__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+      "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+      "wall_seconds": 1.2634337998460978
+    },
+    {
+      "tag": "MP_02",
+      "log": "logs/4_single_1_E4/MP_02.log",
+      "status": 2,
+      "integers": 151624,
+      "constraints": 46041,
+      "nodes": 1,
+      "solver_seconds": 2.73799991607666,
+      "build_seconds": 1.073094299994409,
+      "peak_bytes": 374939648,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 3.9340647000353783
+    },
+    {
+      "tag": "E4_02__DE_ENGINE_61",
+      "log": "logs/4_single_1_E4/E4_02__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6830000877380371,
+      "build_seconds": 0.5339988998603076,
+      "peak_bytes": 374939648,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2770664999261498
+    },
+    {
+      "tag": "E4_02__DE_GEAR_61",
+      "log": "logs/4_single_1_E4/E4_02__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6730000972747803,
+      "build_seconds": 0.518271500011906,
+      "peak_bytes": 374939648,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2551349001005292
+    },
+    {
+      "tag": "E4_02__meet__DE_ENGINE_68__DE_GEAR_68",
+      "log": "logs/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6599998474121094,
+      "build_seconds": 0.5449215001426637,
+      "peak_bytes": 374939648,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "witness": "witnesses/4_single_1_E4/E4_02__meet__DE_ENGINE_68__DE_GEAR_68.npz",
+      "witness_sha256": "6f0052c75f3bcba053e196bf63439dbd5f7542a50e4e2a861b57d824b73e8e94",
+      "wall_seconds": 1.2840893999673426
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/4_single_1_E4/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.6499998569488525,
+      "build_seconds": 0.5231174998916686,
+      "peak_bytes": 374939648,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.231674199923873
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/4_single_1_E4/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.629000186920166,
+      "build_seconds": 0.5167080000974238,
+      "peak_bytes": 374939648,
+      "q": 26465,
+      "bound": 26465,
+      "residual": 0.0,
+      "wall_seconds": 1.2073671000543982
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/4_single_1_E4/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7009999752044678,
+      "build_seconds": 0.5257234999444336,
+      "peak_bytes": 374939648,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.2903539000544697
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/4_single_1_E4/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.7190001010894775,
+      "build_seconds": 0.5601028001401573,
+      "peak_bytes": 374939648,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.3430372001603246
+    }
+  ],
+  "wall_seconds": 18.582835299894214,
+  "peak_bytes": 374939648,
+  "affinity": [
+    0
+  ]
+}

@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 3 items
+
+tests/test_v3_phase32d3_event_search.py::test_bounds_and_tree_match_independent_enumeration PASSED [ 33%]
+tests/test_v3_phase32d3_event_search.py::test_equal_single_rhs_retains_different_triple_legality PASSED [ 66%]
+tests/test_v3_phase32d3_event_search.py::test_capped_search_preserves_unresolved_frontier PASSED [100%]
+
+============================== 3 passed in 0.04s ==============================

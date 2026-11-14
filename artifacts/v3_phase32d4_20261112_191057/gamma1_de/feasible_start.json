@@ -1,0 +1,11 @@
+{
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "objective": 11775,
+  "full_blocks_matrix_verified": 355,
+  "matrix_residual": 0,
+  "sha256": "02b087f912e679b13580ade6443cb4d22b07bfa79b88f902c2d3892a27771186"
+}

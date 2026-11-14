@@ -4,3 +4,6 @@ __pycache__/
 .venv/
 *.log
 gurobi.log
+
+# External source data are obtained independently.
+/external_inputs/

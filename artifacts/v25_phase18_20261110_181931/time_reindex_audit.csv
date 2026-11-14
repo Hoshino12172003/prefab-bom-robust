@@ -1,0 +1,29 @@
+﻿offset,kind,origin,destination,item,warmup_departure,warmup_arrival,relative_arrival,quantity,mapping,status
+NB00,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB00,stock,,,all node-item keys,,56,0,15688,5279 unchanged stock rows,EXACT
+NB01,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB01,stock,,,all node-item keys,,56,0,21053,5279 unchanged stock rows,EXACT
+NB02,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB02,stock,,,all node-item keys,,56,0,26110,5279 unchanged stock rows,EXACT
+NB03,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB03,stock,,,all node-item keys,,56,0,21729,5279 unchanged stock rows,EXACT
+NB04,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB04,stock,,,all node-item keys,,56,0,23362,5279 unchanged stock rows,EXACT
+NB05,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB05,stock,,,all node-item keys,,56,0,13527,5279 unchanged stock rows,EXACT
+NB06,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB06,stock,,,all node-item keys,,56,0,23133,5279 unchanged stock rows,EXACT
+NB07,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB07,stock,,,all node-item keys,,56,0,31067,5279 unchanged stock rows,EXACT
+NB08,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB08,stock,,,all node-item keys,,56,0,17507,5279 unchanged stock rows,EXACT
+NB09,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB09,stock,,,all node-item keys,,56,0,19179,5279 unchanged stock rows,EXACT
+NB10,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB10,stock,,,all node-item keys,,56,0,25790,5279 unchanged stock rows,EXACT
+NB11,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB11,stock,,,all node-item keys,,56,0,26776,5279 unchanged stock rows,EXACT
+NB12,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB12,stock,,,all node-item keys,,56,0,23918,5279 unchanged stock rows,EXACT
+NB13,pipeline,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,58,2,14700,arrival minus 56,IN_WINDOW
+NB13,stock,,,all node-item keys,,56,0,14609,5279 unchanged stock rows,EXACT

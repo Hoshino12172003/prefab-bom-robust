@@ -1,0 +1,39 @@
+﻿label,case,style,repeat,iteration,policy,same_policy_exhaustive,plain_worst,e4_worst,plain_ties,e4_ties,match
+STRESS_TEST_ONLY,16,single,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,single,1,2,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,single,2,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,single,2,2,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,single,3,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,single,3,2,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,16,two,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,24,single,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,24,single,1,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,24,two,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,24,two,1,2,"[337, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,1,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,2,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,2,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,3,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,single,3,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,two,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,32,two,1,2,"[337, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,1,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,2,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,2,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,3,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,single,3,2,"[0, 350, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,two,1,1,"[915, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,38,two,1,2,"[337, 0, 0]",True,21775,21775,['E_11'],['E_11'],True
+STRESS_TEST_ONLY,4,single,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,4,single,1,2,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,4,two,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,8,single,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,8,single,1,2,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,8,two,1,1,"[915, 0, 0]",True,26465,26465,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,region_CT,single,1,1,"[1338, 0, 0]",True,26888,26888,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,region_CT,single,1,2,"[1338, 24, 0]",True,26912,26912,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,region_CT,two,1,1,"[1338, 24, 0]",True,26912,26912,"['DE_ENGINE_61', 'DE_GEAR_61']","['DE_ENGINE_61', 'DE_GEAR_61']",True
+STRESS_TEST_ONLY,region_CTO,single,1,1,"[713, 135, 6]",True,27286,27286,['R3_S75_D7_ABRUPT'],['R3_S75_D7_ABRUPT'],True
+STRESS_TEST_ONLY,region_CTO,two,1,1,"[715, 134, 6]",True,27286,27286,['R3_S75_D7_ABRUPT'],['R3_S75_D7_ABRUPT'],True

@@ -1,0 +1,8 @@
+﻿run,aggregate,fingerprint,variables,rows,nonzeros,integer_variables,objective_direction,objective_nonzeros,objective_constant,x_cell_kit,x_t1_pack,x_oem_pack
+nominal_B0,1,0xa66361b0,28663,10758,86925,28663,MAXIMIZE,9694,0.0,eliminated,eliminated,eliminated
+nominal_B20,1,0x68419adb,28668,10761,86961,28668,MAXIMIZE,9694,0.0,"[-0, 24]","[-0, 20]","[-0, 20]"
+nominal_B20,0,0xaac51573,30071,12171,86116,30071,MAXIMIZE,9694,0.0,"[-0, 24]","[-0, 20]","[-0, 20]"
+nominal_B50,1,0xa22f21be,28668,10761,86961,28668,MAXIMIZE,9694,0.0,"[-0, 61]","[-0, 50]","[-0, 50]"
+nominal_B100,1,0x09873ea8,28669,10762,86961,28669,MAXIMIZE,9694,0.0,"[-0, 122]","[-0, 100]","[-0, 100]"
+DE_B0,1,0x42319833,114653,43036,386480,114652,MAXIMIZE,1,0.0,eliminated,eliminated,eliminated
+DE_B50,1,0x55744d5e,114664,43045,386615,114663,MAXIMIZE,1,0.0,"[-0, 61]","[-0, 50]","[-0, 50]"

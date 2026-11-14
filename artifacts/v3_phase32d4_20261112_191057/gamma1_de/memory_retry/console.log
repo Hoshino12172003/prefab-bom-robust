@@ -1,0 +1,82 @@
+[Solver environment metadata redacted]
+[Solver environment metadata redacted]
+Set parameter TimeLimit to value 900
+Set parameter MemLimit to value 15.5
+Set parameter SoftMemLimit to value 14
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter OptimalityTol to value 1e-09
+Set parameter Symmetry to value 0
+Set parameter Aggregate to value 0
+Set parameter LogFile to value "optimizer.log"
+Set parameter PrePasses to value 2
+Set parameter Seed to value 20261110
+Set parameter Threads to value 1
+[Solver environment metadata redacted]
+Academic license - for non-commercial use only - expires 2027-04-10
+
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file ..\full.mps.gz
+Reading time = 35.74 seconds
+FULL_GAMMA1_DE: 8172101 rows, 26912554 columns, 77422663 nonzeros
+
+Read MIP start from file ..\full_start.mst.gz
+Read input file '..\full_start.mst.gz'
+
+Using Gurobi shared library E:\gurobi1301\win64\bin\gurobi130.dll
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  900
+MemLimit  15.5
+SoftMemLimit  14
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+Symmetry  0
+Aggregate  0
+PrePasses  2
+Seed  20261110
+Threads  1
+
+Optimize a model with 8172101 rows, 26912554 columns and 77422663 nonzeros (Max)
+Model fingerprint: 0xca22967b
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 26912554 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Loaded user MIP start with objective 11775
+
+Presolve removed 31240 rows and 6654830 columns (presolve time = 5s)...
+Presolve removed 225847 rows and 6758845 columns (presolve time = 11s)...
+Presolve removed 402428 rows and 6989740 columns (presolve time = 19s)...
+Presolve removed 402428 rows and 6989740 columns (presolve time = 21s)...
+Presolve removed 402428 rows and 6989740 columns (presolve time = 25s)...
+Presolve removed 408108 rows and 6989740 columns
+Presolve time: 27.93s
+
+Explored 0 nodes (0 simplex iterations) in 30.58 seconds (32.01 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 11775 
+No other solutions better than 0
+
+Best objective 1.177500000000e+04, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Error 10001: Out of memory
+

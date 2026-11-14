@@ -1,0 +1,1 @@
+P4 G1_N355 level 2 exact True W 11775 leaf 24 env 0 nodes 415 frontier 0

@@ -1,0 +1,2 @@
+﻿offset,origin,destination,item,warmup_dispatch_t,lead_time,warmup_arrival_t,remaining_lead,formal_arrival_t,in_formal_window,quantity,source_var
+NB13,seat-supplier_trans,seat-supplier_prod,componment_seat1,35,23,58,2,2,True,14700,"s0_q[seat-supplier_trans,seat-supplier_prod,componment_seat1,35]"

@@ -1,0 +1,76 @@
+{
+  "case": "G2_N64",
+  "policy": "P3",
+  "x": [
+    713,
+    135,
+    6
+  ],
+  "rhs_count": 64,
+  "gamma": 2,
+  "mode": "EXHAUSTIVE_FLAT_EXACT_MINIMUM",
+  "worst": 12300,
+  "worst_rhs": [
+    15376318464
+  ],
+  "worst_rhs_complete": false,
+  "exact": true,
+  "full_milp": 16,
+  "memoized_exact": 0,
+  "matrix_replays": 48,
+  "wall_seconds": 16.62376890005544,
+  "peak_bytes": 319074304,
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "row_checks": 3,
+  "monotonicity": [
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery1",
+      "policy": [
+        713,
+        135,
+        6
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 13690,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 21750,
+      "inventory_upper_slack": 78249
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery2",
+      "policy": [
+        713,
+        135,
+        6
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 8214,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 13050,
+      "inventory_upper_slack": 86949
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery3",
+      "policy": [
+        713,
+        135,
+        6
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 5476,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 8700,
+      "inventory_upper_slack": 91299
+    }
+  ]
+}

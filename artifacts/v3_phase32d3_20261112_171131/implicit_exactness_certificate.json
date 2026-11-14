@@ -1,0 +1,139 @@
+{
+  "status": "PASS_IMPLICIT_EVENT_SEPARATION_EXACT_PROTOTYPE",
+  "gamma1_complete_worst_rhs": [
+    {
+      "policy": "P1",
+      "W": 11775,
+      "worst_rhs": [
+        16106127360,
+        16911433728,
+        17716740096,
+        18522046464
+      ]
+    },
+    {
+      "policy": "P2",
+      "W": 11775,
+      "worst_rhs": [
+        16106127360,
+        16911433728,
+        17716740096,
+        18522046464
+      ]
+    },
+    {
+      "policy": "P3",
+      "W": 11775,
+      "worst_rhs": [
+        16106127360,
+        16911433728,
+        17716740096,
+        18522046464
+      ]
+    },
+    {
+      "policy": "P4",
+      "W": 11775,
+      "worst_rhs": [
+        16106127360,
+        16911433728,
+        17716740096,
+        18522046464
+      ]
+    }
+  ],
+  "matched_benchmarks": {
+    "1": 4,
+    "2": 20,
+    "3": 20
+  },
+  "full_independent_certificate": {
+    "P1": {
+      "policy": "P1",
+      "full_certificate": true,
+      "value": 11775,
+      "rhs_id": 16106127360,
+      "root_branches": 414,
+      "trajectories_covered": 2657350,
+      "replay_matrix_rows": 23019,
+      "maximum_matrix_residual": 0,
+      "independent_milps": 6,
+      "witness_uses": {
+        "00003_envelope": 9,
+        "00004_envelope": 9,
+        "00005_envelope": 9,
+        "00006_envelope": 372,
+        "00002_leaf": 15
+      },
+      "seconds": 11.772918700007722
+    },
+    "P2": {
+      "policy": "P2",
+      "full_certificate": true,
+      "value": 11775,
+      "rhs_id": 16106127360,
+      "root_branches": 414,
+      "trajectories_covered": 2657350,
+      "replay_matrix_rows": 23019,
+      "maximum_matrix_residual": 0,
+      "independent_milps": 6,
+      "witness_uses": {
+        "00003_envelope": 9,
+        "00004_envelope": 9,
+        "00005_envelope": 9,
+        "00006_envelope": 372,
+        "00002_leaf": 15
+      },
+      "seconds": 10.459408900002018
+    },
+    "P3": {
+      "policy": "P3",
+      "full_certificate": true,
+      "value": 11775,
+      "rhs_id": 16106127360,
+      "root_branches": 414,
+      "trajectories_covered": 2657350,
+      "replay_matrix_rows": 23019,
+      "maximum_matrix_residual": 0,
+      "independent_milps": 6,
+      "witness_uses": {
+        "00003_envelope": 9,
+        "00004_envelope": 9,
+        "00005_envelope": 9,
+        "00006_envelope": 372,
+        "00002_leaf": 15
+      },
+      "seconds": 10.897986500058323
+    },
+    "P4": {
+      "policy": "P4",
+      "full_certificate": true,
+      "value": 11775,
+      "rhs_id": 16106127360,
+      "root_branches": 414,
+      "trajectories_covered": 2657350,
+      "replay_matrix_rows": 23019,
+      "maximum_matrix_residual": 0,
+      "independent_milps": 6,
+      "witness_uses": {
+        "00003_envelope": 9,
+        "00004_envelope": 9,
+        "00005_envelope": 9,
+        "00006_envelope": 372,
+        "00002_leaf": 15
+      },
+      "seconds": 10.678729000035673
+    }
+  },
+  "full_worst_value_only": true,
+  "gamma2_full_value_by_nesting": {
+    "P1": 11775,
+    "P2": 11775,
+    "P3": 11775,
+    "P4": 11775
+  },
+  "all_logged_prunes_replayed": 7038,
+  "maximum_solver_residual": 0.0,
+  "maximum_integer_matrix_residual": 0,
+  "approximate_or_incomplete_runs": 0
+}

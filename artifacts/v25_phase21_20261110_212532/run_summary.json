@@ -1,0 +1,38 @@
+{
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "label": "STRUCTURAL_DIAGNOSTIC_ONLY",
+  "source_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "user_request_sha256": "8d819cd837b87df319250ef237135e796086159d8dab6c66716132c1a3499855",
+  "phase20_manifest_sha256": "3fde397a0070bd7f41dd961c94f8bd1af2ad2076b424df2a8ad01b0db1c32aae",
+  "phase20_files_verified": 26,
+  "gurobi_version": [
+    13,
+    0,
+    1
+  ],
+  "ratio": "27/19",
+  "ratio_support": [
+    "13/10",
+    "157/100"
+  ],
+  "diagnostic_scales": {
+    "1": 215,
+    "3": 644,
+    "5": 1073
+  },
+  "common_premium_probe": "3881/3382722",
+  "oem_premium_estimate": null,
+  "diagnostic_runs": 352,
+  "algorithm_runs": 0,
+  "formal_managerial_runs": 0,
+  "breakpoint_events": 1259,
+  "tables": {
+    "buffer_variable_freedom": 12,
+    "single_buffer_capability": 12,
+    "equal_cost_dominance": 12,
+    "risk_location_policy_response": 24,
+    "optimal_policy_set_ranges": 72,
+    "near_optimal_policy_ranges": 216,
+    "threshold_direct_checks": 3
+  }
+}

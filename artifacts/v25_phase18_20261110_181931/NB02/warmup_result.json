@@ -1,0 +1,34 @@
+{
+  "status": 15,
+  "runtime": 107.55900001525879,
+  "work": 94.56744773263308,
+  "variables": 879315,
+  "integer_variables": 879315,
+  "constraints": 302925,
+  "nodes": 1.0,
+  "status_name": "USER_OBJ_LIMIT",
+  "objective": 0.9169285714285713,
+  "bound": 0.9169339285714395,
+  "mip_gap": 5.842486574340761e-06,
+  "on_time": 102696,
+  "bev": 2708,
+  "non_bev": 99988,
+  "late": 0,
+  "service_rate": 0.9169285714285714,
+  "material_balance_residual": 0,
+  "max_gurobi_residual": 0.0,
+  "certified": true,
+  "buffers": {
+    "x_cell_kit": 0,
+    "x_t1_pack": 0,
+    "x_oem_pack": 0
+  },
+  "exact_budget_residual_usd": 0.0,
+  "independent_upper": {
+    "integer_upper": 102696,
+    "cell_units_upper": 45952,
+    "existing_reachable_packs": 411,
+    "non_bev_demand": 99988
+  },
+  "independent_exact_certificate": true
+}

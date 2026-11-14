@@ -1,0 +1,24 @@
+{
+  "frozen_manifests": {
+    "v3_phase32d3_20261112_171131": {
+      "entries": 4207,
+      "manifest_sha256": "551c9c6e3d94b3ab1b4188403a7e7a47a06fbb43c01ff2a3599c38724fe419d2"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    }
+  },
+  "costs": [
+    "1",
+    "27/19",
+    "297/190"
+  ],
+  "budget": "17388/19",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "gurobi": [
+    13,
+    0,
+    1
+  ]
+}

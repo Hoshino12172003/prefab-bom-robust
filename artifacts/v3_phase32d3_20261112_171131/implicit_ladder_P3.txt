@@ -1,0 +1,10 @@
+P3 G2_N32 level 2 exact True W 12300 leaf 3 env 1 nodes 76 frontier 0
+P3 G2_N64 level 2 exact True W 12300 leaf 3 env 1 nodes 84 frontier 0
+P3 G2_N128 level 2 exact True W 11775 leaf 2 env 3 nodes 48 frontier 0
+P3 G2_N256 level 2 exact True W 11775 leaf 2 env 3 nodes 83 frontier 0
+P3 G2_N512 level 2 exact True W 11775 leaf 2 env 5 nodes 93 frontier 0
+P3 G3_N64 level 2 exact True W 12300 leaf 3 env 2 nodes 114 frontier 0
+P3 G3_N128 level 2 exact True W 12300 leaf 3 env 2 nodes 126 frontier 0
+P3 G3_N256 level 2 exact True W 11775 leaf 2 env 3 nodes 63 frontier 0
+P3 G3_N512 level 2 exact True W 11775 leaf 2 env 3 nodes 83 frontier 0
+P3 G3_N1024 level 2 exact True W 11775 leaf 2 env 5 nodes 93 frontier 0

@@ -1,0 +1,9 @@
+﻿scope,label,vehicles,status,fixed_due_withdrawals_feasible,exact_material_residual,max_solver_residual,variables,constraints,seconds,item,due_withdrawals,min_oem_closing,zero_closing_periods,inference
+BEV3003,STRUCTURAL_DIAGNOSTIC_ONLY,3003,2,True,0,0.0,3556,2261,0.009000062942504883,D83,3003,0,11,JIT withdrawals feasible under source nonbattery background; not a service solve
+BEV3003,STRUCTURAL_DIAGNOSTIC_ONLY,3003,2,True,0,0.0,3556,2261,0.009000062942504883,G1Z,3003,0,10,JIT withdrawals feasible under source nonbattery background; not a service solve
+BEV3003,STRUCTURAL_DIAGNOSTIC_ONLY,3003,2,True,0,0.0,3556,2261,0.009000062942504883,Q2J,567,0,12,JIT withdrawals feasible under source nonbattery background; not a service solve
+BEV3003,STRUCTURAL_DIAGNOSTIC_ONLY,3003,2,True,0,0.0,3556,2261,0.009000062942504883,Q4H,2436,0,13,JIT withdrawals feasible under source nonbattery background; not a service solve
+FULL28000,STRUCTURAL_DIAGNOSTIC_ONLY,28000,2,True,0,0.0,3556,2261,0.01699995994567871,D83,3003,0,11,JIT withdrawals feasible under source nonbattery background; not a service solve
+FULL28000,STRUCTURAL_DIAGNOSTIC_ONLY,28000,2,True,0,0.0,3556,2261,0.01699995994567871,G1Z,3003,0,10,JIT withdrawals feasible under source nonbattery background; not a service solve
+FULL28000,STRUCTURAL_DIAGNOSTIC_ONLY,28000,2,True,0,0.0,3556,2261,0.01699995994567871,Q2J,9726,0,12,JIT withdrawals feasible under source nonbattery background; not a service solve
+FULL28000,STRUCTURAL_DIAGNOSTIC_ONLY,28000,2,True,0,0.0,3556,2261,0.01699995994567871,Q4H,12038,0,11,JIT withdrawals feasible under source nonbattery background; not a service solve

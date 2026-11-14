@@ -1,0 +1,4 @@
+﻿budget_id,days,K,average_daily,base_c_T,B_baseline,rule,evidence_class
+K1,1,215,429/2,27/19,5805/19,B_K=K*c_T; no total quantity cap,EXACT_DERIVED_FROM_SOURCE_DEMAND
+K3,3,644,429/2,27/19,17388/19,B_K=K*c_T; no total quantity cap,EXACT_DERIVED_FROM_SOURCE_DEMAND
+K5,5,1073,429/2,27/19,28971/19,B_K=K*c_T; no total quantity cap,EXACT_DERIVED_FROM_SOURCE_DEMAND

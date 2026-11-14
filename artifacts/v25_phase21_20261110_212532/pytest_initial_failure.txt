@@ -1,0 +1,429 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 19 items
+
+tests/test_v25_phase20_prospective_spec.py::test_source_vins_and_both_configurations PASSED [  5%]
+tests/test_v25_phase20_prospective_spec.py::test_reveal_and_original_due_days PASSED [ 10%]
+tests/test_v25_phase20_prospective_spec.py::test_battery_shared_calendar_leads_and_bom PASSED [ 15%]
+tests/test_v25_phase20_prospective_spec.py::test_rsp_c_is_unique_and_excludes_historical_battery PASSED [ 21%]
+tests/test_v25_phase20_prospective_spec.py::test_all_buffer_locations_remain_endogenous PASSED [ 26%]
+tests/test_v25_phase20_prospective_spec.py::test_risk_targets_and_l1_integer_release_conservation PASSED [ 31%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[BEV3003-3003] PASSED [ 36%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[FULL28000-28000] PASSED [ 42%]
+tests/test_v25_phase20_prospective_spec.py::test_phase_scope_and_prior_statuses PASSED [ 47%]
+tests/test_v25_phase21_calibration.py::test_cost_and_budget_evidence PASSED [ 52%]
+tests/test_v25_phase21_calibration.py::test_release_and_independent_nominal_flow PASSED [ 57%]
+tests/test_v25_phase21_calibration.py::test_exact_events_and_portfolio_exits_against_brute_force FAILED [ 63%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[single_buffer_capability.csv-12] PASSED [ 68%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[equal_cost_dominance.csv-12] PASSED [ 73%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[risk_location_policy_response.csv-24] PASSED [ 78%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[optimal_policy_set_ranges.csv-72] PASSED [ 84%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[near_optimal_policy_ranges.csv-216] PASSED [ 89%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[threshold_direct_checks.csv-3] PASSED [ 94%]
+tests/test_v25_phase21_calibration.py::test_phase21_critical_result_rows PASSED [100%]
+
+================================== FAILURES ===================================
+__________ test_exact_events_and_portfolio_exits_against_brute_force __________
+
+modules = [<module 'frontier' from 'D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase21_20261110_212532\\frontier.py'...ions' from 'D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase21_20261110_212532\\portfolio_expirations.py'>]
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001B522F63350>
+
+    def test_exact_events_and_portfolio_exits_against_brute_force(modules, monkeypatch):
+        f, p = modules
+        monkeypatch.setattr(f, 'DEMAND', (3, 1, 3, 1, 2))
+        monkeypatch.setattr(f, 'TOTAL', 10)
+        monkeypatch.setattr(f, 'capacity', lambda risk, stage, t: 1)
+        ratio, k = Fraction(3, 2), 7
+        budget = k * ratio
+        frontier = f.Frontier('NOM', k, ratio)
+        portfolios = []
+        for c, t1, o in itertools.product(range(int(budget) + 1), range(k + 1), range(k + 1)):
+            spend = c + ratio * (t1 + o)
+            if spend > budget:
+                continue
+            # Simulate daily arrivals and consume at each due day without the prefix-deficit formula.
+            available, delivered = o, 0
+            for day, demand in enumerate(f.DEMAND, 1):
+                if day == 2 and t1:
+                    available += 1
+                elif day >= 3 and t1+c >= day-1:
+                    available += 1
+                service = min(available, demand)
+                delivered += service
+                available -= service
+            kind = f.SUPPORT[int(c > 0) + 2*int(t1 > 0) + 4*int(o > 0)]
+            premium = (budget-spend)/(ratio*o) if o else float('inf')
+            portfolios.append((premium, delivered, kind, (c, t1, o)))
+        points = sorted({Fraction(0), *(a for a, _, _, _ in portfolios if a != float('inf'))})
+        expected, exits = [], Counter()
+        for point in points:
+            z = max(b for a, b, _, _ in portfolios if a >= point)
+            right = max(b for a, b, _, _ in portfolios if a > point)
+            at_kind = {kind for a, b, kind, _ in portfolios if a >= point and b == z}
+            right_kind = {kind for a, b, kind, _ in portfolios if a > point and b == right}
+            if point == 0 or z != right or at_kind != right_kind:
+                expected.append((point, z, right, at_kind, right_kind))
+            for limit, count, _, _ in portfolios:
+                if limit == point and count == z:
+                    exits[z, point] += 1
+        actual = frontier.events()
+>       assert [(Fraction(r['premium_exact']), r['z_at'], r['z_right'],
+                 set(r['supports_at'].split('|')), set(r['supports_right'].split('|'))) for r in actual] == expected
+E       AssertionError: assert [(Fraction(0, 1), 8, 7, {'CTO', 'CO'}, {'CTO', 'CO'}), (Fraction(1, 4), 7, 7, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 3), 7, 6, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(1, 2), 6, 6, {'TO', 'CO', 'CTO'}, {'CTO', 'CO'}), (Fraction(2, 3), 6, 6, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 1), 6, 5, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(3, 2), 5, 5, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(2, 1), 5, 5, {'TO', 'CTO'}, {'CTO'}), (Fraction(3, 1), 5, 4, {'CTO'}, {'T', 'CO', 'CTO', 'CT'}), (Fraction(11, 3), 4, 4, {'T', 'CO', 'CTO', 'CT'}, {'T', 'CO', 'CT'}), (Fraction(4, 1), 4, 4, {'T', 'CO', 'CT'}, {'T', 'CT'})] == [(Fraction(0, 1), 8, 7, {'CTO'}, {'CTO', 'CO'}), (Fraction(1, 12), 7, 7, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 3), 7, 6, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(4, 9), 6, 6, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(1, 2), 6, 6, {'TO', 'CTO'}, {'CTO'}), (Fraction(1, 1), 6, 5, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(7, 6), 5, 5, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(2, 1), 5, 5, {'TO', 'CTO'}, {'CTO'}), (Fraction(3, 1), 5, 4, {'CTO'}, {'T', 'CT', 'CO', 'CTO'}), (Fraction(10, 3), 4, 4, {'T', 'CT', 'CO', 'CTO'}, {'T', 'CTO', 'CT'}), (Fraction(11, 3), 4, 4, {'T', 'CTO', 'CT'}, {'T', 'CT'})]
+E         
+E         At index 0 diff: (Fraction(0, 1), 8, 7, {'CTO', 'CO'}, {'CTO', 'CO'}) != (Fraction(0, 1), 8, 7, {'CTO'}, {'CTO', 'CO'})
+E         
+E         Full diff:
+E           [
+E               (
+E                   Fraction(0, 1),
+E                   8,
+E                   7,
+E                   {
+E         +             'CO',
+E                       'CTO',
+E                   },
+E                   {
+E                       'CO',
+E                       'CTO',
+E                   },
+E               ),
+E               (
+E         -         Fraction(1, 12),
+E         ?                     ^^
+E         +         Fraction(1, 4),
+E         ?                     ^
+E                   7,
+E                   7,
+E                   {
+E                       'CO',
+E                       'CTO',
+E                   },
+E                   {
+E                       'CTO',
+E                   },
+E               ),
+E               (
+E                   Fraction(1, 3),
+E                   7,
+E                   6,
+E                   {
+E                       'CTO',
+E                   },
+E                   {
+E                       'CO',
+E                       'CTO',
+E                       'TO',
+E                   },
+E               ),
+E               (
+E         -         Fraction(4, 9),
+E         ?                  ^  ^
+E         +         Fraction(1, 2),
+E         ?                  ^  ^
+E                   6,
+E                   6,
+E                   {
+E                       'CO',
+E                       'CTO',
+E                       'TO',
+E                   },
+E                   {
+E         +             'CO',
+E                       'CTO',
+E         -             'TO',
+E                   },
+E               ),
+E               (
+E         -         Fraction(1, 2),
+E         ?                  ^  ^
+E         +         Fraction(2, 3),
+E         ?                  ^  ^
+E                   6,
+E                   6,
+E                   {
+E         +             'CO',
+E                       'CTO',
+E         -             'TO',
+E                   },
+E                   {
+E                       'CTO',
+E                   },
+E               ),
+E               (
+E                   Fraction(1, 1),
+E                   6,
+E                   5,
+E                   {
+E                       'CTO',
+E                   },
+E                   {
+E                       'CO',
+E                       'CTO',
+E                       'TO',
+E                   },
+E               ),
+E               (
+E         -         Fraction(7, 6),
+E         ?                  ^  ^
+E         +         Fraction(3, 2),
+E         ?                  ^  ^
+E                   5,
+E                   5,
+E                   {
+E                       'CO',
+E                       'CTO',
+E                       'TO',
+E                   },
+E                   {
+E                       'CTO',
+E                       'TO',
+E                   },
+E               ),
+E               (
+E                   Fraction(2, 1),
+E                   5,
+E                   5,
+E                   {
+E                       'CTO',
+E                       'TO',
+E                   },
+E                   {
+E                       'CTO',
+E                   },
+E               ),
+E               (
+E                   Fraction(3, 1),
+E                   5,
+E                   4,
+E                   {
+E                       'CTO',
+E                   },
+E                   {
+E                       'CO',
+E                       'CT',
+E                       'CTO',
+E                       'T',
+E                   },
+E               ),
+E               (
+E         -         Fraction(10, 3),
+E         ?                   ^
+E         +         Fraction(11, 3),
+E         ?                   ^
+E                   4,
+E                   4,
+E                   {
+E                       'CO',
+E                       'CT',
+E                       'CTO',
+E                       'T',
+E                   },
+E                   {
+E         +             'CO',
+E                       'CT',
+E         -             'CTO',
+E                       'T',
+E                   },
+E               ),
+E               (
+E         -         Fraction(11, 3),
+E         ?                   ----
+E         +         Fraction(4, 1),
+E         ?                  +++
+E                   4,
+E                   4,
+E                   {
+E         +             'CO',
+E                       'CT',
+E         -             'CTO',
+E                       'T',
+E                   },
+E                   {
+E                       'CT',
+E                       'T',
+E                   },
+E               ),
+E           ]
+
+tests\test_v25_phase21_calibration.py:102: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_v25_phase21_calibration.py::test_exact_events_and_portfolio_exits_against_brute_force - AssertionError: assert [(Fraction(0, 1), 8, 7, {'CTO', 'CO'}, {'CTO', 'CO'}), (Fraction(1, 4), 7, 7, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 3), 7, 6, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(1, 2), 6, 6, {'TO', 'CO', 'CTO'}, {'CTO', 'CO'}), (Fraction(2, 3), 6, 6, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 1), 6, 5, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(3, 2), 5, 5, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(2, 1), 5, 5, {'TO', 'CTO'}, {'CTO'}), (Fraction(3, 1), 5, 4, {'CTO'}, {'T', 'CO', 'CTO', 'CT'}), (Fraction(11, 3), 4, 4, {'T', 'CO', 'CTO', 'CT'}, {'T', 'CO', 'CT'}), (Fraction(4, 1), 4, 4, {'T', 'CO', 'CT'}, {'T', 'CT'})] == [(Fraction(0, 1), 8, 7, {'CTO'}, {'CTO', 'CO'}), (Fraction(1, 12), 7, 7, {'CTO', 'CO'}, {'CTO'}), (Fraction(1, 3), 7, 6, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(4, 9), 6, 6, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(1, 2), 6, 6, {'TO', 'CTO'}, {'CTO'}), (Fraction(1, 1), 6, 5, {'CTO'}, {'TO', 'CO', 'CTO'}), (Fraction(7, 6), 5, 5, {'TO', 'CO', 'CTO'}, {'TO', 'CTO'}), (Fraction(2, 1), 5, 5, {'TO', 'CTO'}, {'CTO'}), (Fraction(3, 1), 5, 4, {'CTO'}, {'T', 'CT', 'CO', 'CTO'}), (Fraction(10, 3), 4, 4, {'T', 'CT', 'CO', 'CTO'}, {'T', 'CTO', 'CT'}), (Fraction(11, 3), 4, 4, {'T', 'CTO', 'CT'}, {'T', 'CT'})]
+  
+  At index 0 diff: (Fraction(0, 1), 8, 7, {'CTO', 'CO'}, {'CTO', 'CO'}) != (Fraction(0, 1), 8, 7, {'CTO'}, {'CTO', 'CO'})
+  
+  Full diff:
+    [
+        (
+            Fraction(0, 1),
+            8,
+            7,
+            {
+  +             'CO',
+                'CTO',
+            },
+            {
+                'CO',
+                'CTO',
+            },
+        ),
+        (
+  -         Fraction(1, 12),
+  ?                     ^^
+  +         Fraction(1, 4),
+  ?                     ^
+            7,
+            7,
+            {
+                'CO',
+                'CTO',
+            },
+            {
+                'CTO',
+            },
+        ),
+        (
+            Fraction(1, 3),
+            7,
+            6,
+            {
+                'CTO',
+            },
+            {
+                'CO',
+                'CTO',
+                'TO',
+            },
+        ),
+        (
+  -         Fraction(4, 9),
+  ?                  ^  ^
+  +         Fraction(1, 2),
+  ?                  ^  ^
+            6,
+            6,
+            {
+                'CO',
+                'CTO',
+                'TO',
+            },
+            {
+  +             'CO',
+                'CTO',
+  -             'TO',
+            },
+        ),
+        (
+  -         Fraction(1, 2),
+  ?                  ^  ^
+  +         Fraction(2, 3),
+  ?                  ^  ^
+            6,
+            6,
+            {
+  +             'CO',
+                'CTO',
+  -             'TO',
+            },
+            {
+                'CTO',
+            },
+        ),
+        (
+            Fraction(1, 1),
+            6,
+            5,
+            {
+                'CTO',
+            },
+            {
+                'CO',
+                'CTO',
+                'TO',
+            },
+        ),
+        (
+  -         Fraction(7, 6),
+  ?                  ^  ^
+  +         Fraction(3, 2),
+  ?                  ^  ^
+            5,
+            5,
+            {
+                'CO',
+                'CTO',
+                'TO',
+            },
+            {
+                'CTO',
+                'TO',
+            },
+        ),
+        (
+            Fraction(2, 1),
+            5,
+            5,
+            {
+                'CTO',
+                'TO',
+            },
+            {
+                'CTO',
+            },
+        ),
+        (
+            Fraction(3, 1),
+            5,
+            4,
+            {
+                'CTO',
+            },
+            {
+                'CO',
+                'CT',
+                'CTO',
+                'T',
+            },
+        ),
+        (
+  -         Fraction(10, 3),
+  ?                   ^
+  +         Fraction(11, 3),
+  ?                   ^
+            4,
+            4,
+            {
+                'CO',
+                'CT',
+                'CTO',
+                'T',
+            },
+            {
+  +             'CO',
+                'CT',
+  -             'CTO',
+                'T',
+            },
+        ),
+        (
+  -         Fraction(11, 3),
+  ?                   ----
+  +         Fraction(4, 1),
+  ?                  +++
+            4,
+            4,
+            {
+  +             'CO',
+                'CT',
+  -             'CTO',
+                'T',
+            },
+            {
+                'CT',
+                'T',
+            },
+        ),
+    ]
+======================== 1 failed, 18 passed in 5.47s =========================

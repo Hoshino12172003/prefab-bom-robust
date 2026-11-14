@@ -1,0 +1,23 @@
+[
+  "E:\\gurobi1301\\win64\\bin\\gurobi_cl.EXE",
+  "Threads=1",
+  "Seed=20261110",
+  "MIPGap=0",
+  "MIPGapAbs=0",
+  "FeasibilityTol=1e-9",
+  "IntFeasTol=1e-9",
+  "OptimalityTol=1e-9",
+  "TimeLimit=900",
+  "MemLimit=17",
+  "SoftMemLimit=15",
+  "Symmetry=0",
+  "Aggregate=0",
+  "Presolve=1",
+  "PrePasses=1",
+  "PreSparsify=0",
+  "Method=1",
+  "LogFile=optimizer.log",
+  "InputFile=..\\full_start.mst.gz",
+  "ResultFile=full.sol.gz",
+  "..\\full.mps.gz"
+]

@@ -1,0 +1,78 @@
+{"iteration": 1, "action": "incumbent", "selected": [333, 1], "remaining": 0, "budget": 0, "active_once": 16271, "active_twice": 0, "lower": 17675, "incumbent": 17675, "bound_provenance": "legal_integer_optimum"}
+{"iteration": 2, "action": "visit", "selected": [], "remaining": 38, "budget": 2, "active_once": 0, "active_twice": 0, "lower": 12300, "incumbent": 17675, "bound_provenance": "envelope_milp:00002_envelope"}
+{"iteration": 3, "action": "visit", "selected": [333], "remaining": 37, "budget": 1, "active_once": 16256, "active_twice": 0, "lower": 12300, "incumbent": 17675, "bound_provenance": "exact_rhs:00002_envelope"}
+{"iteration": 4, "action": "incumbent", "selected": [333, 243], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "legal_integer_optimum"}
+{"iteration": 5, "action": "visit", "selected": [333, 243], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 6, "action": "prune", "selected": [333, 381], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 7, "action": "prune", "selected": [333, 174], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 8, "action": "prune", "selected": [333, 105], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 9, "action": "prune", "selected": [333, 60], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 1920, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 10, "action": "prune", "selected": [333, 63], "remaining": 0, "budget": 0, "active_once": 16382, "active_twice": 3968, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 11, "action": "prune", "selected": [333, 66], "remaining": 0, "budget": 0, "active_once": 16380, "active_twice": 8064, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 12, "action": "prune", "selected": [333, 69], "remaining": 0, "budget": 0, "active_once": 16376, "active_twice": 16256, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 13, "action": "prune", "selected": [333, 36], "remaining": 0, "budget": 0, "active_once": 16383, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 14, "action": "prune", "selected": [333, 39], "remaining": 0, "budget": 0, "active_once": 16382, "active_twice": 128, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 15, "action": "prune", "selected": [333, 42], "remaining": 0, "budget": 0, "active_once": 16380, "active_twice": 384, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 16, "action": "prune", "selected": [333, 45], "remaining": 0, "budget": 0, "active_once": 16376, "active_twice": 896, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 17, "action": "prune", "selected": [333, 48], "remaining": 0, "budget": 0, "active_once": 16368, "active_twice": 1920, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 18, "action": "prune", "selected": [333, 51], "remaining": 0, "budget": 0, "active_once": 16352, "active_twice": 3968, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 19, "action": "prune", "selected": [333, 54], "remaining": 0, "budget": 0, "active_once": 16320, "active_twice": 8064, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 20, "action": "prune", "selected": [333, 57], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 16256, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 21, "action": "prune", "selected": [333, 3], "remaining": 0, "budget": 0, "active_once": 16271, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 22, "action": "prune", "selected": [333, 6], "remaining": 0, "budget": 0, "active_once": 16286, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 23, "action": "prune", "selected": [333, 9], "remaining": 0, "budget": 0, "active_once": 16316, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 24, "action": "prune", "selected": [333, 12], "remaining": 0, "budget": 0, "active_once": 16376, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 25, "action": "prune", "selected": [333, 15], "remaining": 0, "budget": 0, "active_once": 16368, "active_twice": 128, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 26, "action": "prune", "selected": [333, 18], "remaining": 0, "budget": 0, "active_once": 16352, "active_twice": 384, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 27, "action": "prune", "selected": [333, 21], "remaining": 0, "budget": 0, "active_once": 16320, "active_twice": 896, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 28, "action": "prune", "selected": [333, 24], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 1920, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 29, "action": "prune", "selected": [333, 27], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 3840, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 30, "action": "prune", "selected": [333, 30], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 7680, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 31, "action": "prune", "selected": [333, 33], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 15360, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 32, "action": "prune", "selected": [333, 2], "remaining": 0, "budget": 0, "active_once": 16271, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 33, "action": "prune", "selected": [333, 5], "remaining": 0, "budget": 0, "active_once": 16286, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 34, "action": "prune", "selected": [333, 20], "remaining": 0, "budget": 0, "active_once": 16320, "active_twice": 896, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 35, "action": "prune", "selected": [333, 23], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 1920, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 36, "action": "prune", "selected": [333, 26], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 3840, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 37, "action": "prune", "selected": [333, 1], "remaining": 0, "budget": 0, "active_once": 16271, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 38, "action": "prune", "selected": [333, 4], "remaining": 0, "budget": 0, "active_once": 16286, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 39, "action": "prune", "selected": [333, 19], "remaining": 0, "budget": 0, "active_once": 16320, "active_twice": 896, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 40, "action": "prune", "selected": [333, 22], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 1920, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 41, "action": "prune", "selected": [333, 25], "remaining": 0, "budget": 0, "active_once": 16256, "active_twice": 3840, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 42, "action": "prune", "selected": [243], "remaining": 36, "budget": 1, "active_once": 127, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 43, "action": "prune", "selected": [381], "remaining": 29, "budget": 1, "active_once": 127, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 44, "action": "prune", "selected": [174], "remaining": 34, "budget": 1, "active_once": 127, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 45, "action": "prune", "selected": [105], "remaining": 33, "budget": 1, "active_once": 127, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 46, "action": "prune", "selected": [60], "remaining": 0, "budget": 1, "active_once": 2047, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 47, "action": "prune", "selected": [63], "remaining": 0, "budget": 1, "active_once": 4094, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 48, "action": "prune", "selected": [66], "remaining": 0, "budget": 1, "active_once": 8188, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 49, "action": "prune", "selected": [69], "remaining": 0, "budget": 1, "active_once": 16376, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 50, "action": "prune", "selected": [36], "remaining": 0, "budget": 1, "active_once": 127, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 51, "action": "prune", "selected": [39], "remaining": 0, "budget": 1, "active_once": 254, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 52, "action": "prune", "selected": [42], "remaining": 0, "budget": 1, "active_once": 508, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 53, "action": "prune", "selected": [45], "remaining": 0, "budget": 1, "active_once": 1016, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 54, "action": "prune", "selected": [48], "remaining": 0, "budget": 1, "active_once": 2032, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 55, "action": "prune", "selected": [51], "remaining": 0, "budget": 1, "active_once": 4064, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 56, "action": "prune", "selected": [54], "remaining": 0, "budget": 1, "active_once": 8128, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 57, "action": "prune", "selected": [57], "remaining": 0, "budget": 1, "active_once": 16256, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 58, "action": "prune", "selected": [3], "remaining": 0, "budget": 1, "active_once": 15, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 59, "action": "prune", "selected": [6], "remaining": 0, "budget": 1, "active_once": 30, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 60, "action": "prune", "selected": [9], "remaining": 0, "budget": 1, "active_once": 60, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 61, "action": "prune", "selected": [12], "remaining": 0, "budget": 1, "active_once": 120, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 62, "action": "prune", "selected": [15], "remaining": 0, "budget": 1, "active_once": 240, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 63, "action": "prune", "selected": [18], "remaining": 0, "budget": 1, "active_once": 480, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 64, "action": "prune", "selected": [21], "remaining": 0, "budget": 1, "active_once": 960, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 65, "action": "prune", "selected": [24], "remaining": 0, "budget": 1, "active_once": 1920, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 66, "action": "prune", "selected": [27], "remaining": 0, "budget": 1, "active_once": 3840, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 67, "action": "prune", "selected": [30], "remaining": 0, "budget": 1, "active_once": 7680, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 68, "action": "prune", "selected": [33], "remaining": 0, "budget": 1, "active_once": 15360, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 69, "action": "prune", "selected": [2], "remaining": 0, "budget": 1, "active_once": 15, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 70, "action": "prune", "selected": [5], "remaining": 0, "budget": 1, "active_once": 30, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 71, "action": "prune", "selected": [20], "remaining": 0, "budget": 1, "active_once": 960, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 72, "action": "prune", "selected": [23], "remaining": 0, "budget": 1, "active_once": 1920, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 73, "action": "prune", "selected": [26], "remaining": 0, "budget": 1, "active_once": 3840, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 74, "action": "prune", "selected": [1], "remaining": 0, "budget": 1, "active_once": 15, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 75, "action": "prune", "selected": [4], "remaining": 0, "budget": 1, "active_once": 30, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 76, "action": "prune", "selected": [19], "remaining": 0, "budget": 1, "active_once": 960, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 77, "action": "prune", "selected": [22], "remaining": 0, "budget": 1, "active_once": 1920, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}
+{"iteration": 78, "action": "prune", "selected": [25], "remaining": 0, "budget": 1, "active_once": 3840, "active_twice": 0, "lower": 12300, "incumbent": 12300, "bound_provenance": "inherited"}

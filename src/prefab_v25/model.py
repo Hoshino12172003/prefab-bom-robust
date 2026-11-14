@@ -34,8 +34,7 @@ def _block(model, network, scenario, state, historical, prefix):
     for arc in network.arcs:
         for t in periods:
             total = gp.quicksum(dispatch[(*arc.key, item, t)] for item in arc.recipes)
-            unit, cap = arc.capacity_units(t)
-            model.addConstr(float(unit)*total <= float(cap*scenario.factor(arc.key,t)))
+            model.addConstr(total <= float(arc.capacity[t]*scenario.factor(arc.key,t)))
             group_cap = network.group_caps.get((*arc.key,t))
             if group_cap is not None:
                 model.addConstr(total <= group_cap)

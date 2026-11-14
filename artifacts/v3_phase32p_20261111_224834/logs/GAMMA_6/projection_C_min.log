@@ -1,0 +1,68 @@
+
+Gurobi 13.0.1 (win64) logging started Wed Nov 11 23:03:33 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32p_20261111_224834\logs\GAMMA_6\projection_C_min.log"
+Discarded solution information
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 207181 rows, 682294 columns and 1962831 nonzeros (Min)
+Model fingerprint: 0x3dcf419b
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 682294 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 14451 rows and 181243 columns
+Presolve time: 2.93s
+Presolved: 192730 rows, 501051 columns, 1585665 nonzeros
+Variable types: 0 continuous, 501051 integer (26919 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   15018    1.8172057e-02   8.169788e+04   0.000000e+00      5s
+   72680    6.7562343e-02   1.292488e+05   0.000000e+00     10s
+   93010    9.1462500e+02   0.000000e+00   0.000000e+00     14s
+
+Root relaxation: objective 9.146250e+02, 93010 iterations, 10.55 seconds (12.58 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  914.62500    0  287          -  914.62500      -     -   16s
+H    0     0                     915.0000000  914.62500  0.04%     -   17s
+     0     0  914.62500    0  287  915.00000  914.62500  0.04%     -   17s
+
+Explored 1 nodes (118925 simplex iterations) in 17.47 seconds (20.75 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 915 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 9.150000000000e+02, best bound 9.150000000000e+02, gap 0.0000%
+Set parameter LogToConsole to value 0
+Set parameter Threads to value 1
+Set parameter Seed to value 20261110
+Set parameter OptimalityTol to value 1e-09
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter TimeLimit to value 180

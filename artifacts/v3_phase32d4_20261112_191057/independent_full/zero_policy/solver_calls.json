@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "00001_leaf",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.7440001964569092,
+    "log": "independent_full/zero_policy/00001_leaf.log",
+    "witness": "independent_full/zero_policy/00001_leaf.npz",
+    "witness_sha256": "4316946c4f44a7fcd6534179842b8b4ab116db4f889bfe74ef5755a35f6a1cc9"
+  },
+  {
+    "tag": "00002_leaf",
+    "Q": 26448,
+    "bound": 26448.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.7289998531341553,
+    "log": "independent_full/zero_policy/00002_leaf.log",
+    "witness": "independent_full/zero_policy/00002_leaf.npz",
+    "witness_sha256": "7f0c7faabe3bffa7d51223a3278db3215bd298d063a265bf155a2045bc40c3d7"
+  },
+  {
+    "tag": "00003_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.870999813079834,
+    "log": "independent_full/zero_policy/00003_envelope.log",
+    "witness": "independent_full/zero_policy/00003_envelope.npz",
+    "witness_sha256": "77e25e066fe72895e3873b4a2ada1503d010862fd612352774ad0c66dbb42bd3"
+  },
+  {
+    "tag": "00004_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 1.238999843597412,
+    "log": "independent_full/zero_policy/00004_envelope.log",
+    "witness": "independent_full/zero_policy/00004_envelope.npz",
+    "witness_sha256": "a365bd5c2551c2d5b88706725f0a584e9bf9d659636e9d0873310446e98a39be"
+  },
+  {
+    "tag": "00005_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 1.1970000267028809,
+    "log": "independent_full/zero_policy/00005_envelope.log",
+    "witness": "independent_full/zero_policy/00005_envelope.npz",
+    "witness_sha256": "13debc4f452d820c603e9aecfc3fcd1cb0db7f3033569128060e6c150850ba8c"
+  },
+  {
+    "tag": "00006_envelope",
+    "Q": 11775,
+    "bound": 11775.0,
+    "gap": 0.0,
+    "solver_residual": 0.0,
+    "matrix_residual": 0,
+    "solver_seconds": 0.7439999580383301,
+    "log": "independent_full/zero_policy/00006_envelope.log",
+    "witness": "independent_full/zero_policy/00006_envelope.npz",
+    "witness_sha256": "9274a9c8e224442eaa3e1e32f9a62d65dc8c3e550644ab0a2ed7de538465f911"
+  }
+]

@@ -1,0 +1,5 @@
+﻿policy,x_C,x_T,x_O,gamma1_worst,gamma1_milp,gamma1_ties,gamma2_full_value_by_nesting,gamma3_worst,gamma3_lower,gamma3_leaf_milp,gamma3_envelope_milp,gamma3_wall_seconds,gamma3_peak_bytes,gamma3_frontier,gamma3_complete_ties,full_matrix_branch_replays
+P1,915,0,0,11775,25,4,11775,11775,11775,2,4,6.47355329990387,224202752,0,False,414
+P2,1338,24,0,11775,25,4,11775,11775,11775,2,4,6.35448949993588,227098624,0,False,414
+P3,713,135,6,11775,25,4,11775,11775,11775,2,4,6.299572800053284,224395264,0,False,414
+P4,1338,0,162,11775,24,4,11775,11775,11775,2,4,5.721946700010449,225939456,0,False,414

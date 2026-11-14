@@ -1,0 +1,155 @@
+{
+  "policies": {
+    "C": [
+      915,
+      0,
+      0
+    ],
+    "CT": [
+      1338,
+      24,
+      0
+    ],
+    "CTO": [
+      713,
+      135,
+      6
+    ]
+  },
+  "policy_outcomes": {
+    "C": {
+      "NR": 27363,
+      "B": 26889,
+      "G": 26500,
+      "S": 24200,
+      "BG": 26500,
+      "BS": 24200,
+      "GS": 24200,
+      "BGS": 24200,
+      "E": 27363,
+      "B7": 27363,
+      "G7": 23350,
+      "S7": 21350,
+      "S11": 23325,
+      "BGS7": 18600,
+      "S_LATE": 26300,
+      "BS_LATE": 26300,
+      "BS11": 23325
+    },
+    "CT": {
+      "NR": 27810,
+      "B": 27336,
+      "G": 26500,
+      "S": 24200,
+      "BG": 26500,
+      "BS": 24200,
+      "GS": 24200,
+      "BGS": 24200,
+      "E": 27810,
+      "B7": 27393,
+      "G7": 23350,
+      "S7": 21350,
+      "S11": 23325,
+      "BGS7": 18600,
+      "S_LATE": 26300,
+      "BS_LATE": 26300,
+      "BS11": 23325
+    },
+    "CTO": {
+      "NR": 27302,
+      "B": 26828,
+      "G": 26500,
+      "S": 24200,
+      "BG": 26500,
+      "BS": 24200,
+      "GS": 24200,
+      "BGS": 24200,
+      "E": 27302,
+      "B7": 27302,
+      "G7": 23350,
+      "S7": 21350,
+      "S11": 23325,
+      "BGS7": 18600,
+      "S_LATE": 26300,
+      "BS_LATE": 26300,
+      "BS11": 23325
+    }
+  },
+  "btb": [
+    {
+      "policy": "C",
+      "x_C": 915,
+      "x_T": 0,
+      "x_O": 0,
+      "candidates": 17,
+      "eligible_seat_pairs": 0,
+      "pruned": 0,
+      "bound_exact": 0,
+      "individual_MILP": 17,
+      "common_MILP": 0,
+      "worst_subset_Q": 18600,
+      "worst_subset_ties": "BGS7",
+      "bound_seconds": 0.001298899995163083,
+      "wall_seconds": 48.61282750009559
+    },
+    {
+      "policy": "CT",
+      "x_C": 1338,
+      "x_T": 24,
+      "x_O": 0,
+      "candidates": 17,
+      "eligible_seat_pairs": 0,
+      "pruned": 0,
+      "bound_exact": 0,
+      "individual_MILP": 17,
+      "common_MILP": 0,
+      "worst_subset_Q": 18600,
+      "worst_subset_ties": "BGS7",
+      "bound_seconds": 0.0012672001030296087,
+      "wall_seconds": 45.205162399914116
+    },
+    {
+      "policy": "CTO",
+      "x_C": 713,
+      "x_T": 135,
+      "x_O": 6,
+      "candidates": 17,
+      "eligible_seat_pairs": 0,
+      "pruned": 0,
+      "bound_exact": 0,
+      "individual_MILP": 17,
+      "common_MILP": 0,
+      "worst_subset_Q": 18600,
+      "worst_subset_ties": "BGS7",
+      "bound_seconds": 0.0013025000225752592,
+      "wall_seconds": 48.9168573000934
+    }
+  ],
+  "witness": {
+    "policy": "C",
+    "scenario": "BGS7",
+    "isolated_json": "{\"B7\": 27363, \"G7\": 23350, \"S7\": 21350}",
+    "nominal": 27363,
+    "integer_Q": 18600,
+    "branch_min": 21350,
+    "additive": 17337,
+    "battery_only_recursion": 27363,
+    "scalar_due_prefix_dp": 21350
+  },
+  "nominal_nonbattery_certificate": {
+    "full_vin_nonbattery_JIT": true,
+    "raw_witness": "artifacts\\v25_phase20_20261110_203851\\FULL28000_witness.json.gz",
+    "zero_lead_seat_redispatch": true,
+    "min_OEM_nonseat_headroom_after_subset_bound": 90375,
+    "shared_assembly_max_due": 2000
+  },
+  "full_integer_calls": 51,
+  "prefix_integer_calls": 42,
+  "max_solver_residual": 0.0,
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "seconds": 201.21601100009866
+}

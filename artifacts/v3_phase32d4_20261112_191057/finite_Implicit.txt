@@ -1,0 +1,5 @@
+outer oracle_01 level 2 exact True W 12300 leaf 3 env 1 nodes 76 frontier 0
+outer oracle_02 level 2 exact True W 12300 leaf 3 env 1 nodes 76 frontier 0
+outer final_oracle level 2 exact True W 12300 leaf 3 env 1 nodes 76 frontier 0
+G2_N32 Z 12300 x (915, 0, 0) iterations 2
+Implicit 12300 [915, 0, 0] 22.109529299894348

@@ -1,0 +1,2 @@
+﻿run,label,status,solver_reported_certified,objective,upper_bound,mip_gap,seconds,max_residual,worst_on_time,x_cell_kit,x_t1_pack,x_oem_pack,budget,budget_used,budget_slack
+DE_B100,DIAGNOSTIC_ONLY,OPTIMAL,True,0.9312142857142857,0.9312142857142857,0.0,17.20799994468689,0.0,26074,0,0,100,875600.0,875600.0,0.0

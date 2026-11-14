@@ -1,0 +1,27 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 19 items
+
+tests/test_v25_phase20_prospective_spec.py::test_source_vins_and_both_configurations PASSED [  5%]
+tests/test_v25_phase20_prospective_spec.py::test_reveal_and_original_due_days PASSED [ 10%]
+tests/test_v25_phase20_prospective_spec.py::test_battery_shared_calendar_leads_and_bom PASSED [ 15%]
+tests/test_v25_phase20_prospective_spec.py::test_rsp_c_is_unique_and_excludes_historical_battery PASSED [ 21%]
+tests/test_v25_phase20_prospective_spec.py::test_all_buffer_locations_remain_endogenous PASSED [ 26%]
+tests/test_v25_phase20_prospective_spec.py::test_risk_targets_and_l1_integer_release_conservation PASSED [ 31%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[BEV3003-3003] PASSED [ 36%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[FULL28000-28000] PASSED [ 42%]
+tests/test_v25_phase20_prospective_spec.py::test_phase_scope_and_prior_statuses PASSED [ 47%]
+tests/test_v25_phase21_calibration.py::test_cost_and_budget_evidence PASSED [ 52%]
+tests/test_v25_phase21_calibration.py::test_release_and_independent_nominal_flow PASSED [ 57%]
+tests/test_v25_phase21_calibration.py::test_exact_events_and_portfolio_exits_against_brute_force PASSED [ 63%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[single_buffer_capability.csv-12] PASSED [ 68%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[equal_cost_dominance.csv-12] PASSED [ 73%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[risk_location_policy_response.csv-24] PASSED [ 78%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[optimal_policy_set_ranges.csv-72] PASSED [ 84%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[near_optimal_policy_ranges.csv-216] PASSED [ 89%]
+tests/test_v25_phase21_calibration.py::test_direct_certificates_and_logs[threshold_direct_checks.csv-3] PASSED [ 94%]
+tests/test_v25_phase21_calibration.py::test_phase21_critical_result_rows PASSED [100%]
+
+============================= 19 passed in 0.69s ==============================

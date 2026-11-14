@@ -1,2 +1,10 @@
 # The manifest SHA-256 is a certification gate, including its line endings.
 artifacts/v25_formal_*/manifest.json -text
+
+# Preserve archive evidence bytes across checkouts.
+artifacts/** -text
+audit/** -text
+src/prefab_v25/** -text
+src/prefab_v3/** -text
+docs/v3* -text
+artifacts/v3_phase32d4_20261112_191057/gamma1_de/full.mps.gz filter=lfs diff=lfs merge=lfs -text

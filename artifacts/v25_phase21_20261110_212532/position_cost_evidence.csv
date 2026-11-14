@@ -1,0 +1,6 @@
+id,source,locator,quantity,unit,evidence_role,decision
+APQC,https://www.apqc.org/resources/benchmarking/open-standards-benchmarking/measures/inventory-carrying-cost-1000-revenue,Measure definition,,carrying cost per 1000 revenue,PLAUSIBILITY_REFERENCE,Cost categories are relevant but metric does not identify the incremental OEM location cost
+ASCM,https://learn.ascm.org/sfc/servlet.shepherd/document/download/069R3000006PlDHIA0?operationContext=S1,18th edition entry carrying cost,10%-35%,annual share of inventory value,PLAUSIBILITY_REFERENCE,Industry-wide inventory holding range only
+CSCMP,https://cscmp.org/common/Uploaded%20files/2024%20State%20of%20Logistics%20Report%20-%20Executive%20summary.pdf,2024 State of Logistics executive summary,,aggregate logistics spending,PLAUSIBILITY_REFERENCE,Aggregate cost boundary has no route-specific battery positioning rates
+FHWA,https://ops.fhwa.dot.gov/Freight/freight_analysis/econ_methods/lcdp_rep/index.htm,Logistics Costs and US GDP,,aggregate freight and carrying costs,PLAUSIBILITY_REFERENCE,Separates cost accounts but cannot supply a Pack positioning premium
+OEM_DELTA,phase21,model threshold,,fraction of c_T,ENDOGENOUS_BREAK_EVEN,No route-specific observation adopted; delta_O is a nonnegative search parameter

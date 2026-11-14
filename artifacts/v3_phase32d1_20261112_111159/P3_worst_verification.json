@@ -1,0 +1,25 @@
+{
+  "calls": [
+    {
+      "policy": "P3",
+      "rhs_class_id": "R08824",
+      "purpose": "WORST_REFERENCE_VERIFY",
+      "status": 2,
+      "build_seconds": 0.5255756000988185,
+      "solver_seconds": 0.7030000686645508,
+      "log": "logs/P3/WORST_REFERENCE_VERIFY_R08824.log",
+      "nodes": 1,
+      "integer_variables": 75810,
+      "rows": 23019,
+      "Q": 26591,
+      "certified_bound": 26591,
+      "residual": 0.0,
+      "exact_integer_matrix_residual": 0,
+      "witness": "witnesses/P3/R08824.npz",
+      "witness_sha256": "4c5703312bc97af94a4dda1ffd960a10caa0286b6f900f0499fdc5eaa6c43903",
+      "wall_seconds": 1.9578951001167297
+    }
+  ],
+  "verification_seconds": 1.9667501000221819,
+  "every_tie_replayed": false
+}

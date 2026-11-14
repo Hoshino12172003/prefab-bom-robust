@@ -1,0 +1,234 @@
+{
+  "status": "PASS_BTB_CCG_EXACT_AND_EFFECTIVE",
+  "scope": "FINITE_SCENARIO_EXACT_E4_CCG",
+  "label": "STRESS_TEST_ONLY",
+  "bound_samples": 74,
+  "bound_violation_count": 0,
+  "false_pruning_count": 0,
+  "oracle_mismatches": 0,
+  "exact_paired_rounds": 38,
+  "full_method_runs": 58,
+  "exact_method_runs": 58,
+  "full_matrix_replays": 52,
+  "certified_non_individual_scenarios": 424,
+  "strict_pruning_count": 424,
+  "all_six_scales_reduce_milps": true,
+  "all_three_policy_compositions_reduce_on_common_probe": true,
+  "expected_objectives": {
+    "4": 26465,
+    "8": 26465,
+    "16": 26465,
+    "24": 21775,
+    "32": 21775,
+    "38": 21775,
+    "region_CT": 26912,
+    "region_CTO": 27286
+  },
+  "single_start_median_wall_gain": {
+    "16": 0.24900191105046254,
+    "32": 0.13969229353534474,
+    "38": 0.1416914571944733
+  },
+  "region_comparisons": [
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "BASE_B100",
+      "style": "single",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": 26465,
+      "plain": 26465,
+      "e4": 26465,
+      "direct": 26465,
+      "full_verification": 4,
+      "saved_oracle_solves": 2
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "BASE_B100",
+      "style": "two",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": 26465,
+      "plain": 26465,
+      "e4": 26465,
+      "direct": 26465,
+      "full_verification": 4,
+      "saved_oracle_solves": 1
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "BASE_B150",
+      "style": "single",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": 26912,
+      "plain": 26912,
+      "e4": 26912,
+      "direct": 26912,
+      "full_verification": 4,
+      "saved_oracle_solves": 2
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "BASE_B150",
+      "style": "two",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": 26912,
+      "plain": 26912,
+      "e4": 26912,
+      "direct": 26912,
+      "full_verification": 4,
+      "saved_oracle_solves": 1
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "R3_S75_D7_ABRUPT_B100",
+      "style": "single",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        713,
+        135,
+        6
+      ],
+      "frozen_objective": 27286,
+      "plain": 27286,
+      "e4": 27286,
+      "direct": 27286,
+      "full_verification": 2,
+      "saved_oracle_solves": 0
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "R3_S75_D7_ABRUPT_B100",
+      "style": "two",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        715,
+        134,
+        6
+      ],
+      "frozen_objective": 27286,
+      "plain": 27286,
+      "e4": 27286,
+      "direct": 27286,
+      "full_verification": 2,
+      "saved_oracle_solves": 0
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_BASE_B100",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": null,
+      "plain": 25991,
+      "e4": 25991,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_BASE_B150",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": null,
+      "plain": 26438,
+      "e4": 26438,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_R3_S75_D7_ABRUPT_B100",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        713,
+        135,
+        6
+      ],
+      "frozen_objective": null,
+      "plain": 25930,
+      "e4": 25930,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    }
+  ],
+  "incumbent_direction": "Exact evaluated scenario service is an upper bound on min Q; strict L > incumbent preserves ties",
+  "final_verification": "Fresh exhaustive integer recourse on the complete finite family"
+}

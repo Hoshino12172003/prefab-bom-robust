@@ -1,0 +1,4 @@
+﻿variable,domain,physical_name,opening_endowment,pathway,risk_exposure,cost
+x_C,Z_nonnegative,balanced battery-component kit-equivalent buffer at T1 production node,10/6/4 dedicated component units,release then produce then transport then assemble,"L1,L2,L3",c_C
+x_T,Z_nonnegative,completed BEV Pack buffer at T1 inventory node,1 dedicated BEV Pack,transport then assemble,L3,c_T
+x_O,Z_nonnegative,completed BEV Pack buffer at OEM assembly-side inventory,1 dedicated BEV Pack,assemble,"none of L1,L2,L3",c_O

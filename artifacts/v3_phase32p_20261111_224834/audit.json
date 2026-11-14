@@ -1,0 +1,127 @@
+{
+  "status": "PASS_ENDOGENOUS_BUFFER_SWITCHING_CONFIRMED",
+  "label": "STRESS_TEST_ONLY",
+  "cost_label": "COST_SENSITIVITY_ONLY",
+  "calibration_status": "HOLD_UNCERTAINTY_CALIBRATION",
+  "e4_implemented": false,
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "phase_inputs": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    }
+  },
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "instruction_sha256": "4cff0ca6225deb1d8633040e6ce0a31f491867a920b0c14da9cae54cb81c0fe0",
+  "frozen_grid_sha256": "766c606cc43e03659be33f658c71806d4615bb6c0b23b7cac23524010ef3bc7e",
+  "method": "PLAIN_EXACT_CCG",
+  "projections": "Certified full-scenario fixed-optimal-service integer programs",
+  "baseline": {
+    "label": "STRESS_TEST_ONLY",
+    "case": "BASE_B100",
+    "risk": "BASE4",
+    "tags": "BASE_BUDGET|COST",
+    "budget_multiplier": 100,
+    "budget": "17388/19",
+    "severity_pct": null,
+    "duration": null,
+    "recovery_steps": 0,
+    "Gamma": null,
+    "alpha_T_multiplier": 100,
+    "alpha_O_multiplier": 100,
+    "c_C": "1",
+    "c_T": "27/19",
+    "c_O": "297/190",
+    "alpha_T": "27/19",
+    "alpha_O": "11/10",
+    "cost_label": "COST_SENSITIVITY_ONLY",
+    "scenarios": "DE_ENGINE_61|DE_GEAR_61|DE_ENGINE_68|DE_GEAR_68",
+    "initial": "DE_ENGINE_68|DE_GEAR_61",
+    "status": "EXACT_FINITE",
+    "stage": "DONE",
+    "error": "",
+    "x_C": 915,
+    "x_T": 0,
+    "x_O": 0,
+    "representative_class": "C_ONLY",
+    "optimal_set_taxonomy": "C_ONLY",
+    "C_activity": "REQUIRED",
+    "T_activity": "IMPOSSIBLE",
+    "O_activity": "IMPOSSIBLE",
+    "robust_on_time": 26465,
+    "investment": "915",
+    "unused_budget": "3/19",
+    "budget_binding": false,
+    "cannot_add_cheapest_unit": true,
+    "active_worst": "DE_ENGINE_61|DE_GEAR_61",
+    "iterations": 1,
+    "solve_calls": 12,
+    "seconds": 47.30060119996779,
+    "run_json": "runs/BASE_B100.json"
+  },
+  "planned_main": 127,
+  "certified_main": 127,
+  "planned_ablations": 21,
+  "certified_ablations": 21,
+  "cost_refinements": 0,
+  "threshold_audit_completed": true,
+  "strong_switch_witnesses": 17,
+  "reference_witnesses": 6,
+  "conditional_value": {
+    "C": true,
+    "T": true,
+    "O": true
+  },
+  "required_policy_cells": {
+    "C": 84,
+    "T": 6,
+    "O": 5
+  },
+  "multioptimal_cells": 72,
+  "representative_class_counts": {
+    "C_O": 7,
+    "C_ONLY": 94,
+    "C_T": 6,
+    "C_T_O": 3,
+    "O_ONLY": 3,
+    "ZERO_BUFFER": 14
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "gurobi_license": "Verified by complete integer solves",
+  "solver_parameters": {
+    "Threads": 1,
+    "Seed": 20261110,
+    "TimeLimit": 180,
+    "MIPGap": 0,
+    "MIPGapAbs": 0,
+    "FeasibilityTol": 1e-09,
+    "IntFeasTol": 1e-09,
+    "OptimalityTol": 1e-09,
+    "Presolve": "AUTO"
+  },
+  "maximum_solver_residual": 0.0,
+  "tests_passed": 84,
+  "tests_exit_code": 0,
+  "test_command": "\"C:\\Program Files\\Python312\\python.exe\" -B -m pytest -vv tests/test_v3_phase32p_policy_audit.py tests/test_v3_phase32b_audit.py tests/test_v3_phase32a_plain_ccg.py tests/test_v3_phase31r_multi_bom.py tests/test_v3_phase31_robust.py tests/test_v3_phase30_base.py tests/test_v25_phase110_source_semantics.py tests/test_v25_phase20_prospective_spec.py tests/test_v25_phase21_calibration.py tests/test_v25_phase21a_joint_policy.py tests/test_v25_phase21b_mechanism.py tests/test_v25_phase22_design_and_reducibility.py",
+  "initial_regression_issue": "R1 service plateau initially conflated with identical RHS. Test corrected to check the extra t=73 receipt rows.",
+  "initial_regression_log": "pytest_initial_failed.txt",
+  "solver_logs": 1336,
+  "stopped_after_phase32p": true
+}

@@ -1,0 +1,4 @@
+First preflight exited 1 before catalog emission. The local assertion transposed the frozen support count as 12565.
+The official frozen enumerator returned 12655 supports. The independent set-of-dates enumeration returned 12655.
+Their symmetric difference was zero. The Phase 3.1 audit.json candidate_size.z_patterns is 12655.
+The new preflight now reads the frozen count from audit.json. No frozen input or enumeration rule changed.

@@ -1,0 +1,48 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 21:31:05 2026
+
+Set parameter LogFile to value "artifacts\v25_phase21_20261110_212532\logs\P7_L3_EQUAL_100_x_O_max.log"
+STRUCTURAL_DIAGNOSTIC_ONLY P7_L3_EQUAL_100_x_O_max k=1073 ratio=1 premium=0 floor=1063 exact=False
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Threads  1
+
+Optimize a model with 2921 rows, 4932 columns and 12985 nonzeros (Max)
+Model fingerprint: 0xb7ebaa4f
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 4932 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+03, 1e+05]
+  RHS range        [1e+00, 1e+05]
+
+Warning: Completing partial solution with 4928 unfixed non-continuous variables out of 4932
+User MIP start produced solution with objective 1073 (0.01s)
+Loaded user MIP start with objective 1073
+
+Presolve removed 2585 rows and 4177 columns
+Presolve time: 0.01s
+Presolved: 336 rows, 755 columns, 2297 nonzeros
+Variable types: 0 continuous, 755 integer (0 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds (0.00 work units)
+
+Explored 1 nodes (0 simplex iterations) in 0.03 seconds (0.03 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 1073 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.073000000000e+03, best bound 1.073000000000e+03, gap 0.0000%
+Discarded solution information

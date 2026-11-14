@@ -1,0 +1,83 @@
+{
+  "offset": "NB01",
+  "warmup": {
+    "status": 2,
+    "runtime": 132.481999874115,
+    "work": 131.87369519098453,
+    "variables": 879315,
+    "integer_variables": 879315,
+    "constraints": 302925,
+    "nodes": 1.0,
+    "status_name": "OPTIMAL",
+    "objective": 0.9169285714285712,
+    "bound": 0.9169285714285712,
+    "mip_gap": 0.0,
+    "on_time": 102696,
+    "bev": 2708,
+    "non_bev": 99988,
+    "late": 0,
+    "service_rate": 0.9169285714285714,
+    "material_balance_residual": 0,
+    "max_gurobi_residual": 0.0,
+    "certified": true,
+    "buffers": {
+      "x_cell_kit": 0,
+      "x_t1_pack": 0,
+      "x_oem_pack": 0
+    },
+    "exact_budget_residual_usd": 0.0
+  },
+  "formal": {
+    "status": 2,
+    "runtime": 0.33899998664855957,
+    "work": 0.4367787041706922,
+    "variables": 59517,
+    "integer_variables": 59517,
+    "constraints": 23442,
+    "nodes": 1.0,
+    "status_name": "OPTIMAL",
+    "objective": 0.33589285714285716,
+    "bound": 0.33589285714285716,
+    "mip_gap": 0.0,
+    "on_time": 9405,
+    "bev": 0,
+    "non_bev": 9405,
+    "late": 0,
+    "service_rate": 0.33589285714285716,
+    "material_balance_residual": 0,
+    "max_gurobi_residual": 0.0,
+    "certified": true,
+    "buffers": {
+      "x_cell_kit": 0,
+      "x_t1_pack": 0,
+      "x_oem_pack": 0
+    },
+    "exact_budget_residual_usd": 0.0,
+    "physical_upper": 24997,
+    "independent_upper": {
+      "method": "exact rational LP multiplier bound with valid variable upper corrections",
+      "lp_solver_value": 9405.0,
+      "numerator": 94050000000000,
+      "denominator": 10000000000,
+      "correction_numerator": 0,
+      "integer_upper": 9405
+    },
+    "independent_exact_certificate": true,
+    "feasible_witness": 9405
+  },
+  "terminal": {
+    "total_inventory": 21053,
+    "battery_component_kit_equivalent": 0,
+    "t1_pack": 0,
+    "oem_pack": 0,
+    "total_in_transit": 14700
+  },
+  "health": {
+    "no_negative_stock": true,
+    "no_duplicate_transit": true,
+    "no_warmup_order_carry": true,
+    "raw_formal_order_pattern": true,
+    "from_solved_state": true
+  },
+  "reachable_bev_supply": 0
+}

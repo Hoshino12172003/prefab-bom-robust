@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 9 items
+
+tests/test_v25_phase20_prospective_spec.py::test_source_vins_and_both_configurations PASSED [ 11%]
+tests/test_v25_phase20_prospective_spec.py::test_reveal_and_original_due_days PASSED [ 22%]
+tests/test_v25_phase20_prospective_spec.py::test_battery_shared_calendar_leads_and_bom PASSED [ 33%]
+tests/test_v25_phase20_prospective_spec.py::test_rsp_c_is_unique_and_excludes_historical_battery PASSED [ 44%]
+tests/test_v25_phase20_prospective_spec.py::test_all_buffer_locations_remain_endogenous PASSED [ 55%]
+tests/test_v25_phase20_prospective_spec.py::test_risk_targets_and_l1_integer_release_conservation PASSED [ 66%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[BEV3003-3003] PASSED [ 77%]
+tests/test_v25_phase20_prospective_spec.py::test_nonbattery_witness_balances_and_shared_capacities[FULL28000-28000] PASSED [ 88%]
+tests/test_v25_phase20_prospective_spec.py::test_phase_scope_and_prior_statuses PASSED [100%]
+
+============================== 9 passed in 0.18s ==============================

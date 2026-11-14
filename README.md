@@ -1,8 +1,19 @@
 # prefab-bom-robust
 
+多层级供给风险、嵌套 BOM 与缓冲库存研究。公开分支记录 V1 至 V3 的模型、求解和审计证据。
+
+- [V2.5 Phase 1 认证](docs/v25_phase1_formal_certification.md)
+- [V3 Phase 3.2D4 完整 C&CG 结果](docs/v3_phase32d4_full_implicit_ccg.md)
+- [11,775 辆的根因](docs/v3_phase32d4_11775_root_cause_audit.md)
+- [全 BOM 与 91 个候选位置审计](docs/v3_full_bom_four_audits.md)
+- [Seat OEM 预置诊断](audit/v3_seat_oem_preposition_diagnostic.md)
+- [公开归档和本地版本映射](docs/public_release.md)
+
+## 早期模型与 V1 验证
+
 V2.1 动态模型位于 `src/prefab_v21/`。执行 `python -m examples.run_v21` 可实际运行 Gurobi 基础认证、门槛检查和微型 A0/A1/A2/A3 配对。运行产物进入独立时间戳目录。最近的结果是基础 `PASS_V2_BASE_EXACT`、割有效性 `PASS_V2_CUT_VALID`，算法效果 `PARTIAL_V2`。详见 [V2.1验收报告](docs/v21_exact_baseline_report.md)。
 
-第二篇期刊论文的 V1 多层级供给风险 BOM 交付模型。项目只用于微型/小规模数学正确性、精确求解和回归验证，不包含正式大规模实验或性能声明。
+第二篇期刊论文的 V1 多层级供给风险 BOM 交付模型。以下保留 V1 微型验证的运行说明。
 
 ## 环境
 
@@ -34,4 +45,4 @@ python -m examples.run_acceptance
 - `tests/test_v1.py`：T01—T16 自动化验证
 - `docs/`：数学模型、审计和精确验证记录
 
-当前远端仓库仅作为空的私有容器建立；按任务安全要求，本次未推送。
+

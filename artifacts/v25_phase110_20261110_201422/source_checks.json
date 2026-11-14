@@ -1,0 +1,20 @@
+{
+  "source_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "paper_sha256": "d1d2cd28fd569b36cef04bb026fc3936556215e7a6d2afdb13b54f1969922c93",
+  "capacity_rows": 154,
+  "bom_identity_rows": 49,
+  "identity_movements": 86,
+  "planned_flow_product_rows": 365,
+  "planned_flow_group_rows": 20,
+  "explicit_opening_rows": 82,
+  "sparse_default_rows": 1339,
+  "historical_rows": 117,
+  "historical_arrivals_in_horizon_rows": 106,
+  "historical_arrivals_in_horizon_qty": 67739,
+  "historical_arrival_last": 83,
+  "demand_groups": 1286,
+  "demand_vins": 28000,
+  "bev": 3003,
+  "formal_scope": "operational t=61..74 only"
+}

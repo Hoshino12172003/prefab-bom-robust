@@ -1,0 +1,6 @@
+﻿case,gamma_evt,K,resource_days,observed,test,status
+A,1,2,7,legal,test_a_battery_seven_days_at_gamma_one,PASS
+B,1,2,11,legal,test_b_seat_eleven_days_at_gamma_one,PASS
+C,2,2,8,legal; rejected at K=1,test_c_overlapping_battery_gear_at_gamma_two,PASS
+D,3,2,21,staggered legal; triple overlap rejected,test_d_three_seven_day_events_with_and_without_triple_overlap,PASS
+E,1,2,8,"all BG, BS, GS rejected",test_e_joint_families_rejected_at_gamma_one,PASS

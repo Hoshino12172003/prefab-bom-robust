@@ -1,0 +1,481 @@
+{
+  "label": "STRESS_TEST_ONLY",
+  "method": "CCG_MINIMAL",
+  "n": 4,
+  "benchmark": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "initial": [
+    "DE_ENGINE_68"
+  ],
+  "final": [
+    "DE_ENGINE_68",
+    "DE_ENGINE_61"
+  ],
+  "objective": 26465,
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "cost": "915",
+  "verified": {
+    "DE_ENGINE_61": 26465,
+    "DE_GEAR_61": 26465,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "worst": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61"
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68"
+      ],
+      "added_scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "mp_objective": 27050,
+      "upper": 27050,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26465,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 585,
+      "relative_gap": 0.021626617375231055,
+      "master_seconds": 3.9199182000011206,
+      "oracle_seconds": 8.903160399990156,
+      "total_seconds": 12.823089699959382,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75814,
+      "constraints": 23021,
+      "nonzeros": 218095,
+      "solver_seconds": 1.4250001907348633,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 194445312,
+      "gurobi_peak_gb": 0.102540003,
+      "log": "logs/n04_CCG_MINIMAL_master_01.log"
+    },
+    {
+      "iteration": 2,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_ENGINE_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "mp_objective": 26465,
+      "upper": 26465,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26465,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 0,
+      "relative_gap": 0.0,
+      "master_seconds": 7.259368799859658,
+      "oracle_seconds": 9.256535800173879,
+      "total_seconds": 29.33903930010274,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 151624,
+      "constraints": 46041,
+      "nonzeros": 436187,
+      "solver_seconds": 5.021000146865845,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_master_02.log"
+    }
+  ],
+  "oracle": [
+    {
+      "evaluation": "oracle_01",
+      "scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 2.202037699986249,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.1349999904632568,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 220196864,
+      "gurobi_peak_gb": 0.104616587,
+      "log": "logs/n04_CCG_MINIMAL_oracle_01_DE_ENGINE_61.log"
+    },
+    {
+      "evaluation": "oracle_01",
+      "scenario": "DE_GEAR_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 1.8708558001089841,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 0.9589998722076416,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 220196864,
+      "gurobi_peak_gb": 0.104616587,
+      "log": "logs/n04_CCG_MINIMAL_oracle_01_DE_GEAR_61.log"
+    },
+    {
+      "evaluation": "oracle_01",
+      "scenario": "DE_ENGINE_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.349479600088671,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.3650000095367432,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 221732864,
+      "gurobi_peak_gb": 0.104616587,
+      "log": "logs/n04_CCG_MINIMAL_oracle_01_DE_ENGINE_68.log"
+    },
+    {
+      "evaluation": "oracle_01",
+      "scenario": "DE_GEAR_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.3605947999749333,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.2920000553131104,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 221732864,
+      "gurobi_peak_gb": 0.104616587,
+      "log": "logs/n04_CCG_MINIMAL_oracle_01_DE_GEAR_68.log"
+    },
+    {
+      "evaluation": "oracle_02",
+      "scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 2.339465399971232,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.1710000038146973,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_oracle_02_DE_ENGINE_61.log"
+    },
+    {
+      "evaluation": "oracle_02",
+      "scenario": "DE_GEAR_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 2.0722954000812024,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.0999999046325684,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_oracle_02_DE_GEAR_61.log"
+    },
+    {
+      "evaluation": "oracle_02",
+      "scenario": "DE_ENGINE_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.3871387001127005,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.2569999694824219,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_oracle_02_DE_ENGINE_68.log"
+    },
+    {
+      "evaluation": "oracle_02",
+      "scenario": "DE_GEAR_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.353477300144732,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.2639999389648438,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_oracle_02_DE_GEAR_68.log"
+    },
+    {
+      "evaluation": "verify",
+      "scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 2.2367781000211835,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.133000135421753,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_verify_DE_ENGINE_61.log"
+    },
+    {
+      "evaluation": "verify",
+      "scenario": "DE_GEAR_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 26465,
+      "elapsed_seconds": 2.1285099999513477,
+      "status": "OPTIMAL",
+      "solver_objective": 26465,
+      "solver_bound": 26465,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.128000020980835,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_verify_DE_GEAR_61.log"
+    },
+    {
+      "evaluation": "verify",
+      "scenario": "DE_ENGINE_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.423717600060627,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.2929999828338623,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_verify_DE_ENGINE_68.log"
+    },
+    {
+      "evaluation": "verify",
+      "scenario": "DE_GEAR_68",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "service": 27050,
+      "elapsed_seconds": 2.1803515998180956,
+      "status": "OPTIMAL",
+      "solver_objective": 27050,
+      "solver_bound": 27050,
+      "solver_gap": 0,
+      "integers": 75810,
+      "constraints": 23019,
+      "nonzeros": 208392,
+      "solver_seconds": 1.184999942779541,
+      "nodes": 1,
+      "solver_residual": 0.0,
+      "exact_matrix_residual": 0,
+      "peak_process_bytes": 373919744,
+      "gurobi_peak_gb": 0.281339142,
+      "log": "logs/n04_CCG_MINIMAL_verify_DE_GEAR_68.log"
+    }
+  ],
+  "largest": {
+    "iteration": 2,
+    "master_scenarios": [
+      "DE_ENGINE_68",
+      "DE_ENGINE_61"
+    ],
+    "added_scenario": "",
+    "policy": [
+      915,
+      0,
+      0
+    ],
+    "mp_objective": 26465,
+    "upper": 26465,
+    "oracle_worst": 26465,
+    "worst_ties": [
+      "DE_ENGINE_61",
+      "DE_GEAR_61"
+    ],
+    "selected_tie": "DE_ENGINE_61",
+    "lower": 26465,
+    "best_policy": [
+      915,
+      0,
+      0
+    ],
+    "absolute_gap": 0,
+    "relative_gap": 0.0,
+    "master_seconds": 7.259368799859658,
+    "oracle_seconds": 9.256535800173879,
+    "total_seconds": 29.33903930010274,
+    "status": "OPTIMAL",
+    "solver_objective": 26465,
+    "solver_bound": 26465,
+    "solver_gap": 0,
+    "integers": 151624,
+    "constraints": 46041,
+    "nonzeros": 436187,
+    "solver_seconds": 5.021000146865845,
+    "nodes": 1,
+    "solver_residual": 0.0,
+    "exact_matrix_residual": 0,
+    "peak_process_bytes": 373919744,
+    "gurobi_peak_gb": 0.281339142,
+    "log": "logs/n04_CCG_MINIMAL_master_02.log"
+  },
+  "model_seconds": 29.342635800130665,
+  "verification_seconds": 9.088542399927974,
+  "total_seconds": 38.43134139990434,
+  "peak_process_bytes": 373919744,
+  "certification": "EXACT_FINITE"
+}

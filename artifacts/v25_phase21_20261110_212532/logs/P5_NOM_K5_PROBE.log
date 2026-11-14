@@ -1,0 +1,56 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 21:30:54 2026
+
+Set parameter LogFile to value "artifacts\v25_phase21_20261110_212532\logs\P5_NOM_K5_PROBE.log"
+STRUCTURAL_DIAGNOSTIC_ONLY P5_NOM_K5_PROBE k=1073 ratio=27/19 premium=3881/3382722 floor=0 exact=False
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Threads  1
+
+Optimize a model with 2921 rows, 4932 columns and 12985 nonzeros (Max)
+Model fingerprint: 0xaef1b5ea
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 4932 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+03, 1e+05]
+  RHS range        [1e+00, 4e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Warning: Completing partial solution with 4928 unfixed non-continuous variables out of 4932
+User MIP start produced solution with objective 1524 (0.02s)
+Loaded user MIP start with objective 1524
+
+Presolve removed 2549 rows and 4124 columns
+Presolve time: 0.01s
+Presolved: 372 rows, 808 columns, 2536 nonzeros
+Variable types: 0 continuous, 808 integer (0 binary)
+
+Root relaxation: infeasible, 259 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0      1524.00000 1524.00000  0.00%     -    0s
+
+Explored 1 nodes (259 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 1524 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.524000000000e+03, best bound 1.524000000000e+03, gap 0.0000%
+Discarded solution information

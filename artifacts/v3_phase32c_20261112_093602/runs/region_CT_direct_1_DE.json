@@ -1,0 +1,116 @@
+{
+  "name": "region_CT",
+  "style": "direct",
+  "repeat": 1,
+  "method": "DE",
+  "scenarios": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "status": "EXACT_FINITE",
+  "objective": 26912,
+  "iterations": [],
+  "oracles": [],
+  "verified": {
+    "DE_ENGINE_61": 26912,
+    "DE_GEAR_61": 26912,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "policy": [
+    1338,
+    24,
+    0
+  ],
+  "selected": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "verification_seconds": 6.473630799911916,
+  "records": [
+    {
+      "tag": "DE",
+      "log": "logs/region_CT_direct_1_DE/DE.log",
+      "status": 2,
+      "integers": 303244,
+      "constraints": 92081,
+      "nodes": 1,
+      "solver_seconds": 9.257999897003174,
+      "build_seconds": 3.001983900088817,
+      "peak_bytes": 633225216,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 13.229762900155038
+    },
+    {
+      "tag": "verify__DE_ENGINE_61",
+      "log": "logs/region_CT_direct_1_DE/verify__DE_ENGINE_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8499999046325684,
+      "build_seconds": 0.6744552999734879,
+      "peak_bytes": 633225216,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.5889904000796378
+    },
+    {
+      "tag": "verify__DE_GEAR_61",
+      "log": "logs/region_CT_direct_1_DE/verify__DE_GEAR_61.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8639998435974121,
+      "build_seconds": 0.6861059998627752,
+      "peak_bytes": 633225216,
+      "q": 26912,
+      "bound": 26912,
+      "residual": 0.0,
+      "wall_seconds": 1.6172288998495787
+    },
+    {
+      "tag": "verify__DE_ENGINE_68",
+      "log": "logs/region_CT_direct_1_DE/verify__DE_ENGINE_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8320000171661377,
+      "build_seconds": 0.7114777001552284,
+      "peak_bytes": 633225216,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.6109653001185507
+    },
+    {
+      "tag": "verify__DE_GEAR_68",
+      "log": "logs/region_CT_direct_1_DE/verify__DE_GEAR_68.log",
+      "status": 2,
+      "integers": 75810,
+      "constraints": 23019,
+      "nodes": 1,
+      "solver_seconds": 0.8320000171661377,
+      "build_seconds": 0.7374342998955399,
+      "peak_bytes": 633225216,
+      "q": 27050,
+      "bound": 27050,
+      "residual": 0.0,
+      "wall_seconds": 1.634630599990487
+    }
+  ],
+  "wall_seconds": 19.732278399867937,
+  "peak_bytes": 633225216,
+  "affinity": [
+    6
+  ]
+}

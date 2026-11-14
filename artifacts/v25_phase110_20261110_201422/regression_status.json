@@ -1,0 +1,144 @@
+{
+  "status": "SIX_STRICT_CERTIFICATES_RECONFIRMED",
+  "runs": [
+    {
+      "run": "nominal_B0",
+      "status": "OPTIMAL",
+      "seconds": 0.7869999408721924,
+      "objective": 0.944571428571429,
+      "bound": 0.944571428571429,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 26448,
+      "strict_independent_upper": 26448,
+      "strict_witness_deliveries": 26448,
+      "phase16_exact": 26448,
+      "strict_budget_used_rational": "0",
+      "strict_witness_scenarios": {
+        "NOM": 26448
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "20d370cd7db47f8966adf66559bd15ebc58d9244e422536cbb181427f74a61c0",
+      "raw_capacity_rows_changed": 42,
+      "other_model_differences": 0,
+      "passed": true
+    },
+    {
+      "run": "nominal_B20",
+      "status": "OPTIMAL",
+      "seconds": 0.7950000762939453,
+      "objective": 0.9454285714285717,
+      "bound": 0.9454285714285717,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 26472,
+      "strict_independent_upper": 26472,
+      "strict_witness_deliveries": 26472,
+      "phase16_exact": 26472,
+      "strict_budget_used_rational": "11836873540336053/68719476736",
+      "strict_witness_scenarios": {
+        "NOM": 26472
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "142330d8bc3fe1f04804b0cfd4f6981122e9091c93534318fc20e1c42c21c8a2",
+      "raw_capacity_rows_changed": 42,
+      "other_model_differences": 0,
+      "passed": true
+    },
+    {
+      "run": "nominal_B50",
+      "status": "OPTIMAL",
+      "seconds": 0.6060001850128174,
+      "objective": 0.9467500000000003,
+      "bound": 0.9467500000000004,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 26509,
+      "strict_independent_upper": 26508,
+      "strict_witness_deliveries": 26508,
+      "phase16_exact": 26508,
+      "strict_budget_used_rational": "59184367701680265/137438953472",
+      "strict_witness_scenarios": {
+        "NOM": 26508
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "a3e37855998c875382f254ad4100b0761742195993cc5d42116b5210b5c03e1d",
+      "raw_capacity_rows_changed": 42,
+      "other_model_differences": 0,
+      "passed": true
+    },
+    {
+      "run": "nominal_B100",
+      "status": "OPTIMAL",
+      "seconds": 0.48000001907348633,
+      "objective": 0.9489285714285719,
+      "bound": 0.9489285714285719,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 26570,
+      "strict_independent_upper": 26569,
+      "strict_witness_deliveries": 26569,
+      "phase16_exact": 26569,
+      "strict_budget_used_rational": "477420566126887471/549755813888",
+      "strict_witness_scenarios": {
+        "NOM": 26569
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "bb26546e36ed426387703b9110f30e3521a250c94fb70221d337a6e674d87525",
+      "raw_capacity_rows_changed": 42,
+      "other_model_differences": 0,
+      "passed": true
+    },
+    {
+      "run": "DE_B0",
+      "status": "OPTIMAL",
+      "seconds": 5.665999889373779,
+      "objective": 0.9276428571428571,
+      "bound": 0.9276428571428571,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 25974,
+      "strict_independent_upper": 25974,
+      "strict_witness_deliveries": 25974,
+      "phase16_exact": 25974,
+      "strict_budget_used_rational": "0",
+      "strict_witness_scenarios": {
+        "NOM": 25974,
+        "L1_CERT": 25974,
+        "L2_CERT": 25974,
+        "L3_CERT": 25974
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "e554612fab14d8c39c828ece34083e7edadc40fcc86bafd450b47dc855995d20",
+      "raw_capacity_rows_changed": 168,
+      "other_model_differences": 0,
+      "passed": true
+    },
+    {
+      "run": "DE_B50",
+      "status": "OPTIMAL",
+      "seconds": 9.476999998092651,
+      "objective": 0.9298214285714286,
+      "bound": 0.9298214285714286,
+      "mip_gap": 0.0,
+      "numeric_deliveries": 26035,
+      "strict_independent_upper": 26034,
+      "strict_witness_deliveries": 26034,
+      "phase16_exact": 26034,
+      "strict_budget_used_rational": "59184367701680265/137438953472",
+      "strict_witness_scenarios": {
+        "NOM": 26034,
+        "L1_CERT": 26034,
+        "L2_CERT": 26034,
+        "L3_CERT": 26034
+      },
+      "exact_max_residual": 0,
+      "numeric_max_residual": 0.0,
+      "strict_witness_sha256": "aa432a50e417a332af06552c7239eacd496b713c1611562d637e91e62e775b66",
+      "raw_capacity_rows_changed": 168,
+      "other_model_differences": 0,
+      "passed": true
+    }
+  ],
+  "optimizer_calls": 6
+}

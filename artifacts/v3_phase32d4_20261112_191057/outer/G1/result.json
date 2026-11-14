@@ -1,0 +1,440 @@
+{
+  "objective": 11775,
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "selected": [
+    "0",
+    "16106127360"
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "0"
+      ],
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "upper": 27363,
+      "lower": 11775,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 15588,
+      "oracle_worst": 11775,
+      "worst_scenario": "16106127360",
+      "added_scenario": "16106127360",
+      "master_seconds": 3.4530124999582767,
+      "oracle_seconds": 21.770937100052834,
+      "mp": {
+        "solver_status": "OPTIMAL",
+        "solver_gap": 0,
+        "objective_bound": 27363,
+        "integer_vars": 75814,
+        "constraints": 23021,
+        "nonzeros": 218095,
+        "solver_seconds": 0.9099998474121094,
+        "solver_residual": 0.0,
+        "matrix_residual": 0,
+        "peak_bytes": 213389312,
+        "log": "outer/G1/master_01.log"
+      },
+      "master_service": {
+        "0": 27363
+      },
+      "oracle": {
+        "worst": 11775,
+        "worst_events": [
+          336
+        ],
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ],
+        "worst_rhs_complete": true,
+        "exact": true,
+        "lower_bound": 11775,
+        "visited_nodes": 415,
+        "pruned_nodes": 390,
+        "incumbent_updates": 1,
+        "stop": null,
+        "wall_seconds": 20.98558360012248,
+        "case": "oracle_01",
+        "policy": "outer",
+        "x": [
+          915,
+          0,
+          0
+        ],
+        "gamma": 1,
+        "rhs_count": 355,
+        "raw_count": 415,
+        "level": 2,
+        "full_space": true,
+        "resource_limits": {
+          "nodes": 2500,
+          "leaf": 64,
+          "envelope": 8,
+          "seconds": 160
+        },
+        "frontier_size": 0,
+        "dominance_pruned_nodes": 0,
+        "envelope_calls": 0,
+        "exact_recourse_calls": 25,
+        "cache_hits": 1,
+        "envelope_cache_hits": 16,
+        "witness_bounds": 375,
+        "total_full_milp": 25,
+        "envelope_skipped_by_upper": 1,
+        "evaluation_fraction": 0.07042253521126761,
+        "leaf_evaluation_fraction": 0.07042253521126761,
+        "total_wall_seconds": 21.021995400078595,
+        "peak_bytes": 249462784,
+        "monotonicity": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 23770,
+            "inventory_upper_slack": 76229
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 14262,
+            "inventory_upper_slack": 85737
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              915,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 9508,
+            "inventory_upper_slack": 90491
+          }
+        ],
+        "worst_event_details": [
+          {
+            "event_id": 336,
+            "resource": "SEAT",
+            "branch": "S",
+            "start": 61,
+            "duration": 11,
+            "severity": "3/4",
+            "recovery": "ABRUPT_RECOVERY",
+            "active_mask": 2047,
+            "single_rhs": 16106127360,
+            "ladder_rank": 1024
+          }
+        ]
+      },
+      "exposure": 11
+    },
+    {
+      "iteration": 2,
+      "master_scenarios": [
+        "0",
+        "16106127360"
+      ],
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "upper": 11775,
+      "lower": 11775,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 0,
+      "oracle_worst": 11775,
+      "worst_scenario": "16106127360",
+      "added_scenario": "",
+      "master_seconds": 2.6792419999837875,
+      "oracle_seconds": 20.201760499970987,
+      "mp": {
+        "solver_status": "OPTIMAL",
+        "solver_gap": 0,
+        "objective_bound": 11775,
+        "integer_vars": 151624,
+        "constraints": 46041,
+        "nonzeros": 436187,
+        "solver_seconds": 1.318000078201294,
+        "solver_residual": 0.0,
+        "matrix_residual": 0,
+        "peak_bytes": 347602944,
+        "log": "outer/G1/master_02.log"
+      },
+      "master_service": {
+        "0": 11775,
+        "16106127360": 11775
+      },
+      "oracle": {
+        "worst": 11775,
+        "worst_events": [
+          336
+        ],
+        "worst_rhs": [
+          16106127360,
+          16911433728,
+          17716740096,
+          18522046464
+        ],
+        "worst_rhs_complete": true,
+        "exact": true,
+        "lower_bound": 11775,
+        "visited_nodes": 415,
+        "pruned_nodes": 391,
+        "incumbent_updates": 1,
+        "stop": null,
+        "wall_seconds": 19.45673770015128,
+        "case": "oracle_02",
+        "policy": "outer",
+        "x": [
+          0,
+          0,
+          0
+        ],
+        "gamma": 1,
+        "rhs_count": 355,
+        "raw_count": 415,
+        "level": 2,
+        "full_space": true,
+        "resource_limits": {
+          "nodes": 2500,
+          "leaf": 64,
+          "envelope": 8,
+          "seconds": 160
+        },
+        "frontier_size": 0,
+        "dominance_pruned_nodes": 0,
+        "envelope_calls": 0,
+        "exact_recourse_calls": 24,
+        "cache_hits": 1,
+        "envelope_cache_hits": 16,
+        "witness_bounds": 376,
+        "total_full_milp": 24,
+        "envelope_skipped_by_upper": 1,
+        "evaluation_fraction": 0.0676056338028169,
+        "leaf_evaluation_fraction": 0.0676056338028169,
+        "total_wall_seconds": 19.488397399894893,
+        "peak_bytes": 347602944,
+        "monotonicity": [
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery1",
+            "policy": [
+              0,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 13690,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 14620,
+            "inventory_upper_slack": 85379
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery2",
+            "policy": [
+              0,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 8214,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 8772,
+            "inventory_upper_slack": 91227
+          },
+          {
+            "node": "battery-supplier_prod",
+            "sku": "componment_battery3",
+            "policy": [
+              0,
+              0,
+              0
+            ],
+            "inventory_ub": 99999,
+            "inventory_lb": 0,
+            "nominal_fixed_receipts": 5476,
+            "endogenous_inflow_bound": 0,
+            "gross_stock_bound": 5848,
+            "inventory_upper_slack": 94151
+          }
+        ],
+        "worst_event_details": [
+          {
+            "event_id": 336,
+            "resource": "SEAT",
+            "branch": "S",
+            "start": 61,
+            "duration": 11,
+            "severity": "3/4",
+            "recovery": "ABRUPT_RECOVERY",
+            "active_mask": 2047,
+            "single_rhs": 16106127360,
+            "ladder_rank": 1024
+          }
+        ]
+      },
+      "exposure": 11
+    }
+  ],
+  "gamma": 1,
+  "subset": null,
+  "budget": "17388/19",
+  "final_oracle": {
+    "worst": 11775,
+    "worst_events": [
+      336
+    ],
+    "worst_rhs": [
+      16106127360,
+      16911433728,
+      17716740096,
+      18522046464
+    ],
+    "worst_rhs_complete": true,
+    "exact": true,
+    "lower_bound": 11775,
+    "visited_nodes": 415,
+    "pruned_nodes": 390,
+    "incumbent_updates": 1,
+    "stop": null,
+    "wall_seconds": 19.650634200079367,
+    "case": "final_oracle",
+    "policy": "outer",
+    "x": [
+      915,
+      0,
+      0
+    ],
+    "gamma": 1,
+    "rhs_count": 355,
+    "raw_count": 415,
+    "level": 2,
+    "full_space": true,
+    "resource_limits": {
+      "nodes": 2500,
+      "leaf": 64,
+      "envelope": 8,
+      "seconds": 160
+    },
+    "frontier_size": 0,
+    "dominance_pruned_nodes": 0,
+    "envelope_calls": 0,
+    "exact_recourse_calls": 25,
+    "cache_hits": 1,
+    "envelope_cache_hits": 16,
+    "witness_bounds": 375,
+    "total_full_milp": 25,
+    "envelope_skipped_by_upper": 1,
+    "evaluation_fraction": 0.07042253521126761,
+    "leaf_evaluation_fraction": 0.07042253521126761,
+    "total_wall_seconds": 19.675745599903166,
+    "peak_bytes": 347602944,
+    "monotonicity": [
+      {
+        "node": "battery-supplier_prod",
+        "sku": "componment_battery1",
+        "policy": [
+          915,
+          0,
+          0
+        ],
+        "inventory_ub": 99999,
+        "inventory_lb": 0,
+        "nominal_fixed_receipts": 13690,
+        "endogenous_inflow_bound": 0,
+        "gross_stock_bound": 23770,
+        "inventory_upper_slack": 76229
+      },
+      {
+        "node": "battery-supplier_prod",
+        "sku": "componment_battery2",
+        "policy": [
+          915,
+          0,
+          0
+        ],
+        "inventory_ub": 99999,
+        "inventory_lb": 0,
+        "nominal_fixed_receipts": 8214,
+        "endogenous_inflow_bound": 0,
+        "gross_stock_bound": 14262,
+        "inventory_upper_slack": 85737
+      },
+      {
+        "node": "battery-supplier_prod",
+        "sku": "componment_battery3",
+        "policy": [
+          915,
+          0,
+          0
+        ],
+        "inventory_ub": 99999,
+        "inventory_lb": 0,
+        "nominal_fixed_receipts": 5476,
+        "endogenous_inflow_bound": 0,
+        "gross_stock_bound": 9508,
+        "inventory_upper_slack": 90491
+      }
+    ],
+    "worst_event_details": [
+      {
+        "event_id": 336,
+        "resource": "SEAT",
+        "branch": "S",
+        "start": 61,
+        "duration": 11,
+        "severity": "3/4",
+        "recovery": "ABRUPT_RECOVERY",
+        "active_mask": 2047,
+        "single_rhs": 16106127360,
+        "ladder_rank": 1024
+      }
+    ]
+  },
+  "final_worst_rhs": 16106127360,
+  "final_exposure": 11,
+  "total_seconds": 68.47358209989034
+}

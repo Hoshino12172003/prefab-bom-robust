@@ -1,0 +1,21 @@
+{
+  "external_inputs/Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products.zip": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "external_inputs/Optimisation model for multi-item multi-echelon supply chain.pdf": "d1d2cd28fd569b36cef04bb026fc3936556215e7a6d2afdb13b54f1969922c93",
+  "private_inputs/attachment\\已粘贴的文本.txt": "a3fddd8f31a603d171356d7a701d457bf1d52bc4d8891575dabf2e3cab02954d",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_formal_20261110\\manifest.json": "dc252572092ccd7003b33fb84c6d075658862c5f58c988530fca7f96db1b6044",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\audit.json": "48b6dfd2dc6e2dd2746a43f2554ad81889d8bafc17d2f0f84effe9b595683ecc",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\run_audit.py": "bbc847d04864493e135954c9256fb6d59131cced2bc1d8afc9d8fff15b9cad99",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\finalize_audit.py": "a7cceefe563b6d1c215fb810c2724b8480bb545870e15e00ded1639a048874d0",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\examples\\run_v25_formal.py": "7cc29072ea2cbf101793fd5e7536c771f23b27217d401ea829a089430297d985",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\source.py": "44d7a3cd4c859b911a70bc118a77f08530a56abcf190b4c268362053da54593e",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\model.py": "388a732d20e372efad4ff0fdcae34c12578efb4c08f750853adb152a09cb8d9b",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\data.py": "647cc5da0cf1428d3bdb604aca84954a6a4420b1fe0346b7915dec1ae6aca3d6",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\src\\prefab_v25\\formal.py": "93f08b270be83f8bcb7f4f16df30470a65540e7b6484efe4f90aebe1c1970d96",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\nominal_B0__exact_certificate.json.gz": "20d370cd7db47f8966adf66559bd15ebc58d9244e422536cbb181427f74a61c0",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\nominal_B20__exact_certificate.json.gz": "142330d8bc3fe1f04804b0cfd4f6981122e9091c93534318fc20e1c42c21c8a2",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\nominal_B50__exact_certificate.json.gz": "a3e37855998c875382f254ad4100b0761742195993cc5d42116b5210b5c03e1d",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\nominal_B100__exact_certificate.json.gz": "bb26546e36ed426387703b9110f30e3521a250c94fb70221d337a6e674d87525",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\DE_B0__exact_certificate.json.gz": "e554612fab14d8c39c828ece34083e7edadc40fcc86bafd450b47dc855995d20",
+  "D:\\chatgpt\\供给侧BOM\\prefab-bom-robust\\artifacts\\v25_phase16_20261110_160104\\DE_B50__exact_certificate.json.gz": "aa432a50e417a332af06552c7239eacd496b713c1611562d637e91e62e775b66",
+  "external_inputs/Data for Optimisation model for multi-item multi-echelon supply chains with nested multi-level products.zip::2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e"
+}

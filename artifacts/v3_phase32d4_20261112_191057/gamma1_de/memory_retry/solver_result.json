@@ -1,0 +1,11 @@
+{
+  "monolithic_gurobi_optimal": false,
+  "cli_exit": 0,
+  "aborted": null,
+  "start_accepted": true,
+  "solver_seconds_wall": 83.09185039997101,
+  "peak_bytes": 11975102464,
+  "model_dimensions_confirmed": true,
+  "solver_error": "Error 10001: Out of memory",
+  "solve_log": "gamma1_de/memory_retry/console.log"
+}

@@ -1,0 +1,4 @@
+outer oracle_01 level 2 exact True W 11775 leaf 2 env 4 nodes 415 frontier 0
+outer oracle_02 level 2 exact True W 11775 leaf 2 env 4 nodes 415 frontier 0
+outer final_oracle level 2 exact True W 11775 leaf 2 env 4 nodes 415 frontier 0
+G3 Z 11775 x (915, 0, 0) iterations 2

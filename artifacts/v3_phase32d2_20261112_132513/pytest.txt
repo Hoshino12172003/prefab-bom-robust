@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 14 items
+
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-2] PASSED [  7%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-4] PASSED [ 14%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-6] PASSED [ 21%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-2] PASSED [ 28%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-4] PASSED [ 35%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-6] PASSED [ 42%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-2] PASSED [ 50%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-4] PASSED [ 57%]
+tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-6] PASSED [ 64%]
+tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[61] PASSED [ 71%]
+tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[63] PASSED [ 78%]
+tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[65] PASSED [ 85%]
+tests/test_v3_phase32d2_gamma_gate.py::test_concurrency_is_separate_from_exposure_budget PASSED [ 92%]
+tests/test_v3_phase32d2_gamma_gate.py::test_recovery_tail_changes_factors_without_consuming_exposure PASSED [100%]
+
+============================= 14 passed in 0.21s ==============================

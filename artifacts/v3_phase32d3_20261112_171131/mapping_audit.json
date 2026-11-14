@@ -1,0 +1,233 @@
+{
+  "atomic_collision": {
+    "equivalent_single_atoms": [
+      7,
+      10
+    ],
+    "other_atoms": [
+      217,
+      295
+    ],
+    "shared_rhs": 1,
+    "first_legal": true,
+    "second_legal": false
+  },
+  "policies": [
+    {
+      "policy": "P1",
+      "inventory_headroom": [
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery1",
+          "policy": [
+            915,
+            0,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 13690,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 23770,
+          "inventory_upper_slack": 76229
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery2",
+          "policy": [
+            915,
+            0,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 8214,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 14262,
+          "inventory_upper_slack": 85737
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery3",
+          "policy": [
+            915,
+            0,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 5476,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 9508,
+          "inventory_upper_slack": 90491
+        }
+      ],
+      "row_checks": 7,
+      "all_atomic_profiles_pass_envelope_witness": true,
+      "full_matrix_replays": 6,
+      "envelope_service": 7350
+    },
+    {
+      "policy": "P2",
+      "inventory_headroom": [
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery1",
+          "policy": [
+            1338,
+            24,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 13690,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 28000,
+          "inventory_upper_slack": 71999
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery2",
+          "policy": [
+            1338,
+            24,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 8214,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 16800,
+          "inventory_upper_slack": 83199
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery3",
+          "policy": [
+            1338,
+            24,
+            0
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 5476,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 11200,
+          "inventory_upper_slack": 88799
+        }
+      ],
+      "row_checks": 7,
+      "all_atomic_profiles_pass_envelope_witness": true,
+      "full_matrix_replays": 6,
+      "envelope_service": 7350
+    },
+    {
+      "policy": "P3",
+      "inventory_headroom": [
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery1",
+          "policy": [
+            713,
+            135,
+            6
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 13690,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 21750,
+          "inventory_upper_slack": 78249
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery2",
+          "policy": [
+            713,
+            135,
+            6
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 8214,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 13050,
+          "inventory_upper_slack": 86949
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery3",
+          "policy": [
+            713,
+            135,
+            6
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 5476,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 8700,
+          "inventory_upper_slack": 91299
+        }
+      ],
+      "row_checks": 7,
+      "all_atomic_profiles_pass_envelope_witness": true,
+      "full_matrix_replays": 6,
+      "envelope_service": 7350
+    },
+    {
+      "policy": "P4",
+      "inventory_headroom": [
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery1",
+          "policy": [
+            1338,
+            0,
+            162
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 13690,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 28000,
+          "inventory_upper_slack": 71999
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery2",
+          "policy": [
+            1338,
+            0,
+            162
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 8214,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 16800,
+          "inventory_upper_slack": 83199
+        },
+        {
+          "node": "battery-supplier_prod",
+          "sku": "componment_battery3",
+          "policy": [
+            1338,
+            0,
+            162
+          ],
+          "inventory_ub": 99999,
+          "inventory_lb": 0,
+          "nominal_fixed_receipts": 5476,
+          "endogenous_inflow_bound": 0,
+          "gross_stock_bound": 11200,
+          "inventory_upper_slack": 88799
+        }
+      ],
+      "row_checks": 7,
+      "all_atomic_profiles_pass_envelope_witness": true,
+      "full_matrix_replays": 6,
+      "envelope_service": 7350
+    }
+  ]
+}

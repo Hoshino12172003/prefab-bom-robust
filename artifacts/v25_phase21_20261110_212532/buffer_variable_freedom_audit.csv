@@ -1,0 +1,13 @@
+﻿label,risk,variable,vtype,lower_bound,upper_bound,service_objective_coefficient,forced_positive,zero_feasible,isolated_unit_feasible,log
+STRUCTURAL_DIAGNOSTIC_ONLY,NOM,x_C,I,-0.0,inf,0.0,False,True,True,logs/P1_NOM_x_C.log
+STRUCTURAL_DIAGNOSTIC_ONLY,NOM,x_T,I,-0.0,inf,0.0,False,True,True,logs/P1_NOM_x_T.log
+STRUCTURAL_DIAGNOSTIC_ONLY,NOM,x_O,I,-0.0,inf,0.0,False,True,True,logs/P1_NOM_x_O.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L1,x_C,I,-0.0,inf,0.0,False,True,True,logs/P1_L1_x_C.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L1,x_T,I,-0.0,inf,0.0,False,True,True,logs/P1_L1_x_T.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L1,x_O,I,-0.0,inf,0.0,False,True,True,logs/P1_L1_x_O.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L2,x_C,I,-0.0,inf,0.0,False,True,True,logs/P1_L2_x_C.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L2,x_T,I,-0.0,inf,0.0,False,True,True,logs/P1_L2_x_T.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L2,x_O,I,-0.0,inf,0.0,False,True,True,logs/P1_L2_x_O.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L3,x_C,I,-0.0,inf,0.0,False,True,True,logs/P1_L3_x_C.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L3,x_T,I,-0.0,inf,0.0,False,True,True,logs/P1_L3_x_T.log
+STRUCTURAL_DIAGNOSTIC_ONLY,L3,x_O,I,-0.0,inf,0.0,False,True,True,logs/P1_L3_x_O.log

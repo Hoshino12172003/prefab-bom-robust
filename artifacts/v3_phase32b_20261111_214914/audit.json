@@ -1,0 +1,422 @@
+{
+  "status": "PASS_BOTTLENECK_IDENTIFIED_ENHANCEMENT_JUSTIFIED",
+  "label": "STRESS_TEST_ONLY",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "frozen_inputs": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    }
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "input_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "instruction_sha256": "a227d255514328237b804cc0c662d643863d435f269a4a043067cf55bb570d86",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "common_solver_parameters": {
+    "Threads": 1,
+    "Seed": 20261110,
+    "MIPGap": 0,
+    "MIPGapAbs": 0,
+    "FeasibilityTol": 1e-09,
+    "IntFeasTol": 1e-09,
+    "OptimalityTol": 1e-09,
+    "Presolve": "AUTO"
+  },
+  "structure": {
+    "label": "STRESS_TEST_ONLY",
+    "frozen_catalog": 40,
+    "unique_rhs": 38,
+    "aliases": {
+      "ES": "DE_ENGINE_61",
+      "GS": "DE_GEAR_61"
+    },
+    "benchmark_order": [
+      "DE_ENGINE_61",
+      "DE_GEAR_61",
+      "DE_ENGINE_68",
+      "DE_GEAR_68",
+      "DE_ENGINE_64",
+      "DE_GEAR_64",
+      "DE_ENGINE_66",
+      "DE_GEAR_66",
+      "DE_ENGINE_62",
+      "DE_GEAR_62",
+      "DE_ENGINE_67",
+      "DE_GEAR_67",
+      "DE_ENGINE_63",
+      "DE_GEAR_63",
+      "DE_ENGINE_65",
+      "DE_GEAR_65",
+      "NR",
+      "B_RECEIPT_1",
+      "E_11",
+      "S_7",
+      "B_PROD_E_S",
+      "BGS_OVERLAP",
+      "S_4",
+      "G_4",
+      "B_PROD_4",
+      "B_SHIP_4",
+      "E_1",
+      "G_1",
+      "S_1",
+      "E_4",
+      "BE",
+      "BG",
+      "BS",
+      "EG",
+      "BES",
+      "BGS",
+      "BS_OVERLAP",
+      "BG_OVERLAP"
+    ],
+    "receipt_storage_headroom": {
+      "battery-supplier_prod|componment_battery1": 72113,
+      "battery-supplier_prod|componment_battery2": 81621,
+      "battery-supplier_prod|componment_battery3": 86375
+    },
+    "proven_pairs": {
+      "16": 0,
+      "24": 26,
+      "32": 48
+    },
+    "total_proven_pairs": 85,
+    "old_battery_combinatorial": {
+      "label": "STRESS_TEST_ONLY",
+      "legal_trajectories": 287443,
+      "unique_rhs": 38527,
+      "duplicates": 248916,
+      "largest_class": 67,
+      "nominal_equivalence_class": 67,
+      "individually_ineffective_episodes": {
+        "L1": 66
+      },
+      "ineffective_episode_examples": [
+        [
+          "L1",
+          61,
+          1,
+          "1/4"
+        ],
+        [
+          "L1",
+          61,
+          1,
+          "1/2"
+        ],
+        [
+          "L1",
+          61,
+          1,
+          "3/4"
+        ],
+        [
+          "L1",
+          62,
+          1,
+          "1/4"
+        ],
+        [
+          "L1",
+          62,
+          1,
+          "1/2"
+        ]
+      ],
+      "mip_solves": 0
+    }
+  },
+  "direct_certified_objectives": {
+    "4": 26465,
+    "8": 26465,
+    "16": 26465,
+    "24": 21775,
+    "32": 21775,
+    "38": 21775
+  },
+  "runs": [
+    {
+      "n": 4,
+      "method": "PLAIN",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 38.123289899900556,
+      "peak_process_bytes": 374415360,
+      "available_bytes_at_start": 14230425600,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 8,
+      "method": "PLAIN",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 68.84252850012854,
+      "peak_process_bytes": 374571008,
+      "available_bytes_at_start": 14186209280,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 16,
+      "method": "PLAIN",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 127.12074290006422,
+      "peak_process_bytes": 381947904,
+      "available_bytes_at_start": 14255726592,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 16,
+      "method": "TWO",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 84.92634470015764,
+      "peak_process_bytes": 353284096,
+      "available_bytes_at_start": 14311792640,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 16,
+      "method": "BATCH2",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 131.52668199990876,
+      "peak_process_bytes": 516399104,
+      "available_bytes_at_start": 14527553536,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 16,
+      "method": "BATCH4",
+      "status": "EXACT_FINITE",
+      "Q": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 134.72216510004364,
+      "peak_process_bytes": 785424384,
+      "available_bytes_at_start": 14272561152,
+      "time_limit_s": 90,
+      "soft_mem_gb": 3
+    },
+    {
+      "n": 24,
+      "method": "DIRECT",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        800,
+        0,
+        0
+      ],
+      "wall_seconds": 177.54551690001972,
+      "peak_process_bytes": 3349098496,
+      "available_bytes_at_start": 14545879040,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 24,
+      "method": "INIT_A",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 180.73933100001886,
+      "peak_process_bytes": 380911616,
+      "available_bytes_at_start": 14457954304,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 24,
+      "method": "INIT_B",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 188.5590675000567,
+      "peak_process_bytes": 467685376,
+      "available_bytes_at_start": 14728286208,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 24,
+      "method": "INIT_C",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 170.925139100058,
+      "peak_process_bytes": 467869696,
+      "available_bytes_at_start": 14448345088,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 24,
+      "method": "INIT_D",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 149.96973839984275,
+      "peak_process_bytes": 524632064,
+      "available_bytes_at_start": 14621569024,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 24,
+      "method": "INIT_E",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        0,
+        345,
+        0
+      ],
+      "wall_seconds": 111.8159558000043,
+      "peak_process_bytes": 336011264,
+      "available_bytes_at_start": 14850519040,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 32,
+      "method": "DIRECT",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        789,
+        0,
+        0
+      ],
+      "wall_seconds": 192.87534660007805,
+      "peak_process_bytes": 4441559040,
+      "available_bytes_at_start": 14808248320,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 32,
+      "method": "PLAIN",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 205.4377991000656,
+      "peak_process_bytes": 384217088,
+      "available_bytes_at_start": 14894055424,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 38,
+      "method": "DIRECT",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 230.86115020001307,
+      "peak_process_bytes": 5248393216,
+      "available_bytes_at_start": 15486996480,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    },
+    {
+      "n": 38,
+      "method": "PLAIN",
+      "status": "EXACT_FINITE",
+      "Q": 21775,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "wall_seconds": 231.54386100010015,
+      "peak_process_bytes": 383741952,
+      "available_bytes_at_start": 15383916544,
+      "time_limit_s": 240,
+      "soft_mem_gb": null
+    }
+  ],
+  "candidate": "E4 BOM-time service bounds plus common integer witness for compatible scenario groups",
+  "candidate_used_in_plain": false,
+  "formal_enhancement_implemented": false,
+  "stopped_after_phase32b": true,
+  "full_combinatorial_separation": false,
+  "uncertainty_status": "HOLD_UNCERTAINTY_CALIBRATION",
+  "probe_cases": 32,
+  "strict_nonworst_proofs": 28,
+  "exact_sandwiches": 20,
+  "solver_logs": 914,
+  "pytest_passed": 76,
+  "pytest_exit_code": 0,
+  "git_diff_check_exit_code": 0,
+  "syntax_compile_exit_code": 0
+}

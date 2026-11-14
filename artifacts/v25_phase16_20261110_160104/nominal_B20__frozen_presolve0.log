@@ -1,0 +1,61 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 16:08:04 2026
+
+Set parameter LogFile to value "artifacts\v25_phase16_20261110_160104\nominal_B20__frozen_presolve0.log"
+Set parameter LogToConsole to value 0
+Set parameter Threads to value 4
+Set parameter Seed to value 20261110
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter FeasibilityTol to value 1e-09
+Set parameter IntFeasTol to value 1e-09
+Set parameter Presolve to value 0
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 4 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Presolve  0
+Seed  20261110
+Threads  4
+
+Optimize a model with 21720 rows, 57795 columns and 169806 nonzeros (Max)
+Model fingerprint: 0xf512681d
+Model has 9694 linear objective coefficients
+Variable types: 0 continuous, 57795 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [2e-01, 9e+03]
+  Objective range  [4e-05, 4e-05]
+  Bounds range     [1e+05, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Variable types: 0 continuous, 57795 integer (0 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.10s
+
+Solved with primal simplex
+
+Root relaxation: objective 9.454286e-01, 22890 iterations, 1.54 seconds (1.16 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.9454286    0.94543  0.00%     -    2s
+
+Explored 1 nodes (22890 simplex iterations) in 2.29 seconds (1.58 work units)
+Thread count was 4 (of 14 available processors)
+
+Solution count 1: 0.945429 
+No other solutions better than 0.945429
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 9.454285714286e-01, best bound 9.454285714286e-01, gap 0.0000%

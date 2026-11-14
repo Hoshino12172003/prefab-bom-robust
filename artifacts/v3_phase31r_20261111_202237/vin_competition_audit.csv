@@ -1,0 +1,381 @@
+﻿label,scenario_id,policy_id,comparison_isolated,group,due_period,full_bom,isolated_on_time,joint_on_time,delta,cohort_size,selected_VIN_example,rejected_on_time_VIN_example,joint_early_assembly,joint_late_outflow,isolated_early_assembly,isolated_late_outflow,interpretation
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0002,61,"[[""DK8"", 1], [""G0K"", 1], [""Q2J"", 1]]",81,77,-4,81,64003,65889,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,0,-36,36,,64004,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0005,61,"[[""D2I"", 1], [""G0C"", 1], [""Q1A"", 1]]",24,0,-24,24,,64006,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0006,61,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",15,13,-2,15,64007,65763,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0007,61,"[[""DP2"", 1], [""G1A"", 1], [""Q4P"", 1]]",42,0,-42,42,,64008,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,0,-19,19,,64010,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0010,61,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",13,0,-13,13,,64011,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0012,61,"[[""DK8"", 1], [""G0C"", 1], [""Q1A"", 1]]",21,0,-21,21,,64013,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0015,61,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",35,0,-35,35,,64017,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0016,61,"[[""D80"", 1], [""G1A"", 1], [""Q4P"", 1]]",49,0,-49,49,,64018,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,20,-71,91,64024,64474,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0024,61,"[[""DG8"", 1], [""G1C"", 1], [""Q4H"", 1]]",16,0,-16,16,,64033,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0026,61,"[[""D64"", 1], [""G1D"", 1], [""Q4H"", 1]]",81,0,-81,81,,64035,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0037,61,"[[""DN4"", 1], [""G0K"", 1], [""Q2J"", 1]]",36,0,-36,36,,64052,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0043,61,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",45,0,-45,45,,64074,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0045,61,"[[""DG6"", 1], [""G1C"", 1], [""Q1A"", 1]]",10,0,-10,10,,64082,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0046,61,"[[""DN4"", 1], [""G1C"", 1], [""Q2J"", 1]]",37,0,-37,37,,64084,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0048,61,"[[""DQ4"", 1], [""G1C"", 1], [""Q4P"", 1]]",31,0,-31,31,,64089,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0049,61,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",38,0,-38,38,,64092,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,0,-24,24,,64095,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0053,61,"[[""DN4"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,64134,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0056,61,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",8,0,-8,8,,64148,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,0,-16,16,,64151,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0061,61,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,64199,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0063,61,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",15,0,-15,15,,64222,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0070,61,"[[""DN1"", 1], [""G1A"", 1], [""Q2J"", 1]]",3,0,-3,3,,64315,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0079,61,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",2,0,-2,2,,64518,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,0,-11,11,,64537,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0082,61,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",1,0,-1,1,,64539,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0092,61,"[[""D36"", 1], [""G0C"", 1], [""Q2J"", 1]]",3,0,-3,3,,65120,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",427,123,-304,698,70005,70299,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0355,65,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",0,27,27,27,72001,,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0370,65,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,49,49,49,72040,,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0480,66,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,53,53,53,74050,,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0564,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",199,359,160,359,76025,,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0580,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,25,25,25,76194,,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS,K644_C,B_RECEIPT_1,G0678,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",10,0,-10,10,,78100,7303,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,0,-36,36,,64004,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0004,61,"[[""DQ9"", 1], [""G0K"", 1], [""Q2J"", 1]]",75,0,-75,75,,64005,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0005,61,"[[""D2I"", 1], [""G0C"", 1], [""Q1A"", 1]]",24,0,-24,24,,64006,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0006,61,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",15,0,-15,15,,64007,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0007,61,"[[""DP2"", 1], [""G1A"", 1], [""Q4P"", 1]]",42,0,-42,42,,64008,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,0,-19,19,,64010,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0012,61,"[[""DK8"", 1], [""G0C"", 1], [""Q1A"", 1]]",21,0,-21,21,,64013,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0013,61,"[[""D33"", 1], [""G0K"", 1], [""Q1A"", 1]]",45,0,-45,45,,64015,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0016,61,"[[""D80"", 1], [""G1A"", 1], [""Q4P"", 1]]",49,30,-19,49,64018,65523,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0017,61,"[[""DN4"", 1], [""G1D"", 1], [""Q2J"", 1]]",11,0,-11,11,,64022,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,0,-91,91,,64024,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0037,61,"[[""DN4"", 1], [""G0K"", 1], [""Q2J"", 1]]",36,0,-36,36,,64052,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0039,61,"[[""DS9"", 1], [""G1C"", 1], [""Q2J"", 1]]",3,0,-3,3,,64058,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0041,61,"[[""DG6"", 1], [""G1A"", 1], [""Q4H"", 1]]",70,0,-70,70,,64063,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0046,61,"[[""DN4"", 1], [""G1C"", 1], [""Q2J"", 1]]",37,0,-37,37,,64084,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0049,61,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",38,32,-6,38,64092,65510,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,0,-24,24,,64095,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0053,61,"[[""DN4"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,64134,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,0,-16,16,,64151,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0058,61,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,0,-11,11,,64159,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0059,61,"[[""DG8"", 1], [""G0K"", 1], [""Q1A"", 1]]",23,0,-23,23,,64190,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0060,61,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",25,0,-25,25,,64192,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0062,61,"[[""D80"", 1], [""G0K"", 1], [""Q4P"", 1]]",16,0,-16,16,,64203,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0063,61,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",15,0,-15,15,,64222,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0068,61,"[[""DB8"", 1], [""G0K"", 1], [""Q1A"", 1]]",5,0,-5,5,,64276,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0070,61,"[[""DN1"", 1], [""G1A"", 1], [""Q2J"", 1]]",3,0,-3,3,,64315,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0079,61,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",2,0,-2,2,,64518,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,10,-1,11,64537,65619,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0084,61,"[[""DG6"", 1], [""G0R"", 1], [""Q1A"", 1]]",1,0,-1,1,,64633,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0088,61,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",1,0,-1,1,,64749,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",94,145,51,698,70005,70419,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0644,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",38,0,-38,49,,78012,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0826,70,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",124,0,-124,124,,82004,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0863,70,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,58,58,58,82301,,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G0984,71,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",13,0,-13,13,,84219,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BES,K215_C,B_RECEIPT_1,G1104,73,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",204,270,66,324,88003,88593,7586,20,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0002,61,"[[""DK8"", 1], [""G0K"", 1], [""Q2J"", 1]]",81,0,-81,81,,64003,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,0,-36,36,,64004,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0004,61,"[[""DQ9"", 1], [""G0K"", 1], [""Q2J"", 1]]",75,32,-43,75,64005,64983,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,0,-19,19,,64010,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0010,61,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",13,0,-13,13,,64011,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0012,61,"[[""DK8"", 1], [""G0C"", 1], [""Q1A"", 1]]",21,0,-21,21,,64013,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0013,61,"[[""D33"", 1], [""G0K"", 1], [""Q1A"", 1]]",45,0,-45,45,,64015,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0015,61,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",35,0,-35,35,,64017,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0017,61,"[[""DN4"", 1], [""G1D"", 1], [""Q2J"", 1]]",11,0,-11,11,,64022,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,0,-91,91,,64024,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0019,61,"[[""DS9"", 1], [""G1C"", 1], [""Q4H"", 1]]",48,13,-35,48,64025,64345,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0022,61,"[[""DF4"", 1], [""G1C"", 1], [""Q4H"", 1]]",7,0,-7,7,,64030,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0024,61,"[[""DG8"", 1], [""G1C"", 1], [""Q4H"", 1]]",16,0,-16,16,,64033,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0037,61,"[[""DN4"", 1], [""G0K"", 1], [""Q2J"", 1]]",36,0,-36,36,,64052,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0043,61,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",45,0,-45,45,,64074,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0046,61,"[[""DN4"", 1], [""G1C"", 1], [""Q2J"", 1]]",37,0,-37,37,,64084,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0049,61,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",38,4,-34,38,64092,64336,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,0,-24,24,,64095,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0056,61,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",8,0,-8,8,,64148,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,12,-4,16,64151,65511,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0058,61,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,0,-11,11,,64159,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0061,61,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,64199,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0073,61,"[[""DE5"", 1], [""G1A"", 1], [""Q4H"", 1]]",10,0,-10,10,,64366,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0074,61,"[[""DG6"", 1], [""G0K"", 1], [""Q4H"", 1]]",10,0,-10,10,,64395,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0079,61,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",2,0,-2,2,,64518,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,0,-11,11,,64537,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0082,61,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",1,0,-1,1,,64539,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0088,61,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",1,0,-1,1,,64749,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0089,61,"[[""D02"", 1], [""G0L"", 1], [""Q4P"", 1]]",5,0,-5,5,,64757,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0209,63,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,7,7,51,68216,68529,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",694,698,4,698,70005,,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,B_PROD_E_S,K1073_C,B_PROD_4,G0314,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",11,0,-11,11,,70182,4073,0,4011,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,0,-36,36,,64004,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0004,61,"[[""DQ9"", 1], [""G0K"", 1], [""Q2J"", 1]]",75,0,-75,75,,64005,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0007,61,"[[""DP2"", 1], [""G1A"", 1], [""Q4P"", 1]]",42,0,-42,42,,64008,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0008,61,"[[""DE5"", 1], [""G1D"", 1], [""Q4H"", 1]]",54,0,-54,54,,64009,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,15,-4,19,64010,65767,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0010,61,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",13,0,-13,13,,64011,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0013,61,"[[""D33"", 1], [""G0K"", 1], [""Q1A"", 1]]",45,0,-45,45,,64015,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0015,61,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",35,0,-35,35,,64017,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0016,61,"[[""D80"", 1], [""G1A"", 1], [""Q4P"", 1]]",49,0,-49,49,,64018,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,0,-91,91,,64024,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0019,61,"[[""DS9"", 1], [""G1C"", 1], [""Q4H"", 1]]",48,0,-48,48,,64025,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0022,61,"[[""DF4"", 1], [""G1C"", 1], [""Q4H"", 1]]",7,1,-6,7,64030,64346,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0023,61,"[[""DN4"", 1], [""G0L"", 1], [""Q4H"", 1]]",5,3,-2,5,64032,65116,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0024,61,"[[""DG8"", 1], [""G1C"", 1], [""Q4H"", 1]]",16,0,-16,16,,64033,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0031,61,"[[""DN4"", 1], [""G1A"", 1], [""Q4H"", 1]]",7,0,-7,7,,64041,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0033,61,"[[""D33"", 1], [""G1C"", 1], [""Q4H"", 1]]",24,0,-24,24,,64045,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0034,61,"[[""DS9"", 1], [""G0K"", 1], [""Q4H"", 1]]",28,0,-28,28,,64046,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0037,61,"[[""DN4"", 1], [""G0K"", 1], [""Q2J"", 1]]",36,0,-36,36,,64052,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0041,61,"[[""DG6"", 1], [""G1A"", 1], [""Q4H"", 1]]",70,0,-70,70,,64063,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0043,61,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",45,0,-45,45,,64074,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0046,61,"[[""DN4"", 1], [""G1C"", 1], [""Q2J"", 1]]",37,0,-37,37,,64084,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,0,-24,24,,64095,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0055,61,"[[""DK9"", 1], [""G1D"", 1], [""Q4H"", 1]]",12,0,-12,12,,64140,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0056,61,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",8,0,-8,8,,64148,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,1,-15,16,64151,64381,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0058,61,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,0,-11,11,,64159,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0059,61,"[[""DG8"", 1], [""G0K"", 1], [""Q1A"", 1]]",23,0,-23,23,,64190,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0060,61,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",25,0,-25,25,,64192,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0061,61,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,64199,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0062,61,"[[""D80"", 1], [""G0K"", 1], [""Q4P"", 1]]",16,0,-16,16,,64203,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0063,61,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",15,0,-15,15,,64222,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0072,61,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",0,7,7,7,64354,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0075,61,"[[""DG6"", 1], [""G0L"", 1], [""Q4H"", 1]]",3,0,-3,3,,64416,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0079,61,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",2,0,-2,2,,64518,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,0,-11,11,,64537,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,3,-1,4,64538,65960,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0082,61,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",1,0,-1,1,,64539,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0088,61,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",1,0,-1,1,,64749,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0094,62,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",46,0,-46,46,,66001,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0098,62,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",4,0,-4,4,,66005,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0099,62,"[[""DG8"", 1], [""G0K"", 1], [""Q1A"", 1]]",17,0,-17,17,,66006,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0101,62,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,66008,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0102,62,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",23,0,-23,23,,66010,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0106,62,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",20,0,-20,20,,66015,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0107,62,"[[""DN4"", 1], [""G1D"", 1], [""Q2J"", 1]]",8,0,-8,8,,66016,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0108,62,"[[""DR8"", 1], [""G1D"", 1], [""Q4P"", 1]]",17,0,-17,17,,66017,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0109,62,"[[""DK8"", 1], [""G0K"", 1], [""Q2J"", 1]]",47,0,-47,47,,66018,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0113,62,"[[""DK9"", 1], [""G1D"", 1], [""Q4H"", 1]]",17,0,-17,17,,66025,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0115,62,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",82,0,-82,82,,66032,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0118,62,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,66037,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0122,62,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",10,0,-10,10,,66048,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0128,62,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",8,0,-8,8,,66061,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0131,62,"[[""DQ9"", 1], [""G1C"", 1], [""Q4H"", 1]]",10,0,-10,10,,66070,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0137,62,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",40,0,-40,40,,66087,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0138,62,"[[""DQ4"", 1], [""G1C"", 1], [""Q4P"", 1]]",8,0,-8,8,,66088,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0141,62,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",4,0,-4,4,,66099,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0142,62,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",27,0,-27,27,,66106,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0143,62,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",31,0,-31,31,,66107,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0150,62,"[[""DN4"", 1], [""G0L"", 1], [""Q2J"", 1]]",7,0,-7,7,,66204,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0152,62,"[[""D2I"", 1], [""G0C"", 1], [""Q1A"", 1]]",33,0,-33,33,,66212,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0154,62,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",20,0,-20,20,,66224,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0159,62,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",11,0,-11,11,,66260,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0160,62,"[[""DB8"", 1], [""G0K"", 1], [""Q1A"", 1]]",6,0,-6,6,,66263,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0162,62,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",9,0,-9,9,,66308,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0165,62,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,0,-11,11,,66338,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0166,62,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",7,0,-7,7,,66344,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0169,62,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",4,0,-4,4,,66356,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0170,62,"[[""DE4"", 1], [""G0K"", 1], [""Q2J"", 1]]",25,0,-25,25,,66362,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0172,62,"[[""DK8"", 1], [""G0K"", 1], [""Q4H"", 1]]",2,0,-2,2,,66386,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0175,62,"[[""DK8"", 1], [""G1C"", 1], [""Q1A"", 1]]",4,0,-4,4,,66461,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0180,62,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",4,0,-4,4,,67164,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0182,62,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",2,0,-2,2,,67799,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0191,63,"[[""D2I"", 1], [""G0C"", 1], [""Q1A"", 1]]",29,0,-29,29,,68012,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0196,63,"[[""DE4"", 1], [""G0K"", 1], [""Q2J"", 1]]",18,0,-18,18,,68022,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0208,63,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",21,0,-21,21,,68215,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0215,63,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",4,0,-4,4,,68229,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0217,63,"[[""DG6"", 1], [""G1C"", 1], [""Q1A"", 1]]",11,0,-11,11,,68241,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0219,63,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",21,0,-21,21,,68245,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0220,63,"[[""DS9"", 1], [""G1C"", 1], [""Q2J"", 1]]",1,0,-1,1,,68251,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0232,63,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",14,6,-8,14,68277,68730,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0242,63,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",12,0,-12,12,,68326,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0248,63,"[[""DB8"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,68376,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0257,63,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",6,0,-6,6,,68489,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0260,63,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,68509,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0261,63,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",9,0,-9,9,,68516,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0265,63,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",4,0,-4,4,,68615,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0267,63,"[[""DG6"", 1], [""G0K"", 1], [""Q1A"", 1]]",4,0,-4,4,,68708,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0269,63,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,68771,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",94,0,-94,698,,70005,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0318,64,"[[""DN4"", 1], [""G1D"", 1], [""Q2J"", 1]]",4,0,-4,4,,70347,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0325,64,"[[""DG6"", 1], [""G0K"", 1], [""Q1A"", 1]]",2,0,-2,2,,70375,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0326,64,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",10,0,-10,10,,70377,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0346,64,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",2,0,-2,2,,70651,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0358,65,"[[""DE4"", 1], [""G0K"", 1], [""Q2J"", 1]]",15,0,-15,15,,72005,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0364,65,"[[""D2I"", 1], [""G0C"", 1], [""Q1A"", 1]]",24,0,-24,24,,72020,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0430,65,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",3,0,-3,3,,72295,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0444,65,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",3,0,-3,3,,73108,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0447,65,"[[""D36"", 1], [""G0C"", 1], [""Q2J"", 1]]",1,0,-1,1,,73530,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0452,66,"[[""DF4"", 1], [""G1C"", 1], [""Q4H"", 1]]",3,1,-2,3,74004,74328,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0462,66,"[[""DE5"", 1], [""G1A"", 1], [""Q4H"", 1]]",6,0,-6,6,,74015,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0488,66,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,0,-11,11,,74073,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0499,66,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",28,0,-28,28,,74131,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0505,66,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",6,0,-6,6,,74203,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0509,66,"[[""DE4"", 1], [""G0K"", 1], [""Q4H"", 1]]",16,11,-5,16,74221,75159,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0513,66,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",13,6,-7,13,74279,74649,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0531,66,"[[""DN4"", 1], [""G0K"", 1], [""Q1A"", 1]]",2,0,-2,2,,74773,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0537,66,"[[""DS9"", 1], [""G1C"", 1], [""Q2J"", 1]]",5,0,-5,5,,74886,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0541,66,"[[""DN4"", 1], [""G0L"", 1], [""Q1A"", 1]]",2,0,-2,2,,75295,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0564,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",359,0,-359,359,,76025,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0598,67,"[[""DB8"", 1], [""G0K"", 1], [""Q2J"", 1]]",5,0,-5,5,,76420,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0604,67,"[[""DK8"", 1], [""G0K"", 1], [""Q1A"", 1]]",5,0,-5,5,,76610,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0606,67,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",9,0,-9,9,,76616,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0607,67,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",9,0,-9,9,,76626,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0610,67,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",4,0,-4,4,,76663,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0611,67,"[[""D80"", 1], [""G0K"", 1], [""Q4P"", 1]]",7,0,-7,7,,76666,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0622,67,"[[""DG8"", 1], [""G1C"", 1], [""Q4H"", 1]]",8,0,-8,8,,77154,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0625,67,"[[""DN1"", 1], [""G1A"", 1], [""Q2J"", 1]]",1,0,-1,1,,77348,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0644,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",38,49,11,49,78012,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0678,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",0,10,10,10,78100,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0781,69,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",0,238,238,238,80116,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G0863,70,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,58,58,58,82301,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BS_OVERLAP,K215_C,B_RECEIPT_1,G1104,73,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",204,324,120,324,88003,,4782,0,7905,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0024,61,"[[""DG8"", 1], [""G1C"", 1], [""Q4H"", 1]]",16,0,-16,16,,64033,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,23,-1,24,64095,65969,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0053,61,"[[""DN4"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,64134,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0056,61,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",8,0,-8,8,,64148,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0058,61,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,5,-6,11,64159,65246,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0060,61,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",25,23,-2,25,64192,65957,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0061,61,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,64199,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0082,61,"[[""DG6"", 1], [""G0L"", 1], [""Q2J"", 1]]",1,0,-1,1,,64539,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0163,62,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,66321,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0181,62,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",1,0,-1,1,,67201,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0182,62,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",2,0,-2,2,,67799,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",204,295,91,698,70005,70868,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0580,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",25,0,-25,25,,76194,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0644,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",19,0,-19,49,,78012,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0678,68,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",10,0,-10,10,,78100,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BG_OVERLAP,K429_C,B_RECEIPT_1,G0737,69,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",37,0,-37,37,,80012,4114,0,7744,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0002,61,"[[""DK8"", 1], [""G0K"", 1], [""Q2J"", 1]]",81,0,-81,81,,64003,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,0,-36,36,,64004,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0004,61,"[[""DQ9"", 1], [""G0K"", 1], [""Q2J"", 1]]",75,0,-75,75,,64005,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0006,61,"[[""DM4"", 1], [""G1D"", 1], [""Q4P"", 1]]",15,0,-15,15,,64007,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0007,61,"[[""DP2"", 1], [""G1A"", 1], [""Q4P"", 1]]",42,0,-42,42,,64008,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,15,-4,19,64010,65767,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0010,61,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",13,0,-13,13,,64011,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0013,61,"[[""D33"", 1], [""G0K"", 1], [""Q1A"", 1]]",45,0,-45,45,,64015,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0015,61,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",35,18,-17,35,64017,65192,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0016,61,"[[""D80"", 1], [""G1A"", 1], [""Q4P"", 1]]",49,0,-49,49,,64018,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,0,-91,91,,64024,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0030,61,"[[""D33"", 1], [""G0K"", 1], [""Q4H"", 1]]",27,0,-27,27,,64040,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0037,61,"[[""DN4"", 1], [""G0K"", 1], [""Q2J"", 1]]",36,0,-36,36,,64052,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0043,61,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",45,0,-45,45,,64074,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0044,61,"[[""DK7"", 1], [""G1C"", 1], [""Q4P"", 1]]",20,0,-20,20,,64077,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0045,61,"[[""DG6"", 1], [""G1C"", 1], [""Q1A"", 1]]",10,0,-10,10,,64082,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0048,61,"[[""DQ4"", 1], [""G1C"", 1], [""Q4P"", 1]]",31,0,-31,31,,64089,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0049,61,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",38,0,-38,38,,64092,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0053,61,"[[""DN4"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,64134,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0054,61,"[[""DR8"", 1], [""G1D"", 1], [""Q4P"", 1]]",13,0,-13,13,,64136,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,5,-11,16,64151,64740,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0059,61,"[[""DG8"", 1], [""G0K"", 1], [""Q1A"", 1]]",23,0,-23,23,,64190,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0060,61,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",25,0,-25,25,,64192,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0061,61,"[[""DN4"", 1], [""G1D"", 1], [""Q1A"", 1]]",2,0,-2,2,,64199,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0062,61,"[[""D80"", 1], [""G0K"", 1], [""Q4P"", 1]]",16,0,-16,16,,64203,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0066,61,"[[""DK7"", 1], [""G0K"", 1], [""Q4P"", 1]]",18,0,-18,18,,64231,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0068,61,"[[""DB8"", 1], [""G0K"", 1], [""Q1A"", 1]]",5,0,-5,5,,64276,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0072,61,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",0,7,7,7,64354,,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,5,-6,11,64537,65145,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0087,61,"[[""DE4"", 1], [""G0K"", 1], [""Q1A"", 1]]",1,0,-1,1,,64680,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0088,61,"[[""DG8"", 1], [""G1C"", 1], [""Q1A"", 1]]",1,0,-1,1,,64749,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0091,61,"[[""DQ4"", 1], [""G0K"", 1], [""Q4P"", 1]]",8,0,-8,8,,64805,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0098,62,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",4,0,-4,4,,66005,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0174,62,"[[""DE4"", 1], [""G0K"", 1], [""Q1A"", 1]]",4,0,-4,4,,66425,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0179,62,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",3,0,-3,3,,66772,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0180,62,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",4,0,-4,4,,67164,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0190,63,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",2,0,-2,108,,68007,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0209,63,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,51,51,51,68216,,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",698,653,-45,698,70005,71899,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0314,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",11,0,-11,11,,70182,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K1073_C,B_RECEIPT_1,G0345,64,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",2,0,-2,2,,70646,2876,0,4591,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0003,61,"[[""DK8"", 1], [""G0C"", 1], [""Q2J"", 1]]",36,2,-34,36,64004,64021,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0007,61,"[[""DP2"", 1], [""G1A"", 1], [""Q4P"", 1]]",42,0,-42,42,,64008,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0009,61,"[[""DG6"", 1], [""G0R"", 1], [""Q2J"", 1]]",19,0,-19,19,,64010,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0010,61,"[[""D64"", 1], [""G1D"", 1], [""Q2J"", 1]]",13,0,-13,13,,64011,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0013,61,"[[""D33"", 1], [""G0K"", 1], [""Q1A"", 1]]",45,0,-45,45,,64015,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0015,61,"[[""DG6"", 1], [""G1C"", 1], [""Q2J"", 1]]",35,0,-35,35,,64017,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0018,61,"[[""DG8"", 1], [""G0K"", 1], [""Q2J"", 1]]",91,0,-91,91,,64024,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0021,61,"[[""DN4"", 1], [""G1A"", 1], [""Q2J"", 1]]",9,0,-9,9,,64028,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0025,61,"[[""DE5"", 1], [""G1D"", 1], [""Q2J"", 1]]",2,0,-2,2,,64034,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0026,61,"[[""D64"", 1], [""G1D"", 1], [""Q4H"", 1]]",81,0,-81,81,,64035,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0029,61,"[[""DG6"", 1], [""G1C"", 1], [""Q4H"", 1]]",37,0,-37,37,,64038,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0032,61,"[[""D33"", 1], [""G0K"", 1], [""Q2J"", 1]]",49,0,-49,49,,64042,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0035,61,"[[""DG6"", 1], [""G0K"", 1], [""Q2J"", 1]]",29,0,-29,29,,64050,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0036,61,"[[""DQ9"", 1], [""G1C"", 1], [""Q2J"", 1]]",19,0,-19,19,,64051,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0038,61,"[[""DG6"", 1], [""G1A"", 1], [""Q1A"", 1]]",33,0,-33,33,,64055,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0042,61,"[[""DG6"", 1], [""G1A"", 1], [""Q2J"", 1]]",42,0,-42,42,,64064,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0043,61,"[[""DK8"", 1], [""G1C"", 1], [""Q2J"", 1]]",45,0,-45,45,,64074,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0044,61,"[[""DK7"", 1], [""G1C"", 1], [""Q4P"", 1]]",20,11,-9,20,64077,65299,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0045,61,"[[""DG6"", 1], [""G1C"", 1], [""Q1A"", 1]]",10,0,-10,10,,64082,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0046,61,"[[""DN4"", 1], [""G1C"", 1], [""Q2J"", 1]]",37,0,-37,37,,64084,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0049,61,"[[""D02"", 1], [""G1D"", 1], [""Q4P"", 1]]",38,6,-32,38,64092,64350,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0050,61,"[[""DG8"", 1], [""G1C"", 1], [""Q2J"", 1]]",24,0,-24,24,,64095,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0053,61,"[[""DN4"", 1], [""G1A"", 1], [""Q1A"", 1]]",1,0,-1,1,,64134,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0055,61,"[[""DK9"", 1], [""G1D"", 1], [""Q4H"", 1]]",12,0,-12,12,,64140,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0056,61,"[[""D33"", 1], [""G1C"", 1], [""Q2J"", 1]]",8,0,-8,8,,64148,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0057,61,"[[""DR8"", 1], [""G0L"", 1], [""Q4P"", 1]]",16,0,-16,16,,64151,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0058,61,"[[""DS9"", 1], [""G0K"", 1], [""Q2J"", 1]]",11,0,-11,11,,64159,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0059,61,"[[""DG8"", 1], [""G0K"", 1], [""Q1A"", 1]]",23,0,-23,23,,64190,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0060,61,"[[""D60"", 1], [""G1D"", 1], [""Q4H"", 1]]",25,0,-25,25,,64192,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0062,61,"[[""D80"", 1], [""G0K"", 1], [""Q4P"", 1]]",16,0,-16,16,,64203,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0063,61,"[[""D33"", 1], [""G1C"", 1], [""Q1A"", 1]]",15,0,-15,15,,64222,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0064,61,"[[""DF6"", 1], [""G1C"", 1], [""Q4H"", 1]]",5,0,-5,5,,64223,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0065,61,"[[""DN6"", 1], [""G0K"", 1], [""Q2J"", 1]]",8,0,-8,8,,64229,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0079,61,"[[""DN1"", 1], [""G1A"", 1], [""Q1A"", 1]]",2,0,-2,2,,64518,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0080,61,"[[""DB0"", 1], [""G1C"", 1], [""Q2J"", 1]]",11,0,-11,11,,64537,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0081,61,"[[""DE2"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64538,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0086,61,"[[""DN6"", 1], [""G1D"", 1], [""Q4H"", 1]]",4,0,-4,4,,64671,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0283,64,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",427,242,-185,698,70005,70759,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0564,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q4H"", 1]]",199,359,160,359,76025,,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort
+STRESS_TEST_ONLY,BGS_OVERLAP,K644_C,B_RECEIPT_1,G0580,67,"[[""BEV"", 1], [""D83"", 1], [""G1Z"", 1], [""Q2J"", 1]]",0,25,25,25,76194,,6015,0,7417,0,one optimal allocation; VINs interchangeable within exact cohort

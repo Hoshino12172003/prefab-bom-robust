@@ -1,0 +1,6 @@
+{
+  "current_status": "HOLD_LONG_RUN_EXTRAPOLATION_UNSUPPORTED",
+  "original_artifact_status_preserved": "HOLD_SOURCE_NETWORK_LONG_RUN_CAPACITY_MISMATCH",
+  "scope": "conditional proof only under indefinitely repeated joint 14-period source calendar",
+  "source_long_run_capacity_inference": false
+}

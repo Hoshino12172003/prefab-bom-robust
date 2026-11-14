@@ -1,0 +1,53 @@
+
+Gurobi 13.0.1 (win64) logging started Tue Nov 10 22:18:56 2026
+
+Set parameter LogFile to value "artifacts\v25_phase21b_20261110_221400\logs\K1_EQUAL_L2_without_x_T.log"
+STRUCTURAL_DIAGNOSTIC_ONLY K1_EQUAL_L2_without_x_T budget=215 fixed_x=None allowed_mask=5
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Threads  1
+
+Optimize a model with 2921 rows, 4932 columns and 12985 nonzeros (Max)
+Model fingerprint: 0x84670ed6
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 4932 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+03, 1e+05]
+  RHS range        [1e+00, 1e+05]
+
+Warning: Completing partial solution with 4928 unfixed non-continuous variables out of 4932
+User MIP start produced solution with objective 215 (0.02s)
+Loaded user MIP start with objective 215
+
+Presolve removed 2558 rows and 4130 columns
+Presolve time: 0.01s
+Presolved: 363 rows, 802 columns, 2418 nonzeros
+Variable types: 0 continuous, 802 integer (0 binary)
+
+Root relaxation: infeasible, 194 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0       215.00000  215.00000  0.00%     -    0s
+
+Explored 1 nodes (194 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 215 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.150000000000e+02, best bound 2.150000000000e+02, gap 0.0000%
+Discarded solution information

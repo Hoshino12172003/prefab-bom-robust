@@ -1,0 +1,66 @@
+
+Gurobi 13.0.1 (win64) logging started Thu Nov 12 09:48:13 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32c_20261112_093602\logs\32_direct_1_DE\DE.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  240
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 736641 rows, 2425924 columns and 6978947 nonzeros (Max)
+Model fingerprint: 0xf680f43b
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 2425924 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 51308 rows and 644416 columns (presolve time = 5s)...
+Presolve removed 51372 rows and 644416 columns (presolve time = 10s)...
+Presolve removed 51372 rows and 644416 columns
+Presolve time: 13.18s
+Presolved: 685269 rows, 1781508 columns, 5638215 nonzeros
+Variable types: 0 continuous, 1781508 integer (92942 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8000000e+04   6.523643e+05   0.000000e+00     22s
+   58774    2.7999881e+04   1.462782e+06   0.000000e+00     26s
+  105589    2.7999806e+04   8.267917e+05   0.000000e+00     31s
+  141058    2.5247821e+04   2.275803e+05   0.000000e+00     35s
+  168450    2.1774876e+04   1.359756e+05   0.000000e+00     40s
+  180925    2.1774875e+04   5.029587e+04   0.000000e+00     45s
+  189383    2.1774875e+04   5.017460e+04   0.000000e+00     50s
+  190746    2.1775000e+04   0.000000e+00   0.000000e+00     52s
+
+Root relaxation: objective 2.177500e+04, 190746 iterations, 34.85 seconds (31.36 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 21775.0000    0  209          - 21775.0000      -     -   64s
+H    0     0                    21769.000000 21775.0000  0.03%     -   68s
+H    0     0                    21775.000000 21775.0000  0.00%     -   71s
+     0     0 21775.0000    0  209 21775.0000 21775.0000  0.00%     -   71s
+
+Explored 1 nodes (281177 simplex iterations) in 71.46 seconds (67.79 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 2: 21775 21769 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.177500000000e+04, best bound 2.177500000000e+04, gap 0.0000%

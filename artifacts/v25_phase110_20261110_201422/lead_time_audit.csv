@@ -1,0 +1,12 @@
+﻿origin,destination,lead,group,arrival_rule,same_period_arrival,stock_convention
+zp7,zp8,0,car,departure + lead,True,period-end after all dated receipts and uses
+gear-supplier_inv,zp7,2,gear,departure + lead,False,period-end after all dated receipts and uses
+engine-supplier_inv,zp7,1,engine,departure + lead,False,period-end after all dated receipts and uses
+gear-supplier_prod,gear-supplier_inv,2,gear,departure + lead,False,period-end after all dated receipts and uses
+engine-supplier_prod,engine-supplier_inv,1,engine,departure + lead,False,period-end after all dated receipts and uses
+battery-supplier_inv,zp7,1,battery,departure + lead,False,period-end after all dated receipts and uses
+seat-supplier_inv,zp7,0,seat,departure + lead,True,period-end after all dated receipts and uses
+battery-supplier_prod,battery-supplier_inv,1,battery,departure + lead,False,period-end after all dated receipts and uses
+seat-supplier_prod,seat-supplier_inv,0,seat,departure + lead,True,period-end after all dated receipts and uses
+seat-supplier_trans,seat-supplier_prod,23,seat_componment,departure + lead,False,period-end after all dated receipts and uses
+battery-supplier_trans,battery-supplier_prod,20,battery_componment,departure + lead,False,period-end after all dated receipts and uses

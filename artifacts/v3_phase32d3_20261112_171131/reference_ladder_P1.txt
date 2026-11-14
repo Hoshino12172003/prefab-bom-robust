@@ -1,0 +1,66 @@
+ladder P1 G2_N32 W 12300 MILP 11 matrix replays 21
+ladder P1 G2_N64 50 / 64 solves 19
+ladder P1 G2_N64 W 12300 MILP 20 matrix replays 44
+ladder P1 G2_N128 50 / 128 solves 28
+ladder P1 G2_N128 100 / 128 solves 44
+ladder P1 G2_N128 W 11775 MILP 47 matrix replays 81
+ladder P1 G2_N256 50 / 256 solves 20
+ladder P1 G2_N256 100 / 256 solves 38
+ladder P1 G2_N256 150 / 256 solves 55
+ladder P1 G2_N256 200 / 256 solves 55
+ladder P1 G2_N256 250 / 256 solves 57
+ladder P1 G2_N256 W 11775 MILP 60 matrix replays 196
+ladder P1 G2_N512 50 / 512 solves 16
+ladder P1 G2_N512 100 / 512 solves 38
+ladder P1 G2_N512 150 / 512 solves 52
+ladder P1 G2_N512 200 / 512 solves 71
+ladder P1 G2_N512 250 / 512 solves 71
+ladder P1 G2_N512 300 / 512 solves 71
+ladder P1 G2_N512 350 / 512 solves 71
+ladder P1 G2_N512 400 / 512 solves 71
+ladder P1 G2_N512 450 / 512 solves 71
+ladder P1 G2_N512 500 / 512 solves 75
+ladder P1 G2_N512 W 11775 MILP 80 matrix replays 432
+ladder P1 G3_N64 50 / 64 solves 12
+ladder P1 G3_N64 W 12300 MILP 12 matrix replays 52
+ladder P1 G3_N128 50 / 128 solves 17
+ladder P1 G3_N128 100 / 128 solves 18
+ladder P1 G3_N128 W 12300 MILP 21 matrix replays 107
+ladder P1 G3_N256 50 / 256 solves 20
+ladder P1 G3_N256 100 / 256 solves 38
+ladder P1 G3_N256 150 / 256 solves 47
+ladder P1 G3_N256 200 / 256 solves 51
+ladder P1 G3_N256 250 / 256 solves 51
+ladder P1 G3_N256 W 11775 MILP 53 matrix replays 203
+ladder P1 G3_N512 50 / 512 solves 16
+ladder P1 G3_N512 100 / 512 solves 26
+ladder P1 G3_N512 150 / 512 solves 33
+ladder P1 G3_N512 200 / 512 solves 48
+ladder P1 G3_N512 250 / 512 solves 49
+ladder P1 G3_N512 300 / 512 solves 56
+ladder P1 G3_N512 350 / 512 solves 56
+ladder P1 G3_N512 400 / 512 solves 56
+ladder P1 G3_N512 450 / 512 solves 56
+ladder P1 G3_N512 500 / 512 solves 56
+ladder P1 G3_N512 W 11775 MILP 58 matrix replays 454
+ladder P1 G3_N1024 50 / 1024 solves 11
+ladder P1 G3_N1024 100 / 1024 solves 20
+ladder P1 G3_N1024 150 / 1024 solves 37
+ladder P1 G3_N1024 200 / 1024 solves 39
+ladder P1 G3_N1024 250 / 1024 solves 42
+ladder P1 G3_N1024 300 / 1024 solves 49
+ladder P1 G3_N1024 350 / 1024 solves 58
+ladder P1 G3_N1024 400 / 1024 solves 59
+ladder P1 G3_N1024 450 / 1024 solves 64
+ladder P1 G3_N1024 500 / 1024 solves 67
+ladder P1 G3_N1024 550 / 1024 solves 67
+ladder P1 G3_N1024 600 / 1024 solves 67
+ladder P1 G3_N1024 650 / 1024 solves 67
+ladder P1 G3_N1024 700 / 1024 solves 67
+ladder P1 G3_N1024 750 / 1024 solves 67
+ladder P1 G3_N1024 800 / 1024 solves 67
+ladder P1 G3_N1024 850 / 1024 solves 67
+ladder P1 G3_N1024 900 / 1024 solves 67
+ladder P1 G3_N1024 950 / 1024 solves 67
+ladder P1 G3_N1024 1000 / 1024 solves 67
+ladder P1 G3_N1024 W 11775 MILP 71 matrix replays 953

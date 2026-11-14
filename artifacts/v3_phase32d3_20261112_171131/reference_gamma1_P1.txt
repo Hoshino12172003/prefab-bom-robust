@@ -1,0 +1,8 @@
+gamma1 P1 G1_N355 50 / 355 solves 50
+gamma1 P1 G1_N355 100 / 355 solves 100
+gamma1 P1 G1_N355 150 / 355 solves 150
+gamma1 P1 G1_N355 200 / 355 solves 200
+gamma1 P1 G1_N355 250 / 355 solves 250
+gamma1 P1 G1_N355 300 / 355 solves 300
+gamma1 P1 G1_N355 350 / 355 solves 350
+gamma1 P1 G1_N355 W 11775 MILP 355 matrix replays 0

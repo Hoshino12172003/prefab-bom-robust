@@ -1,0 +1,467 @@
+{
+  "label": "STRESS_TEST_ONLY",
+  "n": 4,
+  "method": "PLAIN",
+  "names": [
+    "DE_ENGINE_61",
+    "DE_GEAR_61",
+    "DE_ENGINE_68",
+    "DE_GEAR_68"
+  ],
+  "initial": [
+    "DE_ENGINE_68"
+  ],
+  "final": [
+    "DE_ENGINE_68",
+    "DE_ENGINE_61"
+  ],
+  "status": "EXACT_FINITE",
+  "Q": 26465,
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "verify": {
+    "DE_ENGINE_61": 26465,
+    "DE_GEAR_61": 26465,
+    "DE_ENGINE_68": 27050,
+    "DE_GEAR_68": 27050
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "master_scenarios": [
+        "DE_ENGINE_68"
+      ],
+      "added_scenario": "DE_ENGINE_61",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "mp_objective": 27050,
+      "upper": 27050,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26465,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 585,
+      "relative_gap": 0.021626617375231055,
+      "master_seconds": 3.0775443001184613,
+      "oracle_seconds": 9.80526899988763,
+      "total_seconds": 12.882818799931556
+    },
+    {
+      "iteration": 2,
+      "master_scenarios": [
+        "DE_ENGINE_68",
+        "DE_ENGINE_61"
+      ],
+      "added_scenario": "",
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "mp_objective": 26465,
+      "upper": 26465,
+      "oracle_worst": 26465,
+      "worst_ties": [
+        "DE_ENGINE_61",
+        "DE_GEAR_61"
+      ],
+      "selected_tie": "DE_ENGINE_61",
+      "lower": 26465,
+      "best_policy": [
+        915,
+        0,
+        0
+      ],
+      "absolute_gap": 0,
+      "relative_gap": 0.0,
+      "master_seconds": 7.364463400095701,
+      "oracle_seconds": 8.787988999858499,
+      "total_seconds": 29.03532089991495
+    }
+  ],
+  "records": [
+    {
+      "kind": "MASTER",
+      "tag": "round_01",
+      "name": "MP",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.6839795000851154,
+      "solve_wall_seconds": 0.8235219998750836,
+      "gurobi_seconds": 0.8229999542236328,
+      "post_solve_seconds": 1.539207500172779,
+      "serialization_seconds": 0,
+      "rows": 23021,
+      "integers": 75814,
+      "nonzeros": 218095,
+      "gurobi_peak_gb": 0.102539993,
+      "peak_process_bytes": 194613248,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_round_01_MP.log",
+      "job_wall_seconds": 3.0704244000371546
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_01",
+      "name": "DE_ENGINE_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.9551592001225799,
+      "solve_wall_seconds": 1.0936159999109805,
+      "gurobi_seconds": 1.0929999351501465,
+      "post_solve_seconds": 0.07153249997645617,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.104616581,
+      "peak_process_bytes": 220807168,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_01_DE_ENGINE_61.log",
+      "job_wall_seconds": 2.145927800098434
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_01",
+      "name": "DE_GEAR_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.8179413999896497,
+      "solve_wall_seconds": 1.1995767999906093,
+      "gurobi_seconds": 1.1989998817443848,
+      "post_solve_seconds": 0.10031230002641678,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.104616581,
+      "peak_process_bytes": 220807168,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_01_DE_GEAR_61.log",
+      "job_wall_seconds": 2.141059799818322
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_01",
+      "name": "DE_ENGINE_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 1.2373479998204857,
+      "solve_wall_seconds": 1.2076195001136512,
+      "gurobi_seconds": 1.2070000171661377,
+      "post_solve_seconds": 0.10890210000798106,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.104616581,
+      "peak_process_bytes": 220807168,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_01_DE_ENGINE_68.log",
+      "job_wall_seconds": 2.5875079999677837
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_01",
+      "name": "DE_GEAR_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 1.1639620999339968,
+      "solve_wall_seconds": 1.5892589001450688,
+      "gurobi_seconds": 1.5889999866485596,
+      "post_solve_seconds": 0.10521539999172091,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.104616581,
+      "peak_process_bytes": 221122560,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_01_DE_GEAR_68.log",
+      "job_wall_seconds": 2.9003677999135107
+    },
+    {
+      "kind": "MASTER",
+      "tag": "round_02",
+      "name": "MP",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 2.0487811998464167,
+      "solve_wall_seconds": 5.124542300123721,
+      "gurobi_seconds": 5.124000072479248,
+      "post_solve_seconds": 0.14024290000088513,
+      "serialization_seconds": 0,
+      "rows": 46041,
+      "integers": 151624,
+      "nonzeros": 436187,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_round_02_MP.log",
+      "job_wall_seconds": 7.353146000066772
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_02",
+      "name": "DE_ENGINE_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.8426063000224531,
+      "solve_wall_seconds": 1.3293920999858528,
+      "gurobi_seconds": 1.3289999961853027,
+      "post_solve_seconds": 0.11514530004933476,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_02_DE_ENGINE_61.log",
+      "job_wall_seconds": 2.3094323000404984
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_02",
+      "name": "DE_GEAR_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.8799617001786828,
+      "solve_wall_seconds": 0.9705043998546898,
+      "gurobi_seconds": 0.9700000286102295,
+      "post_solve_seconds": 0.0954782001208514,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_02_DE_GEAR_61.log",
+      "job_wall_seconds": 1.9696865000296384
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_02",
+      "name": "DE_ENGINE_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.9347437000833452,
+      "solve_wall_seconds": 1.199832199839875,
+      "gurobi_seconds": 1.1990001201629639,
+      "post_solve_seconds": 0.0717923000920564,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_02_DE_ENGINE_68.log",
+      "job_wall_seconds": 2.230200600111857
+    },
+    {
+      "kind": "ORACLE",
+      "tag": "oracle_02",
+      "name": "DE_GEAR_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.8940759999677539,
+      "solve_wall_seconds": 1.2761297000106424,
+      "gurobi_seconds": 1.2760000228881836,
+      "post_solve_seconds": 0.05736770015209913,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_oracle_02_DE_GEAR_68.log",
+      "job_wall_seconds": 2.2507893999572843
+    },
+    {
+      "kind": "VERIFY",
+      "tag": "verify",
+      "name": "DE_ENGINE_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.8898865000810474,
+      "solve_wall_seconds": 1.1058161999098957,
+      "gurobi_seconds": 1.1050000190734863,
+      "post_solve_seconds": 0.08794470014981925,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_verify_DE_ENGINE_61.log",
+      "job_wall_seconds": 2.104908100096509
+    },
+    {
+      "kind": "VERIFY",
+      "tag": "verify",
+      "name": "DE_GEAR_61",
+      "value": 26465,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 1.045526800211519,
+      "solve_wall_seconds": 1.00839430000633,
+      "gurobi_seconds": 1.0069999694824219,
+      "post_solve_seconds": 0.07492649997584522,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_verify_DE_GEAR_61.log",
+      "job_wall_seconds": 2.1594482001382858
+    },
+    {
+      "kind": "VERIFY",
+      "tag": "verify",
+      "name": "DE_ENGINE_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 1.0061774000059813,
+      "solve_wall_seconds": 1.2925581000745296,
+      "gurobi_seconds": 1.2910001277923584,
+      "post_solve_seconds": 0.10606589983217418,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_verify_DE_ENGINE_68.log",
+      "job_wall_seconds": 2.4316405998542905
+    },
+    {
+      "kind": "VERIFY",
+      "tag": "verify",
+      "name": "DE_GEAR_68",
+      "value": 27050,
+      "policy": [
+        915,
+        0,
+        0
+      ],
+      "status": 2,
+      "build_seconds": 0.9964655998628587,
+      "solve_wall_seconds": 1.271889500087127,
+      "gurobi_seconds": 1.2709999084472656,
+      "post_solve_seconds": 0.07423930009827018,
+      "serialization_seconds": 0,
+      "rows": 23019,
+      "integers": 75810,
+      "nonzeros": 208392,
+      "gurobi_peak_gb": 0.281339132,
+      "peak_process_bytes": 374415360,
+      "nodes": 1,
+      "residual": 0.0,
+      "log": "logs/n04_PLAIN_verify_DE_GEAR_68.log",
+      "job_wall_seconds": 2.361906200181693
+    }
+  ],
+  "available_bytes_at_start": 14230425600,
+  "peak_process_bytes": 374415360,
+  "wall_seconds": 38.123289899900556,
+  "time_limit_s": 90,
+  "soft_mem_gb": 3
+}

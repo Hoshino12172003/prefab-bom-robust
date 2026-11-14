@@ -1,0 +1,14 @@
+{
+  "git_base": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "capacity": "RAW_XLSB",
+  "time_scope": "operational t=61..74 only",
+  "normalization": "DEPRECATED_ALGEBRAIC_NORMALIZATION",
+  "table7": "SOURCE_PAPER_CROSSCHECK",
+  "scheduled_flow": "MODEL_ADAPTATION",
+  "sparse_zero": "MISSING_NOT_ZERO_CERTIFIED",
+  "cost": "CERTIFICATION_ONLY",
+  "managerial_cost_gate": "HOLD_FINAL_POSITION_COST_CALIBRATION",
+  "clean": "SOURCE_SUPPORTED_CLEAN_BASELINE_NOT_IDENTIFIED",
+  "permitted_optimization": "six frozen Phase 1.6 regression cases only",
+  "baseline_construction_allowed": false
+}

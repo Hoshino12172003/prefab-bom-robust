@@ -1,0 +1,10 @@
+﻿run,vector,objective_direction,recomputed_objective,objective_times_demand,objective_form,recorded_solver_objval,row_residual,bound_residual,integrality_residual,archived_bound
+nominal_B0,archived_solution,MAXIMIZE,0.9445714285714286,26448.0,on_time_linear_form/divided_by_demand,0.9445714285714291,0.0,0,0,0.9445714285714291
+nominal_B20,archived_solution,MAXIMIZE,0.9445714285714286,26448.0,on_time_linear_form/divided_by_demand,0.944571428571429,0.0,0,0,0.9445714285714292
+nominal_B20,known_feasible_witness,MAXIMIZE,0.9452857142857144,26468.000000000004,on_time_linear_form/divided_by_demand,,0.0,0,0,
+nominal_B50,archived_solution,MAXIMIZE,0.9445714285714286,26448.0,on_time_linear_form/divided_by_demand,0.9445714285714291,0.0,0,0,0.9445714285714291
+nominal_B50,known_feasible_witness,MAXIMIZE,0.9463571428571429,26498.0,on_time_linear_form/divided_by_demand,,0.0,0,0,
+nominal_B100,archived_solution,MAXIMIZE,0.9481428571428572,26548.0,on_time_linear_form/divided_by_demand,0.9481428571428576,0.0,0,0,0.9481428571428576
+DE_B0,archived_solution,MAXIMIZE,0.9276428571428571,25974.0,rho,0.9276428571428571,0.0,0,0,0.9276428571428571
+DE_B50,archived_solution,MAXIMIZE,0.9276428571428571,25974.0,rho,0.9276428571428571,0.0,0,0,0.9276428571428571
+DE_B50,known_feasible_witness,MAXIMIZE,0.9294285714285714,26024.0,rho,,0.0,0,0,

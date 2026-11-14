@@ -1,0 +1,11 @@
+﻿parameter,time_scope,restriction,extrapolated_beyond_source
+capacity_at_arc,t=61..74 indexed rows,no cyclic or long-run extrapolation,False
+demands,due t=61..74,one 14-period order window,False
+max_flow_product_per_arc,t=61..70 listed keys,no extra rows when absent,False
+max_flow_group_per_arc,t=61..70 listed keys,no extra rows when absent,False
+initial_inventories,opening t=60,initial quantities fixed only at opening,False
+safety_stock/max_inventory,V2.5 end stock bounds t=61..74,loader policy limited to certification,False
+initial_flows,"departures t=39,46,53,59,60; arrivals derived by arc",do not extend 61–74 dispatch capacities backwards,False
+lead times,record-specific constant used for this case,arrival departure+lead; in-window balance,False
+historical L1,arrival t=66 only,"usable quantity, not a dispatch-capacity shock",False
+55 periods,source data-generation settling time,no optimization convergence or steady-state claim,False

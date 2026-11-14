@@ -70,7 +70,10 @@ def compile_network(tables):
     product_types = {item: group for item, group, _ in tables["products"]}
     bom = defaultdict(list)
     for parent, child, quantity in tables["BOM"]:
-        bom[parent].append((child, integer(quantity)))
+        if parent != child:
+            bom[parent].append((child, integer(quantity)))
+        elif integer(quantity) != 1:
+            raise ValueError(f"unexpected non-unit identity BOM row for {parent}")
     orders = []
     for node, vin, quantity, due in tables["demands"]:
         if quantity != 1 or product_types[vin] != "car" or not bom[vin]:
@@ -94,12 +97,23 @@ def compile_network(tables):
     for origin, destination, lead, output_type in tables["arcs"]:
         operations = {input_type: integer(out) for node, input_type, output, _, out, _, beta
                       in tables["operations"] if (node, output) == (origin, output_type) and beta == 1}
+        identity = [(integer(inc), integer(out)) for node, input_type, output, inc, out, _, beta
+                    in tables["operations"] if (node, input_type, output, beta) == (origin, output_type, output_type, 1)]
+        if identity and (identity != [(1, 1)] or set(operations) != {output_type} or output_type == "car"):
+            raise ValueError(f"unsupported same-item operation on {(origin, destination)}")
         if not operations:
             raise ValueError(f"missing source operation on {(origin, destination)}")
         products = ((g.id, g.representative.bom) for g in groups) if output_type == "car" else (
             (product, bom[product]) for product, kind in product_types.items() if kind == output_type)
         recipes = {}
         for product, inputs in products:
+            if identity:
+                # Withdraw the same item that will arrive. The 1:1 coefficient
+                # comes from operations, not a self-parent BOM row.
+                if any(product_types[child] == output_type for child, _ in inputs):
+                    raise ValueError(f"same-item operation has a distinct same-group input for {product}")
+                recipes[product] = ((product, 1),)
+                continue
             recipe = []
             for child, quantity in inputs:
                 output_quantity = operations.get(product_types[child])
@@ -147,12 +161,6 @@ def compile_network(tables):
         network.initial[node,item] != qty for node,item,qty,*_ in tables["initial_inventories"]
     ):
         raise ValueError("physical quantities changed during source compilation")
-    capacity_checks = {
-        raw: arc.capacity_units(t)[1] for key in (COMPONENT_ARC, PRODUCTION_ARC, TRANSPORT_ARC)
-        for arc in (arc_by_key[key],) for t,raw in arc.capacity.items() if raw
-    }
-    if capacity_checks != {294:70,2058:490}:
-        raise ValueError(f"battery capacity unit gate: {capacity_checks}")
     audit = {
         "source_sha256": SOURCE_SHA256, "sheet_rows": {name: len(rows) for name, rows in tables.items()},
         "vin_count": counts[0], "groups": counts[1], "bev_vin_count": counts[2], "bev_groups": counts[3],
@@ -166,6 +174,6 @@ def compile_network(tables):
         "cell_arrivals_in_window": {f"{item}@{t}": q for (node,item,t),q in arrival.items()
                                     if node == PROD and item in CELL},
         "historical_rows": [list(row) for row in network.historical],
-        "battery_capacity_examples": [[raw,int(paper)] for raw,paper in sorted(capacity_checks.items())],
+        "capacity_basis": "RAW_XLSB",
     }
     return network, audit

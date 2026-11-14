@@ -1,0 +1,4 @@
+﻿policy,x_C,x_T,x_O,candidates,eligible_seat_pairs,pruned,bound_exact,individual_MILP,common_MILP,worst_subset_Q,worst_subset_ties,bound_seconds,wall_seconds
+C,915,0,0,17,0,0,0,17,0,18600,BGS7,0.001298899995163083,48.61282750009559
+CT,1338,24,0,17,0,0,0,17,0,18600,BGS7,0.0012672001030296087,45.205162399914116
+CTO,713,135,6,17,0,0,0,17,0,18600,BGS7,0.0013025000225752592,48.9168573000934

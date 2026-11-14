@@ -1,0 +1,272 @@
+{
+  "status": "PASS_BTB_CCG_EXACT_AND_EFFECTIVE",
+  "scope": "FINITE_SCENARIO_EXACT_E4_CCG",
+  "label": "STRESS_TEST_ONLY",
+  "bound_samples": 74,
+  "bound_violation_count": 0,
+  "false_pruning_count": 0,
+  "oracle_mismatches": 0,
+  "exact_paired_rounds": 38,
+  "full_method_runs": 58,
+  "exact_method_runs": 58,
+  "full_matrix_replays": 52,
+  "certified_non_individual_scenarios": 424,
+  "strict_pruning_count": 424,
+  "all_six_scales_reduce_milps": true,
+  "all_three_policy_compositions_reduce_on_common_probe": true,
+  "expected_objectives": {
+    "4": 26465,
+    "8": 26465,
+    "16": 26465,
+    "24": 21775,
+    "32": 21775,
+    "38": 21775,
+    "region_CT": 26912,
+    "region_CTO": 27286
+  },
+  "single_start_median_wall_gain": {
+    "16": 0.24900191105046254,
+    "32": 0.13969229353534474,
+    "38": 0.1416914571944733
+  },
+  "region_comparisons": [
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "BASE_B100",
+      "style": "single",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": 26465,
+      "plain": 26465,
+      "e4": 26465,
+      "direct": 26465,
+      "full_verification": 4,
+      "saved_oracle_solves": 2
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "BASE_B100",
+      "style": "two",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": 26465,
+      "plain": 26465,
+      "e4": 26465,
+      "direct": 26465,
+      "full_verification": 4,
+      "saved_oracle_solves": 1
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "BASE_B150",
+      "style": "single",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": 26912,
+      "plain": 26912,
+      "e4": 26912,
+      "direct": 26912,
+      "full_verification": 4,
+      "saved_oracle_solves": 2
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "BASE_B150",
+      "style": "two",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": 26912,
+      "plain": 26912,
+      "e4": 26912,
+      "direct": 26912,
+      "full_verification": 4,
+      "saved_oracle_solves": 1
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "R3_S75_D7_ABRUPT_B100",
+      "style": "single",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        713,
+        135,
+        6
+      ],
+      "frozen_objective": 27286,
+      "plain": 27286,
+      "e4": 27286,
+      "direct": 27286,
+      "full_verification": 2,
+      "saved_oracle_solves": 0
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "R3_S75_D7_ABRUPT_B100",
+      "style": "two",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        715,
+        134,
+        6
+      ],
+      "frozen_objective": 27286,
+      "plain": 27286,
+      "e4": 27286,
+      "direct": 27286,
+      "full_verification": 2,
+      "saved_oracle_solves": 0
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_ONLY",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_BASE_B100",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        915,
+        0,
+        0
+      ],
+      "returned_policy": [
+        915,
+        0,
+        0
+      ],
+      "frozen_objective": null,
+      "plain": 25991,
+      "e4": 25991,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_BASE_B150",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        1338,
+        24,
+        0
+      ],
+      "returned_policy": [
+        1338,
+        24,
+        0
+      ],
+      "frozen_objective": null,
+      "plain": 26438,
+      "e4": 26438,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    },
+    {
+      "label": "STRESS_TEST_ONLY",
+      "region": "C_T_O",
+      "environment": "FIXED_POLICY_PROBE_18_FROM_R3_S75_D7_ABRUPT_B100",
+      "style": "REPLAY_EXACT_SOLVES",
+      "frozen_policy": [
+        713,
+        135,
+        6
+      ],
+      "returned_policy": [
+        713,
+        135,
+        6
+      ],
+      "frozen_objective": null,
+      "plain": 25930,
+      "e4": 25930,
+      "direct": null,
+      "full_verification": 18,
+      "saved_oracle_solves": 7
+    }
+  ],
+  "incumbent_direction": "Exact evaluated scenario service is an upper bound on min Q; strict L > incumbent preserves ties",
+  "final_verification": "Fresh exhaustive integer recourse on the complete finite family",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "frozen_inputs": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    },
+    "v3_phase32p_20261111_224834": {
+      "entries": 1522,
+      "manifest_sha256": "364bcbdc06e5d68caa112c39deea858afbd0c08ceec9a65fa701f0a6569aaa42"
+    }
+  },
+  "instruction_sha256": "cce1dd4f9279af8ecc12bd35465a6341ee5acfb7f23fd1be6b1c358bc71a95d6",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "tests_passed": 92,
+  "uncertainty_calibration": "HOLD_UNCERTAINTY_CALIBRATION",
+  "excluded_sizes": [
+    64,
+    128
+  ],
+  "max_unique_catalog": 38,
+  "terminal_stage": "PHASE32C",
+  "solver_logs": 2780
+}

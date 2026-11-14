@@ -1,0 +1,32 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Program Files\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\chatgpt\供给侧BOM\prefab-bom-robust
+configfile: pyproject.toml
+collecting ... collected 23 items
+
+tests/test_v25_phase17_provenance.py::test_source_workbook_identity_read_only PASSED [  4%]
+tests/test_v25_phase17_provenance.py::test_held_manifest_authorizes_no_patch PASSED [  8%]
+tests/test_v25_phase17_provenance.py::test_only_explicit_patch_keys_allowed PASSED [ 13%]
+tests/test_v25_phase17_provenance.py::test_10_6_4_conservation_and_pack_destination PASSED [ 17%]
+tests/test_v25_phase17_provenance.py::test_duplicate_lot_sku_across_keys_rejected PASSED [ 21%]
+tests/test_v25_phase17_provenance.py::test_flow_change_requires_direct_evidence PASSED [ 26%]
+tests/test_v25_phase17_provenance.py::test_clean_b0_monotonicity_gate PASSED [ 30%]
+tests/test_v25_phase17_provenance.py::test_frozen_exact_budget_gate_still_active PASSED [ 34%]
+tests/test_v25_phase17_provenance.py::test_all_six_phase16_certificates_immutable PASSED [ 39%]
+tests/test_v25_phase17_provenance.py::test_missing_or_blank_provenance_fails_closed PASSED [ 43%]
+tests/test_v25_formal_witness_regression.py::test_full_formal_witness_vectors_are_preserved PASSED [ 47%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[nominal_B20-26468] PASSED [ 52%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[nominal_B50-26498] PASSED [ 56%]
+tests/test_v25_formal_witness_regression.py::test_formal_certification_rejects_historical_optimum_below_witness[DE_B50-26024] PASSED [ 60%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B0] PASSED [ 65%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B20] PASSED [ 69%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B50] PASSED [ 73%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[nominal_B100] PASSED [ 78%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[DE_B0] PASSED [ 82%]
+tests/test_v25_formal_witness_regression.py::test_gate_checks_unrounded_maximum_and_upper_bound_independently[DE_B50] PASSED [ 86%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[nominal_B50-61] PASSED [ 91%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[nominal_B100-122] PASSED [ 95%]
+tests/test_v25_formal_witness_regression.py::test_exact_budget_gate_rejects_tolerance_only_incumbent[DE_B50-61] PASSED [100%]
+
+============================= 23 passed in 0.39s ==============================

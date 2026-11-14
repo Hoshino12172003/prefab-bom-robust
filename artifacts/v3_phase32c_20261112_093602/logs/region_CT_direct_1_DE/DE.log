@@ -1,0 +1,57 @@
+
+Gurobi 13.0.1 (win64) logging started Thu Nov 12 09:43:20 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32c_20261112_093602\logs\region_CT_direct_1_DE\DE.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  90
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 92081 rows, 303244 columns and 872371 nonzeros (Max)
+Model fingerprint: 0x4e085e11
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 303244 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 3e+05]
+
+Presolve removed 6422 rows and 80552 columns
+Presolve time: 1.28s
+Presolved: 85659 rows, 222692 columns, 704765 nonzeros
+Variable types: 0 continuous, 222692 integer (11974 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   34303    2.6912410e+04   2.628398e+04   0.000000e+00      5s
+   41050    2.6912444e+04   0.000000e+00   0.000000e+00      7s
+
+Root relaxation: objective 2.691244e+04, 41050 iterations, 5.53 seconds (5.58 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 26912.4444    0  386          - 26912.4444      -     -    8s
+H    0     0                    26912.000000 26912.4444  0.00%     -    9s
+     0     0 26912.4444    0  386 26912.0000 26912.4444  0.00%     -    9s
+
+Explored 1 nodes (53281 simplex iterations) in 9.25 seconds (9.92 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 26912 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.691200000000e+04, best bound 2.691200000000e+04, gap 0.0000%

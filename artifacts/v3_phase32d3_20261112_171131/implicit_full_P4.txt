@@ -1,0 +1,1 @@
+P4 G3_FULL level 2 exact True W 11775 leaf 2 env 4 nodes 415 frontier 0

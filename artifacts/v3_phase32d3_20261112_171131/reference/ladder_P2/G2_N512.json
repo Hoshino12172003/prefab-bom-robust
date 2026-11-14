@@ -1,0 +1,108 @@
+{
+  "case": "G2_N512",
+  "policy": "P2",
+  "x": [
+    1338,
+    24,
+    0
+  ],
+  "rhs_count": 512,
+  "gamma": 2,
+  "mode": "EXHAUSTIVE_FLAT_EXACT_MINIMUM",
+  "worst": 11775,
+  "worst_rhs": [
+    16106127360,
+    16106131968,
+    16106132352,
+    16106132736,
+    16106135040,
+    16106135424,
+    16106717184,
+    16106766336,
+    16107110400,
+    16107159552,
+    16181624832,
+    16187916288,
+    16231956480,
+    16238247936,
+    16911433728,
+    16911438336,
+    16911438720,
+    16911439104,
+    16911441408,
+    16911441792,
+    16912023552,
+    16912072704,
+    16912416768,
+    16986931200,
+    16993222656,
+    17037262848,
+    17716740096,
+    17716744704,
+    17717329920,
+    17792237568,
+    18522046464,
+    2180769644544,
+    2181574950912
+  ],
+  "worst_rhs_complete": false,
+  "exact": true,
+  "full_milp": 85,
+  "memoized_exact": 0,
+  "matrix_replays": 427,
+  "wall_seconds": 66.64353309990838,
+  "peak_bytes": 356921344,
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "row_checks": 3,
+  "monotonicity": [
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery1",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 13690,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 28000,
+      "inventory_upper_slack": 71999
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery2",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 8214,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 16800,
+      "inventory_upper_slack": 83199
+    },
+    {
+      "node": "battery-supplier_prod",
+      "sku": "componment_battery3",
+      "policy": [
+        1338,
+        24,
+        0
+      ],
+      "inventory_ub": 99999,
+      "inventory_lb": 0,
+      "nominal_fixed_receipts": 5476,
+      "endogenous_inflow_bound": 0,
+      "gross_stock_bound": 11200,
+      "inventory_upper_slack": 88799
+    }
+  ]
+}

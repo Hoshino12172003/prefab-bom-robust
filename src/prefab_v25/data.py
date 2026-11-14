@@ -10,14 +10,12 @@ OEM = "zp7"
 COMPONENT_ARC = ("battery-supplier_trans", PROD)
 PRODUCTION_ARC = (PROD, T1)
 TRANSPORT_ARC = (T1, OEM)
-BATTERY_ARCS = frozenset((COMPONENT_ARC, PRODUCTION_ARC, TRANSPORT_ARC))
 BUFFER_EFFECTS = (
     tuple(((PROD, item), amount) for item, amount in zip(CELL, (10, 6, 4))),
     (((T1, PACK), 1),),
     (((OEM, PACK), 1),),
 )
 BUFFER_NAMES = ("x_cell_kit", "x_t1_pack", "x_oem_pack")
-KAPPA = Fraction(5, 21)
 
 
 @dataclass(frozen=True)
@@ -70,10 +68,6 @@ class Arc:
     @property
     def key(self):
         return self.origin, self.destination
-
-    def capacity_units(self, period):
-        factor = KAPPA if self.key in BATTERY_ARCS and 61 <= period <= 74 else Fraction(1)
-        return factor, factor * self.capacity[period]
 
 
 @dataclass(frozen=True)

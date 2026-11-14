@@ -1,0 +1,60 @@
+
+Gurobi 13.0.1 (win64) logging started Wed Nov 11 21:23:10 2026
+
+Set parameter LogFile to value "artifacts\v3_phase32a_20261111_212045\logs\n04_DIRECT_DE_model.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  90
+SoftMemLimit  3
+FeasibilityTol  1e-09
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+OptimalityTol  1e-09
+LogToConsole  0
+Seed  20261110
+Threads  1
+
+Optimize a model with 92081 rows, 303244 columns and 872371 nonzeros (Max)
+Model fingerprint: 0x0c5b64e0
+Model has 1 linear objective coefficients
+Variable types: 0 continuous, 303244 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+04, 1e+05]
+  RHS range        [1e+00, 2e+05]
+
+Presolve removed 6422 rows and 80552 columns
+Presolve time: 1.89s
+Presolved: 85659 rows, 222692 columns, 704765 nonzeros
+Variable types: 0 continuous, 222692 integer (11974 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   21894    2.7999970e+04   9.128725e+04   0.000000e+00      5s
+   40453    2.6465079e+04   1.314778e+03   0.000000e+00     10s
+   41482    2.6465111e+04   0.000000e+00   0.000000e+00     11s
+
+Root relaxation: objective 2.646511e+04, 41482 iterations, 8.30 seconds (5.93 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 26465.1111    0  442          - 26465.1111      -     -   12s
+H    0     0                    26460.000000 26465.1111  0.02%     -   13s
+H    0     0                    26465.000000 26465.1111  0.00%     -   13s
+     0     0 26465.1111    0  442 26465.0000 26465.1111  0.00%     -   13s
+
+Explored 1 nodes (53004 simplex iterations) in 13.85 seconds (9.93 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 2: 26465 26460 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.646500000000e+04, best bound 2.646500000000e+04, gap 0.0000%

@@ -1,0 +1,179 @@
+{
+  "status": "HOLD_GAMMA_SEMANTICS_CONFLICT",
+  "stop_section": "F",
+  "git_sha": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "instruction_sha256": "22f7d33bee2c16d93b3e4d7f9ac54b69f584f1492d1a31085ae4269bfd39e374",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "frozen_inputs_verified": {
+    "v3_phase30_20261111_104032": {
+      "entries": 38,
+      "manifest_sha256": "2e549a628847814c74dad86f0fa913494e42ed025c4a9c227ebb89f6921c5ddf"
+    },
+    "v3_phase31_20261111_193210": {
+      "entries": 107,
+      "manifest_sha256": "724219113a22556c18d258395c7fe999b42cca24b04bb9c8ddae3e455685abd0"
+    },
+    "v3_phase31r_20261111_202237": {
+      "entries": 568,
+      "manifest_sha256": "d6b494dcde7ce2f9a26b60daef7569e80c7e3970992a570aa29ff4ad117e4f42"
+    },
+    "v3_phase32a_20261111_212045": {
+      "entries": 204,
+      "manifest_sha256": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da"
+    },
+    "v3_phase32b_20261111_214914": {
+      "entries": 958,
+      "manifest_sha256": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+    },
+    "v3_phase32p_20261111_224834": {
+      "entries": 1522,
+      "manifest_sha256": "364bcbdc06e5d68caa112c39deea858afbd0c08ceec9a65fa701f0a6569aaa42"
+    },
+    "v3_phase32c_20261112_093602": {
+      "entries": 3107,
+      "manifest_sha256": "eb141bee6d75bc4fbc115382b141fd16bc22fbeae7e24d5fe8ffc88f13c67644"
+    },
+    "v3_phase32d1_20261112_111159": {
+      "entries": 177,
+      "manifest_sha256": "ca004acd7591db7b89adeeda7ba2766cf18eb13341222e42fb9b3ace6a7492f5"
+    }
+  },
+  "frozen_manifest_entries_verified": 6681,
+  "gamma_semantics": {
+    "unit": "active disrupted resource-period",
+    "equal_weights": 1,
+    "concurrency_is_independent": true,
+    "counts_recovery_tail": false,
+    "counts_starts": false,
+    "scales_by_severity": false
+  },
+  "proposed_core_durations": [
+    4,
+    7,
+    11
+  ],
+  "gamma_sensitivity_values": [
+    2,
+    4,
+    6
+  ],
+  "single_episode_budget_checks": [
+    {
+      "gamma": 2,
+      "duration": 4,
+      "required_exposures": 4,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 2,
+      "duration": 7,
+      "required_exposures": 7,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 2,
+      "duration": 11,
+      "required_exposures": 11,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 4,
+      "duration": 4,
+      "required_exposures": 4,
+      "passes_exposure_budget": true
+    },
+    {
+      "gamma": 4,
+      "duration": 7,
+      "required_exposures": 7,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 4,
+      "duration": 11,
+      "required_exposures": 11,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 6,
+      "duration": 4,
+      "required_exposures": 4,
+      "passes_exposure_budget": true
+    },
+    {
+      "gamma": 6,
+      "duration": 7,
+      "required_exposures": 7,
+      "passes_exposure_budget": false
+    },
+    {
+      "gamma": 6,
+      "duration": 11,
+      "required_exposures": 11,
+      "passes_exposure_budget": false
+    }
+  ],
+  "minimum_joint_exposures": {
+    "two_resources": 8,
+    "three_resources": 12
+  },
+  "frozen_battery_only_reference": {
+    "source": "artifacts/v3_phase32d1_20261112_111159/audit.json",
+    "parameters": {
+      "resources": [
+        "L1_CELL_RECEIPTS",
+        "L2_PACK_PRODUCTION",
+        "L3_PACK_TRANSPORT"
+      ],
+      "gamma": 6,
+      "concurrency": 2,
+      "severity": [
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "duration": [
+        1,
+        3,
+        5
+      ],
+      "recovery_steps": 0
+    },
+    "legal_trajectories": 287443,
+    "effective_rhs": 38527,
+    "reenumerated_this_phase": false
+  },
+  "pytest": {
+    "command": "python -m pytest -p no:cacheprovider -vv tests/test_v3_phase32d2_gamma_gate.py",
+    "exit_code": 0,
+    "passed": 14,
+    "failed": 0,
+    "test_ids": [
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-2]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-4]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[4-6]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-2]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-4]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[7-6]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-2]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-4]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_single_episode_consumes_its_duration[11-6]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[61]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[63]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_two_minimum_core_episodes_exceed_gamma_six[65]",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_concurrency_is_separate_from_exposure_budget",
+      "tests/test_v3_phase32d2_gamma_gate.py::test_recovery_tail_changes_factors_without_consuming_exposure"
+    ]
+  },
+  "new_multibom_scenarios_generated": 0,
+  "gurobi_optimize_calls": 0,
+  "blocked_outputs": [
+    "multibom_risk_resource_catalog.csv",
+    "multibom_scenario_count.csv",
+    "multibom_effective_rhs_catalog",
+    "multibom_nonseparability_certificate.csv",
+    "multibom_btb_retest.csv",
+    "D-3 formulation, prototype and exactness results"
+  ],
+  "solver_logs": null
+}

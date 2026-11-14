@@ -1,0 +1,3 @@
+﻿test,vin_a,vin_b,date_a,date_b,effect
+same BOM date swap,64001,66333,61,62,feasible with same component/Pack and capacity path; delivery penalty +200
+different seat date swap,64001,66001,61,62,same seat receipts leave -1 Q2J at first assembly date; exact seat-JIT violation

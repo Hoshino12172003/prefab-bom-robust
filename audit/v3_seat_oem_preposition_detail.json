@@ -1,0 +1,951 @@
+{
+  "gurobi": [
+    13,
+    0,
+    1
+  ],
+  "policy": [
+    915,
+    0,
+    0
+  ],
+  "full_domain_runs": 0,
+  "results": [
+    {
+      "case": "C0",
+      "scenario_rhs": "16106127360",
+      "scope": "baseline",
+      "preparation_certification": "BASELINE",
+      "known_OEM_maximum": 0,
+      "assumed_preproduction_and_transport_each": null,
+      "assumed_oem_storage": null,
+      "on_time": 11775,
+      "total_completed": 11775,
+      "shortage_on_time_fixed_scenario": 16225,
+      "uncompleted_at_horizon": 16225,
+      "required_preposition": 0,
+      "certified_positive_preposition": 0,
+      "Q1A": 0,
+      "Q2J": 0,
+      "Q4H": 0,
+      "Q4P": 0,
+      "incremental_inventory_cost": 0,
+      "additional_transport_cost": 0,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "ZERO_INCREMENT_ZERO_ACTIVITY",
+      "seat_prefix_upper": 11775,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C0.log",
+      "stages": [
+        {
+          "stage": "max_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.7249999046325684
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.1339998245239258
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "62": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    },
+    {
+      "case": "C1",
+      "scenario_rhs": "16106127360",
+      "scope": "pre_reveal_path_only",
+      "preparation_certification": "NOT_CERTIFIED_POSITIVE_STOCK",
+      "known_OEM_maximum": null,
+      "assumed_preproduction_and_transport_each": null,
+      "assumed_oem_storage": null,
+      "on_time": 11775,
+      "total_completed": 11775,
+      "shortage_on_time_fixed_scenario": 16225,
+      "uncompleted_at_horizon": 16225,
+      "required_preposition": 0,
+      "certified_positive_preposition": 0,
+      "Q1A": 0,
+      "Q2J": 0,
+      "Q4H": 0,
+      "Q4P": 0,
+      "incremental_inventory_cost": 0,
+      "additional_transport_cost": 0,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "ZERO_INCREMENT_ZERO_ACTIVITY",
+      "seat_prefix_upper": 11775,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C1.log",
+      "stages": [
+        {
+          "stage": "max_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.7599999904632568
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.2360000610351562
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "62": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    },
+    {
+      "case": "C2",
+      "scenario_rhs": "16106127360",
+      "scope": "finite_sku_caps_unknown",
+      "preparation_certification": "NOT_CERTIFIED_POSITIVE_STOCK",
+      "known_OEM_maximum": null,
+      "assumed_preproduction_and_transport_each": null,
+      "assumed_oem_storage": null,
+      "on_time": 11775,
+      "total_completed": 11775,
+      "shortage_on_time_fixed_scenario": 16225,
+      "uncompleted_at_horizon": 16225,
+      "required_preposition": 0,
+      "certified_positive_preposition": 0,
+      "Q1A": 0,
+      "Q2J": 0,
+      "Q4H": 0,
+      "Q4P": 0,
+      "incremental_inventory_cost": 0,
+      "additional_transport_cost": 0,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "ZERO_INCREMENT_ZERO_ACTIVITY",
+      "seat_prefix_upper": 11775,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C2.log",
+      "stages": [
+        {
+          "stage": "max_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.7679998874664307
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.2300000190734863
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "62": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    },
+    {
+      "case": "C3",
+      "scenario_rhs": "16106127360",
+      "scope": "physical_storage_maximum_unknown",
+      "preparation_certification": "NOT_CERTIFIED_POSITIVE_STOCK",
+      "known_OEM_maximum": null,
+      "assumed_preproduction_and_transport_each": null,
+      "assumed_oem_storage": null,
+      "on_time": 11775,
+      "total_completed": 11775,
+      "shortage_on_time_fixed_scenario": 16225,
+      "uncompleted_at_horizon": 16225,
+      "required_preposition": 0,
+      "certified_positive_preposition": 0,
+      "Q1A": 0,
+      "Q2J": 0,
+      "Q4H": 0,
+      "Q4P": 0,
+      "incremental_inventory_cost": 0,
+      "additional_transport_cost": 0,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "ZERO_INCREMENT_ZERO_ACTIVITY",
+      "seat_prefix_upper": 11775,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C3.log",
+      "stages": [
+        {
+          "stage": "max_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.7579998970031738
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 11775,
+          "bound": 11775.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.1969997882843018
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "62": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    },
+    {
+      "case": "C4",
+      "scenario_rhs": "16106127360",
+      "scope": "theoretical_opening_stock_conversion",
+      "preparation_certification": "THEORETICAL_ONLY",
+      "known_OEM_maximum": null,
+      "assumed_preproduction_and_transport_each": 6000,
+      "assumed_oem_storage": 6000,
+      "on_time": 17250,
+      "total_completed": 17250,
+      "shortage_on_time_fixed_scenario": 10750,
+      "uncompleted_at_horizon": 10750,
+      "required_preposition": 5475,
+      "certified_positive_preposition": 0,
+      "Q1A": 543,
+      "Q2J": 1656,
+      "Q4H": 2454,
+      "Q4P": 822,
+      "incremental_inventory_cost": null,
+      "additional_transport_cost": null,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "MISSING",
+      "seat_prefix_upper": 17250,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C4.log",
+      "stages": [
+        {
+          "stage": "max_on_time",
+          "objective": 17250,
+          "bound": 17250.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.0130000114440918
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 17250,
+          "bound": 17250.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.5169999599456787
+        },
+        {
+          "stage": "min_stock_given_service",
+          "objective": 5475,
+          "bound": 5475.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.8580000400543213
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 344,
+          "Q2J": 1656,
+          "Q4H": 1868,
+          "Q4P": 132
+        },
+        "62": {
+          "Q1A": 152,
+          "Q2J": 971,
+          "Q4H": 1402,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 127,
+          "Q2J": 0,
+          "Q4H": 923,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    },
+    {
+      "case": "C4_MIN_PLUS_ONE",
+      "scenario_rhs": "16106127360",
+      "scope": "theoretical_minimum",
+      "preparation_certification": "THEORETICAL_ONLY",
+      "known_OEM_maximum": null,
+      "assumed_preproduction_and_transport_each": 6000,
+      "assumed_oem_storage": 6000,
+      "on_time": 11776,
+      "total_completed": 11776,
+      "shortage_on_time_fixed_scenario": 16224,
+      "uncompleted_at_horizon": 16224,
+      "required_preposition": 1,
+      "certified_positive_preposition": 0,
+      "Q1A": 1,
+      "Q2J": 0,
+      "Q4H": 0,
+      "Q4P": 0,
+      "incremental_inventory_cost": null,
+      "additional_transport_cost": null,
+      "unit_inventory_cost_status": "MISSING",
+      "unit_transport_cost_status": "MISSING",
+      "cost_status": "MISSING",
+      "seat_prefix_upper": 11776,
+      "remaining_bottleneck": "SEAT_PREFIX_BOUND_TIGHT",
+      "log": "audit/logs/C4_MIN_PLUS_ONE.log",
+      "stages": [
+        {
+          "stage": "minimum_preposition_for_one_more",
+          "objective": 1,
+          "bound": 1.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.6029999256134033
+        },
+        {
+          "stage": "max_on_time",
+          "objective": 11776,
+          "bound": 11776.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.7150001525878906
+        },
+        {
+          "stage": "max_total_given_on_time",
+          "objective": 11776,
+          "bound": 11776.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 1.2789998054504395
+        },
+        {
+          "stage": "min_stock_given_service",
+          "objective": 1,
+          "bound": 1.0,
+          "gap": 0.0,
+          "status": "OPTIMAL",
+          "solver_residual": 0.0,
+          "matrix_residual": 0,
+          "seconds": 0.34600019454956055
+        }
+      ],
+      "inventory_by_period": {
+        "61": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "62": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "63": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "64": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "65": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "66": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "67": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "68": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "69": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "70": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "71": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "72": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "73": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        },
+        "74": {
+          "Q1A": 0,
+          "Q2J": 0,
+          "Q4H": 0,
+          "Q4P": 0
+        }
+      },
+      "seat_dispatch_by_period": {
+        "61": 525,
+        "62": 525,
+        "63": 525,
+        "64": 525,
+        "65": 525,
+        "66": 525,
+        "67": 525,
+        "68": 525,
+        "69": 525,
+        "70": 525,
+        "71": 525,
+        "72": 2000,
+        "73": 2000,
+        "74": 2000
+      }
+    }
+  ]
+}
