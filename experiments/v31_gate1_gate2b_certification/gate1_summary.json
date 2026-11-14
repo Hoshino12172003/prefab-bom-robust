@@ -1,0 +1,64 @@
+{
+  "commit_sha": "e325c357630a1d810c078b248a06fddd4e60dfec",
+  "preflight_script_sha256": "216bd0a93e23ce1dcb0c475e71ce7cccbcb1d56d1c4538c4e63c12e66cc22133",
+  "input_sha256": {
+    "2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e"
+  },
+  "config": {
+    "mode": "source_preflight"
+  },
+  "gurobi_version": "13.0.1",
+  "python_version": "3.12.7",
+  "runtime_seconds": 2.914810099871829,
+  "random_seed": null,
+  "optimization_calls": 0,
+  "runtime_scope": "source preflight; no gate optimization",
+  "status": "BLOCKED",
+  "source_checks": {
+    "G1-01": "PASS",
+    "G1-02": "PASS",
+    "G1-03": "PASS",
+    "G1-04": "PASS",
+    "G1-06": "PASS"
+  },
+  "certification_checks": {
+    "gate0_candidate_identity_workbook": "BLOCKED",
+    "G1-04_model_bounds": "NOT_TESTED",
+    "G1-05": "NOT_TESTED",
+    "G1-07": "NOT_TESTED",
+    "G1-08": "BLOCKED"
+  },
+  "model_conflict": {
+    "legacy_unbounded_internal_flow_through_states": [
+      [
+        "battery-supplier_inv",
+        "BEV"
+      ],
+      [
+        "seat-supplier_inv",
+        "Q1A"
+      ],
+      [
+        "seat-supplier_inv",
+        "Q2J"
+      ],
+      [
+        "seat-supplier_inv",
+        "Q4H"
+      ],
+      [
+        "seat-supplier_inv",
+        "Q4P"
+      ]
+    ]
+  },
+  "blocking_inputs": [
+    "V3.1 final mathematical specification DOCX",
+    "V3.1 Gate 0 / Gate 2 audit XLSX"
+  ],
+  "reference_script_available": false,
+  "solver_status": null,
+  "objective": null,
+  "best_bound": null,
+  "gap": null
+}
