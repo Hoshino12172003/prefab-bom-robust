@@ -1,0 +1,55 @@
+{
+  "commit_sha": "e325c357630a1d810c078b248a06fddd4e60dfec",
+  "preflight_script_sha256": "216bd0a93e23ce1dcb0c475e71ce7cccbcb1d56d1c4538c4e63c12e66cc22133",
+  "input_sha256": {
+    "2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e"
+  },
+  "config": {
+    "mode": "source_preflight",
+    "requested_eta": 1.0,
+    "requested_H": [
+      2,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "gurobi_version": "13.0.1",
+  "python_version": "3.12.7",
+  "runtime_seconds": 2.914810099871829,
+  "random_seed": null,
+  "optimization_calls": 0,
+  "runtime_scope": "source preflight; no gate optimization",
+  "status": "BLOCKED",
+  "checks": {
+    "G2B-01": "BLOCKED",
+    "G2B-02_structural": "PASS",
+    "G2B-02_quantity": "NOT_TESTED",
+    "G2B-03": "NOT_TESTED",
+    "G2B-04": "BLOCKED"
+  },
+  "gross_status": "BLOCKED",
+  "residual_status": "BLOCKED",
+  "preparation_blockers": [
+    "V3.1 final mathematical specification DOCX with preparation capacity mapping and starting material conditions",
+    "V3.1 Gate 0 / Gate 2 audit XLSX"
+  ],
+  "observed_capacity_periods": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "preparation_period_normal_business_schedule_present": false
+}

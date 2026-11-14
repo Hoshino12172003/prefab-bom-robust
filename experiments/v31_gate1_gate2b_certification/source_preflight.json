@@ -1,0 +1,718 @@
+{
+  "sheet_rows": {
+    "products": 28049,
+    "nodes": 12,
+    "nodes_inflow": 44,
+    "arcs": 11,
+    "capacity_at_arc": 154,
+    "max_flow_product_per_arc": 365,
+    "max_flow_group_per_arc": 20,
+    "operations": 15,
+    "BOM": 87059,
+    "demands": 28000,
+    "initial_inventories": 82,
+    "initial_flows": 117
+  },
+  "orders": {
+    "before": 28000,
+    "after": 28000,
+    "exact_groups": 1286
+  },
+  "non_car_items": 49,
+  "internal_states": 91,
+  "flow_through_states_requiring_zero_inventory_in_gate1": [
+    [
+      "battery-supplier_inv",
+      "BEV"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q1A"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q2J"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q4H"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q4P"
+    ],
+    [
+      "zp7",
+      "Q1A"
+    ],
+    [
+      "zp7",
+      "Q2J"
+    ],
+    [
+      "zp7",
+      "Q4H"
+    ],
+    [
+      "zp7",
+      "Q4P"
+    ]
+  ],
+  "legacy_builder_has_no_explicit_ceiling": [
+    [
+      "battery-supplier_inv",
+      "BEV"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q1A"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q2J"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q4H"
+    ],
+    [
+      "seat-supplier_inv",
+      "Q4P"
+    ]
+  ],
+  "historical_arrival_quantity_by_period": {
+    "61": 8359,
+    "62": 18000,
+    "63": 0,
+    "64": 0,
+    "65": 0,
+    "66": 18940,
+    "67": 0,
+    "68": 0,
+    "69": 14000,
+    "70": 0,
+    "71": 0,
+    "72": 0,
+    "73": 8440,
+    "74": 0
+  },
+  "historical_arrival_quantity_in_horizon": 67739,
+  "operating_capacity_periods": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "operating_horizon": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "structural_time_check": {
+    "scope": "source-entry-to-state lead time; capacity, initial stock and initial flows excluded",
+    "status": "PASS",
+    "expected_cumulative_counts": {
+      "1": 29,
+      "2": 66,
+      "4": 74,
+      "20": 77,
+      "21": 78,
+      "22": 79,
+      "23": 91
+    },
+    "actual_cumulative_counts": {
+      "1": 29,
+      "2": 66,
+      "4": 74,
+      "20": 77,
+      "21": 78,
+      "22": 79,
+      "23": 91
+    },
+    "states": [
+      {
+        "node_id": "battery-supplier_inv",
+        "item_id": "BEV",
+        "group": "battery",
+        "lead": 21
+      },
+      {
+        "node_id": "battery-supplier_prod",
+        "item_id": "componment_battery1",
+        "group": "battery_componment",
+        "lead": 20
+      },
+      {
+        "node_id": "battery-supplier_prod",
+        "item_id": "componment_battery2",
+        "group": "battery_componment",
+        "lead": 20
+      },
+      {
+        "node_id": "battery-supplier_prod",
+        "item_id": "componment_battery3",
+        "group": "battery_componment",
+        "lead": 20
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D02",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D2I",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D33",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D36",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D60",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D64",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D80",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "D83",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DB0",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DB8",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DE2",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DE4",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DE5",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DF4",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DF6",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DG6",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DG8",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DK7",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DK8",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DK9",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DM4",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DN1",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DN4",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DN6",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DP2",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DQ4",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DQ9",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DR8",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "engine-supplier_inv",
+        "item_id": "DS9",
+        "group": "engine",
+        "lead": 1
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G0C",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G0K",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G0L",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G0R",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G1A",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G1C",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G1D",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "gear-supplier_inv",
+        "item_id": "G1Z",
+        "group": "gear",
+        "lead": 2
+      },
+      {
+        "node_id": "seat-supplier_inv",
+        "item_id": "Q1A",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_inv",
+        "item_id": "Q2J",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_inv",
+        "item_id": "Q4H",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_inv",
+        "item_id": "Q4P",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_prod",
+        "item_id": "componment_seat1",
+        "group": "seat_componment",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_prod",
+        "item_id": "componment_seat2",
+        "group": "seat_componment",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_prod",
+        "item_id": "componment_seat3",
+        "group": "seat_componment",
+        "lead": 23
+      },
+      {
+        "node_id": "seat-supplier_prod",
+        "item_id": "componment_seat4",
+        "group": "seat_componment",
+        "lead": 23
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "BEV",
+        "group": "battery",
+        "lead": 22
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D02",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D2I",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D33",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D36",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D60",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D64",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D80",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "D83",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DB0",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DB8",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DE2",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DE4",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DE5",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DF4",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DF6",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DG6",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DG8",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DK7",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DK8",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DK9",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DM4",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DN1",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DN4",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DN6",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DP2",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DQ4",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DQ9",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DR8",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "DS9",
+        "group": "engine",
+        "lead": 2
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G0C",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G0K",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G0L",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G0R",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G1A",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G1C",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G1D",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "G1Z",
+        "group": "gear",
+        "lead": 4
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "Q1A",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "Q2J",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "Q4H",
+        "group": "seat",
+        "lead": 23
+      },
+      {
+        "node_id": "zp7",
+        "item_id": "Q4P",
+        "group": "seat",
+        "lead": 23
+      }
+    ]
+  },
+  "status": "PASS",
+  "scope": "source and legacy loader preflight only",
+  "commit_sha": "e325c357630a1d810c078b248a06fddd4e60dfec",
+  "preflight_script_sha256": "216bd0a93e23ce1dcb0c475e71ce7cccbcb1d56d1c4538c4e63c12e66cc22133",
+  "input_sha256": {
+    "2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e"
+  },
+  "python_version": "3.12.7",
+  "gurobi_version": "13.0.1",
+  "gurobi_license_environment_started": true,
+  "optimization_calls": 0,
+  "random_seed": null,
+  "config": {
+    "mode": "source_preflight"
+  },
+  "runtime_seconds": 2.914810099871829
+}
