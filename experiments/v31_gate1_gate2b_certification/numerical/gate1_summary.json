@@ -1,0 +1,92 @@
+{
+  "commit_sha": "91cb687b910e0655bc8bd4f8d3790a315b328d17",
+  "runner_sha256": "2aec9979b5e3be61670097a1faf7911f199075b902860bc7ad9f77c6ada5190b",
+  "input_sha256": {
+    "v31_gate1_nominal_certification.py": "450af1244775fc08051af28ccfa34258ebe364d0531eeeae0193aa56252844f5",
+    "V31_Final_Math_Spec.docx": "29c89699de58d58b46de5ded9278183f21b57b55a6052c8607154bd9349c0ebf",
+    "V31_Gate0_Gate2_Audit.xlsx": "dc1cea9fe7872527e2ea666a293ae4783d27a59252463df316aeeb2393094d84",
+    "2020_dataset_OfAutomotiveProductionNetwork.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "V31_Codex_Inputs.zip": "1c5c2cfce77a8f35edc7d380190f46c2b30cc1830883bc235056d40ef1f813c5"
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "config": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 3600
+  },
+  "residual_tolerance": 1e-06,
+  "random_seed": 0,
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "zero_storage",
+      "variables": 20362,
+      "constraints": 3099,
+      "nonzeros": 96409,
+      "exact_groups": 1286,
+      "historical_dispatch_rows": 117,
+      "solver_status": "OPTIMAL",
+      "solution_count": 1,
+      "best_bound": 26448.0,
+      "runtime_seconds": 0.2390000820159912,
+      "node_count": 1.0,
+      "objective": 26448.0,
+      "mip_gap": 0.0,
+      "integrality_error": 0.0,
+      "model_row_violation": 0.0,
+      "model_bound_violation": 0.0,
+      "status": "PASS",
+      "max_balance_residual": 0.0,
+      "max_order_violation": 0,
+      "capacity_max_violation": {
+        "production_capacity": 0.0,
+        "transportation_capacity": 0.0,
+        "max_flow_group": 0.0,
+        "max_flow_product": 0.0,
+        "inventory_capacity": 0.0
+      },
+      "replayed_objective": 26448.0,
+      "balance_rows": 1274,
+      "objective_recompute_error": 0.0
+    },
+    {
+      "case": "technical_bound",
+      "variables": 20362,
+      "constraints": 3099,
+      "nonzeros": 96409,
+      "exact_groups": 1286,
+      "historical_dispatch_rows": 117,
+      "solver_status": "OPTIMAL",
+      "solution_count": 1,
+      "best_bound": 26448.000000000004,
+      "runtime_seconds": 0.5520000457763672,
+      "node_count": 1.0,
+      "objective": 26448.0,
+      "mip_gap": 0.0,
+      "integrality_error": 0.0,
+      "model_row_violation": 0.0,
+      "model_bound_violation": 0.0,
+      "status": "PASS",
+      "max_balance_residual": 0.0,
+      "max_order_violation": 0,
+      "capacity_max_violation": {
+        "production_capacity": 0.0,
+        "transportation_capacity": 0.0,
+        "max_flow_group": 0.0,
+        "max_flow_product": 0.0,
+        "inventory_capacity": 0.0
+      },
+      "replayed_objective": 26448.0,
+      "balance_rows": 1274,
+      "objective_recompute_error": 0.0
+    }
+  ],
+  "historical_rows": 117,
+  "equal_objectives": true,
+  "runtime_seconds": 2.49264770001173
+}
