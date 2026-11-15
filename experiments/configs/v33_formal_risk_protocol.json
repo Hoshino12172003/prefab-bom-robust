@@ -1,0 +1,84 @@
+{
+  "model": "V3.3",
+  "certified_base": "2b16f8bbd33936ca754986b606c731a13e3b0758",
+  "common_first_stage_variables": 4208,
+  "candidate_states": 91,
+  "demand_horizon_inclusive": [61, 74],
+  "recovery_horizon_inclusive": [75, 97],
+  "longest_legal_lead_periods": 23,
+  "event_budget": [0, 1, 2],
+  "availability_field": "availability",
+  "derived_loss": "1 - availability",
+  "recovery_rule": "a + (1-a)*k/(recovery+1) for k=1..recovery; then 1",
+  "core": [
+    {"family": "BAT_PROD", "asset": "battery-supplier_prod->battery-supplier_inv", "start": 64},
+    {"family": "BAT_OEM", "asset": "battery-supplier_inv->zp7", "start": 69},
+    {"family": "SEAT_PROD", "asset": "seat-supplier_prod->seat-supplier_inv", "start": 67},
+    {"family": "ENGINE_PROD", "asset": "engine-supplier_prod->engine-supplier_inv", "start": 65},
+    {"family": "GEAR_OEM", "asset": "gear-supplier_inv->zp7", "start": 65}
+  ],
+  "levels": {
+    "moderate": {"availability": "3/4", "duration": 4, "recovery": 2, "evidence_class": "SCENARIO", "sensitivity_status": "FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED"},
+    "severe": {"availability": "1/4", "duration": 7, "recovery": 2, "evidence_class": "SCENARIO", "sensitivity_status": "FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED"}
+  },
+  "supplementary": ["BAT_UP", "SEAT_UP"],
+  "compatibility": {
+    "duplicate_atom": "FORBIDDEN",
+    "same_asset_overlapping_disruption_or_recovery": "FORBIDDEN",
+    "same_asset_different_levels": "FORBIDDEN",
+    "same_asset_same_level_disjoint": "ALLOWED",
+    "different_assets": "ALLOWED",
+    "different_bom_branches": "ALLOWED",
+    "upstream_downstream_different_assets": "ALLOWED_WITHIN_SELECTED_CATALOG",
+    "supplementary_in_core": false,
+    "deduplication": "EXACT_RATIONAL_EFFECTIVE_CAPACITY_ALL_ASSETS_AND_PERIODS_61_97",
+    "objective_based_filtering": false
+  },
+  "tail": {
+    "baseline": "CALENDAR_REPEAT",
+    "sensitivities": ["MEAN_EXTENSION", "CONSERVATIVE_EXTENSION"],
+    "conservative_fraction": "3/4",
+    "mean_includes_zero": true,
+    "evidence_class": "SCENARIO",
+    "extend_source_specific_flow_caps": false
+  },
+  "metrics": {
+    "primary": "worst-case on-time service",
+    "secondary": "cumulative backlog burden over the recovery horizon",
+    "tertiary": "evidence-supported economic cost",
+    "backlog_sum_inclusive": ["d_g", 97],
+    "additional_kpi": ["terminal backlog at t=97", "average tardiness among delivered late orders", "maximum tardiness", "BEV on-time service", "non-BEV on-time service", "BEV cumulative backlog", "non-BEV cumulative backlog"],
+    "segment_role": "product-segment disruption exposure",
+    "epsilon_service": 0,
+    "epsilon_backlog": 0
+  },
+  "economics": {
+    "material_valuation": {"evidence_class": "CALIBRATED", "scope": "V3.2 frozen category valuations and complete-cell-kit valuation"},
+    "holding_rate": {"evidence_class": "LITERATURE", "annual_fraction": "1/10", "basis_periods": 365, "scope": "V3.1/V3.3 existing benchmark on valued material"},
+    "preparedness_capital": {"evidence_class": "TRANSFORM", "scope": "V3.3 material valuation times jointly formed quantities"},
+    "missing_not_included": ["emergency_transport", "overtime", "expedited_shipping", "per_period_cell_holding_split", "expansion_cost", "incremental_recourse_operating_cost"],
+    "position_increment": "V31_BASE_ZERO",
+    "expansion": "DISABLED"
+  },
+  "budget": {
+    "currency": "USD",
+    "grid_fractions": ["0", "1/4", "1/2", "3/4", "1"],
+    "ceiling": "maximum material capital over the joint preparation feasible region for the frozen preparation profile",
+    "rounding": "floor to integer cents; deduplicate and sort",
+    "reference_profile": {"H": 23, "alpha": "1/2", "delta": "1/2", "storage": "technical-bound-only"},
+    "reference_kit_ceiling": 29,
+    "kit_cost_cents": 790726,
+    "reference_anchor_cents": 22931054,
+    "reference_anchor_rule": "include for the matching preparation profile if within the joint capital ceiling",
+    "response_breakpoint_rule": "report adjacent fixed-grid intervals where guaranteed on-time count increases; separately report equal-service intervals with lower cumulative backlog; no grid revision",
+    "capital_ceiling_status": "NOT_COMPUTED_IN_PROTOCOL_FREEZE"
+  },
+  "selection": {
+    "availability_duration_origin": "V3 Phase 3.2D-2 pre-existing standardized 25%/75% loss and 4/7 period stress levels",
+    "starts_origin": "Gate 3 original calendar, inherited without changes",
+    "recovery_origin": "Gate 3.6 two-step recovery shape, context from Renesas",
+    "threshold_use": "context-only archived comparison; no parameter selection",
+    "formal_optimization_results_used": false,
+    "authorized_operations": "STATIC_ONLY"
+  }
+}

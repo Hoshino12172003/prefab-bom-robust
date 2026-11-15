@@ -1,0 +1,4 @@
+protocol_name,formula,evidence_class,main_or_sensitivity,justification
+CALENDAR_REPEAT,"C_source[a,61+((t-61) mod 14)]",SCENARIO,MAIN,Retain certified operating calendar and zero slots
+MEAN_EXTENSION,"sum(C_source[a,t=61..74])/14 (zeros included)",SCENARIO,SENSITIVITY,Remove calendar shape while preserving source mean
+CONSERVATIVE_EXTENSION,"(3/4)*sum(C_source[a,t=61..74])/14 (zeros included)",SCENARIO,SENSITIVITY,Pre-registered uniform 25% reduction from the mean sensitivity
