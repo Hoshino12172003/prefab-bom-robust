@@ -1,0 +1,86 @@
+{
+  "commit_sha": "34239e778180a9397611cb8cf1b0ae0e773e830d",
+  "runner_sha256": "2aec9979b5e3be61670097a1faf7911f199075b902860bc7ad9f77c6ada5190b",
+  "input_sha256": {
+    "v31_gate1_nominal_certification.py": "450af1244775fc08051af28ccfa34258ebe364d0531eeeae0193aa56252844f5",
+    "V31_Final_Math_Spec.docx": "29c89699de58d58b46de5ded9278183f21b57b55a6052c8607154bd9349c0ebf",
+    "V31_Gate0_Gate2_Audit.xlsx": "dc1cea9fe7872527e2ea666a293ae4783d27a59252463df316aeeb2393094d84",
+    "phase17_815a87f562f0400ca3917d1551e435b0.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "V31_Codex_Inputs.zip": "1c5c2cfce77a8f35edc7d380190f46c2b30cc1830883bc235056d40ef1f813c5"
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "config": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 3600
+  },
+  "residual_tolerance": 1e-06,
+  "random_seed": 0,
+  "settings": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 180,
+    "SoftMemLimit": 12
+  },
+  "baseline": "cc06c06f56f1f7da1562b089fa0c472a3a62b624",
+  "prerequisite_sha256": "5ad370a111478f6489096904accbe60efc6bdfb6282d8ce23d77c851b29b87f3",
+  "code_sha256": {
+    "event_catalog.py": "cb20d16bbe056865a7c9fe397874f599e1fc2830d22f9c01389d73686b52871c",
+    "network.py": "a4a277296a6870184073eaa3a01bcd57268ca3fd35519a6a11a4504b381d7b92",
+    "run_gate3.py": "1c097b94f95520c29ed1058cfa4bc26f372ba0590bce50f86102fdbadcbcb944"
+  },
+  "H": 23,
+  "alpha": "1/2",
+  "delta": "1/2",
+  "storage": "technical-bound-only",
+  "budget_cents": [
+    0,
+    25000000,
+    100000000
+  ],
+  "budget_evidence": "CERTIFICATION_SCENARIO",
+  "fixed_buffer": [
+    [
+      "zp7",
+      "BEV",
+      10
+    ],
+    [
+      "zp7",
+      "Q1A",
+      10
+    ],
+    [
+      "zp7",
+      "Q2J",
+      10
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery1",
+      20
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery2",
+      12
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery3",
+      8
+    ]
+  ],
+  "empirical_residual_capacity": "NOT_IDENTIFIED",
+  "service_denominator": 28000,
+  "objective": "maximize integer weighted on-time count; rho=count/denominator"
+}
