@@ -1,0 +1,23 @@
+{
+  "initial_source_commit": "0a56a92",
+  "initial_failed_row": {
+    "run": "fixed_BAT",
+    "level": "service",
+    "sense": "MAX",
+    "exact": "False",
+    "solver_status": "OPTIMAL",
+    "solution_count": "1",
+    "best_bound": "26372.0",
+    "runtime_seconds": "0.8880000114440918",
+    "node_count": "1.0",
+    "objective": "26372.0",
+    "mip_gap": "0.0",
+    "integrality_error": "0.000518798828125",
+    "model_row_violation": "3.3310243452433497e-11",
+    "model_bound_violation": "0.0"
+  },
+  "diagnosed_variable": "WorstHoldingCentsPeriods",
+  "variable_value": 142227451384.99948,
+  "fix": "Use a continuous holding-cost envelope. Physical domains and tolerances unchanged.",
+  "resolved_by_config": "gate36_config.json"
+}
