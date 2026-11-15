@@ -71,7 +71,9 @@ def lex_de(env, op, nominal, scenarios, label, budget, out, evidence, primary_on
         assert len(pre)==len(prep[1])+len(prep[2])+len(common)+1
         rho = model.addVar(vtype=GRB.INTEGER,ub=op.demand,name="WorstOnTimeCount")
         tau = model.addVar(vtype=GRB.INTEGER,ub=op.maximum_backlog,name="WorstOrderPeriodBacklog")
-        worst_hold = model.addVar(vtype=GRB.INTEGER,name="WorstHoldingCentsPeriods")
+        # A cost envelope can be continuous. At its minimizer it is the
+        # maximum of integer-valued holding sums from the physical plans.
+        worst_hold = model.addVar(name="WorstHoldingCentsPeriods")
         bounds = op.bounds(prep[3])
         blocks = {}
         for index,(scenario,profile) in enumerate(scenarios.items()):
