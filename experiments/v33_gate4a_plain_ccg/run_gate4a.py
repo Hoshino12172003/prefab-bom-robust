@@ -34,7 +34,7 @@ def result(row, scenario, iteration, out, method, evidence):
         first_stage_variables=row["first_stage_variables"],variables=row["variables"],constraints=row["constraints"],nonzeros=row["nonzeros"])
 
 
-def run_case(env,op,nominal,scenarios,case,budget,gamma,out,evidence,results):
+def run_case(env,op,nominal,scenarios,case,budget,gamma,out,evidence,results,direct_de):
     started=perf_counter()
     common=dict(case=case,gamma=gamma,budget_cents=budget)
     try:
@@ -48,7 +48,7 @@ def run_case(env,op,nominal,scenarios,case,budget,gamma,out,evidence,results):
     results.append(dict(**common,**summary,wall_seconds=perf_counter()-started,peak_rss_bytes=memory()))
     checkpoint(out,evidence,results)
     print(case,"CCG",summary["status"],flush=True)
-    if not case.endswith("_MID"):
+    if not direct_de or not case.endswith("_MID"):
         return
     started=perf_counter()
     try:
@@ -78,6 +78,7 @@ def main():
     for name in ("bundle","xlsb","out"):
         parser.add_argument(f"--{name}",type=Path,required=True)
     parser.add_argument("--cases",nargs="+",choices=CASES,default=CASES)
+    parser.add_argument("--ccg-only",action="store_true",help="Retry C&CG cases while preserving existing independent DE runs")
     args=parser.parse_args()
     assert len(args.cases)==len(set(args.cases))
     out=args.out.resolve()
@@ -92,13 +93,13 @@ def main():
         env.start()
         write_json(out,"gate4a_config.json",dict(**meta,cases=args.cases,baseline=BASELINE,
             scenario_counts={g:len(s) for g,s in scenarios.items()},gurobi_default_heuristics=env.getParam("Heuristics"),
-            economics_ticks_per_usd=365000,comparison_tolerance=TOL))
+            economics_ticks_per_usd=365000,comparison_tolerance=TOL,direct_de_enabled=not args.ccg_only))
         ceiling=bmax(env,op,nominal,protocol,out)
         budget={"ZERO":0,"MID":ceiling//2,"MAX":ceiling}
         for case in args.cases:
             gamma=int(case[1])
             print("starting",case,flush=True)
-            run_case(env,op,nominal,scenarios[gamma],case,budget[case[3:]],gamma,out,evidence,results)
+            run_case(env,op,nominal,scenarios[gamma],case,budget[case[3:]],gamma,out,evidence,results,not args.ccg_only)
     passed=[r for r in results if r["status"]=="PASS"]
     comparisons=evidence["direct_de_comparison"]
     exact=bool(passed) and all(r["status"]=="PASS" for r in results)

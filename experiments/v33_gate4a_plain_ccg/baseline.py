@@ -121,6 +121,12 @@ def recourse(env, op, solution, scenario, profile, objective, ot, backlog, label
             model.addConstr(q>=ot)
         if backlog is not None:
             model.addConstr(a<=backlog)
+        if objective=="backlog":
+            # Expose the integer objective lattice to Gurobi's bound reporter.
+            # This equality leaves physical feasibility and the exact value unchanged.
+            value=model.addVar(vtype=GRB.INTEGER,ub=op.maximum_backlog,name="ExactBacklogCount")
+            model.addConstr(a==value)
+            a=value
         model.update()
         row_start=len(evidence)
         try:
