@@ -1,0 +1,7 @@
+run,level,solver_status,solution_count,best_bound,runtime_seconds,node_count,objective,mip_gap,integrality_error,model_row_violation,model_bound_violation,exact
+G2_MAX_i1,service,OPTIMAL,1,26477.0,0.8850002288818359,1.0,26477.0,0.0,0.0,0.0,0.0,True
+G2_MAX_i1,backlog,OPTIMAL,3,30148.0,1.1050000190734863,1.0,30148.0,0.0,0.0,0.0,0.0,True
+G2_MAX_i1,economics,OPTIMAL,6,180577916733.0,1.2110002040863037,1.0,180577916733.0,0.0,0.0,0.0,0.0,True
+G2_MAX_i2,service,OPTIMAL,1,18375.0,2.0420000553131104,1.0,18375.0,0.0,0.0,0.0,0.0,True
+G2_MAX_i2,backlog,OPTIMAL,3,76351.0,3.309000015258789,1.0,76351.0,0.0,0.0,0.0,0.0,True
+G2_MAX_i2,economics,OPTIMAL,7,590816886820.0,15.208999872207642,1.0,590816886820.0,0.0,0.0,0.0,0.0,True

@@ -1,0 +1,41 @@
+{
+  "PLAIN_CCG_CERTIFIED": false,
+  "exact_all_attempted": false,
+  "peak_rss_bytes": 254078976,
+  "bmax_cents": 23978005774,
+  "results": [
+    {
+      "case": "G2_MAX",
+      "gamma": 2,
+      "budget_cents": 23978005774,
+      "method": "CCG",
+      "status": "INCOMPLETE",
+      "stop": {
+        "run": "G2_MAX_i2",
+        "level": "economics",
+        "scenario": "BAT_OEM_severe+ENGINE_PROD_moderate",
+        "event_composition": "BAT_OEM_severe+ENGINE_PROD_moderate",
+        "service_floor": 18375,
+        "backlog_ceiling": 76351,
+        "variables": 19896,
+        "constraints": 9196,
+        "nonzeros": 438364,
+        "solver_status": "OPTIMAL",
+        "solution_count": 5,
+        "best_bound": 100661744995.99998,
+        "runtime_seconds": 2.3460001945495605,
+        "node_count": 1.0,
+        "objective": 100661744996.0,
+        "mip_gap": 1.5158478588967774e-16,
+        "integrality_error": 0.0,
+        "model_row_violation": 0.0,
+        "model_bound_violation": 0.0,
+        "exact": false,
+        "wall_seconds": 2.6540655000135303
+      },
+      "wall_seconds": 283.49845939991064,
+      "peak_rss_bytes": 254078976
+    }
+  ],
+  "comparisons": []
+}

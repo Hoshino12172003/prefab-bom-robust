@@ -1,0 +1,3 @@
+case,ccg_status,de_status,match
+G1_MID,PASS,INCOMPLETE,False
+G2_MID,INCOMPLETE,INCOMPLETE,False

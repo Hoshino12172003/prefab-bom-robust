@@ -1,0 +1,80 @@
+{
+  "solver_status": "OPTIMAL",
+  "solution_count": 4,
+  "best_bound": 23978005774.0,
+  "runtime_seconds": 0.03500008583068848,
+  "node_count": 465.0,
+  "objective": 23978005774.0,
+  "mip_gap": 0.0,
+  "integrality_error": 0.0,
+  "model_row_violation": 0.0,
+  "model_bound_violation": 0.0,
+  "exact": true,
+  "variables": 4117,
+  "constraints": 2398,
+  "nonzeros": 9362,
+  "bmax_cents": 23978005774,
+  "prep_max_residual": 0,
+  "budget_grid_cents": [
+    0,
+    22931054,
+    5994501443,
+    11989002887,
+    17983504330,
+    23978005774
+  ],
+  "anchor_included": true,
+  "preparation_profile": {
+    "H": 23,
+    "alpha": "1/2",
+    "delta": "1/2",
+    "storage": "technical-bound-only"
+  },
+  "buffer": [
+    [
+      "battery-supplier_inv",
+      "BEV",
+      22
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery1",
+      70
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery2",
+      42
+    ],
+    [
+      "battery-supplier_prod",
+      "componment_battery3",
+      28
+    ],
+    [
+      "engine-supplier_inv",
+      "D36",
+      22050
+    ],
+    [
+      "engine-supplier_inv",
+      "DK8",
+      1050
+    ],
+    [
+      "engine-supplier_inv",
+      "DN4",
+      1050
+    ],
+    [
+      "gear-supplier_inv",
+      "G0R",
+      23100
+    ],
+    [
+      "seat-supplier_inv",
+      "Q4H",
+      1050
+    ]
+  ]
+}

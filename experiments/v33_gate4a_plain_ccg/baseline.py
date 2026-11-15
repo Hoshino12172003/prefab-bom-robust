@@ -127,11 +127,6 @@ def recourse(env, op, solution, scenario, profile, objective, ot, backlog, label
             value=model.addVar(vtype=GRB.INTEGER,ub=op.maximum_backlog,name="ExactBacklogCount")
             model.addConstr(a==value)
             a=value
-        if objective=="economics":
-            # Holding cost is an integer sum in the frozen monetary tick unit.
-            value=model.addVar(vtype=GRB.INTEGER,name="ExactHoldingCostTicks")
-            model.addConstr(h==value)
-            h=value
         model.update()
         row_start=len(evidence)
         try:

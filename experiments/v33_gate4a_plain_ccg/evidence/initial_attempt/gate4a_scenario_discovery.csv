@@ -1,0 +1,7 @@
+run,budget_cents,gamma,iteration,scenario,families,levels,primary_critical,secondary_critical,repeated_later,remained_binding_in_final_master,final_full_replay_rank
+G1_MID,11989002887,1,0,NOM,,,False,False,False,False,10
+G1_MID,11989002887,1,1,SEAT_PROD_severe,SEAT_PROD,severe,True,True,True,True,1
+G1_ZERO,0,1,0,NOM,,,False,False,False,False,11
+G1_ZERO,0,1,1,SEAT_PROD_severe,SEAT_PROD,severe,True,True,True,True,1
+G1_MAX,23978005774,1,0,NOM,,,False,False,False,True,10
+G1_MAX,23978005774,1,1,SEAT_PROD_severe,SEAT_PROD,severe,True,True,True,True,1

@@ -1,0 +1,486 @@
+{
+  "cases": {
+    "G1_MID": {
+      "status": "PASS",
+      "completed_iterations": 2,
+      "discovered": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "certified_master": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "risk_repeats": 1,
+      "comparable_worst_iterations": 1,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106,
+        44001
+      ],
+      "master_constraints": [
+        11686,
+        20882
+      ],
+      "master_nonzeros": [
+        448090,
+        886547
+      ],
+      "master_wall_seconds": 35.67967390012927,
+      "oracle_wall_seconds": 56.04103510011919,
+      "master_level_seconds": {
+        "service": 2.6470000743865967,
+        "backlog": 4.700999975204468,
+        "economics": 25.442999839782715
+      },
+      "oracle_milps": 45,
+      "independent_replay_milps": 33,
+      "final_critical_scenarios": {
+        "service": [
+          "SEAT_PROD_severe"
+        ],
+        "backlog": [
+          "SEAT_PROD_severe"
+        ],
+        "economics": [
+          "SEAT_PROD_severe"
+        ]
+      },
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 4,
+          "mean_seconds": 0.8792499899864197,
+          "max_seconds": 1.565000057220459
+        },
+        "single": {
+          "solves": 41,
+          "mean_seconds": 0.9592439081610703,
+          "max_seconds": 2.5929999351501465
+        }
+      },
+      "peak_rss_bytes": 254824448,
+      "end_to_end_wall_seconds": 140.63779209996574
+    },
+    "G2_MID": {
+      "status": "PASS",
+      "completed_iterations": 5,
+      "discovered": [
+        "NOM",
+        "BAT_OEM_moderate+SEAT_PROD_severe",
+        "BAT_OEM_severe+SEAT_PROD_severe",
+        "BAT_PROD_severe+ENGINE_PROD_severe",
+        "BAT_PROD_severe+SEAT_PROD_severe"
+      ],
+      "certified_master": [
+        "NOM",
+        "BAT_OEM_moderate+SEAT_PROD_severe",
+        "BAT_OEM_severe+SEAT_PROD_severe",
+        "BAT_PROD_severe+ENGINE_PROD_severe",
+        "BAT_PROD_severe+SEAT_PROD_severe"
+      ],
+      "risk_repeats": 4,
+      "comparable_worst_iterations": 4,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106,
+        44001,
+        63896,
+        83791,
+        103686
+      ],
+      "master_constraints": [
+        11686,
+        20882,
+        30078,
+        39274,
+        48470
+      ],
+      "master_nonzeros": [
+        448090,
+        886547,
+        1325004,
+        1763461,
+        2201918
+      ],
+      "master_wall_seconds": 287.76357400021516,
+      "oracle_wall_seconds": 942.7279889001511,
+      "master_level_seconds": {
+        "service": 13.507999897003174,
+        "backlog": 27.030999660491943,
+        "economics": 240.63500022888184
+      },
+      "oracle_milps": 672,
+      "independent_replay_milps": 153,
+      "final_critical_scenarios": {
+        "service": [
+          "SEAT_PROD_severe",
+          "BAT_PROD_moderate+SEAT_PROD_severe",
+          "BAT_PROD_severe+SEAT_PROD_severe",
+          "BAT_OEM_moderate+SEAT_PROD_severe",
+          "BAT_OEM_severe+SEAT_PROD_severe",
+          "SEAT_PROD_severe+ENGINE_PROD_moderate",
+          "SEAT_PROD_severe+ENGINE_PROD_severe",
+          "SEAT_PROD_severe+GEAR_OEM_moderate",
+          "SEAT_PROD_severe+GEAR_OEM_severe"
+        ],
+        "backlog": [
+          "SEAT_PROD_severe",
+          "BAT_PROD_moderate+SEAT_PROD_severe",
+          "BAT_PROD_severe+SEAT_PROD_severe",
+          "BAT_OEM_moderate+SEAT_PROD_severe",
+          "BAT_OEM_severe+SEAT_PROD_severe",
+          "SEAT_PROD_severe+ENGINE_PROD_moderate",
+          "SEAT_PROD_severe+ENGINE_PROD_severe",
+          "SEAT_PROD_severe+GEAR_OEM_moderate",
+          "SEAT_PROD_severe+GEAR_OEM_severe"
+        ],
+        "economics": [
+          "BAT_PROD_severe+SEAT_PROD_severe"
+        ]
+      },
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 13,
+          "mean_seconds": 1.062230788744413,
+          "max_seconds": 1.8870000839233398
+        },
+        "single": {
+          "solves": 131,
+          "mean_seconds": 1.04938167652101,
+          "max_seconds": 2.13700008392334
+        },
+        "double": {
+          "solves": 528,
+          "mean_seconds": 1.113214008735888,
+          "max_seconds": 11.537999868392944
+        }
+      },
+      "peak_rss_bytes": 527527936,
+      "end_to_end_wall_seconds": 1459.2687892001122
+    },
+    "G1_ZERO": {
+      "status": "PASS",
+      "completed_iterations": 2,
+      "discovered": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "certified_master": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "risk_repeats": 1,
+      "comparable_worst_iterations": 1,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106,
+        44001
+      ],
+      "master_constraints": [
+        11686,
+        20882
+      ],
+      "master_nonzeros": [
+        448090,
+        886547
+      ],
+      "master_wall_seconds": 22.721803499851376,
+      "oracle_wall_seconds": 53.8775909000542,
+      "master_level_seconds": {
+        "service": 1.9060001373291016,
+        "backlog": 3.2939999103546143,
+        "economics": 16.197999954223633
+      },
+      "oracle_milps": 45,
+      "independent_replay_milps": 33,
+      "final_critical_scenarios": {
+        "service": [
+          "SEAT_PROD_severe"
+        ],
+        "backlog": [
+          "SEAT_PROD_severe"
+        ],
+        "economics": [
+          "SEAT_PROD_severe"
+        ]
+      },
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 4,
+          "mean_seconds": 0.7647500038146973,
+          "max_seconds": 1.1740000247955322
+        },
+        "single": {
+          "solves": 41,
+          "mean_seconds": 0.9189024087859363,
+          "max_seconds": 3.238999843597412
+        }
+      },
+      "peak_rss_bytes": 3544850432,
+      "end_to_end_wall_seconds": 121.49016669997945
+    },
+    "G2_ZERO": {
+      "status": "PASS",
+      "completed_iterations": 4,
+      "discovered": [
+        "NOM",
+        "BAT_OEM_moderate+SEAT_PROD_severe",
+        "BAT_OEM_severe+SEAT_PROD_severe",
+        "BAT_PROD_severe+SEAT_PROD_severe"
+      ],
+      "certified_master": [
+        "NOM",
+        "BAT_OEM_moderate+SEAT_PROD_severe",
+        "BAT_OEM_severe+SEAT_PROD_severe",
+        "BAT_PROD_severe+SEAT_PROD_severe"
+      ],
+      "risk_repeats": 3,
+      "comparable_worst_iterations": 3,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106,
+        44001,
+        63896,
+        83791
+      ],
+      "master_constraints": [
+        11686,
+        20882,
+        30078,
+        39274
+      ],
+      "master_nonzeros": [
+        448090,
+        886547,
+        1325004,
+        1763461
+      ],
+      "master_wall_seconds": 86.75579089997336,
+      "oracle_wall_seconds": 713.4404883999377,
+      "master_level_seconds": {
+        "service": 7.930999994277954,
+        "backlog": 14.155999898910522,
+        "economics": 60.144999980926514
+      },
+      "oracle_milps": 519,
+      "independent_replay_milps": 153,
+      "final_critical_scenarios": {
+        "service": [
+          "SEAT_PROD_severe",
+          "BAT_PROD_moderate+SEAT_PROD_severe",
+          "BAT_PROD_severe+SEAT_PROD_severe",
+          "BAT_OEM_moderate+SEAT_PROD_severe",
+          "BAT_OEM_severe+SEAT_PROD_severe",
+          "SEAT_PROD_severe+ENGINE_PROD_moderate",
+          "SEAT_PROD_severe+ENGINE_PROD_severe",
+          "SEAT_PROD_severe+GEAR_OEM_moderate",
+          "SEAT_PROD_severe+GEAR_OEM_severe"
+        ],
+        "backlog": [
+          "SEAT_PROD_severe",
+          "BAT_PROD_moderate+SEAT_PROD_severe",
+          "BAT_PROD_severe+SEAT_PROD_severe",
+          "BAT_OEM_moderate+SEAT_PROD_severe",
+          "BAT_OEM_severe+SEAT_PROD_severe",
+          "SEAT_PROD_severe+ENGINE_PROD_moderate",
+          "SEAT_PROD_severe+ENGINE_PROD_severe",
+          "SEAT_PROD_severe+GEAR_OEM_moderate",
+          "SEAT_PROD_severe+GEAR_OEM_severe"
+        ],
+        "economics": [
+          "BAT_PROD_severe+SEAT_PROD_severe"
+        ]
+      },
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 10,
+          "mean_seconds": 0.9533000230789185,
+          "max_seconds": 1.3270001411437988
+        },
+        "single": {
+          "solves": 101,
+          "mean_seconds": 1.1189207841854285,
+          "max_seconds": 3.572000026702881
+        },
+        "double": {
+          "solves": 408,
+          "mean_seconds": 1.0467426379521687,
+          "max_seconds": 2.8350000381469727
+        }
+      },
+      "peak_rss_bytes": 527527936,
+      "end_to_end_wall_seconds": 1020.7605520999059
+    },
+    "G1_MAX": {
+      "status": "PASS",
+      "completed_iterations": 2,
+      "discovered": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "certified_master": [
+        "NOM",
+        "SEAT_PROD_severe"
+      ],
+      "risk_repeats": 1,
+      "comparable_worst_iterations": 1,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106,
+        44001
+      ],
+      "master_constraints": [
+        11686,
+        20882
+      ],
+      "master_nonzeros": [
+        448090,
+        886547
+      ],
+      "master_wall_seconds": 34.52644449984655,
+      "oracle_wall_seconds": 60.794198400108144,
+      "master_level_seconds": {
+        "service": 2.9190001487731934,
+        "backlog": 4.5909998416900635,
+        "economics": 25.543999910354614
+      },
+      "oracle_milps": 45,
+      "independent_replay_milps": 33,
+      "final_critical_scenarios": {
+        "service": [
+          "SEAT_PROD_severe"
+        ],
+        "backlog": [
+          "SEAT_PROD_severe"
+        ],
+        "economics": [
+          "SEAT_PROD_severe"
+        ]
+      },
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 4,
+          "mean_seconds": 0.9645000100135803,
+          "max_seconds": 1.5920000076293945
+        },
+        "single": {
+          "solves": 41,
+          "mean_seconds": 1.034243891878826,
+          "max_seconds": 2.4860000610351562
+        }
+      },
+      "peak_rss_bytes": 3544850432,
+      "end_to_end_wall_seconds": 142.16509500006214
+    },
+    "G2_MAX": {
+      "status": "INCOMPLETE",
+      "completed_iterations": 1,
+      "discovered": [
+        "NOM",
+        "BAT_OEM_moderate+SEAT_PROD_severe"
+      ],
+      "certified_master": null,
+      "risk_repeats": 0,
+      "comparable_worst_iterations": 0,
+      "different_recovery_worst": 0,
+      "master_variables": [
+        24106
+      ],
+      "master_constraints": [
+        11686
+      ],
+      "master_nonzeros": [
+        448090
+      ],
+      "master_wall_seconds": 3.749953400110826,
+      "oracle_wall_seconds": 61.55338270007633,
+      "master_level_seconds": {
+        "service": 2.9270002841949463,
+        "backlog": 4.414000034332275,
+        "economics": 16.420000076293945
+      },
+      "oracle_milps": 198,
+      "independent_replay_milps": 0,
+      "final_critical_scenarios": {},
+      "oracle_jobs_by_event_count": {
+        "nominal": {
+          "solves": 4,
+          "mean_seconds": 1.0462499856948853,
+          "max_seconds": 1.5279998779296875
+        },
+        "single": {
+          "solves": 41,
+          "mean_seconds": 1.0753902284110464,
+          "max_seconds": 2.616999864578247
+        },
+        "double": {
+          "solves": 153,
+          "mean_seconds": 0.9616143703460693,
+          "max_seconds": 3.5209999084472656
+        }
+      },
+      "peak_rss_bytes": 254078976,
+      "end_to_end_wall_seconds": 283.49845939991064
+    }
+  },
+  "direct": [
+    {
+      "attempt": "initial",
+      "case": "G1_MID",
+      "gamma": 1,
+      "budget_cents": 11989002887,
+      "method": "DIRECT_DE",
+      "status": "INCOMPLETE",
+      "stop": {
+        "run": "G1_MID_DE",
+        "level": "economics",
+        "solver_status": "TIME_LIMIT",
+        "solution_count": 1,
+        "best_bound": -4565893959150.0,
+        "runtime_seconds": 180.06299996376038,
+        "node_count": 1.0,
+        "objective": 626021344442.0,
+        "mip_gap": 8.29351163452706,
+        "integrality_error": 0.0,
+        "model_row_violation": 0.0,
+        "model_bound_violation": 0.0,
+        "exact": false
+      },
+      "wall_seconds": 223.5711038999725,
+      "peak_rss_bytes": 845811712
+    },
+    {
+      "attempt": "initial",
+      "case": "G2_MID",
+      "gamma": 2,
+      "budget_cents": 11989002887,
+      "method": "DIRECT_DE",
+      "status": "INCOMPLETE",
+      "stop": {
+        "run": "G2_MID_DE",
+        "level": "backlog",
+        "solver_status": "TIME_LIMIT",
+        "solution_count": 3,
+        "best_bound": 76350.0,
+        "runtime_seconds": 180.3690001964569,
+        "node_count": 1.0,
+        "objective": 76352.0,
+        "mip_gap": 2.619446772841576e-05,
+        "integrality_error": 0.0,
+        "model_row_violation": 0.0,
+        "model_bound_violation": 0.0,
+        "exact": false
+      },
+      "wall_seconds": 284.2035676999949,
+      "peak_rss_bytes": 3544850432
+    }
+  ],
+  "master_seconds_completed": 471.19724020012654,
+  "oracle_seconds_completed": 1888.4346844004467,
+  "oracle_share_completed": 0.8003090078212565,
+  "resource_stops": {
+    "TIME_LIMIT": 2,
+    "OPTIMAL": 1
+  },
+  "peak_rss_bytes": 3544850432
+}
