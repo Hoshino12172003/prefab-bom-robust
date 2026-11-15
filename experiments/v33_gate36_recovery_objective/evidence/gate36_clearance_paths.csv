@@ -1,0 +1,136 @@
+node,item,group,lead,path
+battery-supplier_inv,BEV,battery,1,battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_prod,componment_battery1,battery_componment,2,battery-supplier_prod:componment_battery1 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_prod,componment_battery2,battery_componment,2,battery-supplier_prod:componment_battery2 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_prod,componment_battery3,battery_componment,2,battery-supplier_prod:componment_battery3 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_trans,componment_battery1,battery_componment,22,battery-supplier_trans:componment_battery1 -> battery-supplier_prod:componment_battery1 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_trans,componment_battery2,battery_componment,22,battery-supplier_trans:componment_battery2 -> battery-supplier_prod:componment_battery2 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+battery-supplier_trans,componment_battery3,battery_componment,22,battery-supplier_trans:componment_battery3 -> battery-supplier_prod:componment_battery3 -> battery-supplier_inv:BEV -> zp7:BEV -> zp8:G1253
+engine-supplier_inv,D02,engine,1,engine-supplier_inv:D02 -> zp7:D02 -> zp8:G1261
+engine-supplier_inv,D2I,engine,1,engine-supplier_inv:D2I -> zp7:D2I -> zp8:G1266
+engine-supplier_inv,D33,engine,1,engine-supplier_inv:D33 -> zp7:D33 -> zp8:G1274
+engine-supplier_inv,D36,engine,1,engine-supplier_inv:D36 -> zp7:D36 -> zp8:G1284
+engine-supplier_inv,D60,engine,1,engine-supplier_inv:D60 -> zp7:D60 -> zp8:G1192
+engine-supplier_inv,D64,engine,1,engine-supplier_inv:D64 -> zp7:D64 -> zp8:G1221
+engine-supplier_inv,D80,engine,1,engine-supplier_inv:D80 -> zp7:D80 -> zp8:G1278
+engine-supplier_inv,D83,engine,1,engine-supplier_inv:D83 -> zp7:D83 -> zp8:G1253
+engine-supplier_inv,DB0,engine,1,engine-supplier_inv:DB0 -> zp7:DB0 -> zp8:G1273
+engine-supplier_inv,DB8,engine,1,engine-supplier_inv:DB8 -> zp7:DB8 -> zp8:G1255
+engine-supplier_inv,DE2,engine,1,engine-supplier_inv:DE2 -> zp7:DE2 -> zp8:G1270
+engine-supplier_inv,DE4,engine,1,engine-supplier_inv:DE4 -> zp7:DE4 -> zp8:G1279
+engine-supplier_inv,DE5,engine,1,engine-supplier_inv:DE5 -> zp7:DE5 -> zp8:G1251
+engine-supplier_inv,DF4,engine,1,engine-supplier_inv:DF4 -> zp7:DF4 -> zp8:G1262
+engine-supplier_inv,DF6,engine,1,engine-supplier_inv:DF6 -> zp7:DF6 -> zp8:G1231
+engine-supplier_inv,DG6,engine,1,engine-supplier_inv:DG6 -> zp7:DG6 -> zp8:G1282
+engine-supplier_inv,DG8,engine,1,engine-supplier_inv:DG8 -> zp7:DG8 -> zp8:G1283
+engine-supplier_inv,DK7,engine,1,engine-supplier_inv:DK7 -> zp7:DK7 -> zp8:G1220
+engine-supplier_inv,DK8,engine,1,engine-supplier_inv:DK8 -> zp7:DK8 -> zp8:G1277
+engine-supplier_inv,DK9,engine,1,engine-supplier_inv:DK9 -> zp7:DK9 -> zp8:G1249
+engine-supplier_inv,DM4,engine,1,engine-supplier_inv:DM4 -> zp7:DM4 -> zp8:G1248
+engine-supplier_inv,DN1,engine,1,engine-supplier_inv:DN1 -> zp7:DN1 -> zp8:G1234
+engine-supplier_inv,DN4,engine,1,engine-supplier_inv:DN4 -> zp7:DN4 -> zp8:G1281
+engine-supplier_inv,DN6,engine,1,engine-supplier_inv:DN6 -> zp7:DN6 -> zp8:G1269
+engine-supplier_inv,DP2,engine,1,engine-supplier_inv:DP2 -> zp7:DP2 -> zp8:G1238
+engine-supplier_inv,DQ4,engine,1,engine-supplier_inv:DQ4 -> zp7:DQ4 -> zp8:G1219
+engine-supplier_inv,DQ9,engine,1,engine-supplier_inv:DQ9 -> zp7:DQ9 -> zp8:G1275
+engine-supplier_inv,DR8,engine,1,engine-supplier_inv:DR8 -> zp7:DR8 -> zp8:G1259
+engine-supplier_inv,DS9,engine,1,engine-supplier_inv:DS9 -> zp7:DS9 -> zp8:G1285
+engine-supplier_prod,D02,engine,2,engine-supplier_prod:D02 -> engine-supplier_inv:D02 -> zp7:D02 -> zp8:G1261
+engine-supplier_prod,D2I,engine,2,engine-supplier_prod:D2I -> engine-supplier_inv:D2I -> zp7:D2I -> zp8:G1266
+engine-supplier_prod,D33,engine,2,engine-supplier_prod:D33 -> engine-supplier_inv:D33 -> zp7:D33 -> zp8:G1274
+engine-supplier_prod,D36,engine,2,engine-supplier_prod:D36 -> engine-supplier_inv:D36 -> zp7:D36 -> zp8:G1284
+engine-supplier_prod,D60,engine,2,engine-supplier_prod:D60 -> engine-supplier_inv:D60 -> zp7:D60 -> zp8:G1192
+engine-supplier_prod,D64,engine,2,engine-supplier_prod:D64 -> engine-supplier_inv:D64 -> zp7:D64 -> zp8:G1221
+engine-supplier_prod,D80,engine,2,engine-supplier_prod:D80 -> engine-supplier_inv:D80 -> zp7:D80 -> zp8:G1278
+engine-supplier_prod,D83,engine,2,engine-supplier_prod:D83 -> engine-supplier_inv:D83 -> zp7:D83 -> zp8:G1253
+engine-supplier_prod,DB0,engine,2,engine-supplier_prod:DB0 -> engine-supplier_inv:DB0 -> zp7:DB0 -> zp8:G1273
+engine-supplier_prod,DB8,engine,2,engine-supplier_prod:DB8 -> engine-supplier_inv:DB8 -> zp7:DB8 -> zp8:G1255
+engine-supplier_prod,DE2,engine,2,engine-supplier_prod:DE2 -> engine-supplier_inv:DE2 -> zp7:DE2 -> zp8:G1270
+engine-supplier_prod,DE4,engine,2,engine-supplier_prod:DE4 -> engine-supplier_inv:DE4 -> zp7:DE4 -> zp8:G1279
+engine-supplier_prod,DE5,engine,2,engine-supplier_prod:DE5 -> engine-supplier_inv:DE5 -> zp7:DE5 -> zp8:G1251
+engine-supplier_prod,DF4,engine,2,engine-supplier_prod:DF4 -> engine-supplier_inv:DF4 -> zp7:DF4 -> zp8:G1262
+engine-supplier_prod,DF6,engine,2,engine-supplier_prod:DF6 -> engine-supplier_inv:DF6 -> zp7:DF6 -> zp8:G1231
+engine-supplier_prod,DG6,engine,2,engine-supplier_prod:DG6 -> engine-supplier_inv:DG6 -> zp7:DG6 -> zp8:G1282
+engine-supplier_prod,DG8,engine,2,engine-supplier_prod:DG8 -> engine-supplier_inv:DG8 -> zp7:DG8 -> zp8:G1283
+engine-supplier_prod,DK7,engine,2,engine-supplier_prod:DK7 -> engine-supplier_inv:DK7 -> zp7:DK7 -> zp8:G1220
+engine-supplier_prod,DK8,engine,2,engine-supplier_prod:DK8 -> engine-supplier_inv:DK8 -> zp7:DK8 -> zp8:G1277
+engine-supplier_prod,DK9,engine,2,engine-supplier_prod:DK9 -> engine-supplier_inv:DK9 -> zp7:DK9 -> zp8:G1249
+engine-supplier_prod,DM4,engine,2,engine-supplier_prod:DM4 -> engine-supplier_inv:DM4 -> zp7:DM4 -> zp8:G1248
+engine-supplier_prod,DN1,engine,2,engine-supplier_prod:DN1 -> engine-supplier_inv:DN1 -> zp7:DN1 -> zp8:G1234
+engine-supplier_prod,DN4,engine,2,engine-supplier_prod:DN4 -> engine-supplier_inv:DN4 -> zp7:DN4 -> zp8:G1281
+engine-supplier_prod,DN6,engine,2,engine-supplier_prod:DN6 -> engine-supplier_inv:DN6 -> zp7:DN6 -> zp8:G1269
+engine-supplier_prod,DP2,engine,2,engine-supplier_prod:DP2 -> engine-supplier_inv:DP2 -> zp7:DP2 -> zp8:G1238
+engine-supplier_prod,DQ4,engine,2,engine-supplier_prod:DQ4 -> engine-supplier_inv:DQ4 -> zp7:DQ4 -> zp8:G1219
+engine-supplier_prod,DQ9,engine,2,engine-supplier_prod:DQ9 -> engine-supplier_inv:DQ9 -> zp7:DQ9 -> zp8:G1275
+engine-supplier_prod,DR8,engine,2,engine-supplier_prod:DR8 -> engine-supplier_inv:DR8 -> zp7:DR8 -> zp8:G1259
+engine-supplier_prod,DS9,engine,2,engine-supplier_prod:DS9 -> engine-supplier_inv:DS9 -> zp7:DS9 -> zp8:G1285
+gear-supplier_inv,G0C,gear,2,gear-supplier_inv:G0C -> zp7:G0C -> zp8:G1284
+gear-supplier_inv,G0K,gear,2,gear-supplier_inv:G0K -> zp7:G0K -> zp8:G1280
+gear-supplier_inv,G0L,gear,2,gear-supplier_inv:G0L -> zp7:G0L -> zp8:G1282
+gear-supplier_inv,G0R,gear,2,gear-supplier_inv:G0R -> zp7:G0R -> zp8:G1263
+gear-supplier_inv,G1A,gear,2,gear-supplier_inv:G1A -> zp7:G1A -> zp8:G1243
+gear-supplier_inv,G1C,gear,2,gear-supplier_inv:G1C -> zp7:G1C -> zp8:G1285
+gear-supplier_inv,G1D,gear,2,gear-supplier_inv:G1D -> zp7:G1D -> zp8:G1281
+gear-supplier_inv,G1Z,gear,2,gear-supplier_inv:G1Z -> zp7:G1Z -> zp8:G1253
+gear-supplier_prod,G0C,gear,4,gear-supplier_prod:G0C -> gear-supplier_inv:G0C -> zp7:G0C -> zp8:G1284
+gear-supplier_prod,G0K,gear,4,gear-supplier_prod:G0K -> gear-supplier_inv:G0K -> zp7:G0K -> zp8:G1280
+gear-supplier_prod,G0L,gear,4,gear-supplier_prod:G0L -> gear-supplier_inv:G0L -> zp7:G0L -> zp8:G1282
+gear-supplier_prod,G0R,gear,4,gear-supplier_prod:G0R -> gear-supplier_inv:G0R -> zp7:G0R -> zp8:G1263
+gear-supplier_prod,G1A,gear,4,gear-supplier_prod:G1A -> gear-supplier_inv:G1A -> zp7:G1A -> zp8:G1243
+gear-supplier_prod,G1C,gear,4,gear-supplier_prod:G1C -> gear-supplier_inv:G1C -> zp7:G1C -> zp8:G1285
+gear-supplier_prod,G1D,gear,4,gear-supplier_prod:G1D -> gear-supplier_inv:G1D -> zp7:G1D -> zp8:G1281
+gear-supplier_prod,G1Z,gear,4,gear-supplier_prod:G1Z -> gear-supplier_inv:G1Z -> zp7:G1Z -> zp8:G1253
+seat-supplier_inv,Q1A,seat,0,seat-supplier_inv:Q1A -> zp7:Q1A -> zp8:G1284
+seat-supplier_inv,Q2J,seat,0,seat-supplier_inv:Q2J -> zp7:Q2J -> zp8:G1285
+seat-supplier_inv,Q4H,seat,0,seat-supplier_inv:Q4H -> zp7:Q4H -> zp8:G1282
+seat-supplier_inv,Q4P,seat,0,seat-supplier_inv:Q4P -> zp7:Q4P -> zp8:G1261
+seat-supplier_prod,componment_seat1,seat_componment,0,seat-supplier_prod:componment_seat1 -> seat-supplier_inv:Q2J -> zp7:Q2J -> zp8:G1285
+seat-supplier_prod,componment_seat2,seat_componment,0,seat-supplier_prod:componment_seat2 -> seat-supplier_inv:Q4H -> zp7:Q4H -> zp8:G1282
+seat-supplier_prod,componment_seat3,seat_componment,0,seat-supplier_prod:componment_seat3 -> seat-supplier_inv:Q4P -> zp7:Q4P -> zp8:G1261
+seat-supplier_prod,componment_seat4,seat_componment,0,seat-supplier_prod:componment_seat4 -> seat-supplier_inv:Q1A -> zp7:Q1A -> zp8:G1284
+seat-supplier_trans,componment_seat1,seat_componment,23,seat-supplier_trans:componment_seat1 -> seat-supplier_prod:componment_seat1 -> seat-supplier_inv:Q2J -> zp7:Q2J -> zp8:G1285
+seat-supplier_trans,componment_seat2,seat_componment,23,seat-supplier_trans:componment_seat2 -> seat-supplier_prod:componment_seat2 -> seat-supplier_inv:Q4H -> zp7:Q4H -> zp8:G1282
+seat-supplier_trans,componment_seat3,seat_componment,23,seat-supplier_trans:componment_seat3 -> seat-supplier_prod:componment_seat3 -> seat-supplier_inv:Q4P -> zp7:Q4P -> zp8:G1261
+seat-supplier_trans,componment_seat4,seat_componment,23,seat-supplier_trans:componment_seat4 -> seat-supplier_prod:componment_seat4 -> seat-supplier_inv:Q1A -> zp7:Q1A -> zp8:G1284
+zp7,BEV,battery,0,zp7:BEV -> zp8:G1253
+zp7,D02,engine,0,zp7:D02 -> zp8:G1261
+zp7,D2I,engine,0,zp7:D2I -> zp8:G1266
+zp7,D33,engine,0,zp7:D33 -> zp8:G1274
+zp7,D36,engine,0,zp7:D36 -> zp8:G1284
+zp7,D60,engine,0,zp7:D60 -> zp8:G1192
+zp7,D64,engine,0,zp7:D64 -> zp8:G1221
+zp7,D80,engine,0,zp7:D80 -> zp8:G1278
+zp7,D83,engine,0,zp7:D83 -> zp8:G1253
+zp7,DB0,engine,0,zp7:DB0 -> zp8:G1273
+zp7,DB8,engine,0,zp7:DB8 -> zp8:G1255
+zp7,DE2,engine,0,zp7:DE2 -> zp8:G1270
+zp7,DE4,engine,0,zp7:DE4 -> zp8:G1279
+zp7,DE5,engine,0,zp7:DE5 -> zp8:G1251
+zp7,DF4,engine,0,zp7:DF4 -> zp8:G1262
+zp7,DF6,engine,0,zp7:DF6 -> zp8:G1231
+zp7,DG6,engine,0,zp7:DG6 -> zp8:G1282
+zp7,DG8,engine,0,zp7:DG8 -> zp8:G1283
+zp7,DK7,engine,0,zp7:DK7 -> zp8:G1220
+zp7,DK8,engine,0,zp7:DK8 -> zp8:G1277
+zp7,DK9,engine,0,zp7:DK9 -> zp8:G1249
+zp7,DM4,engine,0,zp7:DM4 -> zp8:G1248
+zp7,DN1,engine,0,zp7:DN1 -> zp8:G1234
+zp7,DN4,engine,0,zp7:DN4 -> zp8:G1281
+zp7,DN6,engine,0,zp7:DN6 -> zp8:G1269
+zp7,DP2,engine,0,zp7:DP2 -> zp8:G1238
+zp7,DQ4,engine,0,zp7:DQ4 -> zp8:G1219
+zp7,DQ9,engine,0,zp7:DQ9 -> zp8:G1275
+zp7,DR8,engine,0,zp7:DR8 -> zp8:G1259
+zp7,DS9,engine,0,zp7:DS9 -> zp8:G1285
+zp7,G0C,gear,0,zp7:G0C -> zp8:G1284
+zp7,G0K,gear,0,zp7:G0K -> zp8:G1280
+zp7,G0L,gear,0,zp7:G0L -> zp8:G1282
+zp7,G0R,gear,0,zp7:G0R -> zp8:G1263
+zp7,G1A,gear,0,zp7:G1A -> zp8:G1243
+zp7,G1C,gear,0,zp7:G1C -> zp8:G1285
+zp7,G1D,gear,0,zp7:G1D -> zp8:G1281
+zp7,G1Z,gear,0,zp7:G1Z -> zp8:G1253
+zp7,Q1A,seat,0,zp7:Q1A -> zp8:G1284
+zp7,Q2J,seat,0,zp7:Q2J -> zp8:G1285
+zp7,Q4H,seat,0,zp7:Q4H -> zp8:G1282
+zp7,Q4P,seat,0,zp7:Q4P -> zp8:G1261

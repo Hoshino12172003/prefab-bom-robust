@@ -1,0 +1,159 @@
+{
+  "V33_RECOVERY_OBJECTIVE_CERTIFIED": true,
+  "checks": {
+    "G36-01": "PASS",
+    "G36-02": "PASS",
+    "G36-03": "PASS",
+    "G36-04": "PASS",
+    "G36-05": "PASS",
+    "G36-06": "PASS",
+    "G36-07": "PASS",
+    "G36-08": "PASS",
+    "G36-09": "PASS",
+    "G36-10": "PASS"
+  },
+  "gamma_lex_monotonic": true,
+  "tail_length": 23,
+  "end": 97,
+  "scenario_counts": {
+    "0": 1,
+    "1": 4,
+    "2": 7
+  },
+  "results": [
+    {
+      "run": "gamma0",
+      "scenario_count": 1,
+      "first_stage_variables": 4208,
+      "budget_cents": 0,
+      "on_time": 26448.0,
+      "rho": 0.9445714285714286,
+      "variables": 24106,
+      "constraints": 11686,
+      "nonzeros": 448090,
+      "status": "PASS",
+      "tau": 31134,
+      "material_capital_usd": 0.0,
+      "prep_holding_usd": 0.0,
+      "worst_recourse_holding_usd": 266202.32151506847,
+      "economic_cost_usd": 266202.32151506847,
+      "prep_residual": 0,
+      "buffers": []
+    },
+    {
+      "run": "gamma1",
+      "scenario_count": 4,
+      "first_stage_variables": 4208,
+      "budget_cents": 0,
+      "on_time": 25760.0,
+      "rho": 0.92,
+      "variables": 83791,
+      "constraints": 39274,
+      "nonzeros": 1763461,
+      "status": "PASS",
+      "tau": 36129,
+      "material_capital_usd": 0.0,
+      "prep_holding_usd": 0.0,
+      "worst_recourse_holding_usd": 277282.58829041093,
+      "economic_cost_usd": 277282.58829041093,
+      "prep_residual": 0,
+      "buffers": []
+    },
+    {
+      "run": "gamma2",
+      "scenario_count": 7,
+      "first_stage_variables": 4208,
+      "budget_cents": 0,
+      "on_time": 25760.0,
+      "rho": 0.92,
+      "variables": 143476,
+      "constraints": 66862,
+      "nonzeros": 3078832,
+      "status": "PASS",
+      "tau": 36196,
+      "material_capital_usd": 0.0,
+      "prep_holding_usd": 0.0,
+      "worst_recourse_holding_usd": 279546.78888219176,
+      "economic_cost_usd": 279546.78888219176,
+      "prep_residual": 0,
+      "buffers": []
+    },
+    {
+      "run": "fixed_BAT",
+      "scenario_count": 1,
+      "first_stage_variables": 4208,
+      "budget_cents": 0,
+      "on_time": 26372.0,
+      "rho": 0.9418571428571428,
+      "variables": 24106,
+      "constraints": 11686,
+      "nonzeros": 448090,
+      "status": "PASS",
+      "tau": 32506,
+      "material_capital_usd": 0.0,
+      "prep_holding_usd": 0.0,
+      "worst_recourse_holding_usd": 273584.55132876715,
+      "economic_cost_usd": 273584.55132876715,
+      "prep_residual": 0,
+      "buffers": []
+    },
+    {
+      "run": "fixed_BAT_SEAT",
+      "scenario_count": 1,
+      "first_stage_variables": 4208,
+      "budget_cents": 0,
+      "on_time": 26372.0,
+      "rho": 0.9418571428571428,
+      "variables": 24106,
+      "constraints": 11686,
+      "nonzeros": 448090,
+      "status": "PASS",
+      "tau": 33254,
+      "material_capital_usd": 0.0,
+      "prep_holding_usd": 0.0,
+      "worst_recourse_holding_usd": 280706.9445150685,
+      "economic_cost_usd": 280706.9445150685,
+      "prep_residual": 0,
+      "buffers": []
+    },
+    {
+      "run": "positive_primary",
+      "scenario_count": 3,
+      "first_stage_variables": 4208,
+      "budget_cents": 25000000,
+      "on_time": 26400.0,
+      "rho": 0.9428571428571428,
+      "variables": 63896,
+      "constraints": 30078,
+      "nonzeros": 1325004,
+      "status": "PASS_PRIMARY"
+    }
+  ],
+  "primary_regression": [
+    {
+      "run": "gamma0",
+      "old": 26448.0,
+      "extended": 26448.0,
+      "match": true
+    },
+    {
+      "run": "gamma1",
+      "old": 25760.0,
+      "extended": 25760.0,
+      "match": true
+    },
+    {
+      "run": "gamma2",
+      "old": 25760.0,
+      "extended": 25760.0,
+      "match": true
+    },
+    {
+      "run": "positive_primary",
+      "old": 26400,
+      "extended": 26400.0,
+      "match": true
+    }
+  ],
+  "runtime_seconds": 249.35462519992143
+}
