@@ -1,0 +1,3 @@
+case,ccg_status,de_status,match,both_first_stages_feasible,DE_service_status,DE_service_incumbent,DE_service_best_bound,DE_service_gap,service_exact_comparison,DE_backlog_status,DE_backlog_incumbent,DE_backlog_best_bound,DE_backlog_gap,backlog_exact_comparison,DE_economics_status,DE_economics_incumbent,DE_economics_best_bound,DE_economics_gap,economics_exact_comparison
+G1_MID,PASS,INCOMPLETE,False,False,OPTIMAL,18375.0,18375.0,0.0,True,OPTIMAL,76351.0,76351.0,0.0,True,TIME_LIMIT,626021344442.0,-4565893959150.0,8.29351163452706,NOT_CERTIFIED
+G2_MID,PASS,INCOMPLETE,False,False,OPTIMAL,18375.0,18375.0,0.0,True,TIME_LIMIT,76352.0,76350.0,2.619446772841576e-05,NOT_CERTIFIED,,,,,NOT_CERTIFIED

@@ -1,0 +1,10 @@
+run,budget_cents,gamma,iteration,scenario,families,levels,primary_critical,secondary_critical,repeated_later,remained_binding_in_final_master,final_full_replay_rank
+G2_MID,11989002887,2,0,NOM,,,False,False,False,False,48
+G2_MID,11989002887,2,1,BAT_OEM_moderate+SEAT_PROD_severe,BAT_OEM;SEAT_PROD,moderate;severe,True,True,True,True,1
+G2_MID,11989002887,2,2,BAT_OEM_severe+SEAT_PROD_severe,BAT_OEM;SEAT_PROD,severe;severe,True,True,False,True,2
+G2_MID,11989002887,2,3,BAT_PROD_severe+ENGINE_PROD_severe,BAT_PROD;ENGINE_PROD,severe;severe,False,False,False,False,18
+G2_MID,11989002887,2,4,BAT_PROD_severe+SEAT_PROD_severe,BAT_PROD;SEAT_PROD,severe;severe,True,True,False,True,4
+G2_ZERO,0,2,0,NOM,,,False,False,False,True,51
+G2_ZERO,0,2,1,BAT_OEM_moderate+SEAT_PROD_severe,BAT_OEM;SEAT_PROD,moderate;severe,True,True,True,True,1
+G2_ZERO,0,2,2,BAT_OEM_severe+SEAT_PROD_severe,BAT_OEM;SEAT_PROD,severe;severe,True,True,False,True,2
+G2_ZERO,0,2,3,BAT_PROD_severe+SEAT_PROD_severe,BAT_PROD;SEAT_PROD,severe;severe,True,True,False,True,4
