@@ -1,0 +1,86 @@
+{
+  "commit_sha": "b229b3eedb051c4e95bbbe2f2e22b362787ffdad",
+  "runner_sha256": "2aec9979b5e3be61670097a1faf7911f199075b902860bc7ad9f77c6ada5190b",
+  "input_sha256": {
+    "v31_gate1_nominal_certification.py": "450af1244775fc08051af28ccfa34258ebe364d0531eeeae0193aa56252844f5",
+    "V31_Final_Math_Spec.docx": "29c89699de58d58b46de5ded9278183f21b57b55a6052c8607154bd9349c0ebf",
+    "V31_Gate0_Gate2_Audit.xlsx": "dc1cea9fe7872527e2ea666a293ae4783d27a59252463df316aeeb2393094d84",
+    "phase17_815a87f562f0400ca3917d1551e435b0.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "V31_Codex_Inputs.zip": "1c5c2cfce77a8f35edc7d380190f46c2b30cc1830883bc235056d40ef1f813c5"
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "config": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 3600
+  },
+  "residual_tolerance": 1e-06,
+  "random_seed": 0,
+  "gate2c_runner_sha256": "04b813d484a3a649220afb375ef6c0bb3f0f52ade8e6c1a9a66d75388eb946eb",
+  "pr2_baseline": "fa13b2ebd7a7aa92efae3493dd952941523a7b06",
+  "source_nominal_evidence": "TRANSFORM_MEAN_INCLUDING_ZERO",
+  "nominal_by_arc": {
+    "battery-supplier_inv->zp7": "294",
+    "battery-supplier_prod->battery-supplier_inv": "294",
+    "battery-supplier_trans->battery-supplier_prod": "294",
+    "engine-supplier_inv->zp7": "2100",
+    "engine-supplier_prod->engine-supplier_inv": "2100",
+    "gear-supplier_inv->zp7": "2100",
+    "gear-supplier_prod->gear-supplier_inv": "2100",
+    "seat-supplier_inv->zp7": "2100",
+    "seat-supplier_prod->seat-supplier_inv": "2100",
+    "seat-supplier_trans->seat-supplier_prod": "2100",
+    "zp7->zp8": "2000"
+  },
+  "alpha": [
+    "1/10",
+    "1/4",
+    "1/2",
+    "3/4",
+    "1"
+  ],
+  "horizons": [
+    2,
+    20,
+    21,
+    22,
+    23
+  ],
+  "delta": [
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "storage_coverage": {
+    "restrictive": "0",
+    "base": "1/2",
+    "relaxed": "2",
+    "technical-bound-only": null
+  },
+  "capacity_scenarios_evidence": "SCENARIO_PARAMETER",
+  "cost_cents": {
+    "engine": 730577,
+    "gear": 268300,
+    "battery": 964686,
+    "seat": 104841,
+    "seat_componment": 75486
+  },
+  "kit_cost_cents": 790726,
+  "cost_evidence": "V31_CLASS_LEVEL_CALIBRATION_AND_PROXY",
+  "budget_cents": [
+    0,
+    1000000,
+    10000000
+  ],
+  "budget_evidence": "SCENARIO_PARAMETER",
+  "test_a": "maximize material value",
+  "test_b": "maximize material value under capital budget",
+  "empirical_residual_capacity": "NOT_IDENTIFIED",
+  "baseline_Bmax_sha256": "01bb1ea4c4056645fc145c2b90a6a16772a4f0fb890ab6ee337641e76d9d4dcd"
+}
