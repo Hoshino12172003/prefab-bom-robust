@@ -1,0 +1,79 @@
+{
+  "commit_sha": "b330bbdf4b70af9a1fdbb367db12bc2e15ea3cdf",
+  "runner_sha256": "2aec9979b5e3be61670097a1faf7911f199075b902860bc7ad9f77c6ada5190b",
+  "input_sha256": {
+    "v31_gate1_nominal_certification.py": "450af1244775fc08051af28ccfa34258ebe364d0531eeeae0193aa56252844f5",
+    "V31_Final_Math_Spec.docx": "29c89699de58d58b46de5ded9278183f21b57b55a6052c8607154bd9349c0ebf",
+    "V31_Gate0_Gate2_Audit.xlsx": "dc1cea9fe7872527e2ea666a293ae4783d27a59252463df316aeeb2393094d84",
+    "phase17_815a87f562f0400ca3917d1551e435b0.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "V31_Codex_Inputs.zip": "1c5c2cfce77a8f35edc7d380190f46c2b30cc1830883bc235056d40ef1f813c5"
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "config": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 3600
+  },
+  "residual_tolerance": 1e-06,
+  "random_seed": 0,
+  "baseline": "c4dc91ddec1f306f50aa8473b6e739ba471c6372",
+  "code_sha256": {
+    "audits.py": "886ecdfa888de4de22d0c177afc488124a75273eefce7e50c04743f6b55dc5e6",
+    "run_gate35.py": "0591b1603309d1e1354abb15c65d6c7c103943065c9ccd685d4a34f5011000fb"
+  },
+  "frozen_gate3_sha256": {
+    "gate3_summary.json": "bd93cca1f2b6ff542adf2ff1a86ab045e4ff42b6422b035c25355c88631dd2a8",
+    "gate3_first_stage_solution.csv": "fa6b7c28fbd0585e724ae791e4925065209e392870903f476c83bbb876c2c818",
+    "event_catalog.csv": "d29e01de4ce718ee9cafa3a5161ca486f7b24040174b8433f8e463e6c9347816"
+  },
+  "H": 23,
+  "alpha": "1/2",
+  "delta": "1/2",
+  "storage": "technical-bound-only",
+  "availability": [
+    "1",
+    "4/5",
+    "3/5",
+    "2/5",
+    "1/5",
+    "0"
+  ],
+  "duration": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "budget_usd": [
+    0,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    500000,
+    1000000
+  ],
+  "gamma_budget_usd": [
+    0,
+    250000
+  ],
+  "settings": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 180,
+    "SoftMemLimit": 12
+  },
+  "selection_rule": "In fixed asset order, retain first two effective events on different BOM branches. Per asset use shortest effective duration, then highest effective availability.",
+  "evidence_type": "DIAGNOSTIC_SCENARIO"
+}
