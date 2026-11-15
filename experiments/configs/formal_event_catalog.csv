@@ -1,0 +1,13 @@
+event_id,event_family,asset,asset_type,level,start,duration,availability,recovery,scope,evidence_class,sensitivity_status
+BAT_PROD_moderate,BAT_PROD,battery-supplier_prod->battery-supplier_inv,production,moderate,64,4,3/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+BAT_PROD_severe,BAT_PROD,battery-supplier_prod->battery-supplier_inv,production,severe,64,7,1/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+BAT_OEM_moderate,BAT_OEM,battery-supplier_inv->zp7,transport,moderate,69,4,3/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+BAT_OEM_severe,BAT_OEM,battery-supplier_inv->zp7,transport,severe,69,7,1/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+SEAT_PROD_moderate,SEAT_PROD,seat-supplier_prod->seat-supplier_inv,production,moderate,67,4,3/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+SEAT_PROD_severe,SEAT_PROD,seat-supplier_prod->seat-supplier_inv,production,severe,67,7,1/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+ENGINE_PROD_moderate,ENGINE_PROD,engine-supplier_prod->engine-supplier_inv,production,moderate,65,4,3/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+ENGINE_PROD_severe,ENGINE_PROD,engine-supplier_prod->engine-supplier_inv,production,severe,65,7,1/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+GEAR_OEM_moderate,GEAR_OEM,gear-supplier_inv->zp7,transport,moderate,65,4,3/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+GEAR_OEM_severe,GEAR_OEM,gear-supplier_inv->zp7,transport,severe,65,7,1/4,2,CORE,SCENARIO,FROZEN_STRESS_LEVEL_EMPIRICAL_SENSITIVITY_UNRESOLVED
+BAT_UP,BAT_UP,battery-supplier_trans->battery-supplier_prod,transport,mapping,67,2,2/5,2,SUPPLEMENTARY,SCENARIO,MAPPING_ONLY_TAIL_EFFECT_UNTESTED
+SEAT_UP,SEAT_UP,seat-supplier_trans->seat-supplier_prod,transport,mapping,67,2,1/2,1,SUPPLEMENTARY,SCENARIO,MAPPING_ONLY_TAIL_EFFECT_UNTESTED

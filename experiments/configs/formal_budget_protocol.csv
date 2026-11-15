@@ -1,0 +1,6 @@
+rule,definition,evidence_class,status
+joint_capital_ceiling,maximum material capital over the joint preparation feasible region for the frozen preparation profile,TRANSFORM,NOT_COMPUTED_IN_PROTOCOL_FREEZE
+normalised_grid,"0, 1/4, 1/2, 3/4, 1 times joint ceiling",SCENARIO,FROZEN_METHOD
+rounding,floor to integer cents; deduplicate and sort,TRANSFORM,FROZEN_METHOD
+reference_29_kit_anchor,22931054 cents. include for the matching preparation profile if within the joint capital ceiling,TRANSFORM,FROZEN_METHOD
+service_response_breakpoint,report adjacent fixed-grid intervals where guaranteed on-time count increases; separately report equal-service intervals with lower cumulative backlog; no grid revision,SCENARIO,NOT_TESTED

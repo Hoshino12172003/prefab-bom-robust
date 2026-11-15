@@ -1,0 +1,84 @@
+{
+  "baseline": "2b16f8bbd33936ca754986b606c731a13e3b0758",
+  "checks": {
+    "P-01": "PASS",
+    "P-02": "PASS",
+    "P-03": "PASS",
+    "P-04": "PASS",
+    "P-05": "PASS",
+    "P-06": "PASS",
+    "P-07": "PASS",
+    "P-08": "PASS",
+    "P-09": "PASS",
+    "P-10": "PASS",
+    "P-11": "PASS",
+    "P-12": "PASS"
+  },
+  "scenario_counts": {
+    "CALENDAR_REPEAT": {
+      "0": {
+        "raw": 1,
+        "legal": 1,
+        "deduplicated": 1
+      },
+      "1": {
+        "raw": 11,
+        "legal": 11,
+        "deduplicated": 11
+      },
+      "2": {
+        "raw": 56,
+        "legal": 51,
+        "deduplicated": 51
+      }
+    },
+    "MEAN_EXTENSION": {
+      "0": {
+        "raw": 1,
+        "legal": 1,
+        "deduplicated": 1
+      },
+      "1": {
+        "raw": 11,
+        "legal": 11,
+        "deduplicated": 11
+      },
+      "2": {
+        "raw": 56,
+        "legal": 51,
+        "deduplicated": 51
+      }
+    },
+    "CONSERVATIVE_EXTENSION": {
+      "0": {
+        "raw": 1,
+        "legal": 1,
+        "deduplicated": 1
+      },
+      "1": {
+        "raw": 11,
+        "legal": 11,
+        "deduplicated": 11
+      },
+      "2": {
+        "raw": 56,
+        "legal": 51,
+        "deduplicated": 51
+      }
+    }
+  },
+  "core_events": 10,
+  "supplementary_events": 2,
+  "formal_optimization_calls": 0,
+  "gate4_executed": false,
+  "FORMAL_RISK_PROTOCOL_FROZEN": true,
+  "READY_FOR_GATE4": true,
+  "unresolved": [
+    "asset_level_empirical_event_parameters",
+    "risk_frequency_and_dependence",
+    "observed_tail_capacities",
+    "missing_operating_costs",
+    "empirical_residual_capacity",
+    "joint_capital_ceiling_and_service_breakpoints"
+  ]
+}
