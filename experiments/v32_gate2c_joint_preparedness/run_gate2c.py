@@ -2,12 +2,11 @@
 
 import argparse
 import csv
+import gzip
 import hashlib
 import json
-import platform
-import subprocess
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from fractions import Fraction
 from pathlib import Path
 from time import perf_counter
@@ -32,6 +31,8 @@ KIT_COST = 790726
 BUDGETS = (0, 1_000_000, 10_000_000)  # integer cents, diagnostic only
 BMAX_FILE = BASE / "numerical/gate2b_buffer_formation_limits.csv"
 PR2_SHA = "fa13b2ebd7a7aa92efae3493dd952941523a7b06"
+PR3_SHA = "1acb8872bedf99de5bed1e8d94ffbae2190cd7f2"
+ORIGINAL_CROSSCHECK = HERE / "evidence/gate2c_bmax_crosscheck.csv"
 
 
 def sha256(path):
@@ -105,7 +106,7 @@ def audit(model, block, h):
     return error, inventory, resource
 
 
-def joint_witness(model, block, states, old, run, metadata, buffers, inventories, resources, flows, cross):
+def joint_witness(model, block, states, run, metadata, buffers, inventories, resources, flows):
     h = metadata["H"]
     error, inventory, resource = audit(model, block, h)
     arcs, flow, _, limits, cap_rows, caps, _, seat, pool, cost = block
@@ -115,12 +116,20 @@ def joint_witness(model, block, states, old, run, metadata, buffers, inventories
     assert kit_values == [10 * kits, 6 * kits, 4 * kits]
     spend = KIT_COST * kits + sum(COST[g] * values[k] for k, (g, _) in states.items() if k[1] not in CELL)
     assert abs(spend - cost.getValue()) <= TOL
-    resources.append(dict(run_id=run, origin="zp7", destination="OEM_SEAT_POOL", slot=h,
-                          resource_type="shared_storage", used=sum(values[k] for k in seat), integer_rhs=pool,
-                          positive_skus=sum(values[k] > 0 for k in seat), violation=0))
+    for t in range(h + 1):
+        quantities = [inventory[(*k, t)] for k in seat]
+        resources.append(dict(run_id=run, origin="zp7", destination="OEM_SEAT_POOL", slot=t,
+                              resource_type="shared_storage", used=sum(quantities), integer_rhs=pool,
+                              positive_skus=sum(q > TOL for q in quantities), violation=max(0, sum(quantities) - pool)))
     by_arc = {a.key: kind(a) for a in arcs}
+    arc_data = {a.key: a for a in arcs}
+    receipts, usage = defaultdict(float), defaultdict(float)
     positive_skus = Counter()
     for (i, j, p, t), v in model.getAttr("X", flow).items():
+        arc = arc_data[i, j]
+        receipts[j, p, t + arc.lead] += v
+        for child, coefficient in arc.recipes[p]:
+            usage[i, child, t] += float(coefficient) * v
         if v > TOL:
             positive_skus[i,j,t] += 1
             flows.append(dict(run_id=run, origin=i, destination=j, item_id=p, slot=t, quantity=round(v)))
@@ -137,36 +146,52 @@ def joint_witness(model, block, states, old, run, metadata, buffers, inventories
         value = values[n,p]
         assert not value or h >= lead
         buffers.append(dict(run_id=run, node_id=n, item_id=p, group=group, quantity=value, minimum_H=lead))
-        expected = old[h,n,p]
-        cross.append(dict(run_id=run, check="C2C-07", H=h, node_id=n, item_id=p,
-                          observed=value, old_Bmax=expected, status="PASS" if value <= expected else "FAIL",
-                          basis="V31_JIT_DELTA0_PROJECTION" if (n,p) in seat else "V31_GROSS_PROJECTION"))
-    return dict(max_replay_violation=error, positive_positions=sum(v > 0 for v in values.values()),
+    quality = dict(
+        shared_capacity_violation=max(0, max(resource[i,j,t] - caps[i,j] for i,j,t in cap_rows)),
+        inventory_violation=max(0, *(max(-q, q - limits[n,p][int(t == h)]) for (n,p,t),q in inventory.items())),
+        oem_seat_pool_violation=max(0, *(sum(inventory[(*k,t)] for k in seat) - pool for t in range(h+1))),
+        bom_violation=max(abs(inventory[n,p,t] - inventory.get((n,p,t-1),0) - receipts[n,p,t] + usage[n,p,t])
+                          for n,p,t in inventory),
+        integrality_violation=model.IntVio,
+    )
+    assert all(value == 0 for value in quality.values()), (run, quality)
+    return dict(**quality, max_replay_violation=error, positive_positions=sum(v > 0 for v in values.values()),
                 kit_count=kits, oem_seat=sum(values[k] for k in seat), material_cents=spend,
                 positive_oem_seat_skus=sum(values[k] > 0 for k in seat),
                 buffers_by_group=dict(Counter({g: sum(v for k,v in values.items() if states[k][0]==g)
                                                for g in set(group for group,_ in states.values())})))
 
 
-def projection_checks(model, block, states, old, h, cross):
+def scenario_identity(block, h, alpha, delta, storage):
+    scenario = dict(H=h, alpha=str(alpha), delta=str(delta), storage=storage,
+                    kappa=str(COVER[storage]) if COVER[storage] is not None else None,
+                    capacities=[[*k, q] for k,q in sorted(block[5].items())],
+                    K_eff=[[*k, *bounds[:2]] for k,bounds in sorted(block[3].items())],
+                    oem_seat_pool=block[8])
+    return hashlib.sha256(json.dumps(scenario, sort_keys=True).encode()).hexdigest(), scenario
+
+
+def projection_certificates(model, block, scenario_id, solo=False):
+    """Use the full physical domain for C2C-07, or solo units for C2C-10."""
     terminal = block[6]
+    kit = model.getVarByName("TerminalCellKit")
+    cells = {k: (10, 6, 4)[CELL.index(k[1])] for k in terminal if k[1] in CELL}
+    assert len(cells) == 3
     original = {k: var.UB for k, var in terminal.items()}
-    cells = {k for k in states if k[1] in CELL}
-    for k in sorted(states):
-        variants = [("single_kit_compatible", cells), ("literal_single_state", {k})] if k in cells else [
-            ("literal_single_state", {k})]
-        for mode, active in variants:
-            for j, var in terminal.items():
-                var.UB = original[j] if j in active else 0
-            info = optimize(model, terminal[k])
-            audit(model, block, h)
-            observed = round(info["objective"])
-            expected = old[(h, *k)]
-            cross.append(dict(run_id=f"projection_H{h}", check="C2C-10", H=h, node_id=k[0], item_id=k[1],
-                              observed=observed, old_Bmax=expected, status="PASS" if observed == expected else "FAIL",
-                              basis=mode))
-    for k,var in terminal.items():
-        var.UB = original[k]
+    units = [({k: 1}, var, "item-position") for k,var in sorted(terminal.items()) if k not in cells]
+    units.append((cells, kit, "complete battery kit"))
+    for members, objective, name in units:
+        if solo:
+            for k,var in terminal.items():
+                var.UB = original[k] if k in members else 0
+        info = optimize(model, objective)
+        optimum = round(info["objective"])
+        assert abs(optimum - info["objective"]) <= TOL
+        for (n,p), factor in sorted(members.items()):
+            assert abs(terminal[n,p].X - factor * optimum) <= TOL
+            yield dict(scenario_id=scenario_id, node_id=n, item_id=p, projection_unit=name,
+                       unit_optimum=optimum, factor=factor, Bproj=factor * optimum,
+                       unit_best_bound=info["best_bound"], solver_status=info["solver_status"], mip_gap=info["mip_gap"])
 
 
 def main():
@@ -187,16 +212,20 @@ def main():
     nominal_int, cap_map = stationary_capacities(tables, Fraction(1))
     nominal = {(r["origin"],r["destination"]): Fraction(r["stationary_nominal_exact"]) for r in cap_map}
     assert {k: int(n) for k,n in nominal.items()} == nominal_int
-    config = dict(**provenance, gate2c_runner_sha256=sha256(Path(__file__)), pr2_baseline=PR2_SHA, source_nominal_evidence="TRANSFORM_MEAN_INCLUDING_ZERO",
+    config = dict(**provenance, protocol="V3.2.1", gate2c_runner_sha256=sha256(Path(__file__)),
+                  pr2_baseline=PR2_SHA, pr3_baseline=PR3_SHA, source_nominal_evidence="TRANSFORM_MEAN_INCLUDING_ZERO",
                   nominal_by_arc={"->".join(k): str(v) for k,v in nominal.items()},
                   alpha=[str(x) for x in ALPHAS], horizons=WINDOWS, delta=[str(x) for x in DELTAS],
                   storage_coverage={k: str(v) if v is not None else None for k,v in COVER.items()},
                   capacity_scenarios_evidence="SCENARIO_PARAMETER", cost_cents=COST, kit_cost_cents=KIT_COST,
                   cost_evidence="V31_CLASS_LEVEL_CALIBRATION_AND_PROXY", budget_cents=BUDGETS,
                   budget_evidence="SCENARIO_PARAMETER", test_a="maximize material value", test_b="maximize material value under capital budget",
-                  empirical_residual_capacity="NOT_IDENTIFIED", baseline_Bmax_sha256=sha256(BMAX_FILE))
+                  empirical_residual_capacity="NOT_IDENTIFIED", baseline_Bmax_sha256=sha256(BMAX_FILE),
+                  original_failure_csv_sha256=sha256(ORIGINAL_CROSSCHECK),
+                  projection_scope="Physical prepared inventory domain, before diagnostic capital budget")
     write_json(out, "gate2c_config.json", config)
     results, buffers, inventories, resources, flows, cross = [], [], [], [], [], []
+    scenarios, projections, frozen_reproduction = {}, {}, []
     with gp.Env(empty=True) as env:
         env.setParam("LogToConsole", 0)
         env.start()
@@ -206,32 +235,54 @@ def main():
         grid |= {(23, Fraction(1), d, "technical-bound-only", "OEM_SEAT", None) for d in DELTAS}
         for h,a,d,s,test,budget in sorted(grid):
             run = f"{test}_H{h}_a{float(a):.2f}_d{float(d):g}_{s}" + (f"_B{budget}" if budget is not None else "")
-            print(run, flush=True)
             with gp.Model(run, env=env) as model:
                 for k,v in PARAMS.items():
                     model.setParam(k,v)
                 model.Params.LogFile = str(out / "gate2c_gurobi.log")
                 block = prepare(model, base, states, h, nominal, a, d, s)
+                sid, scenario = scenario_identity(block, h, a, d, s)
                 cost = block[-1]
                 if budget is not None:
                     model.addConstr(cost <= budget, name="ProtectionCapital")
                 obj = gp.quicksum(block[6][k] for k in block[7]) if test == "OEM_SEAT" else cost
                 if run == "A_H23_a1.00_d2_technical-bound-only":
                     model.setObjective(obj, GRB.MAXIMIZE)
-                    model.write(str(out / "gate2c_model.lp.gz"))
-                    model.write(str(out / "gate2c_model.mps.gz"))
+                    for name in ("gate2c_model.lp.gz", "gate2c_model.mps.gz"):
+                        model.write(str(out / name))
+                        assert gzip.decompress((out / name).read_bytes()) == gzip.decompress((HERE / "evidence" / name).read_bytes()), name
                 info = optimize(model, obj)
                 meta = dict(H=h, alpha=float(a), delta=float(d), storage=s, test=test, budget_cents=budget)
-                evidence = joint_witness(model, block, states, old, run, meta, buffers, inventories, resources, flows, cross)
+                evidence = joint_witness(model, block, states, run, meta, buffers, inventories, resources, flows)
                 assert budget is None or evidence["material_cents"] <= budget
-                results.append(dict(run_id=run, **meta, **info, **evidence))
+                joint_buffers = buffers[-len(states):]
+                if sid not in projections:
+                    assert test == "A" and budget is None
+                    scenarios[sid] = scenario
+                    projections[sid] = {(r["node_id"],r["item_id"]): r for r in projection_certificates(model, block, sid)}
+                assert scenarios[sid] == scenario and projections[sid].keys() == states.keys()
+                for row in joint_buffers:
+                    certificate = projections[sid][row["node_id"],row["item_id"]]
+                    observed = row["quantity"]
+                    cross.append(dict(check="C2C-07", run_id=run, H=h, observed=observed, reference=certificate["Bproj"],
+                                      status="PASS" if observed <= certificate["Bproj"] else "FAIL", **certificate))
+                results.append(dict(run_id=run, scenario_id=sid, **meta, **info, **evidence))
+                if (d == 0 and s == "technical-bound-only") or test != "A":
+                    print(run, "verified", flush=True)
         for h in WINDOWS:
             with gp.Model(f"Comparable_Projection_H{h}", env=env) as model:
                 for k,v in PARAMS.items():
                     model.setParam(k,v)
                 model.Params.LogFile = str(out / "gate2c_gurobi.log")
-                projection_checks(model, prepare(model, base, states, h, nominal, Fraction(1), Fraction(0),
-                                                "technical-bound-only"), states, old, h, cross)
+                frozen = prepare(model, base, states, h, nominal, Fraction(1), Fraction(0), "technical-bound-only")
+                sid, scenario = scenario_identity(frozen, h, Fraction(1), Fraction(0), "technical-bound-only")
+                assert scenarios[sid] == scenario
+                for row in projection_certificates(model, frozen, sid, solo=True):
+                    k = row["node_id"], row["item_id"]
+                    expected = old[(h, *k)]
+                    observed = row["Bproj"]
+                    frozen_reproduction.append(row)
+                    cross.append(dict(check="C2C-10", run_id=f"frozen_projection_H{h}", H=h, observed=observed,
+                                      reference=expected, status="PASS" if observed == expected else "FAIL", **row))
         with gp.Model("Simultaneous_Engine_Projections", env=env) as model:
             model.Params.LogFile = str(out / "gate2c_gurobi.log")
             _, _, _, _, _, _, end, _, _, _ = prepare(
@@ -269,10 +320,16 @@ def main():
     for r in monotone:
         if r["status"] == "FAIL":
             checks["C2C-08" if r["dimension"] == "alpha" else "C2C-09"] = "FAIL"
-    passed = all(v=="PASS" for v in checks.values())
-    write_json(out, "gate2c_summary.json", dict(status="PASS" if passed else "FAIL", checks=checks,
-               READY_FOR_GATE3=passed, EMPIRICAL_RESIDUAL_CAPACITY="NOT_IDENTIFIED",
-               prior_gate_status={"Gate0":"PASS", "Gate1":"PASS", "Gate2A":"PASS", "Gate2B_gross":"PASS"},
+    prior = {"Gate0":"PASS", "Gate1":prereq["1"]["status"], "Gate2A":"PASS", "Gate2B_gross":prereq["2b"]["gross_status"]}
+    residual_status = config["empirical_residual_capacity"]
+    passed = all(v == "PASS" for v in checks.values())
+    ready = passed and all(v == "PASS" for v in prior.values()) and residual_status == "NOT_IDENTIFIED"
+    write_json(out, "gate2c_scenarios.json", scenarios)
+    write_csv(out, "gate2c_scenario_projections.csv", [r for rows in projections.values() for r in rows.values()])
+    write_json(out, "gate2c_summary.json", dict(protocol=config["protocol"], status="PASS" if passed else "FAIL", checks=checks,
+               READY_FOR_GATE3=ready, EMPIRICAL_RESIDUAL_CAPACITY=residual_status, prior_gate_status=prior,
+               scenario_count=len(scenarios), comparison_counts=dict(Counter(r["check"] for r in cross)),
+               frozen_projection_units=sum(r["factor"] == 1 or r["factor"] == 10 for r in frozen_reproduction),
                blockers=[k for k,v in checks.items() if v=="FAIL"], comparison_failures=dict(failures),
                shared_negative_control=shared, results=results, runtime_seconds=perf_counter()-started))
 
