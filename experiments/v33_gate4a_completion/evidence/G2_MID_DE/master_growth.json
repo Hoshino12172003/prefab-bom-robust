@@ -1,0 +1,12 @@
+[
+  {
+    "run": "G2_MID_DE",
+    "scenarios": 51,
+    "build_seconds": 18.451891800155863,
+    "variables": 1018856,
+    "constraints": 471486,
+    "nonzeros": 22370940,
+    "solve_seconds": 71.49900007247925,
+    "peak_rss_bytes": 3647299584
+  }
+]

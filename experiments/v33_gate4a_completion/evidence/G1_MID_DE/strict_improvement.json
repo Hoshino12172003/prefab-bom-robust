@@ -1,0 +1,15 @@
+[
+  {
+    "level": "economics",
+    "probe": "improve",
+    "target": 590764793776,
+    "run": "G1_MID_DE",
+    "solver_status": "TIME_LIMIT",
+    "solution_count": 0,
+    "best_bound": 0.0,
+    "runtime_seconds": 180.018000125885,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null
+  }
+]

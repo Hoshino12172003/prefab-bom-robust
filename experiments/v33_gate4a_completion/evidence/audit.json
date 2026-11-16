@@ -1,0 +1,51 @@
+{
+  "base": "9ac1723149481f794044d3ecf1d71acb3eed14dc",
+  "runner_sha256": "1d02b0dbaf433b2de02c4a676e26bf5d53c849b308b3ab1d297a916608b7d7eb",
+  "PLAIN_CCG_CERTIFIED": false,
+  "cases": {
+    "G1_MID_DE": {
+      "status": "BLOCKED",
+      "stop": {
+        "run": "G1_MID_DE",
+        "level": "economics",
+        "solver_status": "TIME_LIMIT",
+        "check": "strict_improvement"
+      }
+    },
+    "G2_MID_DE": {
+      "status": "BLOCKED",
+      "stop": {
+        "run": "G2_MID_DE",
+        "level": "backlog",
+        "solver_status": "TIME_LIMIT",
+        "check": "strict_improvement"
+      }
+    },
+    "G2_MAX": {
+      "status": "BLOCKED",
+      "stop": {
+        "run": "G2_MAX_i2",
+        "level": "economics",
+        "scenario": "ENGINE_PROD_severe+GEAR_OEM_severe",
+        "event_composition": "ENGINE_PROD_severe+GEAR_OEM_severe",
+        "service_floor": 18375,
+        "backlog_ceiling": 76351,
+        "variables": 19895,
+        "constraints": 9195,
+        "nonzeros": 435107,
+        "solver_status": "TIME_LIMIT",
+        "solution_count": 4,
+        "best_bound": 103344564448.5,
+        "runtime_seconds": 180.0279998779297,
+        "node_count": 170353.0,
+        "objective": 103344574146.0,
+        "mip_gap": 9.38365664587273e-08,
+        "integrality_error": 0.0,
+        "model_row_violation": 0.0,
+        "model_bound_violation": 0.0,
+        "exact": false,
+        "wall_seconds": 180.47176459990442
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "level": "economics",
+    "scenario": "BAT_OEM_severe+ENGINE_PROD_moderate",
+    "raw_gap": 1.5158478588967774e-16,
+    "bound_outward_1ulp": 100661744995.99997,
+    "lattice_bound": 100661744996,
+    "rounded_incumbent": 100661744996,
+    "rounded_max_violation": 0,
+    "probe": "improve",
+    "target": 100661744996,
+    "run": "G2_MAX_i2",
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 14.8510000705719,
+    "node_count": 632.0,
+    "objective": null,
+    "mip_gap": null
+  }
+]
