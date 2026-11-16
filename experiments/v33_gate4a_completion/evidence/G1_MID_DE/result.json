@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "stop": {
+    "run": "G1_MID_DE",
+    "level": "economics",
+    "solver_status": "TIME_LIMIT",
+    "check": "strict_improvement"
+  }
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "level": "backlog",
+    "probe": "improve",
+    "target": 76351,
+    "run": "G2_MID_DE",
+    "solver_status": "TIME_LIMIT",
+    "solution_count": 0,
+    "best_bound": -0.0,
+    "runtime_seconds": 180.34299993515015,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "stop": {
+    "run": "G2_MID_DE",
+    "level": "backlog",
+    "solver_status": "TIME_LIMIT",
+    "check": "strict_improvement"
+  }
+}

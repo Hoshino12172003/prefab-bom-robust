@@ -1,0 +1,22 @@
+[
+  {
+    "run": "G2_MAX_i1",
+    "scenarios": 1,
+    "build_seconds": 0.4246271001175046,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "solve_seconds": 3.7720000743865967,
+    "peak_rss_bytes": 151158784
+  },
+  {
+    "run": "G2_MAX_i2",
+    "scenarios": 2,
+    "build_seconds": 0.7898326001595706,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "solve_seconds": 26.657999992370605,
+    "peak_rss_bytes": 251813888
+  }
+]
