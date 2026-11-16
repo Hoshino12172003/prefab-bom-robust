@@ -1,0 +1,39 @@
+[
+  {
+    "iteration": 1,
+    "active": [
+      "NOM"
+    ],
+    "added": "SEAT_PROD_severe",
+    "master_seconds": 3.3835035001393408,
+    "oracle_seconds": 6.977340099867433,
+    "oracle_milps": 6,
+    "skipped_by_witness": 0,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "ot": 26477,
+    "tau": 30148,
+    "cost_ticks": 180577916733,
+    "rss_bytes": 150757376
+  },
+  {
+    "iteration": 2,
+    "active": [
+      "NOM",
+      "SEAT_PROD_severe"
+    ],
+    "added": null,
+    "master_seconds": 21.206955099944025,
+    "oracle_seconds": 23.207904600072652,
+    "oracle_milps": 15,
+    "skipped_by_witness": 0,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "ot": 17543,
+    "tau": 86170,
+    "cost_ticks": 187136406279,
+    "rss_bytes": 256659456
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "run": "combined_i1",
+    "scenario": "BAT_OEM_severe",
+    "thresholds": [
+      26477,
+      30148,
+      96879569633
+    ],
+    "variables": 19895,
+    "constraints": 9196,
+    "nonzeros": 438363,
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 3.374000072479248,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null,
+    "wall_seconds": 3.827852600021288,
+    "certificate": "THRESHOLDS_INFEASIBLE"
+  },
+  {
+    "run": "combined_i2",
+    "scenario": "BAT_PROD_severe",
+    "thresholds": [
+      26461,
+      30892,
+      97843429643
+    ],
+    "variables": 19895,
+    "constraints": 9196,
+    "nonzeros": 438363,
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 2.2120001316070557,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null,
+    "wall_seconds": 2.5456623998470604,
+    "certificate": "THRESHOLDS_INFEASIBLE"
+  },
+  {
+    "run": "combined_i3",
+    "scenario": "ENGINE_PROD_severe",
+    "thresholds": [
+      26093,
+      32337,
+      100421696602
+    ],
+    "variables": 19895,
+    "constraints": 9196,
+    "nonzeros": 438363,
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 3.2910001277923584,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null,
+    "wall_seconds": 3.5618507000617683,
+    "certificate": "THRESHOLDS_INFEASIBLE"
+  },
+  {
+    "run": "combined_i4",
+    "scenario": "GEAR_OEM_severe",
+    "thresholds": [
+      25307,
+      33168,
+      124026051805
+    ],
+    "variables": 19895,
+    "constraints": 9196,
+    "nonzeros": 438363,
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 2.4719998836517334,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null,
+    "wall_seconds": 2.7584552001208067,
+    "certificate": "THRESHOLDS_INFEASIBLE"
+  },
+  {
+    "run": "combined_i5",
+    "scenario": "SEAT_PROD_severe",
+    "thresholds": [
+      19210,
+      68601,
+      101983883086
+    ],
+    "variables": 19895,
+    "constraints": 9196,
+    "nonzeros": 438363,
+    "solver_status": "INFEASIBLE",
+    "solution_count": 0,
+    "best_bound": null,
+    "runtime_seconds": 2.0989999771118164,
+    "node_count": 1.0,
+    "objective": null,
+    "mip_gap": null,
+    "wall_seconds": 2.4326013999525458,
+    "certificate": "THRESHOLDS_INFEASIBLE"
+  }
+]

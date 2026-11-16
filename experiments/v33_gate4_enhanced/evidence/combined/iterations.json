@@ -1,0 +1,125 @@
+[
+  {
+    "iteration": 1,
+    "active": [
+      "NOM"
+    ],
+    "added": "BAT_OEM_severe",
+    "master_seconds": 3.4266665000468493,
+    "oracle_seconds": 3.8423510000575334,
+    "oracle_milps": 1,
+    "skipped_by_witness": 0,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "ot": 26477,
+    "tau": 30148,
+    "cost_ticks": 180577916733,
+    "rss_bytes": 148885504
+  },
+  {
+    "iteration": 2,
+    "active": [
+      "NOM",
+      "BAT_OEM_severe"
+    ],
+    "added": "BAT_PROD_severe",
+    "master_seconds": 18.96896450011991,
+    "oracle_seconds": 2.558825599960983,
+    "oracle_milps": 1,
+    "skipped_by_witness": 1,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "ot": 26461,
+    "tau": 30892,
+    "cost_ticks": 181541776743,
+    "rss_bytes": 222937088
+  },
+  {
+    "iteration": 3,
+    "active": [
+      "NOM",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe"
+    ],
+    "added": "ENGINE_PROD_severe",
+    "master_seconds": 51.45103620016016,
+    "oracle_seconds": 3.5727643000427634,
+    "oracle_milps": 1,
+    "skipped_by_witness": 2,
+    "variables": 63896,
+    "constraints": 30078,
+    "nonzeros": 1325004,
+    "ot": 26093,
+    "tau": 32337,
+    "cost_ticks": 184120043702,
+    "rss_bytes": 293777408
+  },
+  {
+    "iteration": 4,
+    "active": [
+      "NOM",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe"
+    ],
+    "added": "GEAR_OEM_severe",
+    "master_seconds": 143.72398750018328,
+    "oracle_seconds": 2.7666847999207675,
+    "oracle_milps": 1,
+    "skipped_by_witness": 3,
+    "variables": 83791,
+    "constraints": 39274,
+    "nonzeros": 1763461,
+    "ot": 25307,
+    "tau": 33168,
+    "cost_ticks": 207588740334,
+    "rss_bytes": 476348416
+  },
+  {
+    "iteration": 5,
+    "active": [
+      "NOM",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe",
+      "GEAR_OEM_severe"
+    ],
+    "added": "SEAT_PROD_severe",
+    "master_seconds": 93.2945584000554,
+    "oracle_seconds": 2.4564575999975204,
+    "oracle_milps": 1,
+    "skipped_by_witness": 4,
+    "variables": 103686,
+    "constraints": 48470,
+    "nonzeros": 2201918,
+    "ot": 19210,
+    "tau": 68601,
+    "cost_ticks": 185246763586,
+    "rss_bytes": 513093632
+  },
+  {
+    "iteration": 6,
+    "active": [
+      "NOM",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe",
+      "GEAR_OEM_severe",
+      "SEAT_PROD_severe"
+    ],
+    "added": null,
+    "master_seconds": 162.69353280006908,
+    "oracle_seconds": 0.0004759998992085457,
+    "oracle_milps": 0,
+    "skipped_by_witness": 5,
+    "variables": 123581,
+    "constraints": 57666,
+    "nonzeros": 2640375,
+    "ot": 17543,
+    "tau": 86170,
+    "cost_ticks": 187136406279,
+    "rss_bytes": 649342976
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "replay_seconds": 63.316464400151744,
+  "representative_count": 5,
+  "iterations": 6,
+  "ot": 17543,
+  "tau": 86170,
+  "cost_ticks": 187136406279,
+  "max_residual": 0,
+  "coverage": {
+    "BAT_OEM_moderate": "BAT_OEM_severe",
+    "BAT_OEM_severe": "BAT_OEM_severe",
+    "BAT_PROD_moderate": "BAT_PROD_severe",
+    "BAT_PROD_severe": "BAT_PROD_severe",
+    "ENGINE_PROD_moderate": "ENGINE_PROD_severe",
+    "ENGINE_PROD_severe": "ENGINE_PROD_severe",
+    "GEAR_OEM_moderate": "GEAR_OEM_severe",
+    "GEAR_OEM_severe": "GEAR_OEM_severe",
+    "NOM": "BAT_OEM_severe",
+    "SEAT_PROD_moderate": "SEAT_PROD_severe",
+    "SEAT_PROD_severe": "SEAT_PROD_severe"
+  },
+  "method": "combined",
+  "wall_seconds": 552.0855785999447,
+  "peak_rss_bytes": 649342976,
+  "oracle_milps": 5,
+  "replay_milps": 33,
+  "master_seconds": 473.5587459006347,
+  "oracle_seconds": 15.197559299878776,
+  "mip_gap": 0.0
+}

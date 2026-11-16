@@ -1,0 +1,122 @@
+[
+  {
+    "run": "bounds_i2",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i3",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i3",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i4",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i4",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i4",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i4",
+    "scenario": "BAT_PROD_moderate",
+    "reason": "AUDITED_CACHED_WITNESS"
+  },
+  {
+    "run": "bounds_i5",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i5",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i5",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i5",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "GEAR_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i6",
+    "scenario": "NOM",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "BAT_OEM_moderate",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "GEAR_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "SEAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "bounds_i7",
+    "scenario": "NOM",
+    "reason": "MASTER_WITNESS"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "G1": {
+    "representatives": 5,
+    "status": "PASS",
+    "match_exactly": {
+      "service": true,
+      "backlog": true,
+      "economics": true
+    }
+  },
+  "G2": {
+    "representatives": 10,
+    "status": "BLOCKED",
+    "match_exactly": {
+      "service": true,
+      "backlog": true,
+      "economics": false
+    }
+  }
+}

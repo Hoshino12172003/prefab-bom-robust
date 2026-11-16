@@ -1,0 +1,77 @@
+[
+  {
+    "run": "combined_i2",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i3",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i3",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i4",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i4",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i4",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i5",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i5",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i5",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i5",
+    "scenario": "GEAR_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i6",
+    "scenario": "BAT_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i6",
+    "scenario": "BAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i6",
+    "scenario": "ENGINE_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i6",
+    "scenario": "GEAR_OEM_severe",
+    "reason": "MASTER_WITNESS"
+  },
+  {
+    "run": "combined_i6",
+    "scenario": "SEAT_PROD_severe",
+    "reason": "MASTER_WITNESS"
+  }
+]
