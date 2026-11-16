@@ -1,0 +1,22 @@
+[
+  {
+    "run": "plain_i1",
+    "scenarios": 1,
+    "build_seconds": 0.4794788998551667,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "solve_seconds": 2.764000177383423,
+    "peak_rss_bytes": 149225472
+  },
+  {
+    "run": "plain_i2",
+    "scenarios": 2,
+    "build_seconds": 0.9125381000339985,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "solve_seconds": 21.218000411987305,
+    "peak_rss_bytes": 256757760
+  }
+]

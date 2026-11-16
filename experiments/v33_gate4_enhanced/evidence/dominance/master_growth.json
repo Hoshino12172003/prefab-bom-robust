@@ -1,0 +1,22 @@
+[
+  {
+    "run": "dominance_i1",
+    "scenarios": 1,
+    "build_seconds": 0.4844384000170976,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "solve_seconds": 2.755000114440918,
+    "peak_rss_bytes": 149139456
+  },
+  {
+    "run": "dominance_i2",
+    "scenarios": 2,
+    "build_seconds": 0.7265051000285894,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "solve_seconds": 20.276000022888184,
+    "peak_rss_bytes": 256659456
+  }
+]

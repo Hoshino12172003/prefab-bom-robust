@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "replay_seconds": 58.865915099857375,
+  "representative_count": 11,
+  "iterations": 2,
+  "ot": 17543,
+  "tau": 86170,
+  "cost_ticks": 187136406279,
+  "max_residual": 0,
+  "coverage": {},
+  "method": "plain",
+  "wall_seconds": 154.57753019989468,
+  "peak_rss_bytes": 256757760,
+  "oracle_milps": 45,
+  "replay_milps": 33,
+  "master_seconds": 25.730185699881986,
+  "oracle_seconds": 69.98089180001989,
+  "mip_gap": 0.0
+}

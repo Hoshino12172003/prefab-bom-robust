@@ -1,0 +1,234 @@
+
+Gurobi 13.0.1 (win64, Python) logging started Mon Nov 16 20:03:16 2026
+
+Set parameter LogToConsole to value 0
+[local license metadata redacted]
+[local license metadata redacted]
+Set parameter TimeLimit to value 180
+Set parameter SoftMemLimit to value 12
+Set parameter FeasibilityTol to value 1e-08
+Set parameter IntFeasTol to value 1e-09
+Set parameter MIPGap to value 0
+Set parameter MIPGapAbs to value 0
+Set parameter LogFile to value "gurobi.log"
+Set parameter Threads to value 1
+[local license metadata redacted]
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+SoftMemLimit  12
+FeasibilityTol  1e-08
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 94450 rows, 203161 columns and 4394203 nonzeros (Max)
+Model fingerprint: 0x3f6cde4e
+Model has 1 linear objective coefficients
+Variable types: 1 continuous, 203160 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+03, 9e+05]
+  RHS range        [1e+00, 1e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Presolve removed 35067 rows and 6625 columns
+Presolve time: 4.86s
+Presolved: 59383 rows, 196536 columns, 1490511 nonzeros
+Variable types: 0 continuous, 196536 integer (8020 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8000000e+04   1.651066e+05   0.000000e+00      7s
+   31579    1.8375000e+04   0.000000e+00   0.000000e+00     10s
+
+Root relaxation: objective 1.837500e+04, 31579 iterations, 3.42 seconds (2.97 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 18375.0000    0   67          - 18375.0000      -     -   11s
+H    0     0                    18375.000000 18375.0000  0.00%     -   13s
+     0     0 18375.0000    0   67 18375.0000 18375.0000  0.00%     -   13s
+
+Explored 1 nodes (48682 simplex iterations) in 13.42 seconds (16.02 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 18375
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.837500000000e+04, best bound 1.837500000000e+04, gap 0.0000%
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+SoftMemLimit  12
+FeasibilityTol  1e-08
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 94450 rows, 203161 columns and 4394203 nonzeros (Min)
+Model fingerprint: 0x6bf9be72
+Model has 1 linear objective coefficients
+Variable types: 1 continuous, 203160 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [3e+03, 9e+05]
+  RHS range        [1e+00, 1e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+MIP start from previous solve produced solution with objective 854000 (0.45s)
+Loaded MIP start from previous solve with objective 854000
+
+Presolve removed 35057 rows and 6625 columns
+Presolve time: 4.58s
+Presolved: 59393 rows, 196536 columns, 1624561 nonzeros
+Variable types: 0 continuous, 196536 integer (8020 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   4.472941e+05   0.000000e+00      6s
+   37264    3.2313070e-01   3.486559e+06   0.000000e+00     10s
+   64598    7.4299233e+04   4.569209e+05   0.000000e+00     15s
+   80638    7.6333900e+04   0.000000e+00   0.000000e+00     19s
+
+Root relaxation: objective 7.633390e+04, 80638 iterations, 13.40 seconds (14.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 76333.9000    0 1688 854000.000 76333.9000  91.1%     -   22s
+H    0     0                    309446.00000 76333.9000  75.3%     -   23s
+H    0     0                    133627.00000 76333.9000  42.9%     -   24s
+     0     0 76349.4000    0  841 133627.000 76349.4000  42.9%     -   25s
+H    0     0                    76353.000000 76349.4000  0.00%     -   27s
+     0     0 76350.8000    0  388 76353.0000 76350.8000  0.00%     -   30s
+     0     0 76351.0000    0  303 76353.0000 76351.0000  0.00%     -   30s
+     0     0 76351.0000    0  303 76353.0000 76351.0000  0.00%     -   35s
+     0     0 76351.0000    0  303 76353.0000 76351.0000  0.00%     -   37s
+H    0     0                    76352.000000 76351.0000  0.00%     -   41s
+H    0     0                    76351.000000 76351.0000  0.00%     -   42s
+     0     0 76351.0000    0  303 76351.0000 76351.0000  0.00%     -   42s
+
+Cutting planes:
+  Gomory: 6
+  MIR: 13
+  Mod-K: 1
+
+Explored 1 nodes (110488 simplex iterations) in 42.48 seconds (42.44 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 6: 76351 76352 76353 ... 854000
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.635100000000e+04, best bound 7.635100000000e+04, gap 0.0000%
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 5 225H, instruction set [SSE2|AVX|AVX2]
+Thread count: 14 physical cores, 14 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  180
+SoftMemLimit  12
+FeasibilityTol  1e-08
+IntFeasTol  1e-09
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 94450 rows, 203161 columns and 4394203 nonzeros (Min)
+Model fingerprint: 0xc6468bff
+Model has 2114 linear objective coefficients
+Variable types: 1 continuous, 203160 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  Objective range  [1e+00, 4e+09]
+  Bounds range     [3e+03, 1e+05]
+  RHS range        [1e+00, 1e+10]
+Warning: Model contains large objective coefficients
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+MIP start from previous solve produced solution with objective 9.60648e+11 (0.49s)
+Loaded MIP start from previous solve with objective 9.60648e+11
+
+Presolve removed 35047 rows and 5785 columns
+Presolve time: 4.45s
+Presolved: 59403 rows, 197376 columns, 1657521 nonzeros
+Variable types: 0 continuous, 197376 integer (8020 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.8317407e+11   1.016505e+06   0.000000e+00      6s
+   40669    8.1431819e+10   1.193591e+09   0.000000e+00     10s
+   69556    8.4824345e+10   1.704224e+08   0.000000e+00     15s
+   87627    8.5325716e+10   2.108896e+08   0.000000e+00     20s
+  112928    8.7376790e+10   1.511747e+08   0.000000e+00     25s
+  130620    8.8622001e+10   2.662810e+08   0.000000e+00     30s
+  145856    8.8828024e+10   1.112053e+09   0.000000e+00     35s
+  174182    9.5050248e+10   1.528530e+08   0.000000e+00     40s
+  196651    9.5050249e+10   1.936227e+08   0.000000e+00     45s
+  210961    9.5050249e+10   3.658786e+08   0.000000e+00     50s
+  234789    5.0670545e+11   2.487486e+08   0.000000e+00     55s
+  257649    5.0740615e+11   1.702314e+08   0.000000e+00     60s
+  270299    5.0741737e+11   3.099515e+08   0.000000e+00     65s
+  281649    5.0741780e+11   3.279693e+08   0.000000e+00     70s
+  293720    5.0741780e+11   3.480226e+08   0.000000e+00     75s
+  305830    5.0741780e+11   6.725131e+08   0.000000e+00     80s
+  318290    5.0763697e+11   3.061469e+08   0.000000e+00     85s
+  332540    5.0768519e+11   3.275095e+08   0.000000e+00     90s
+  342130    5.0790464e+11   2.730893e+08   0.000000e+00     95s
+  357080    5.0790464e+11   5.098674e+08   0.000000e+00    100s
+  370930    5.0816619e+11   5.486358e+08   0.000000e+00    105s
+  383330    5.0816619e+11   5.473383e+08   0.000000e+00    110s
+  393960    5.0823633e+11   5.311662e+08   0.000000e+00    115s
+  405290    5.0827724e+11   5.841301e+08   0.000000e+00    120s
+  417888    5.0841459e+11   3.760687e+08   0.000000e+00    125s
+  430738    5.0841459e+11   3.797158e+08   0.000000e+00    130s
+  446248    5.0841459e+11   3.036868e+08   0.000000e+00    135s
+  457498    5.0841459e+11   3.037460e+08   0.000000e+00    140s
+  464658    5.0841459e+11   2.990127e+08   0.000000e+00    145s
+  473758    5.0841459e+11   2.529491e+08   0.000000e+00    150s
+  486938    5.0849138e+11   5.128926e+08   0.000000e+00    155s
+  497517    5.0853814e+11   3.128348e+08   0.000000e+00    160s
+  510457    5.0856298e+11   3.542566e+08   0.000000e+00    165s
+  523445    5.0861266e+11   3.379342e+08   0.000000e+00    170s
+  537166    5.0871056e+11   3.696943e+08   0.000000e+00    175s
+
+Root relaxation: time limit, 550470 iterations, 174.88 seconds (250.89 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0      9.6065e+11 -4.566e+12   575%     -  180s
+
+Explored 1 nodes (550470 simplex iterations) in 180.06 seconds (260.44 work units)
+Thread count was 1 (of 14 available processors)
+
+Solution count 1: 9.60648e+11
+
+Time limit reached
+Best objective 9.606484252570e+11, best bound -4.565893959150e+12, gap 575.2929%

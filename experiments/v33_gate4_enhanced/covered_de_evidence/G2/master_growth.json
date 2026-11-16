@@ -1,0 +1,12 @@
+[
+  {
+    "run": "covered_DE",
+    "scenarios": 10,
+    "build_seconds": 3.824049500050023,
+    "variables": 203161,
+    "constraints": 94450,
+    "nonzeros": 4394203,
+    "solve_seconds": 235.98099994659424,
+    "peak_rss_bytes": 858284032
+  }
+]

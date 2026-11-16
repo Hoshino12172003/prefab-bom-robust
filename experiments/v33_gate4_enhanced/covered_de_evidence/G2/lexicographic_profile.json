@@ -1,0 +1,47 @@
+[
+  {
+    "run": "covered_DE",
+    "level": "service",
+    "solver_status": "OPTIMAL",
+    "solution_count": 1,
+    "best_bound": 18375.0,
+    "runtime_seconds": 13.42799997329712,
+    "node_count": 1.0,
+    "objective": 18375.0,
+    "mip_gap": 0.0,
+    "integrality_error": 0.0,
+    "model_row_violation": 0.0,
+    "model_bound_violation": 0.0,
+    "exact": true
+  },
+  {
+    "run": "covered_DE",
+    "level": "backlog",
+    "solver_status": "OPTIMAL",
+    "solution_count": 6,
+    "best_bound": 76351.0,
+    "runtime_seconds": 42.48900008201599,
+    "node_count": 1.0,
+    "objective": 76351.0,
+    "mip_gap": 0.0,
+    "integrality_error": 0.0,
+    "model_row_violation": 0.0,
+    "model_bound_violation": 0.0,
+    "exact": true
+  },
+  {
+    "run": "covered_DE",
+    "level": "economics",
+    "solver_status": "TIME_LIMIT",
+    "solution_count": 1,
+    "best_bound": -4565893959150.0,
+    "runtime_seconds": 180.06399989128113,
+    "node_count": 1.0,
+    "objective": 960648425257.0,
+    "mip_gap": 5.752929208131994,
+    "integrality_error": 0.0,
+    "model_row_violation": 0.0,
+    "model_bound_violation": 0.0,
+    "exact": false
+  }
+]

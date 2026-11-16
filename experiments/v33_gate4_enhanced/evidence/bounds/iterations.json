@@ -1,0 +1,149 @@
+[
+  {
+    "iteration": 1,
+    "active": [
+      "NOM"
+    ],
+    "added": "BAT_OEM_moderate",
+    "master_seconds": 3.4080311998259276,
+    "oracle_seconds": 4.0262846001423895,
+    "oracle_milps": 1,
+    "skipped_by_witness": 0,
+    "variables": 24106,
+    "constraints": 11686,
+    "nonzeros": 448090,
+    "ot": 26477,
+    "tau": 30148,
+    "cost_ticks": 180577916733,
+    "rss_bytes": 149606400
+  },
+  {
+    "iteration": 2,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate"
+    ],
+    "added": "BAT_OEM_severe",
+    "master_seconds": 18.407811200013384,
+    "oracle_seconds": 2.9728564999531955,
+    "oracle_milps": 1,
+    "skipped_by_witness": 1,
+    "variables": 44001,
+    "constraints": 20882,
+    "nonzeros": 886547,
+    "ot": 26477,
+    "tau": 30173,
+    "cost_ticks": 180636962889,
+    "rss_bytes": 221483008
+  },
+  {
+    "iteration": 3,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate",
+      "BAT_OEM_severe"
+    ],
+    "added": "BAT_PROD_severe",
+    "master_seconds": 39.5997667000629,
+    "oracle_seconds": 6.087194700026885,
+    "oracle_milps": 2,
+    "skipped_by_witness": 2,
+    "variables": 63896,
+    "constraints": 30078,
+    "nonzeros": 1325004,
+    "ot": 26461,
+    "tau": 30892,
+    "cost_ticks": 181541776743,
+    "rss_bytes": 305352704
+  },
+  {
+    "iteration": 4,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe"
+    ],
+    "added": "ENGINE_PROD_severe",
+    "master_seconds": 58.11786380014382,
+    "oracle_seconds": 9.783839700045064,
+    "oracle_milps": 2,
+    "skipped_by_witness": 4,
+    "variables": 83791,
+    "constraints": 39274,
+    "nonzeros": 1763461,
+    "ot": 26093,
+    "tau": 32337,
+    "cost_ticks": 184120043702,
+    "rss_bytes": 378331136
+  },
+  {
+    "iteration": 5,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe"
+    ],
+    "added": "GEAR_OEM_severe",
+    "master_seconds": 118.80081739998423,
+    "oracle_seconds": 14.275872699916363,
+    "oracle_milps": 4,
+    "skipped_by_witness": 4,
+    "variables": 103686,
+    "constraints": 48470,
+    "nonzeros": 2201918,
+    "ot": 25307,
+    "tau": 33168,
+    "cost_ticks": 207588740334,
+    "rss_bytes": 482783232
+  },
+  {
+    "iteration": 6,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe",
+      "GEAR_OEM_severe"
+    ],
+    "added": "SEAT_PROD_severe",
+    "master_seconds": 138.89524749992415,
+    "oracle_seconds": 21.625250099925324,
+    "oracle_milps": 5,
+    "skipped_by_witness": 6,
+    "variables": 123581,
+    "constraints": 57666,
+    "nonzeros": 2640375,
+    "ot": 19210,
+    "tau": 68601,
+    "cost_ticks": 185246763586,
+    "rss_bytes": 549081088
+  },
+  {
+    "iteration": 7,
+    "active": [
+      "NOM",
+      "BAT_OEM_moderate",
+      "BAT_OEM_severe",
+      "BAT_PROD_severe",
+      "ENGINE_PROD_severe",
+      "GEAR_OEM_severe",
+      "SEAT_PROD_severe"
+    ],
+    "added": null,
+    "master_seconds": 158.8169444000814,
+    "oracle_seconds": 18.955040300032124,
+    "oracle_milps": 4,
+    "skipped_by_witness": 7,
+    "variables": 143476,
+    "constraints": 66862,
+    "nonzeros": 3078832,
+    "ot": 17543,
+    "tau": 86170,
+    "cost_ticks": 187136406279,
+    "rss_bytes": 605659136
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "commit_sha": "2ceff31ef6ad145805dffb5d14834c1ffc0d681d",
+  "runner_sha256": "151ae006e355ba17a641010cc4e4b2ca64f74213fd7a2e96f1de98628365b293",
+  "input_sha256": {
+    "v31_gate1_nominal_certification.py": "450af1244775fc08051af28ccfa34258ebe364d0531eeeae0193aa56252844f5",
+    "V31_Final_Math_Spec.docx": "29c89699de58d58b46de5ded9278183f21b57b55a6052c8607154bd9349c0ebf",
+    "V31_Gate0_Gate2_Audit.xlsx": "dc1cea9fe7872527e2ea666a293ae4783d27a59252463df316aeeb2393094d84",
+    "phase17_815a87f562f0400ca3917d1551e435b0.xlsb": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+    "V31_Codex_Inputs.zip": "1c5c2cfce77a8f35edc7d380190f46c2b30cc1830883bc235056d40ef1f813c5"
+  },
+  "python": "3.12.7",
+  "gurobi": "13.0.1",
+  "config": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 3600
+  },
+  "residual_tolerance": 1e-06,
+  "random_seed": 0,
+  "protocol_sha256": "ee08a4921ea2321ff43a1e52a3c69396b63503f29443333609bb056216973ffe",
+  "protocol_manifest_sha256": "8c95d2fedd3bb9aa58e203a1ab86e72f37cbae7cf17338df95909c6acc5522fd",
+  "protocol_commit": "d7918025268d3b5a9bb5b48484bd43e164a83c9e",
+  "tail": "CALENDAR_REPEAT",
+  "solver_parameters": {
+    "Threads": 1,
+    "Seed": 0,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-09,
+    "TimeLimit": 180,
+    "SoftMemLimit": 12
+  },
+  "algorithm": "bounds",
+  "manual_start": false,
+  "parallel_oracle": false,
+  "gamma": 1,
+  "budget_cents": 22931054,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "purpose": "DIAGNOSTIC_ONE_CASE_ABLATION"
+}
