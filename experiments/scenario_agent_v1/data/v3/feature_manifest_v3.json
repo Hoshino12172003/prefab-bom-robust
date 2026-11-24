@@ -1,0 +1,1000 @@
+{
+  "model_instance_id": "v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d",
+  "model_spec": {
+    "version": "V3_HISTORICAL_SERVICE",
+    "periods": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "objective": "max_worst_on_time_count",
+    "buffer_names": [
+      "x_C",
+      "x_T",
+      "x_O"
+    ],
+    "costs": [
+      "1",
+      "27/19",
+      "297/190"
+    ],
+    "budget": "17388/19",
+    "oem_seat_inventory_upper": 0,
+    "recovery": "ABRUPT",
+    "capacity": "RAW_XLSB"
+  },
+  "feature_version": "v3.features.1.0.0",
+  "source_zip_sha256": "dec8343a2c63f434452efc3e9ec31fac2f81f508b77baeb9a80b3b8035595ed5",
+  "source_xlsb_sha256": "1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e",
+  "pinned_sources": {
+    "src/prefab_v25/data.py": "f1a9601c7ff2ecad262524c6003d3238c36b880cc04d51cb15f5ff31732e0cc4",
+    "src/prefab_v25/source.py": "c85d305dd3fb04e7ef3c5d8b650557036b7af519368764d1332a9bb8cbc9b21b",
+    "src/prefab_v3/base.py": "46dce2984d728f537ee17af89411c45fd1f0d864998ccbe57c00eb2d0402646f",
+    "src/prefab_v3/plain_ccg.py": "6811ee2baa397426f14dd1896db94cd9ddd56e3b5869f942a439012df16b86de",
+    "src/prefab_v3/robust.py": "1c11eaed09f6d0d8d47db1796ecc312deb95abd7c972d3ecb136f8f18d2b623b",
+    "src/prefab_v3/interface.py": "20f438d675132763d638b326439a8736109d4d3a9855685869c86f88cdbf6bda",
+    "artifacts/v3_phase31r_20261111_202237/design.py": "fbb3472e70ff6c2db76ebefc1dd90028e09be9a76fc0c197ca627e945c89bb35",
+    "artifacts/v3_phase31r_20261111_202237/run_matrix.py": "af0740f5424c290bbace038bf5cedc5fc95a423f293ad127687673ebfaf7c31b",
+    "artifacts/v3_phase32a_20261111_212045/run_benchmark.py": "180bc448d2b8880436a500829e50c061951497851d6daac69c4606beeb7e2096",
+    "artifacts/v3_phase32b_20261111_214914/profile_runs.py": "a9a121417e3918d0d8ea698d80f8464bf38b58e9501bbe10f219c82999833014",
+    "artifacts/v3_phase32b_20261111_214914/structure.py": "d81b3ea9ec25a0b7378eec52bfd187e95278068e42329701898175bcdc7e6d2c",
+    "artifacts/v3_phase32b_20261111_214914/risk_pattern_signature.csv": "5d4355fdabbaf0feb5715bfd9245041473316153bfc4e230b66daf2b79527338",
+    "artifacts/v3_phase32b_20261111_214914/rhs_equivalence_audit.csv": "f1728761a3973fb31e4d485a820264fa252dd0483867a571533871d369eda693",
+    "artifacts/v3_phase32a_20261111_212045/sha256_manifest.csv": "71a0b673b46e4f4a4b0427cb6bcfc45966007dbf13768dde564e0377b2fa99da",
+    "artifacts/v3_phase32b_20261111_214914/sha256_manifest.csv": "7a6cfbc96232630b9f25300ddae8b87c7ac09f1808c2650c18162a87c5193bd5"
+  },
+  "historical_sources": {
+    "artifacts/v3_phase32a_20261111_212045/n04_CCG_INFORMED.json": "e8a708d3b0b1a47a214c1200bc538dbc44074d113332c04da2016704c25cbf17",
+    "artifacts/v3_phase32a_20261111_212045/n04_CCG_MINIMAL.json": "da61452c8716db9d39d39d1a3a4f7f22c5f0475e6bb21271b5ea93d80eb3dc6c",
+    "artifacts/v3_phase32a_20261111_212045/n04_DIRECT_DE.json": "283f6054963ebe193cf9967dd2f6d259695ad88813389c86748cc8db18de4701",
+    "artifacts/v3_phase32a_20261111_212045/n08_CCG_INFORMED.json": "eee23ccff0a7b3bfc825bcc224c584d25c00ff9ebe12f00bc86f9df07b4a7723",
+    "artifacts/v3_phase32a_20261111_212045/n08_CCG_MINIMAL.json": "8786f3622455cc90e43c3d5f6f621958c670285fd308abb1c7e5805fda112359",
+    "artifacts/v3_phase32a_20261111_212045/n08_DIRECT_DE.json": "447ea82e09527ddf96aa77fcadda1946aa5bac6cf79b451b7aa0f12cc20133ba",
+    "artifacts/v3_phase32a_20261111_212045/n16_CCG_INFORMED.json": "d35cace01f61586e7b94bf8c1fda835a95ec0168b9b974b368f0579d1b19d2b8",
+    "artifacts/v3_phase32a_20261111_212045/n16_CCG_MINIMAL.json": "2023f6960a96ee4fc82f8cf1c9c3f49de9e0c982e6304cce8c1142d8e608feb7",
+    "artifacts/v3_phase32a_20261111_212045/n16_DIRECT_DE.json": "60368365d26e88eeb206f9ebc50c7f839db0b40bd83f3310fc0898a6b8357a6d",
+    "artifacts/v3_phase32b_20261111_214914/n04_PLAIN.json": "36fc82fa25bf696b7ca93e0671191452ff2f8b87cecf17b06aa675ad7c9a0237",
+    "artifacts/v3_phase32b_20261111_214914/n08_PLAIN.json": "37898223581e60fb27d31d373f0a26da47212719c3161b79d1229f477cec8478",
+    "artifacts/v3_phase32b_20261111_214914/n16_BATCH2.json": "b4a21bc9828a70bb95fcffc1395efbe52f72372550bb24b0dbbb7505d0406bc2",
+    "artifacts/v3_phase32b_20261111_214914/n16_BATCH4.json": "50b5b1c807d14317cd82075b5a9a5be567f07be849e48942b3f13947709d7af6",
+    "artifacts/v3_phase32b_20261111_214914/n16_PLAIN.json": "4588d441fc8931fe8fd13983c230838d3f92c139ccfa84e805f51b1155333121",
+    "artifacts/v3_phase32b_20261111_214914/n16_TWO.json": "3e8e35af395c7a12e721d3c1e5ea35b0f91398f5ebca8a3caf3cc25ae2a16163",
+    "artifacts/v3_phase32b_20261111_214914/n24_DIRECT.json": "1c88fc3e2e1e9717b4c162cf29f33e884a18691577c21d0176c80df6e2c0365f",
+    "artifacts/v3_phase32b_20261111_214914/n24_INIT_A.json": "f4fb5a748685200b81119d06b1ee815bbf382ae0f035bc714953cb3afd039518",
+    "artifacts/v3_phase32b_20261111_214914/n24_INIT_B.json": "c00e4064905912484d483d1a4d9b92871aa45215ce5c9237c29b5428f0684e42",
+    "artifacts/v3_phase32b_20261111_214914/n24_INIT_C.json": "d049240a9886444a8dab55a99112ad3eb9433e9b4a7f7cf1b8f00481b5413ea7",
+    "artifacts/v3_phase32b_20261111_214914/n24_INIT_D.json": "81f0b6db2b83c8a22eccf869e197d5f2a99599fd6fefcecc1d23fdc7f37ebec4",
+    "artifacts/v3_phase32b_20261111_214914/n24_INIT_E.json": "d103a283a504d1c2100f3e5f1520bb7a853450d69abceb981146f7a3587267a7",
+    "artifacts/v3_phase32b_20261111_214914/n32_DIRECT.json": "072504265929fdabe9b04158763847245b697c7c88354c523ed049f4c9fd5bdb",
+    "artifacts/v3_phase32b_20261111_214914/n32_PLAIN.json": "b240acba5213e09163c3cc162dbd0088b7e3abff79ae85f082864dee7f75be56",
+    "artifacts/v3_phase32b_20261111_214914/n38_DIRECT.json": "ceb1edc103dc5eba098d062f2fb41a1f8c676129df06d1807e06585f2c452ad7",
+    "artifacts/v3_phase32b_20261111_214914/n38_PLAIN.json": "6ed23e8169ba605b29f4492239578c7b625d6d0374abdb9610ea8ba62f696c1a"
+  },
+  "extractor_code_sha256": {
+    "src/scenario_agent/__init__.py": "83b2d3ae9e48cb8fb2537843b25637a8e92ecd18f767d61e44e838985fd9ec34",
+    "src/scenario_agent/v3_feature_extractor/__init__.py": "2182f95a064e71a64d096f1015b797e0c9f8f53ebcbc9dfa4d61480fd5a1ca6a",
+    "src/scenario_agent/v3_feature_extractor/build.py": "54d5d9c5897752a0876c02799d6762cbc612e35ed635efac8161d299de1ac41f",
+    "src/scenario_agent/v3_feature_extractor/extractor.py": "0283e37061d2c6fe858a82411bac5507326ade211f36f7408cdf9670cde0e2f3",
+    "src/scenario_agent/v3_feature_extractor/historical.py": "d2fad59674a0206b3f6ab39a4a509fb6f94fd299616a45377381c688f46126c4",
+    "src/scenario_agent/v3_feature_extractor/interaction_features.py": "8afc891e90f673787ceee001da8b23c8ed89818f38d97aa5f39497c2aab0bab6",
+    "src/scenario_agent/v3_feature_extractor/manifest.py": "c265a71498e598cdc6e3e8b8f25127cae0fa436364fe40734344dac7e98abc07",
+    "src/scenario_agent/v3_feature_extractor/master_features.py": "70a32d40151fdfcd34b491ee8d1db1727b25ec69e26d1b1630c7ea11e8d00008",
+    "src/scenario_agent/v3_feature_extractor/network_features.py": "59ddcb360a7a8bac036d5e4529afc0b2dc06a3d20bb82df6b731cc06db0fee4b",
+    "src/scenario_agent/v3_feature_extractor/preprocessing.py": "513945e51c6f9ce69e7e52c7bcdfe53d73275d62b1cadf10851547b8d4200582",
+    "src/scenario_agent/v3_feature_extractor/scenario_features.py": "39bb95b96b2a53f01e68a41b52b28feb0f240d8529c9cc0b246577e301526094",
+    "src/scenario_agent/v3_feature_extractor/schema.py": "0916d115bbced84e45cfb127091c91e112ebb079d5970f7c92d52ca861e66752",
+    "src/scenario_agent/v3_feature_extractor/source.py": "bcddeffbf25888a0875508d915da4184b864d45c9d787c6af99dc41b0790fbe6"
+  },
+  "git_head": "02143f46cab6e6a173a0f495e21b20d21311096f",
+  "counts": {
+    "network_nodes_v3": 12,
+    "network_arcs_v3": 11,
+    "arc_periods_v3": 154,
+    "bom_relations_raw": 87059,
+    "bom_recipes_v3": 1377,
+    "bom_recipe_inputs_v3": 3979,
+    "scenario_catalog_v3": 40,
+    "master_snapshots_v3": 33,
+    "oracle_calls_v3": 576,
+    "oracle_labels_v3": 576,
+    "sample_manifest_v3": 576
+  },
+  "effective_rhs_count": 38,
+  "ranking_groups": 33,
+  "policy_rhs_pairs": 148,
+  "first_round_null_lb": 322,
+  "certified_previous_lb": 254,
+  "no_optimization": true,
+  "no_model_training": true,
+  "preprocessing_fitted": false,
+  "feature_fields": [
+    {
+      "name": "network_nodes",
+      "dtype": "int64",
+      "unit": "location_count",
+      "formula": "len(nodes)",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_arcs",
+      "dtype": "int64",
+      "unit": "arc_count",
+      "formula": "len(arcs)",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_recipes",
+      "dtype": "int64",
+      "unit": "recipe_count",
+      "formula": "sum(len(arc.recipes))",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_recipe_inputs",
+      "dtype": "int64",
+      "unit": "input_term_count",
+      "formula": "sum(len(recipe))",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_order_count",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "sum(cohort sizes)",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_configuration_count",
+      "dtype": "int64",
+      "unit": "configuration_count",
+      "formula": "distinct direct BOM signatures excluding due",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "network_horizon",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "len(periods)",
+      "source": "XLSB + pinned source_base",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "scenario_event_count",
+      "dtype": "int64",
+      "unit": "event_count",
+      "formula": "len(raw_events)",
+      "source": "raw_events",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "scenario_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "len(integer changes)",
+      "source": "verified signature",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "scenario_is_nominal_rhs",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "integer signature is empty",
+      "source": "verified signature",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_RECEIPT_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_PROD_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_B_SHIP_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_ENGINE_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_GEAR_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_present",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "resource in events",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_severity_loss",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "event severity loss",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_start_offset",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "start-61",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_duration",
+      "dtype": "int64",
+      "unit": "period",
+      "formula": "duration",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_changed_rows",
+      "dtype": "int64",
+      "unit": "RHS_row_count",
+      "formula": "effective changed rows of resource",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_SEAT_mean_effective_loss_rate",
+      "dtype": "float64",
+      "unit": "fraction",
+      "formula": "mean((nominal-effective)/nominal) over changed positive-nominal rows",
+      "source": "raw_events + original capacity/receipts",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_reachable_skus",
+      "dtype": "int64",
+      "unit": "SKU_count",
+      "formula": "distinct non-car SKU reachable by 74",
+      "source": "V3 recipe graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_reachable_orders",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "sum(cohort sizes reachable before due)",
+      "source": "V3 recipe graph + due",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_reachable_configs",
+      "dtype": "int64",
+      "unit": "configuration_count",
+      "formula": "distinct BOM of exposed cohorts",
+      "source": "V3 BOM",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_first_delivery_period",
+      "dtype": "int64",
+      "unit": "period_index",
+      "formula": "min potential arrival among exposed cohorts",
+      "source": "V3 recipe graph + due",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_61",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=61",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_62",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=62",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_63",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=63",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_64",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=64",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_65",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=65",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_66",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=66",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_67",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=67",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_68",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=68",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_69",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=69",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_70",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=70",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_71",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=71",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_72",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=72",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_73",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=73",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "risk_due_74",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "any exposed cohort due=74",
+      "source": "V3 demand + graph",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_iteration",
+      "dtype": "int64",
+      "unit": "iteration_count",
+      "formula": "iteration_id",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_C",
+      "dtype": "int64",
+      "unit": "complete_cell_kit",
+      "formula": "policy[0]",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_T",
+      "dtype": "int64",
+      "unit": "Pack",
+      "formula": "policy[1]",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_O",
+      "dtype": "int64",
+      "unit": "Pack",
+      "formula": "policy[2]",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_active_count",
+      "dtype": "int64",
+      "unit": "RHS_count",
+      "formula": "len(active_rhs_ids)",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_budget",
+      "dtype": "float64",
+      "unit": "normalized_investment",
+      "formula": "17388/19",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_remaining_budget",
+      "dtype": "float64",
+      "unit": "normalized_investment",
+      "formula": "budget-sum(cost[i]*policy[i])",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_ub",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "current exact Master upper",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_lb_before",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "previous certified lower; first round NULL",
+      "source": "MasterStateV3",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "master_lb_initialized",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "lb_before is not NULL",
+      "source": "MasterStateV3",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "scenario_already_active",
+      "dtype": "int64",
+      "unit": "boolean",
+      "formula": "scenario.RHS in active RHS",
+      "source": "scenario + Master",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_C_timed_exposed_orders",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "exposed cohorts intersect cohorts reachable from buffer at 61 before due",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_C_units_per_exposed_order",
+      "dtype": "float64",
+      "unit": "Pack_equivalent_per_vehicle",
+      "formula": "buffer quantity / timed exposed orders; no feasibility claim",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_C_bypassed_battery_resources",
+      "dtype": "int64",
+      "unit": "resource_count",
+      "formula": "count present battery risks at or upstream of buffer injection",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_T_timed_exposed_orders",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "exposed cohorts intersect cohorts reachable from buffer at 61 before due",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_T_units_per_exposed_order",
+      "dtype": "float64",
+      "unit": "Pack_equivalent_per_vehicle",
+      "formula": "buffer quantity / timed exposed orders; no feasibility claim",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_T_bypassed_battery_resources",
+      "dtype": "int64",
+      "unit": "resource_count",
+      "formula": "count present battery risks at or upstream of buffer injection",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_O_timed_exposed_orders",
+      "dtype": "int64",
+      "unit": "vehicle",
+      "formula": "exposed cohorts intersect cohorts reachable from buffer at 61 before due",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_O_units_per_exposed_order",
+      "dtype": "float64",
+      "unit": "Pack_equivalent_per_vehicle",
+      "formula": "buffer quantity / timed exposed orders; no feasibility claim",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": true,
+      "information_time": "after_master_before_oracle"
+    },
+    {
+      "name": "buffer_O_bypassed_battery_resources",
+      "dtype": "int64",
+      "unit": "resource_count",
+      "formula": "count present battery risks at or upstream of buffer injection",
+      "source": "V3 recipes/lead + events + policy",
+      "nullable": false,
+      "information_time": "after_master_before_oracle"
+    }
+  ],
+  "source_sheet_columns": {
+    "products": [
+      "product_p",
+      "group_g",
+      "transportation_size_s"
+    ],
+    "nodes": [
+      "node_n"
+    ],
+    "nodes_inflow": [
+      "node_n",
+      "product_p"
+    ],
+    "arcs": [
+      "starting_node_i",
+      "ending_node_j",
+      "process_lead_time_l_ij",
+      "group_g"
+    ],
+    "capacity_at_arc": [
+      "starting_node_i",
+      "ending_node_j",
+      "period_t",
+      "capacity_c_ijt"
+    ],
+    "max_flow_product_per_arc": [
+      "starting_node_i",
+      "ending_node_j",
+      "product_p",
+      "period_t",
+      "planned_flow"
+    ],
+    "max_flow_group_per_arc": [
+      "starting_node_i",
+      "ending_node_j",
+      "group_g",
+      "period_t",
+      "planned_flow"
+    ],
+    "operations": [
+      "node_n",
+      "input_product_group_x",
+      "output_product_group_y",
+      "input_quantity_in_nxy",
+      "output_quantity_out_nxy",
+      "alpha_nxy",
+      "beta_nxy"
+    ],
+    "BOM": [
+      "mother",
+      "child",
+      "individual_input_quantity_q_mc"
+    ],
+    "demands": [
+      "node_n",
+      "product_p",
+      "demand_d_npt",
+      "period_t"
+    ],
+    "initial_inventories": [
+      "node_n",
+      "product_p",
+      "initial_inventory_I_np0",
+      "safety_stock",
+      "max_inventory",
+      "period_t"
+    ],
+    "initial_flows": [
+      "starting_node_i",
+      "ending_node_j",
+      "product_p",
+      "period_t",
+      "initial_flow"
+    ]
+  },
+  "csv_contract": {
+    "null": "empty cell",
+    "boolean": "true/false",
+    "nested": "JSON",
+    "rational": "exact numerator/denominator string"
+  },
+  "units": {
+    "time": "period",
+    "policy": [
+      "complete_cell_kit",
+      "Pack",
+      "Pack"
+    ],
+    "budget": "normalized_investment",
+    "service": "vehicle",
+    "bom": "child_sku_unit/parent_sku_unit"
+  },
+  "formulas": {
+    "receipt_period": "dispatch + arc.lead",
+    "budget_remaining": "17388/19 - x_C - 27*x_T/19 - 297*x_O/190",
+    "cells_to_kits": "min(q1//10,q2//6,q3//4); material ceiling, NOT feasible production",
+    "effective_rhs": "floor(nominal*(1-loss_fraction))",
+    "first_lb": "NULL, never current iteration lower"
+  },
+  "unimplemented": [
+    "inventory_exposure",
+    "feasible_buffer_mitigation",
+    "recovery_backlog",
+    "economic_features",
+    "GNN"
+  ],
+  "outputs": {
+    "arc_periods_v3.csv": "6c10befc4e86874aa9fa7caefb1c6b9b409853b50d5d940f8c2552b79fc4e65a",
+    "bom_recipe_inputs_v3.csv": "62151da26904c81ad94f61b9a394d8d29feba05912428e55ec842282677788fa",
+    "bom_recipes_v3.csv": "88294a295f78cb81601957183fe38b9f2f8659f34dae7c164c456a854272d14e",
+    "bom_relations_raw.csv": "55492224d2202f2ea34f97afc2464eee3393dcd535424ffdb50633ae7bbcae98",
+    "master_snapshots_v3.csv": "65afe047c63376794c3772dd5594d5fd855e687d0f60be11a8a88de2d204bf70",
+    "network_arcs_v3.csv": "cde4161f5f5006cadc4bb80b7e2e9a50f89581be278ce8c4f545555d31f08241",
+    "network_nodes_v3.csv": "92a5fcc8093d5038723b14b43b356e378ba70f20762f2454c693f67ca22bd6f5",
+    "oracle_calls_v3.csv": "c21daa680192e52a2ac3c0c420ada704d9d17eff13f39073748e9e09e15ed1e1",
+    "oracle_labels_v3.csv": "520bce8b7e1622fae717677155f8f5436b185baa18643979a5835915ea1b12b7",
+    "preprocessing_contract_v3.json": "7f947dbe03f0c5d5853b503492bfd0fe1be0a8c6617785cac8e12acdf9c50cc1",
+    "sample_manifest_v3.csv": "7f1a2d195ec80f616ac844d93fe2e8b8cfd992c2d448535c3317b260e4ebafe6",
+    "scenario_catalog_v3.csv": "736992b9d435698f85593e4a6df854508fbb6ac3ea48d8ea2661723cc977783a",
+    "source_workbook_v3.json": "f0c21409ef3154799da5974c7caf559f02a08a82755095ea285b5012ff32eb29"
+  }
+}

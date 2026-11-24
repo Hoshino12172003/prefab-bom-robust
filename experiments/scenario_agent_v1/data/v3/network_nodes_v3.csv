@@ -1,0 +1,13 @@
+node_id,role,in_degree,out_degree,external_skus_json,source_sheet,source_row,model_instance_id,source_xlsb_sha256
+zp7,assembly,4,1,[],nodes,2,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+zp8,delivery,1,0,[],nodes,3,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+seat-supplier_inv,inventory,1,1,[],nodes,4,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+seat-supplier_prod,production,1,1,[],nodes,5,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+seat-supplier_trans,source_transport,0,1,"[""componment_seat1"",""componment_seat2"",""componment_seat3"",""componment_seat4""]",nodes,6,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+battery-supplier_inv,inventory,1,1,[],nodes,7,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+battery-supplier_prod,production,1,1,[],nodes,8,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+battery-supplier_trans,source_transport,0,1,"[""componment_battery1"",""componment_battery2"",""componment_battery3""]",nodes,9,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+gear-supplier_inv,inventory,1,1,[],nodes,10,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+gear-supplier_prod,production,0,1,"[""G0K"",""G1C"",""G1D"",""G1A"",""G0C"",""G1Z"",""G0L"",""G0R""]",nodes,11,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+engine-supplier_inv,inventory,1,1,[],nodes,12,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
+engine-supplier_prod,production,0,1,"[""DN4"",""DG6"",""DK8"",""DG8"",""D33"",""DQ9"",""D64"",""DS9"",""DE5"",""D83"",""D80"",""D02"",""DP2"",""DK7"",""DQ4"",""D2I"",""DR8"",""DE4"",""D60"",""DB8"",""DK9"",""DM4"",""DN6"",""DB0"",""DF6"",""DN1"",""DF4"",""DE2"",""D36""]",nodes,13,v3-063f9d24e1c1a6ba5c57978d02402520059aa7b83aedf720078b1363cad5327d,1ea0bcdea3225d308be913c9ca0f377585e1863847c78d6e8eec10b6de82889e
