@@ -1,0 +1,111 @@
+{
+  "version": "v1.baselines.1",
+  "A_rule": {
+    "class_name": "RuleBasedBaseline",
+    "fitted": false,
+    "Oracle_data_used": false,
+    "output_unit": "dimensionless_negative_burden",
+    "formula": "score=-sum_resources[(0.5*severity_loss+0.5*mean_effective_loss_rate)*duration/14]",
+    "missing_semantics": "absent resource contributes 0; present resource with zero changed RHS rows has effective loss=0; other present inputs required",
+    "assumptions": "equal resource weights and 50/50 severity/effective loss chosen before any model evaluation; descriptive heuristic, not additive physical production loss",
+    "required_columns": [
+      "risk_B_RECEIPT_present",
+      "risk_B_RECEIPT_severity_loss",
+      "risk_B_RECEIPT_duration",
+      "risk_B_RECEIPT_changed_rows",
+      "risk_B_RECEIPT_mean_effective_loss_rate",
+      "risk_B_PROD_present",
+      "risk_B_PROD_severity_loss",
+      "risk_B_PROD_duration",
+      "risk_B_PROD_changed_rows",
+      "risk_B_PROD_mean_effective_loss_rate",
+      "risk_B_SHIP_present",
+      "risk_B_SHIP_severity_loss",
+      "risk_B_SHIP_duration",
+      "risk_B_SHIP_changed_rows",
+      "risk_B_SHIP_mean_effective_loss_rate",
+      "risk_ENGINE_present",
+      "risk_ENGINE_severity_loss",
+      "risk_ENGINE_duration",
+      "risk_ENGINE_changed_rows",
+      "risk_ENGINE_mean_effective_loss_rate",
+      "risk_GEAR_present",
+      "risk_GEAR_severity_loss",
+      "risk_GEAR_duration",
+      "risk_GEAR_changed_rows",
+      "risk_GEAR_mean_effective_loss_rate",
+      "risk_SEAT_present",
+      "risk_SEAT_severity_loss",
+      "risk_SEAT_duration",
+      "risk_SEAT_changed_rows",
+      "risk_SEAT_mean_effective_loss_rate"
+    ],
+    "order": "ascending score",
+    "mae_rmse": "NOT_APPLICABLE_no_vehicle_Q_prediction"
+  },
+  "B_catalog": {
+    "class_name": "CatalogHistoryBaseline",
+    "fit_scope": "current training fold only",
+    "formula": "mean exact Q across distinct training-policy/effective-RHS pairs for that RHS",
+    "repeats": "same-policy/RHS repeated calls aggregate once; all original queries retained",
+    "unknown_rhs": "training-only grand mean across distinct policy/RHS pairs; fixed before validation",
+    "keys": "effective_rhs_id for lookup only, never continuous numeric input",
+    "output_unit": "vehicle"
+  },
+  "C_ridge": {
+    "class_name": "sklearn.linear_model.Ridge",
+    "target": "Q_exact",
+    "selection": "nested policy CV",
+    "alpha": [
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ]
+  },
+  "D_gradient_boosting": {
+    "class_name": "sklearn.ensemble.GradientBoostingRegressor",
+    "target": "Q_exact",
+    "grid": [
+      {
+        "max_depth": 1,
+        "min_samples_leaf": 8
+      },
+      {
+        "max_depth": 1,
+        "min_samples_leaf": 16
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 8
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 16
+      }
+    ],
+    "fixed": {
+      "n_estimators": 50,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 4,
+      "loss": "squared_error",
+      "subsample": 1.0,
+      "n_iter_no_change": null,
+      "random_state": 0
+    }
+  },
+  "oracle_hindsight_reference": {
+    "deployable": false,
+    "baseline": false,
+    "selection_use": false
+  },
+  "pairwise_ranking": "DEFERRED"
+}
