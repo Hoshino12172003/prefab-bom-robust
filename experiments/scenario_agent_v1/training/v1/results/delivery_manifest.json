@@ -1,0 +1,9 @@
+{
+  "tested_commit": "1c07466a363c96d61399dd7fb61ed9ad5cbc3ca9",
+  "clean_export_tests": 50,
+  "post_test_change": "documentation and verification evidence only",
+  "files_sha256": {
+    "docs/scenario_agent_v1/training/repository_delivery.md": "2cd974eeb8bc56021b90a0e51ea5204148e88174dc8b0a50c8e1e5bfd392ba8d",
+    "experiments/scenario_agent_v1/training/v1/results/clean_checkout_tests.xml": "dac3270caa53fc9ebfbcc91edaef32d86bad3d528b24adeca3a43e5362bcd59c"
+  }
+}
