@@ -1,0 +1,18 @@
+{
+  "predictions": 5184,
+  "outer_metrics": 45,
+  "hyperparameter_rows": 480,
+  "model_artifacts": 35,
+  "exact_original_queries": 576,
+  "unique_policy_rhs_pairs": 148,
+  "formal_model_fits": 510,
+  "optimization_calls": 0,
+  "formal_manifest_sha256": "b468cad813a176b78f10636ef232cf29479122df4d4218b9857f7665dadfb384",
+  "postprocessing_script_sha256": "2d31d799c9a8cf190b35afe5b47ee6049df58f8e385aeb4c8699fca18cea335a",
+  "report_sha256": {
+    "feature_ablation_results.md": "a1f7f5fb2c380eb1a3db1fd6dcb66175f35d5e0ea4c960648ca6ffc20b060421",
+    "formal_training_results.md": "e0e2adae4c575081e47325a5e76e7482f0cd932a37d799dff93c6a0ee847c2ef"
+  },
+  "recommendation_report_sha256": "1592381abdd89c407deb743e93dcb3ccf4d67dd8c18050f376d8f81f673bf6ec",
+  "portable_code_revision": "Historical replay isolation only; trained implementation hashes retained in formal manifest"
+}
