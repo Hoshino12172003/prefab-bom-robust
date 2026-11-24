@@ -1,0 +1,75 @@
+{
+  "version": "formal.nested.1",
+  "scope": "Known-catalog, unseen-master-policy/state ranking",
+  "outer_folds": 5,
+  "inner_folds": 20,
+  "ridge_grid": [
+    {
+      "alpha": 0.1
+    },
+    {
+      "alpha": 1.0
+    },
+    {
+      "alpha": 10.0
+    },
+    {
+      "alpha": 100.0
+    }
+  ],
+  "gradient_boosting_grid": [
+    {
+      "max_depth": 1,
+      "min_samples_leaf": 8
+    },
+    {
+      "max_depth": 1,
+      "min_samples_leaf": 16
+    },
+    {
+      "max_depth": 2,
+      "min_samples_leaf": 8
+    },
+    {
+      "max_depth": 2,
+      "min_samples_leaf": 16
+    }
+  ],
+  "gradient_boosting_fixed": {
+    "n_estimators": 50,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 4,
+    "loss": "squared_error",
+    "subsample": 1.0,
+    "n_iter_no_change": null,
+    "random_state": 0
+  },
+  "learning_rate_grid": [
+    0.05
+  ],
+  "search_expansion": false,
+  "selection": "inner policy-macro Recall@1; first grid candidate breaks ties",
+  "target": "Q_exact",
+  "weighting": "inverse training policy/RHS repeat count, mean weight=1",
+  "outer_test_model_selection": false,
+  "primary_metric": "worst_recall_at_1",
+  "secondary": [
+    "worst_recall_at_3",
+    "mean_reciprocal_rank"
+  ],
+  "decision_rules": {
+    "ML_YES": "a model Full-78 strictly beats BOTH simple baselines in Recall@1 in >=4/5 folds, higher mean, and nonworse mean Recall@3/MRR",
+    "ML_NO": "both Full-78 models have mean Recall@1 <= best simple baseline and <=2 strict paired wins against it",
+    "BOM_YES": "Full-78 beats Risk+Master in >=4/5 primary folds for BOTH regressors, with nonworse mean Recall@3/MRR",
+    "BOM_NO": "both regressors have nonpositive mean primary increment and <=2 strict wins",
+    "otherwise": "INCONCLUSIVE; five historical policies do not support population significance",
+    "collapse": "Recall@1=0 or Kendall tau-b<0, descriptive warning only"
+  },
+  "recommendation": "CATALOG_HISTORY_PROVISIONAL; fixed before training, not chosen from outer-test results; online deployment remains unvalidated",
+  "baseline_rule_unit": "dimensionless ranking_score; Q_hat/MAE/RMSE NULL",
+  "prediction_ties": "scenario name for presentation only; ground-truth ties intact",
+  "expected_estimator_fits": 510,
+  "blas_threads": 1,
+  "random_state": 0,
+  "optimization_calls": 0
+}
